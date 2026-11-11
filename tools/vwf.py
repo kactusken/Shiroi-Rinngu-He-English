@@ -13,6 +13,7 @@ Where things go (all in the ROM expanded to 2 MB):
                                                    advance, 12 rows (leftmost pixel = bit 7), 3 spare
   00:BB41 (0x3B41)         JML bb41 replacing PHP / PHD / REP #$20
   00:B2DB (0x32DB)         JML 3F:8000 replacing  BEQ B309 / BRA B312
+  05:C94E (0x2C94E)        JSL namedel / BRA C967: the name keyboard's delete redraws the name (proportional)
 Window text is 16 cells = 192 px wide; the build wraps lines at LINE_PX.
 """
 import sys
@@ -39,6 +40,8 @@ FMTS_AT = 0x390B       # 00:B90B the formatter's %s copy loop, two bytes a step 
 FMTS_ORIGINAL = bytes.fromhex('a71129ff00f00da711')
 FLUSH_AT = 0x3437      # 00:B437 BNE (D0 04): the end of a message skipped its final upload when the game's per-letter wait was on
 HOOK_ORIGINAL = bytes([0xF0, 0x2C, 0x80, 0x33])
+NAMEDEL_AT = 0x2C94E   # 05:C94E..C966 name keyboard delete: cursor to column letters+4 -> JSL namedel (column 4, redraw the name) / BRA C967
+NAMEDEL_ORIGINAL = bytes.fromhex('a9000048a90400186f37787e48224a9a00a83b186904001b98')
 LINE_PX = 190          # widest dialogue line (the window is 192 px)
 NAME_PX = 72           # room kept for the heroine's name ({name}: 6 full-width letters)
 PAGE_ROWS = 4
@@ -169,6 +172,9 @@ def apply(rom):
     if bytes(rom[FLUSH_AT:FLUSH_AT + 2]) != b'\xd0\x04':
         raise SystemExit('vwf.apply: the end-of-message site does not hold the original bytes')
     rom[FLUSH_AT:FLUSH_AT + 2] = b'\xea\xea'
+    if bytes(rom[NAMEDEL_AT:NAMEDEL_AT + len(NAMEDEL_ORIGINAL)]) != NAMEDEL_ORIGINAL:
+        raise SystemExit('vwf.apply: the name keyboard delete does not hold the original bytes')
+    rom[NAMEDEL_AT:NAMEDEL_AT + 6] = bytes([0x22]) + lab['namedel'].to_bytes(3, 'little') + b'\x80\x13'
     for at, orig, name in ((FMT_AT, FMT_ORIGINAL, 'fmtc'), (FMTS_AT, FMTS_ORIGINAL, 'scopy')):
         if bytes(rom[at:at + len(orig)]) != orig:
             raise SystemExit(f'vwf.apply: the formatter ({name}) does not hold the original bytes')

@@ -1050,3 +1050,36 @@ fb1:
 fb2:
   SEC
   RTS
+
+; ---------------------------------------------------------------- name keyboard: delete
+; Called (JSL) from 05:C94E, the keyboard's delete. The game drew the cursor "＿" and a blank at the
+; full-width column (letters + 4) without redrawing the name, which left the deleted letter on screen
+; because the typed name is drawn proportionally (fewer cells). Like typing (05:C7A9), this goes to
+; column 4 and redraws the name, so the game's "＿" and blank that follow land right after it.
+namedel:
+  LDA #$0000
+  PHA
+  LDA #$0004
+  PHA
+  JSL $009A4A             ; column 4, row 0
+  PLA
+  PLA
+  SEP #$20
+  LDA #$7E
+  PHA
+  PLB
+  REP #$20
+  LDA #$0000
+  PHA
+  LDA #$0001
+  PHA
+  LDA #$007E
+  PHA
+  LDA #$7E01
+  PHA
+  JSL $00B287             ; the name (7E:7E01)
+  PLA
+  PLA
+  PLA
+  PLA
+  RTL

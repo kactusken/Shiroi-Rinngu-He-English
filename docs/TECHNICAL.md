@@ -115,4 +115,8 @@ much of the visible text is images? *(answer these first)*
   0xF8000-0xFCD00, written back in place (tools/systext.py, translation/text/system.csv and moves.csv).
 - Name entry already has a Latin tab (A) with full-width letters; the keyboard page keeps one letter per cell, the typed
   name is drawn proportionally (owner decision 2026-11-10).
+- Name keyboard: typing (05:C7A9) goes to column 4, draws the whole name (7E:7E01, length 7E:7837, at most 8) and then
+  "＿". Delete (05:C8C7) only drew "＿" and a blank at column length+4, which left the deleted letter of a proportional
+  name on screen; the build calls namedel there (tools/vwf.py NAMEDEL_AT), which redraws the name from column 4 first.
+  *verified in game*.
 - The opening title cards (labels F801A..F807A) are packed strings the game walks by length: English labels are padded with SPACES to the Japanese byte length (notes `# pad: spaces`), not NULs, or the next card reads the wrong string.
