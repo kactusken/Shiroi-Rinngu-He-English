@@ -1,0 +1,27 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 48 id=40 group=00 original at 0xdc6e7
+
+@ 048.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP あけましておめでとう。
+JP 今年は、ＦＭＷさんとの団体提携で新人王戦を行うことにしました。
+JP デビュー３年以下の選手を対象として行います。
+JP ウチからは、
+JP 青野、嶋村、{name}。
+JP ＦＭＷさんから、
+JP 石倉、中山、清水選手がでます。
+JP 組み合わせ等は後で決めます。
+EN Happy New Year.
+EN This year, in a partnership with FMW, we will hold a Rookie Tournament.
+EN It's for wrestlers within three years of their debut.
+EN From our side:
+EN Aono, Shimamura, {name}.
+EN From FMW:
+EN Ishikura, Nakayama and Shimizu will enter.
+EN The pairings will be decided later.

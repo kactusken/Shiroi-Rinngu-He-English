@@ -1,0 +1,39 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 194 id=94 group=02 original at 0xe431e
+
+@ 194.00 spk=0b face=00
+# speaker: 主人公
+JP テーマ曲がなる。
+JP 歓声が上がる。
+JP 自分へのコールが聞こえる。
+JP 体中のアドレナリンが駆けめぐる。目をつぶる。
+JP 深呼吸をする。
+JP 「よしっ」
+JP いつものように声を上げ、花道に向かう。
+JP 何十回も繰り返したメインイベント前の行動だ。
+JP まだ星は見えない。
+JP 今日も神取選手と戦う。
+JP いつ、自分のゴールが見えるのだろうか、
+JP それは今から戦う神取選手だけがしっているのかもしれない。
+JP だから私は向かうのだ、
+JP 白いリングへ。
+EN My theme song plays.
+EN The crowd cheers.
+EN I hear my name called.
+EN Adrenaline races through my body. I close my eyes.
+EN I take a deep breath.
+EN "All right."
+EN As always, I shout and head down the aisle.
+EN It's a routine I've repeated dozens of times before a main event.
+EN I still can't see the star.
+EN Today I fight Kandori again.
+EN When will I see my goal?
+EN Maybe only Kandori, who I'm about to fight, knows.
+EN That's why I head
+EN to the White Ring.

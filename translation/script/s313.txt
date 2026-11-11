@@ -1,0 +1,50 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 313 id=fb group=03 original at 0xe7310
+
+@ 313.00 spk=20 face=02
+# speaker: 藤原 善明
+JP 神取、どうした気い抜けた顔して。
+EN Kandori, what's with that vacant look?
+
+@ 313.01 spk=0f face=01
+# speaker: 神取 忍
+JP 組長。私は、最強になりたい。
+EN Chief. I want to be the strongest.
+
+@ 313.02 spk=20 face=02
+# speaker: 藤原 善明
+JP じゃあ、練習だ。
+EN Then it's training time.
+
+@ 313.03 spk=0f face=01
+# speaker: 神取 忍
+JP わかってます。でも、わからない。
+EN I know. But I just don't understand.
+
+@ 313.04 spk=20 face=02
+# speaker: 藤原 善明
+JP 神取。
+EN Kandori.
+
+@ 313.05 spk=0f face=01
+# speaker: 神取 忍
+JP はい。
+EN Yes.
+
+@ 313.06 spk=20 face=02
+# speaker: 藤原 善明
+JP 先ずはやってみることだ。
+JP そうすれば、どうにかなる。
+EN Just try it first.
+EN Then things will work themselves out.
+
+@ 313.07 spk=0f face=01
+# speaker: 神取 忍
+JP はい。
+EN Yes.

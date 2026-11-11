@@ -1,0 +1,13 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 294 id=bd group=03 original at 0xe696f
+
+@ 294.00 spk=19 face=00
+# speaker: ハーレー斉藤
+JP 大向に今なに聞いても無駄よ。
+EN It's useless to ask Omukai anything now.

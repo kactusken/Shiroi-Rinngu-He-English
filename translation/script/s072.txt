@@ -1,0 +1,36 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 72 id=68 group=00 original at 0xdd9bf
+
+@ 072.00 spk=19 face=02
+# speaker: ハーレー斉藤
+JP 社長！！嶋村が大ケガって本当ですか？
+EN Boss!! Is it true Shimamura is badly hurt?
+
+@ 072.01 spk=1c face=01
+# speaker: 風間 ルミ
+JP 本当よ。
+JP 今日手術をして、様子をみます。
+JP 新人王戦は絶望なので、準決勝の相手の青野を代表とするかも、
+JP 青野、判った？
+EN It's true.
+EN She has surgery today, and then we'll see.
+EN She's out of the Rookie Tournament, so Aono, her semifinal opponent, may represent us.
+EN Aono, understood?
+
+@ 072.02 spk=25 face=02
+# speaker: 青野 敬子
+JP はい。
+EN Yes.
+
+@ 072.03 spk=1c face=01
+# speaker: 風間 ルミ
+JP カードの変更は、ギリギリまで様子を見てから決めるわ、
+JP 大きな大会前で、気合いが入るのはいいけど空回りしないようにね。
+EN I'll decide on card changes at the last minute.
+EN It's good to be fired up before a big event, but don't spin your wheels.

@@ -1,0 +1,31 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 76 id=6c group=00 original at 0xddeb4
+
+@ 076.00 spk=08 face=00
+# speaker: イーグル沢井
+JP どうした。
+JP 悩んでると、嶋村みたいにケガするよ。
+JP どうした、浮かない顔して。
+JP 何か悩んでるならいってみな。
+JP {p}．．．。
+JP 私を潰してって言われたか。
+JP でもあんた、嶋村を可哀想なんて思ったら逆に潰されるよ。
+JP 真剣勝負だったら、レスラーは腕一本で勝ちにこれる。
+JP 練習しな。
+JP そして、全力で嶋村を潰すんだ！！
+EN What's wrong?
+EN If you keep brooding, you'll get hurt like Shimamura.
+EN Why the long face?
+EN If something's bothering you, spill it.
+EN {p}...
+EN She told you to crush her, huh.
+EN But if you pity Shimamura, you'll be the one crushed.
+EN In a real fight, a wrestler can win with one arm.
+EN Get back to training.
+EN And crush Shimamura with everything you've got!!

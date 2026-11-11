@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 174 id=b3 group=01 original at 0xe338a
+
+@ 174.00 spk=1a face=01
+# speaker: 里 美和
+JP どうしたの？誰を探しているの？
+JP え？工藤さん？
+JP さあねえ、工藤さんて、近頃ふらりといなく　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　なることが多いから。
+EN What's wrong? Who are you looking for?
+EN Huh? Kudo?
+EN Who knows. Kudo's been wandering off a lot lately.

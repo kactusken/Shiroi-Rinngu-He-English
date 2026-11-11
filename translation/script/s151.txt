@@ -1,0 +1,92 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 151 id=23 group=01 original at 0xe1cc3
+
+@ 151.00 spk=22 face=02
+# speaker: 石川 雄規
+JP あ、組長！！
+JP 紅ちゃん来てますよって、誰です？その子。
+EN Oh, Chief!!
+EN Kurenai's here, but who's that girl?
+
+@ 151.01 spk=20 face=01
+# speaker: 藤原 善明
+JP 悩める女の子を釣ってきたのさ。
+EN A troubled girl I fished up.
+
+@ 151.02 spk=22 face=02
+# speaker: 石川 雄規
+JP よく釣れますね。
+JP プロフェッショナルレスリング藤原組にようこそ！！石川雄規です。
+JP で、貴方を連れてきたのが組長の藤原嘉明選手。
+EN You catch a lot of them.
+EN Welcome to Professional Wrestling Fujiwara-gumi!! I'm Yuki Ishikawa.
+EN And the one who brought you here is our Chief, Yoshiaki Fujiwara.
+
+@ 151.03 spk=11 face=01
+# speaker: 紅 夜叉
+JP 石川さん。組長来たんですって。
+EN Mr. Ishikawa. I hear the Chief is here.
+
+@ 151.04 spk=22 face=02
+# speaker: 石川 雄規
+JP うん、今着替えてるよ。
+JP そうだ、紹介しとくね。
+JP ＬＬＰＷの紅夜叉さん。
+JP え～とこちらは、
+EN Yeah, he's changing now.
+EN Oh, let me introduce you.
+EN Kurenai Yasha of LLPW.
+EN Um, and this is,
+
+@ 151.05 spk=11 face=01
+# speaker: 紅 夜叉
+JP よろしく。
+JP 紅って{name}！！
+JP なんでこんなトコにいるんだよ。
+EN Nice to meet you.
+EN Kurenai?! {name}!!
+EN What are you doing in a place like this?
+
+@ 151.06 spk=22 face=02
+# speaker: 石川 雄規
+JP へえ、知り合いなんだ。
+JP え？{name}ちゃんが紅ちゃんの付き人！！
+JP へえ、ククク。
+EN Oh, you know each other.
+EN What? {name} is Kurenai's attendant?!
+EN Heh, heh heh.
+
+@ 151.07 spk=11 face=01
+# speaker: 紅 夜叉
+JP 何がおかしいんだよ。
+EN What's so funny?
+
+@ 151.08 spk=22 face=02
+# speaker: 石川 雄規
+JP いやあ、同じ悩みで同じトコで釣られるってのは、いい師弟だなあって思ってね。
+EN Well, getting hooked at the same place with the same worries, I thought you two make a good master and student.
+
+@ 151.09 spk=20 face=00
+# speaker: 藤原 善明
+JP なるほどな、いい筋してると思ったらレスラーだったのか。
+JP じゃあ話が早い。練習しろ。
+JP プロレスラーはどんなときにも負けちゃいけねえ。
+JP 俺が道場でコーチしてるときには、いつ道場破りが来てもいいように練習してきた。
+JP 試合もそうだが、「まず強くあれ」って事だ。
+JP 汗をかいた分、自分の身体は裏切らない。
+JP それが答えだ。
+JP いつでも練習に来い。待ってるぞ。
+EN I see, I thought you had a good build. You're a wrestler.
+EN Then this is easy. Get training.
+EN A pro wrestler must never lose, no matter when.
+EN When I coached at the dojo, I trained so I'd be ready whenever a challenger showed up.
+EN Same with matches: "Be strong first."
+EN Your body won't betray the sweat you put in.
+EN That's the answer.
+EN Come train anytime. We'll be waiting.

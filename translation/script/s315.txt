@@ -1,0 +1,45 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 315 id=fd group=03 original at 0xe74b7
+
+@ 315.00 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP 社長！！待てません。
+JP 神取と戦わせて下さい。
+EN Boss!! I can't wait.
+EN Let me fight Kandori.
+
+@ 315.01 spk=23 face=01
+# speaker: 大仁田 厚
+JP 工藤！！気持ちは分かるが、
+JP お前が負けたら、ＦＭはどうなる。お前は、団体を背負ってるんだぞ。
+EN Kudo!! I understand how you feel, but
+EN if you lose, what happens to FMW? You carry this promotion on your back!
+
+@ 315.02 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP ベルトは、お返しします。
+EN I'll give back the belt.
+
+@ 315.03 spk=23 face=01
+# speaker: 大仁田 厚
+JP 馬鹿野郎！！
+JP お前の目標はなんだ！！
+JP 導く事ではないのか！！
+JP 時期を待て、
+JP きっと、きっと来る。
+EN You idiot!!
+EN What's your goal!!
+EN Isn't it to lead the way!!
+EN Wait for your time.
+EN It will come. It will surely come.
+
+@ 315.04 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP 神取、最強なんて名乗らせない。
+EN Kandori, I won't let you call yourself the strongest.

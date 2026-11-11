@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 137 id=e8 group=00 original at 0xe11fe
+
+@ 137.00 spk=11 face=00
+# speaker: 紅 夜叉
+JP どうした。
+JP 不満そうな顔して。
+JP 同期がデビューして、そんなに悔しいか。
+JP あせるな、女子プロレスにおいてはデビューの早さ、遅さは関係ない。その、一つ一つを、どれだけ大事にするかだ。
+JP 焦らずにやんな。
+EN What's wrong?
+EN Why the sour face?
+EN Frustrated that your classmate debuted?
+EN Don't rush. In women's pro wrestling, an early or late debut doesn't matter. What counts is how much you value each and every step.
+EN Take it slow.

@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 252 id=41 group=03 original at 0xe5826
+
+@ 252.00 spk=0d face=00
+# speaker: 岩見 敬子
+JP 神取選手？？
+JP あの人も、あんな事さえなければＬＬにずっといたかもね。
+JP {p}どんなことかって？
+JP なんでも、人が一人死んだっていう事らしいけど．．．．
+EN Kandori??
+EN She might have stayed at LL forever if not for that incident.
+EN {p}What incident?
+EN They say someone died, apparently...

@@ -1,0 +1,39 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 71 id=66 group=00 original at 0xdd927
+
+@ 071.00 spk=08 face=00
+# speaker: イーグル沢井
+JP 嶋村！！しっかりしろ！！
+EN Shimamura!! Hold on!!
+
+@ 071.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP 一体何の騒ぎ？
+EN What's all the commotion?
+
+@ 071.02 spk=09 face=01
+# speaker: 遠藤 美月
+JP 社長！！嶋村が！！
+JP 練習中に膝を。
+EN Boss!! It's Shimamura!!
+EN She hurt her knee in training.
+
+@ 071.03 spk=1c face=02
+# speaker: 風間 ルミ
+JP なんですって！
+JP {name}！！救急車！！
+JP 貴方達は練習を続けなさい。
+EN What!
+EN {name}!! Call an ambulance!!
+EN The rest of you, keep training.
+
+@ 071.04 spk=09 face=01
+# speaker: 遠藤 美月
+JP はい。
+EN Yes.

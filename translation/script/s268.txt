@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 268 id=7c group=03 original at 0xe5e40
+
+@ 268.00 spk=13 face=00
+# speaker: 鍋野 ゆき江
+JP 神取さん？あの事件のこと？
+JP 教えられないわ。
+JP 悪いけど他を当たってくれない？？
+EN Kandori? That incident?
+EN I can't tell you.
+EN Sorry, but could you ask someone else??

@@ -1,0 +1,24 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 46 id=3c group=00 original at 0xdc5a1
+
+@ 046.00 spk=19 face=00
+# speaker: ハーレー斉藤
+JP こら！！{name}。
+JP ロープの張りが悪いよ。
+EN Hey!! {name}.
+EN Your rope tension is bad.
+
+@ 046.01 spk=03 face=00
+# speaker: 嶋村 由佳
+JP どうしたの？
+JP Ｊの試合を見て何かあったの？
+JP 何でもないって、あったら相談してね。
+EN What's wrong?
+EN Did something happen after watching J's match?
+EN If it's nothing, fine, but if there is, talk to me.

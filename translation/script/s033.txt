@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 33 id=28 group=00 original at 0xdbca1
+
+@ 033.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 次の最終戦は、嶋村とシングルよ。初対決ね。
+JP 頑張りなさい。
+EN In the final match of the next show, you face Shimamura in a singles match. Your first showdown.
+EN Do your best.

@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 163 id=a8 group=01 original at 0xe2a0b
+
+@ 163.00 spk=23 face=00
+# speaker: 大仁田 厚
+JP 今月は、お前はＬＬＰＷの興業にでてくれ。
+JP 同期の引退だ。
+JP しっかりと引退させてこい！！
+EN This month, you're going out to the LLPW show.
+EN A classmate of yours is retiring.
+EN Go give her a proper send-off!!

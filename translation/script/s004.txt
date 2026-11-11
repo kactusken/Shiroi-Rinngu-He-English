@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 4 id=05 group=00 original at 0xd9919
+
+@ 004.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP 試合の事を考えて練習しなさい。
+JP プロレスにはスキルがある。
+JP {p}それは、もちろん練習で身に付いて行く物なんだけど、
+JP そのスキルで技の数がきまっていくからね。
+JP {p}技の確認はどうするかって？？
+JP そんなもの、試合で身体が勝手に動いてくれるわよ！！
+EN Think about matches when you train.
+EN Pro wrestling has Skills.
+EN {p}Of course they build up through training,
+EN and your Skills decide how many moves you have.
+EN {p}How do you check your moves?
+EN They'll move by themselves in the match!!

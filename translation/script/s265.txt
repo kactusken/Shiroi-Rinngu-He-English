@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 265 id=6c group=03 original at 0xe5cf0
+
+@ 265.00 spk=11 face=00
+# speaker: 紅 夜叉
+JP 事件？今のあんたにゃ関係ないよ。あれは過去の話だ。
+JP それ以上でも、それ以下でもない。知る時が来たら、自然に耳にはいるよ。
+EN The incident? It's got nothing to do with you now. That's the past.
+EN Nothing more, nothing less. When the time comes, you'll hear it naturally.

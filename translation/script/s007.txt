@@ -1,0 +1,51 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 7 id=08 group=00 original at 0xd9c34
+
+@ 007.00 spk=05 face=02
+# speaker: 中村 加代
+JP ．．。
+JP {p}．．．。
+JP 見つかっちゃった。{p}
+JP ごめん。
+JP ごめん見逃して！！
+JP わかってる。
+JP たしかに、私が弱いの！！
+JP でも、
+JP 私、耐えられないの。
+JP {p}練習が厳しい訳じゃない。
+JP {p}でもね、私、１６才なの。
+JP 洋服だって買いたい、
+JP 楽しく遊びたい。
+JP デートもしたい。
+JP {p}みてよ、
+JP この腕、ガリガリよ。
+JP {p}１６才の女の子じゃ耐えられないのよ！！
+JP さようなら、貴方は頑張ってね。
+JP 私のように逃げ出さないでね。
+JP 応援してるから。
+EN ...
+EN {p}...
+EN You found me.
+EN I'm sorry.
+EN I'm sorry, please let it go!!
+EN I know.
+EN It's true, I'm weak!!
+EN But
+EN I just can't take it.
+EN {p}It's not that the training is too hard.
+EN {p}But you see, I'm 16.
+EN I want to buy clothes,
+EN I want to have fun.
+EN I want to go on dates, too.
+EN {p}Look at this arm.
+EN It's all skin and bone.
+EN {p}A 16-year-old girl can't take this!!
+EN Goodbye. You do your best.
+EN Don't run away like I did.
+EN I'll be cheering for you.

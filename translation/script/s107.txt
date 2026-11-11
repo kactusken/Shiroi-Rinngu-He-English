@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 107 id=a4 group=00 original at 0xdf4e1
+
+@ 107.00 spk=08 face=00
+# speaker: イーグル沢井
+JP なるほど、あの時神取の言った「全ての選手」の訳が分かったよ。
+JP {name}、タッグのベルト、必ず取りな。
+EN Now I get what Kandori meant by "every wrestler" back then.
+EN {name}, you'd better win that tag belt.

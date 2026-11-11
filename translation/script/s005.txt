@@ -1,0 +1,29 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 5 id=06 group=00 original at 0xd9a06
+
+@ 005.00 spk=19 face=01
+# speaker: ハーレー斉藤
+JP レスラーのタイプってわかる？
+JP {p}レスラーには大きく分けて、５つのタイプがいるわ。
+JP {p}強さを表に出すストロング。
+JP 試合内容のエンターテイメント。
+JP アイドル的存在のベビーフェイス。力押しのパワー。
+JP 悪党のヒール。
+JP レスラーは必ずどれかのタイプよ。その人と練習すれば、その人に近付いていくわ。
+JP {p}でも、気を付けなければいけないのは、その人が持つタイプは一つではないの。
+JP {p}みんなのアドバイスを良く聞きなさい。
+EN Do you know the wrestler types?
+EN {p}Wrestlers fall into five main types.
+EN {p}Strong, who show off their strength.
+EN Entertainment, for the show of the match.
+EN Babyface, the idol type. Power, the brute force type.
+EN Heel, the villain.
+EN Every wrestler is one of these. Keep training with someone and you'll grow closer to them.
+EN {p}But be careful: a person's type is not just one.
+EN {p}Listen closely to everyone's Advice.

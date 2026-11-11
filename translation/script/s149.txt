@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 149 id=21 group=01 original at 0xe1b03
+
+@ 149.00 spk=20 face=00
+# speaker: 藤原 善明
+JP お嬢ちゃん。
+JP ちっとは出来るらしいが、
+JP そんなのはまだまだ遊びだ。
+JP 上には上がいるんだよ。
+JP どうだ、茶でも飲んでくか？
+JP なんだその顔は？
+JP 襲いはしねえよ、襲うなら脇固めの体勢からお茶に誘おうとはしねえだろ？普通。
+EN Little lady.
+EN You seem to have some skill,
+EN but it's still child's play.
+EN There's always someone better.
+EN How about some tea?
+EN What's with that look?
+EN I won't attack you. If I were going to, I wouldn't invite you for tea from an armlock position, would I? Normally.

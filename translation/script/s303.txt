@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 303 id=ed group=03 original at 0xe6d95
+
+@ 303.00 spk=25 face=00
+# speaker: 青野 敬子
+JP 青野よ。
+JP よかった、私の下がこなくて困ってたのよ。
+JP これで雑用も楽になるわ。
+JP 練習するのはもちろんだけど、
+JP 道場の整備、
+JP リングの設営、
+JP すべて新人の仕事だからね。
+EN I'm Aono.
+EN Good, I was in trouble with nobody below me.
+EN Now chores get easier.
+EN Training is a given, but
+EN tidying the dojo,
+EN setting up the ring,
+EN all of it is the rookies' job.

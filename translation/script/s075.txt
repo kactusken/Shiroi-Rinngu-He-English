@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 75 id=6b group=00 original at 0xddd89
+
+@ 075.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP こんばんわ。
+JP どうしたの？目、丸くしちゃって。足？まだ松葉杖がいるけど歩けるわよ。
+JP 私はレスラーだからね。
+JP で、今日来たのは、お願いがあってきたの。
+JP それはね私を潰しに来て欲しいの。私は、{name}の本気が、今とは思ってない。
+JP 最後まで、本気の貴方を見ずに終わりたくはない。
+JP だから本気で潰しに来て、お願い。
+EN Good evening.
+EN What's wrong? Your eyes are so wide. My leg? I still need crutches, but I can walk.
+EN I'm a wrestler, after all.
+EN I came tonight because I have a favor to ask.
+EN I want you to come and crush me. I don't think this is the real you, {name}.
+EN I don't want to end without ever seeing you at your best.
+EN So please, come at me for real and crush me.

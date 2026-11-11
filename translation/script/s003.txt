@@ -1,0 +1,65 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 3 id=03 group=00 original at 0xd97aa
+
+@ 003.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 練習には慣れた？？
+JP 最初のうちは、身に付かないことも多いけど、頑張るのよ。
+EN Are you getting used to training? It'll take a while to sink in, but keep at it.
+
+@ 003.01 spk=25 face=01
+# speaker: 青野 敬子
+JP 社長！！秋月が。
+EN Boss! Akizuki is...
+
+@ 003.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP 夜逃げ？？
+JP しょうがないわねえ。
+JP まあ、そこまでだと思うしかないわね。
+EN Skipped town? Honestly, what a girl. I suppose that's as far as she could go.
+
+@ 003.03 spk=25 face=01
+# speaker: 青野 敬子
+JP あの、それで．．．。
+EN Um, about that...
+
+@ 003.04 spk=1c face=02
+# speaker: 風間 ルミ
+JP まだ何か？
+EN Is there something else?
+
+@ 003.05 spk=25 face=01
+# speaker: 青野 敬子
+JP ベットに置き手紙が、
+EN There was a note left on her bed.
+
+@ 003.06 spk=1c face=02
+# speaker: 風間 ルミ
+JP え？？貸しなさい。
+JP {p}「水葱ちゃんは、疲れたので、
+EN What?? Let me see it.
+EN {p}"Nagi is tired, so
+
+@ 003.07 spk=25 face=01
+# speaker: 青野 敬子
+JP 社長、まあ。
+EN Boss, please.
+
+@ 003.08 spk=1c face=02
+# speaker: 風間 ルミ
+JP やめまーす。」
+JP あ、あの子はまったく。
+EN I quit!"
+EN Th-that girl, honestly.
+
+@ 003.09 spk=25 face=01
+# speaker: 青野 敬子
+JP ま、まあ。落ちついてください。
+EN P-please, calm down.

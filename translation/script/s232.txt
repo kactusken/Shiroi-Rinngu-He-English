@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 232 id=20 group=03 original at 0xe4fe0
+
+@ 232.00 spk=0a face=00
+# speaker: 半田 美希
+JP 半田美希よ。
+JP スケジュールを一ヶ月全部埋めて、練習を開始しなさい。
+JP スケジュールウインドウを開いたら上下で週を選んで、決定ボタンを押せば、練習することが出来る選手が選択できるようになるわ。
+JP 全て決定したら、キャンセルボタンで、元の画面に戻してね。
+JP 変えたい場合は、上から重ねれば大丈夫よ。
+EN I'm Miki Handa.
+EN Fill the whole month's Schedule and start training.
+EN Open the Schedule window, pick a week up or down and press OK, and you can choose which wrestler to train with.
+EN When everything is set, press Cancel to go back.
+EN To change something, just overwrite it.

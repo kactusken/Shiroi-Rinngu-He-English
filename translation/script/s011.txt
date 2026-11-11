@@ -1,0 +1,55 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 11 id=0c group=00 original at 0xda18b
+
+@ 011.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP ああ、おかしかった。
+EN Ah, that was funny.
+
+@ 011.01 spk=06 face=02
+# speaker: 篭野 ことり
+JP 何がや。
+EN What was?
+
+@ 011.02 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ことり、貴方がよ。
+EN You, Kotori.
+
+@ 011.03 spk=06 face=02
+# speaker: 篭野 ことり
+JP 何で。
+EN Why?
+
+@ 011.04 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 私、あなたが標準語つかってるの聞いたの初めてよ。
+EN That's the first time I've heard you use standard Japanese.
+
+@ 011.05 spk=06 face=02
+# speaker: 篭野 ことり
+JP うるさいなあ、ええやん。
+JP {p}ウチ、万博広場の地雷爆破は最前列で見たぐらいファンやねん。
+EN Shut up, what's wrong with it?
+EN {p}I'm such a fan, I watched the landmine blast at Expo Plaza from the front row, ya know.
+
+@ 011.06 spk=03 face=01
+# speaker: 嶋村 由佳
+JP じゃあ何でＬＬにきたのよ。
+EN Then why did you come to LL?
+
+@ 011.07 spk=06 face=02
+# speaker: 篭野 ことり
+JP それとこれとは別や！！
+EN That's a different matter!!
+
+@ 011.08 spk=03 face=01
+# speaker: 嶋村 由佳
+JP へんなの。
+EN How strange.

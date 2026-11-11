@@ -1,0 +1,39 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 15 id=10 group=00 original at 0xda8cb
+
+@ 015.00 spk=03 face=01
+# speaker: 嶋村 由佳
+JP おはよう。
+JP あれ、篭野は？
+JP また寝坊？
+JP {p}もう、ただでさえ掃除の人数が足りないのに。
+JP どうしたの？
+JP 今日の{name}、変よ。
+JP 風邪でも引いた？
+EN Good morning.
+EN Huh, where's Kagono?
+EN Overslept again?
+EN {p}Honestly, we're already short on people for cleaning.
+EN What's wrong?
+EN You're strange today, {name}.
+EN Did you catch a cold?
+
+@ 015.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP おはよう。
+JP 練習前にミーティングがあるの、
+JP みんなリングに集合してね。
+EN Good morning.
+EN We have a meeting before training,
+EN so everyone gather at the ring.
+
+@ 015.02 spk=03 face=01
+# speaker: 嶋村 由佳
+JP はい。
+EN Yes.

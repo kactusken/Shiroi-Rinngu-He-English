@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 143 id=1b group=01 original at 0xe169a
+
+@ 143.00 spk=23 face=02
+# speaker: 大仁田 厚
+JP どうしたＬＬの{name}じゃないか。元気か？？
+JP ．．．そうだ。おまえ、ＦＭＷに移籍する気はないか？この前の中山との試合、出来はどうあれ、ＦＭ向きだと思うんだけど．．．風間社長には言っておくから、考えといてくれ。
+EN If it isn't {name} from LL. How are you?
+EN ...Say. Have you thought about transferring to FMW? Whatever the result was, I think your match with Nakayama showed you suit FMW... I'll tell Boss Kazama, so think it over.
+
+@ 143.01 spk=18 face=01
+# speaker: 大向 美智子
+JP あ、いたいた。{name}、駄目じゃない呼んでくれなきゃ。大仁田社長、風間からです。
+EN Oh, there you are. {name}, you should've called me. Boss Onita, a call from Kazama.
+
+@ 143.02 spk=23 face=02
+# speaker: 大仁田 厚
+JP ありがとよ！！
+EN Thanks!!

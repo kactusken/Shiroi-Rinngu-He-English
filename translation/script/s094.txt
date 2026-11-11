@@ -1,0 +1,64 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 94 id=87 group=00 original at 0xde816
+
+@ 094.00 spk=21 face=01
+# speaker: 竹中さん
+JP どうも、社長。
+EN Hello, Boss.
+
+@ 094.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP どうしました？竹中さん新年早々。
+EN What is it, Mr. Takenaka? So early in the new year.
+
+@ 094.02 spk=21 face=01
+# speaker: 竹中さん
+JP やだなあ、旅行の話の詰めですよ。
+EN Come on, it's about finalizing the trip.
+
+@ 094.03 spk=1c face=02
+# speaker: 風間 ルミ
+JP わーっ。
+EN Waaah!
+
+@ 094.04 spk=21 face=01
+# speaker: 竹中さん
+JP え？社長．．．また秘密？？
+EN Huh? Boss... another secret??
+
+@ 094.05 spk=1c face=02
+# speaker: 風間 ルミ
+JP そうよ。まったくもう。
+EN Yes. Honestly, really.
+
+@ 094.06 spk=18 face=01
+# speaker: 大向 美智子
+JP 社長、旅行って？海外？？
+EN Boss, what trip? Overseas??
+
+@ 094.07 spk=1c face=02
+# speaker: 風間 ルミ
+JP しかたがないわね。
+JP みんな、ちょっと来て。
+JP えー今度、サイパンに行きます。
+EN I guess it can't be helped.
+EN Everyone, come here a moment.
+EN Well, we're going to Saipan.
+
+@ 094.08 spk=18 face=01
+# speaker: 大向 美智子
+JP やったあ。
+EN Yay!
+
+@ 094.09 spk=1c face=02
+# speaker: 風間 ルミ
+JP だ・け・ど。写真撮影やるから仕事よ仕事。
+JP {name}、貴方は初めてだけど、わかんない事は先輩に聞きなさい。
+EN But! There'll be a photo shoot, so it's work, work.
+EN {name}, it's your first time, but ask the seniors if there's anything you don't know.

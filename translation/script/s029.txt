@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 29 id=22 group=00 original at 0xdbaa5
+
+@ 029.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP おーい、{name}。
+JP あ、いたいた。
+JP {p}今月の後楽園ホールでデビューさせるわ。
+JP しっかり練習しなさい。
+JP 対戦相手は青野。気合いを入れて、ケガしないようにね。
+EN Hey, {name}.
+EN Ah, there you are.
+EN {p}You'll debut at Korakuen Hall this month.
+EN Train hard.
+EN Your opponent is Aono. Fight with spirit, and don't get hurt.

@@ -1,0 +1,13 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 254 id=52 group=03 original at 0xe5948
+
+@ 254.00 spk=0f face=00
+# speaker: 神取 忍
+JP なんだい？人が死んだ？？殺した？？？何を言ってるんだい。そしたら、私は殺人罪でこんな所にはいないよ。ＬＬをやめた理由？？アイツ等が弱かったからさ！！
+EN What? Someone died? I killed someone?? What are you talking about? I'd be in prison for murder, not here. Why I quit LL?? Because they were weak!!

@@ -1,0 +1,75 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 98 id=91 group=00 original at 0xdedeb
+
+@ 098.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP 大変！
+EN Big trouble!
+
+@ 098.01 spk=19 face=01
+# speaker: ハーレー斉藤
+JP どうしたんです？血相変えて？？
+EN What's wrong? You look pale.
+
+@ 098.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP ＦＭＷのタッグの代表が、
+EN The FMW tag team representatives are...
+
+@ 098.03 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 前泊・土屋でしょ。
+EN Maedomari and Tsuchiya, right?
+
+@ 098.04 spk=1c face=02
+# speaker: 風間 ルミ
+JP 違うのよ！
+EN No!
+
+@ 098.05 spk=19 face=01
+# speaker: ハーレー斉藤
+JP じゃあ、岩見・ナース？？
+EN Then Iwami and Nurse?
+
+@ 098.06 spk=1c face=02
+# speaker: 風間 ルミ
+JP 全然！！！
+EN Not at all!!!
+
+@ 098.07 spk=19 face=01
+# speaker: ハーレー斉藤
+JP まさか．．．。
+EN Don't tell me...
+
+@ 098.08 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、工藤・豊田組なのよ。
+JP 最強メンバー！！
+EN Yes, it's Kudo and Toyoda.
+EN The strongest team there is!!
+
+@ 098.09 spk=19 face=01
+# speaker: ハーレー斉藤
+JP でもやるしかないでしょう。
+EN We have no choice but to fight them.
+
+@ 098.10 spk=1c face=02
+# speaker: 風間 ルミ
+JP そうじゃなくて、
+EN That's not the problem.
+
+@ 098.11 spk=19 face=01
+# speaker: ハーレー斉藤
+JP はあ？
+EN Huh?
+
+@ 098.12 spk=1c face=02
+# speaker: 風間 ルミ
+JP イーグルが、
+EN It's Eagle...

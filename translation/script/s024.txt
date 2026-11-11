@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 24 id=1a group=00 original at 0xdb5ad
+
+@ 024.00 spk=09 face=02
+# speaker: 遠藤 美月
+JP どうした？嶋村の事か？
+JP あいつもあいつなりに一生懸命なんだ。優しすぎるって、紅に言われてね。
+JP {p}気にするな、ライバルが同じ団体にいる限り、いつでも戦えるさ！！
+EN What's wrong? Is it about Shimamura?
+EN She's doing her best in her own way. Kurenai told her she's too kind.
+EN {p}Don't worry about it. As long as your rival is in the same promotion, you can fight her anytime!!
+
+@ 024.01 spk=00 face=00
+JP そう言う事、遠藤は、二上が居なくなったから。
+EN Exactly. Endo only says that because Futagami is gone.

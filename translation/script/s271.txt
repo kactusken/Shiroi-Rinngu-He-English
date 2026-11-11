@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 271 id=8f group=03 original at 0xe5fd2
+
+@ 271.00 spk=15 face=00
+# speaker: 中山 香里
+JP 私の練習は、柔軟性と空中戦のバランスよ。
+JP 私の夢はね、女版サブゥーと呼ばれる事なの。
+EN My training balances flexibility and aerial fighting.
+EN My dream is to be called the female Sabu.

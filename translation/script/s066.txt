@@ -1,0 +1,42 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 66 id=59 group=00 original at 0xdd540
+
+@ 066.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP そんな．．．嘘！！
+JP え？何故って？
+JP 大仁田さんは、５月５日の引退試合で、２度とリングに上がらないって言ったのよ！！
+EN No... It can't be!!
+EN Huh? Why, you ask?
+EN Onita said at his retirement match on May 5th that he'd never step into the ring again!!
+
+@ 066.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP どう？ＦＭＷの試合は。
+EN Well? How are you finding the FMW show?
+
+@ 066.02 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 社長！！いらしてたんですか。
+EN Boss!! You came!
+
+@ 066.03 spk=1c face=02
+# speaker: 風間 ルミ
+JP 招待されてね。
+EN I was invited.
+
+@ 066.04 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 大仁田さんが、リングに！！
+EN Onita is in the ring!!
+
+@ 066.05 spk=1c face=02
+# speaker: 風間 ルミ
+JP 何故かしら？{name}、貴方には判るんじゃない？
+EN I wonder why? {name}, I think you know.

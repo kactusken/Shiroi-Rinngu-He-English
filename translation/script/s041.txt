@@ -1,0 +1,26 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 41 id=34 group=00 original at 0xdc190
+
+@ 041.00 spk=fe face=00
+JP ２分１４秒。
+JP ヒールホールドで篭野選手の勝ち。
+EN Two minutes, 14 seconds.
+EN With a Heel Hold, the winner is Kagono.
+
+@ 041.01 spk=14 face=01
+# speaker: 長嶋 美智子
+JP やられたよ。
+EN She got me.
+
+@ 041.02 spk=06 face=02
+# speaker: 篭野 ことり
+JP 作戦がちですよ。
+JP 山はってましたから。
+EN It was all strategy.
+EN I was playing a hunch.

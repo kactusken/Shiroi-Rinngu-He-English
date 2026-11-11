@@ -1,0 +1,32 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 120 id=b5 group=00 original at 0xe046a
+
+@ 120.00 spk=06 face=01
+# speaker: 篭野 ことり
+JP よう、元気か。
+EN Hey, how's it going?
+
+@ 120.01 spk=00 face=02
+JP ＬＬＰＷの控え室に何のよう？
+EN What do you want in the LLPW locker room?
+
+@ 120.02 spk=06 face=01
+# speaker: 篭野 ことり
+JP こわいこといわんで下さいな。一言いいにきただけです。
+JP 「約束通りきたで。」
+JP じゃあ、失礼します。
+EN Don't be scary. I only came to say one thing.
+EN "I came like I promised."
+EN Well, excuse me.
+
+@ 120.03 spk=00 face=02
+JP なあに？今の？
+JP なんの約束してたのよ！！
+EN What was that?
+EN What did you promise her?!

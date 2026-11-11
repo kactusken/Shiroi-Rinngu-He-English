@@ -1,0 +1,117 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 0 id=00 group=00 original at 0xd9000
+
+@ 000.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP おはよう。
+JP {p}あなたたちは、今からレスラーとして生きていかなければなりません。つらいこと、
+JP 悲しいこと、
+JP たくさんあると思います。
+JP {p}でも、それを乗り越えたとき、
+JP プロレスラーとして、
+JP 星をつかむことが出来るのです。
+JP {p}頑張りなさい。
+EN Good morning.
+EN {p}From today on, you must live as wrestlers. There will be a lot of hard
+EN and sad times.
+EN But when you overcome them, you will be able to grasp a star as pro wrestlers.
+EN {p}Do your best.
+
+@ 000.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP ハーレー。
+EN Harley.
+
+@ 000.02 spk=19 face=01
+# speaker: ハーレー斉藤
+JP おはようございます。
+EN Good morning.
+
+@ 000.03 spk=1c face=02
+# speaker: 風間 ルミ
+JP 紹介するわ、ハーレー。
+JP これが今年の新人達よ。
+JP みんな、自己紹介して。
+EN Let me introduce them, Harley.
+EN These are this year's rookies.
+EN Everyone, introduce yourselves.
+
+@ 000.04 spk=06 face=01
+# speaker: 篭野 ことり
+JP 篭野ことりや。
+JP 大阪や。
+JP 私は誰にも負けへん。
+JP 神取にもや！！
+EN I'm Kotori Kagono.
+EN From Osaka, ya know.
+EN I won't lose to anybody.
+EN Not even Kandori!!
+
+@ 000.05 spk=19 face=02
+# speaker: ハーレー斉藤
+JP こらっ。
+EN Hey!
+
+@ 000.06 spk=1c face=01
+# speaker: 風間 ルミ
+JP いいのハーレー、元気があるのは悪いことではないわ。
+EN It's fine, Harley. Having spirit is nothing bad.
+
+@ 000.07 spk=04 face=02
+# speaker: 秋月 水葱
+JP 水葱ちゃんでーす。
+JP がんばりまーす。
+EN I'm Nagi!
+EN I'll do my best!
+
+@ 000.08 spk=1c face=01
+# speaker: 風間 ルミ
+JP こ、この。
+EN Wh-why, you...
+
+@ 000.09 spk=19 face=02
+# speaker: ハーレー斉藤
+JP まあまあ。
+EN Now, now.
+
+@ 000.10 spk=07 face=01
+# speaker: 岩下 直美
+JP 岩下直美です。
+JP 大分県出身です。
+JP がんばれるだけ、がんばります。
+EN I'm Naomi Iwashita.
+EN I'm from Oita Prefecture.
+EN I'll do my best as long as I can.
+
+@ 000.11 spk=03 face=02
+# speaker: 嶋村 由佳
+JP 嶋村由佳です。
+JP 秋田県、東能代から上京しました。星をつかむために、リングに立ちます。
+JP よろしくお願いします。
+EN I'm Yuka Shimamura.
+EN I came up to Tokyo from Higashi-Noshiro, Akita. I'll stand in the ring to grasp a star.
+EN Pleased to meet you.
+
+@ 000.12 spk=05 face=01
+# speaker: 中村 加代
+JP 中村加代です。
+JP 根性だけは負けません。
+EN I'm Kayo Nakamura.
+EN I won't lose to anyone in guts, at least.
+
+@ 000.13 spk=1c face=00
+# speaker: 風間 ルミ
+JP 最後に、{name}よ。
+JP {p}これで全員の顔合わせは終わったわね。
+JP 紹介するわ。
+JP コーチ役の、
+EN And last, {name}.
+EN {p}That's everyone introduced.
+EN Now let me introduce your
+EN coach,

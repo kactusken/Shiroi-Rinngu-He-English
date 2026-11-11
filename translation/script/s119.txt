@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 119 id=b4 group=00 original at 0xe0366
+
+@ 119.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP 今月は、ＪＷＷＦ勢が乗り込んでくるわ。{p}
+JP 前哨戦で、{name}と篭野が対戦して、その結果いかんで、篭野を３冠に挑戦させなければいけません。{p}{name}、３冠はＬＬ、ＦＭ２つの団体が、凌ぎを削って選出した王者です。
+JP 貴方の所で潰しなさい。
+JP {name}？{name}！！
+JP ぼーっとしてるんじゃないわよ！
+EN This month the JWWF crew is invading.{p}
+EN In the warm-up match, {name} faces Kagono, and depending on the result, we may have to give Kagono a Triple Crown shot.{p}{name}, the Triple Crown champion was chosen through a fierce fight between LL and FM.
+EN Crush her yourself.
+EN {name}? {name}!!
+EN Don't just zone out!

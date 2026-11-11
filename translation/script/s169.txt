@@ -1,0 +1,27 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 169 id=ae group=01 original at 0xe2e64
+
+@ 169.00 spk=23 face=01
+# speaker: 大仁田 厚
+JP いやか。
+JP じゃあ、中山と清水を貸すよ。
+EN Not interested?
+EN Then I'll lend you Nakayama and Shimizu.
+
+@ 169.01 spk=2b face=02
+# speaker: グレートサスケ
+JP すいません。助かります。
+EN Sorry about that. Thank you.
+
+@ 169.02 spk=23 face=01
+# speaker: 大仁田 厚
+JP で、{name}。楽しいプロレスは嫌いか？？
+JP そうか、じゃあコンバットの所に預けるか。
+EN So, {name}. Don't you like fun wrestling??
+EN I see. Then I'll send you to Combat's place.

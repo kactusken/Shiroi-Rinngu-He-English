@@ -1,0 +1,42 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 191 id=cd group=01 original at 0xe3fdb
+
+@ 191.00 spk=23 face=02
+# speaker: 大仁田 厚
+JP 工藤！！工藤！！
+EN Kudo!! Kudo!!
+
+@ 191.01 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP 何でしょう。
+EN What is it?
+
+@ 191.02 spk=23 face=02
+# speaker: 大仁田 厚
+JP {name}とピンだ。
+JP すっきりしたくはないか。
+JP あの日までに。
+EN It's a one-on-one with {name}.
+EN Don't you want to clear your head?
+EN Before that day.
+
+@ 191.03 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP ．．．．。
+EN ......
+
+@ 191.04 spk=23 face=02
+# speaker: 大仁田 厚
+JP 解っているから戦ったんだろ。
+EN You fought because you understood.
+
+@ 191.05 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP ．．．．はい。
+EN ...Yes.

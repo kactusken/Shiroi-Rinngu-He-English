@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 309 id=f7 group=03 original at 0xe6f6b
+
+@ 309.00 spk=2a face=00
+# autoscroll: the intro narration scrolls by itself (no page waits: a button press would skip the intro)
+# speaker: 案内人
+JP 小さな星が輝いています。
+JP その星は、高く、より高く、
+JP 掴もうとする者を突き放します。
+JP その星を掴む少女達、
+JP それが女子プロレスなのです。
+JP この物語は、ＬＬＰＷ、ＦＭＷ、
+JP ２つの団体を中心とした物語、
+JP 皆あこがれる最強の座を追い求め、少女はどんな星を掴むのでしょう。
+EN A little star is shining. That star soars high, ever higher, and throws off anyone who tries to grab it. The girls who reach for that star - that is women's pro wrestling. This is the story of two promotions, LLPW and FMW, and of a girl who chases the throne of the strongest that everyone longs for. Which star will she grab?

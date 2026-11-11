@@ -1,0 +1,50 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 106 id=a3 group=00 original at 0xdf3ed
+
+@ 106.00 spk=0f face=00
+# speaker: 神取 忍
+JP ．．．一年。
+EN ...One year.
+
+@ 106.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP え？
+EN What?
+
+@ 106.02 spk=0f face=01
+# speaker: 神取 忍
+JP 一年後、私と戦う選手をここで発表する。
+JP それは、ここにいる選手全てに権利がある。
+EN One year from now, I'll announce here who I will fight.
+EN Every wrestler in this room has the right.
+
+@ 106.03 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP なるほど、だからこんな招待状をくれたのかしら？
+EN I see. Is that why you sent us these invitations?
+
+@ 106.04 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 工藤選手！！
+EN Kudo!!
+
+@ 106.05 spk=06 face=00
+# speaker: 篭野 ことり
+JP うちにもその権利があるわけやな。
+EN So I've got that right too, then.
+
+@ 106.06 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ことり！！
+EN Kotori!!
+
+@ 106.07 spk=0f face=02
+# speaker: 神取 忍
+JP いいだろう、一年後だ。
+EN Fine. One year from now.

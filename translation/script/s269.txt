@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 269 id=84 group=03 original at 0xe5e92
+
+@ 269.00 spk=14 face=00
+# speaker: 長嶋 美智子
+JP 事件の事を聞きたいの．．．
+JP そうね、貴方がここに来たのも何かの縁だと思う。
+JP 教えて上げるわ。
+JP 貴方がＬＬに入る前、ＬＬの練習生が一人しんだの、勿論事故よ。
+JP それが、何を意味しているのかは判らない。
+JP でもね、その時から、神取は変わったわ。
+EN You want to ask about the incident...
+EN Well, I suppose it's fate that you came here.
+EN I'll tell you.
+EN Before you joined LL, one LL trainee died. It was an accident, of course.
+EN I don't know what that means.
+EN But from that time on, Kandori changed.

@@ -1,0 +1,46 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 2 id=02 group=00 original at 0xd96b9
+
+@ 002.00 spk=1c face=01
+# speaker: 風間 ルミ
+JP おはよう。
+JP 岩下は？？
+EN Good morning.
+EN Where's Iwashita?
+
+@ 002.01 spk=00 face=02
+JP 来てません。
+EN She hasn't come.
+
+@ 002.02 spk=1c face=01
+# speaker: 風間 ルミ
+JP １週間か、気の弱い所があった子だからね。
+JP まあいいわ、練習を始めなさい。
+EN A week already. She was a timid girl, after all.
+EN Well, never mind. Start training.
+
+@ 002.03 spk=00 face=02
+JP はい。
+EN Yes.
+
+@ 002.04 spk=17 face=01
+# speaker: ニ上 美紀子
+JP いやー、早くも脱落者か。
+EN Heh, a dropout already.
+
+@ 002.05 spk=00 face=02
+JP そんなこと言わないでよ。
+EN Don't say that.
+
+@ 002.06 spk=17 face=01
+# speaker: ニ上 美紀子
+JP なんや、ライバルは少ない方がええて、
+JP たとえ、新人でもな！！
+EN Well, fewer rivals is better, ya know.
+EN Even if they're rookies!!

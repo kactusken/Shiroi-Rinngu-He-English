@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 51 id=46 group=00 original at 0xdcaa8
+
+@ 051.00 spk=1c face=01
+# speaker: 風間 ルミ
+JP このシリーズの最終戦が、新人王戦の一回戦になるの。
+JP 貴方は、ＦＭのリング上で一回戦、二回戦だから、ＬＬのシリーズ最終戦の３日後よ、
+JP このシリーズは気を入れなさい。
+JP 他団体に行くと言うことは、ＬＬＰＷの代表ということを忘れちゃあダメよ。
+EN The last match of this series is the first round of the Rookie Tournament.
+EN Your first and second rounds are in FM's ring, three days after the final match of LL's series.
+EN Put your heart into this series.
+EN When you go to another promotion, don't forget you represent LLPW.

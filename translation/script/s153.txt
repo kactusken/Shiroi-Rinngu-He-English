@@ -1,0 +1,34 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 153 id=38 group=01 original at 0xe208e
+
+@ 153.00 spk=00 face=02
+JP 試合前に悪いわね。
+EN Sorry to bother you before the match.
+
+@ 153.01 spk=11 face=01
+# speaker: 紅 夜叉
+JP 何だ試合中止か。
+EN What, is the match canceled?
+
+@ 153.02 spk=00 face=02
+JP バカ言わないでよ、逆よ逆。
+JP 嶋村は、下手すると一番絶好調かもしれないわ。
+JP 本気でやらないとケガするよ。
+JP まあ、今の{name}の顔見たら、そんなこと言っても無駄だと思ったわ。
+JP いい顔してるわね。
+EN Don't be silly, it's the opposite.
+EN Shimamura may be in the best shape of all.
+EN If you're not serious, you'll get hurt.
+EN Well, seeing {name}'s face now, I figured saying that would be pointless.
+EN You look good.
+
+@ 153.03 spk=08 face=00
+# speaker: イーグル沢井
+JP 素直じゃないね。
+EN You're not very honest.

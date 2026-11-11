@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 117 id=b2 group=00 original at 0xe021c
+
+@ 117.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP ３冠戦は、いろんな意見を考慮した上で、イーグルを代表にします。
+JP ＦＭＷ側は、コンバットを代表にするそうです。
+JP 今月の東京体育館で対戦です。
+JP セミは、{name}対工藤です。
+JP 各自、自分の対戦相手を想定して練習しなさい。
+JP 今回は全面対抗戦なんで、
+JP 負けんじゃないよ！！！！
+EN After weighing many opinions, Eagle will represent us in the Triple Crown match.
+EN FMW says Combat will represent them.
+EN The match is at Tokyo Gym this month.
+EN The semi-final is {name} against Kudo.
+EN Each of you, spend your training with your own opponent in mind.
+EN This is an all-out interpromotional show,
+EN so don't you dare lose!!!!

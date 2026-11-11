@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 18 id=13 group=00 original at 0xdad3b
+
+@ 018.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP もう３月ね、
+JP 嶋村、{name}！！
+JP ３月の頭、プロテストやるわよ！！これからの１週間、ケガしないように練習なさい。
+EN It's March already,
+EN Shimamura, {name}!!
+EN The pro test is at the start of March!! Train this week without getting hurt.

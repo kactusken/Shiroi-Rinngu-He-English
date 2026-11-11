@@ -1,0 +1,85 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 182 id=c4 group=01 original at 0xe37cd
+
+@ 182.00 spk=0e face=00
+# speaker: ジェンヌゆかり
+JP あれは、あんたがＬＬに入る前の事だ。
+EN It happened before you joined LL.
+
+@ 182.01 spk=06 face=02
+# speaker: 篭野 ことり
+JP 神取先輩！！スパーリングしましょう！！
+JP やっぱり、強くなきゃあプロレスラーとは言えませんよ。
+JP 二人でＬＬを最強の団体にしましょうね。
+EN Senior Kandori!! Let's spar!!
+EN If you're not strong, you can't call yourself a pro wrestler.
+EN Let's make LL the strongest promotion together.
+
+@ 182.02 spk=0f face=01
+# speaker: 神取 忍
+JP わかったよ井上、かかってきな。
+EN All right, Inoue, come at me.
+
+@ 182.03 spk=06 face=02
+# speaker: 篭野 ことり
+JP はい！！
+EN Yes!!
+
+@ 182.04 spk=08 face=01
+# speaker: イーグル沢井
+JP よくやるねえ、あの２人も。
+EN Those two really go at it.
+
+@ 182.05 spk=19 face=02
+# speaker: ハーレー斉藤
+JP でも、いいもんだよ。練習で道場が活気づくのは。
+EN It's good, though. Training brings the dojo to life.
+
+@ 182.06 spk=0f face=01
+# speaker: 神取 忍
+JP おい、どうした！井上！！井上！！！
+EN Hey, what's wrong! Inoue! Inoue!!!
+
+@ 182.07 spk=1c face=02
+# speaker: 風間 ルミ
+JP どうしたの神取！
+EN What happened, Kandori!
+
+@ 182.08 spk=0f face=01
+# speaker: 神取 忍
+JP 井上がスパー中にぐったりしちまった。
+EN Inoue went limp during sparring.
+
+@ 182.09 spk=1c face=02
+# speaker: 風間 ルミ
+JP 井上、やっぱりあんた。
+EN Inoue, I knew it.
+
+@ 182.10 spk=06 face=01
+# speaker: 篭野 ことり
+JP 社長、すいま、せ、ん。
+JP 私、ウ、ソを、
+EN Boss, I'm sor, ry. I li, ed...
+
+@ 182.11 spk=12 face=02
+# speaker: レオ北村
+JP しゃべらないで。
+JP ハーレー！！救急車！！！
+EN Don't talk.
+EN Harley!! Call an ambulance!!!
+
+@ 182.12 spk=06 face=01
+# speaker: 篭野 ことり
+JP 神取さん最、強に、は成れません、でした。
+EN Kandori, I couldn't, be the strong, est...
+
+@ 182.13 spk=0f face=00
+# speaker: 神取 忍
+JP 井上！！井上！！！
+EN Inoue!! Inoue!!!

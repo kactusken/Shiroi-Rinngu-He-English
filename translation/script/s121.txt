@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 121 id=b6 group=00 original at 0xe0528
+
+@ 121.00 spk=06 face=00
+# speaker: 篭野 ことり
+JP さすがやな。
+JP こうして戦えるときが来るのを待ってたかいがあったちゅうもんやな。星は、上を向いてるもんの所に輝いてるのかもな。
+EN As expected of you.
+EN It was worth waiting for the day we'd fight like this. Maybe the stars shine on those who keep looking up.

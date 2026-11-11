@@ -1,0 +1,70 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 104 id=a1 group=00 original at 0xdf12d
+
+@ 104.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP あら？誰か来てるわ。
+EN Oh? Someone's here.
+
+@ 104.01 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 社長！！お久しぶりです。
+EN Boss!! It's been a long time.
+
+@ 104.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP 嶋村！元気だった。
+JP 今何してるの？
+EN Shimamura! How have you been?
+EN What are you doing these days?
+
+@ 104.03 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 今、あるプロレス団体の事務をやってます。
+EN I'm doing office work for a pro wrestling promotion.
+
+@ 104.04 spk=1c face=02
+# speaker: 風間 ルミ
+JP そうなの、言ってくれればＬＬで面倒見たのに。
+EN Really? You should have told me, LL would have looked after you.
+
+@ 104.05 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ＯＬだったんですが、続かなくて。
+EN I was an office lady before, but it didn't last.
+
+@ 104.06 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、で何処の？
+EN I see. So which promotion?
+
+@ 104.07 spk=0f face=02
+# speaker: 神取 忍
+JP 待たせたな、嶋村。
+EN Sorry to keep you waiting, Shimamura.
+
+@ 104.08 spk=1c face=02
+# speaker: 風間 ルミ
+JP 神取！まさか、
+EN Kandori! Don't tell me...
+
+@ 104.09 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ええ、今はＪＷＷＦの事務をやってます。
+EN Yes, I do the office work for JWWF now.
+
+@ 104.10 spk=1c face=02
+# speaker: 風間 ルミ
+JP じゃあ、ここの事も、
+EN Then you know about this place, too...
+
+@ 104.11 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 聞いてます。
+EN I've heard.

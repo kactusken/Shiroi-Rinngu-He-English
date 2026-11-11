@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 55 id=4b group=00 original at 0xdcd83
+
+@ 055.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP やったわね。
+JP あなたと決勝を争うのを楽しみにしてたの。篭野も言っていたけど、
+JP 時々、{name}の才能には嫉妬することだってあるのよ。
+JP 確かに巡業で戦ってはいるけど、
+JP 私は貴方の本当の力が知りたいの！
+EN You did it.
+EN I was looking forward to the final with you. Kagono said so too,
+EN but sometimes I even envy {name}'s talent.
+EN Sure, we fight on tour,
+EN but I want to know your real strength!

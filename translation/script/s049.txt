@@ -1,0 +1,43 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 49 id=42 group=00 original at 0xdc7d9
+
+@ 049.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP ごくろうさま。
+JP 悩みは解消した？
+JP その顔じゃあ、無理見たいね。
+JP 新人王戦も近いのにそんな事ではダメね。
+JP 貴方の悩みって「強さ」でしょ。
+JP 何で解るのかって？
+JP みんなよ、み・ん・な。
+JP プロレスラーなら必ずその悩みはあるの。
+JP 誰でもそう。
+JP この世界に入ってきた者は、強さを必ず求めるの。
+JP そんなときにＪの興業を見れば余計よね。
+JP ウチも昔、アルメテット路線に挑戦したけどね。
+JP 悩みなさい。
+JP 悩むことは別に悪い事ではないわ。ただね、リングで見せてはダメ。
+JP 今は練習しなさい。
+JP 練習が貴方を解らせてくれるから。
+EN Good work.
+EN Have you sorted out your worries?
+EN Judging by that face, apparently not.
+EN The Rookie Tournament is near, and this won't do.
+EN Your worry is about strength, isn't it?
+EN How do I know?
+EN Everyone does, e-v-e-r-y-one.
+EN Every pro wrestler has that worry.
+EN Everybody does.
+EN Whoever enters this world always seeks strength.
+EN And seeing J's show at a time like this makes it worse.
+EN We once tried the Almeteto style too.
+EN Worry about it.
+EN Worrying isn't a bad thing. Just don't show it in the ring.
+EN For now, train.
+EN Training will make you understand.

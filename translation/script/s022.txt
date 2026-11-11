@@ -1,0 +1,36 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 22 id=17 group=00 original at 0xdb3cf
+
+@ 022.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、キャロルを選ぶのね。
+JP キャロル！！ちょっと来て。
+EN I see, you chose Carol.
+EN Carol!! Come here a moment.
+
+@ 022.01 spk=00 face=01
+JP 何です？
+EN What is it?
+
+@ 022.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP 貴方の付き人に{name}を付けるから、びしびし鍛えてね。
+EN {name} will be your attendant, so train her hard.
+
+@ 022.03 spk=00 face=01
+JP 判りました。{name}、こっちに来て。
+JP 私の付き人になったからには、頑張ってもらうわよ！！
+JP 紅の付き人の嶋村なんかに負けてもらっちゃ困るんだから。
+JP わ・か・っ・た？
+JP {p}判ったら練習練習！！
+EN Understood. {name}, come here.
+EN Now that you're my attendant, I expect hard work from you!!
+EN I won't have you losing to Shimamura, Kurenai's attendant.
+EN Do. You. Get. It?
+EN {p}Now that you get it, train, train!!

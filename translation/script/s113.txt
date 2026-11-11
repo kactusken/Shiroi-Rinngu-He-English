@@ -1,0 +1,39 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 113 id=ac group=00 original at 0xe003f
+
+@ 113.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP ハーレー、{name}。
+JP ちょっと来て。
+EN Harley, {name}.
+EN Come here a moment.
+
+@ 113.01 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 何でしょう。
+EN What is it?
+
+@ 113.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP ２人を今度の最終戦で当てます。
+JP もちろん、３冠へのステップとしてね。
+JP 頑張りなさい。
+EN I'm putting the two of you against each other in the final match.
+EN Naturally, as a step toward the Triple Crown.
+EN Do your best.
+
+@ 113.03 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 社長！！なぜ、{name}と。
+EN Boss!! Why with {name}?
+
+@ 113.04 spk=1c face=02
+# speaker: 風間 ルミ
+JP それは、今コーチしてる貴方の方が詳しいんじゃない？
+EN Wouldn't you know better than anyone, as her coach right now?

@@ -1,0 +1,28 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 195 id=99 group=02 original at 0xe44a9
+
+@ 195.00 spk=1d face=00
+# speaker: シャーク土屋
+JP いくぜ！！
+JP 今日こそ世代交代だ！！
+JP {p}ばばあ２人を引退させようぜ！！
+EN Let's go!!
+EN Today is the changing of the guard!!
+EN {p}Let's send those two hags into retirement!!
+
+@ 195.01 spk=0b face=00
+# speaker: 主人公
+JP 今日も同じ組み合わせだ。
+JP 所詮内輪の喧嘩に過ぎない。
+JP あの頃の充実感は獲られないのだろうか。
+JP 星は、つかめない。
+EN Same matchup again today.
+EN It's only a fight within the family.
+EN Can't I get back the fulfillment of those days?
+EN I can't grasp the star.

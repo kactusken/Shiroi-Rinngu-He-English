@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 50 id=44 group=00 original at 0xdc9c2
+
+@ 050.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 前にも言った、新人王戦の組み合わせを言うわね。
+JP {name}、貴方はＦＭＷの中山選手と戦うことになるわ、
+JP 言い方をかえれば、貴方にとっては初めての団体対抗戦になるわけだから気合いを入れるのよ。
+JP 何？嶋村？嶋村は、一回戦は石倉選手と対戦ね。
+EN Here are the Rookie Tournament pairings I mentioned before.
+EN {name}, you'll fight FMW's Nakayama.
+EN In other words, it's your first interpromotional match, so fight with spirit.
+EN What? Shimamura? Her first round is against Ishikura.

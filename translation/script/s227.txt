@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 227 id=11 group=03 original at 0xe4d84
+
+@ 227.00 spk=08 face=00
+# speaker: イーグル沢井
+JP 強くなりたいんだろう。
+JP それは判る。
+JP ただ、私が望んでるのはそんな物じゃない。
+JP 神取は、けじめをつけなきゃあいけないんだ。
+EN You want to get strong, right?
+EN I understand that.
+EN But that's not what I'm after.
+EN Kandori has to settle things.

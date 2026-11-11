@@ -1,0 +1,52 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 130 id=bf group=00 original at 0xe0f0f
+
+@ 130.00 spk=0c face=01
+# speaker: 石倉 由加利
+JP 行け！行け！
+EN Go! Go!
+
+@ 130.01 spk=1a face=02
+# speaker: 里 美和
+JP 頑張れ。
+EN Do your best.
+
+@ 130.02 spk=02 face=01
+# speaker: クラッシャー前泊
+JP 取れよ！！神取の首。
+EN Take it! Take Kandori's head!!
+
+@ 130.03 spk=01 face=02
+# speaker: コンバット豊田
+JP 何かをつかんで来いよ。
+EN Go grab something out there.
+
+@ 130.04 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP ．．．まかせた。
+EN ...I'm counting on you.
+
+@ 130.05 spk=06 face=02
+# speaker: 篭野 ことり
+JP 気合いや！！
+JP 気合い入れていきや！！
+EN Fight, now!!
+EN Put some guts into it!!
+
+@ 130.06 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 星を見つけてね。
+EN Go find your star.
+
+@ 130.07 spk=08 face=00
+# speaker: イーグル沢井
+JP 準備はいい？
+JP 行くよ、全ての始まりの為に。
+EN Ready?
+EN Let's go, for the sake of a new beginning.

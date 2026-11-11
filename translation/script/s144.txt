@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 144 id=1c group=01 original at 0xe17c5
+
+@ 144.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP ちょっと{name}、いい？
+JP 先ほどＦＭＷの大仁田社長から連絡があったんだけど、
+JP あなたをＦＭＷが欲しいって．．．
+JP どうする？選ぶのは貴方よ。
+JP はっきり言って、貴方は今、壁にぶつかってるわ。
+JP どうするか自分で決めなさい。
+EN {name}, got a moment?
+EN I just had a call from Boss Onita of FMW.
+EN FMW wants you...
+EN What will you do? The choice is yours.
+EN Frankly, you've hit a wall right now.
+EN Decide for yourself what to do.

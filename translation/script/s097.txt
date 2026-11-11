@@ -1,0 +1,24 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 97 id=8c group=00 original at 0xdecea
+
+@ 097.00 spk=19 face=00
+# speaker: ハーレー斉藤
+JP 練習中悪いんだけど、{name}。風間社長の所まで来て。
+EN Sorry to interrupt your training, {name}. Come to Boss Kazama's office.
+
+@ 097.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP ごくろうさま。練習中悪いわね。
+JP あのね、今度タッグ王座をＦＭＷさんと新設するんだけど、
+JP うちの代表をだれにするかで迷っているの。
+JP でね、クリスマスの再現ではないけど、ハーレーと貴方で行くから、任せたわよ！！
+EN Thanks for your hard work. Sorry to interrupt training.
+EN Listen, we're setting up a new tag title with FMW,
+EN and I'm torn over who should represent us.
+EN So, not exactly a Christmas replay, but it'll be Harley and you. I'm counting on you!!

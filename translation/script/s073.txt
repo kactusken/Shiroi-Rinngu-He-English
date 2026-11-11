@@ -1,0 +1,36 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 73 id=69 group=00 original at 0xddadc
+
+@ 073.00 spk=1e face=02
+# speaker: 立野 記代
+JP 社長がよんでるよ。
+EN The Boss is calling for you.
+
+@ 073.01 spk=1c face=00
+# speaker: 風間 ルミ
+JP 来たわね。
+JP 入院中の嶋村なんだけど、
+JP 復帰？
+JP いいえ、逆よ。
+JP 膝の複雑骨折は、あの子の選手生命を無くしてしまったわ。
+JP 本当ならば、引退セレモニーで引退させるつもりだったんだけど、
+JP 本人の希望で、今度の東体で引退試合、新人戦決勝を行うから。
+JP けが人にこんな事させてはいけないのだけれど、
+JP あの子の希望だから．．．。
+JP 精一杯悔いの残らない試合をしなさい。
+EN There you are.
+EN It's about Shimamura, in the hospital.
+EN Coming back?
+EN No, the opposite.
+EN The compound fracture in her knee has ended her career as a wrestler.
+EN I'd planned to retire her at a retirement ceremony,
+EN but at her own request, she'll have her retirement match, the Rookie Tournament final, at the coming Tokyo Gym show.
+EN I shouldn't make an injured girl do this,
+EN but it's what she wants...
+EN Give it everything, and fight a match with no regrets.

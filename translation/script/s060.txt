@@ -1,0 +1,42 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 60 id=52 group=00 original at 0xdd049
+
+@ 060.00 spk=18 face=02
+# speaker: 大向 美智子
+JP あの、すいません。
+EN Excuse me.
+
+@ 060.01 spk=13 face=01
+# speaker: 鍋野 ゆき江
+JP はい。
+EN Yes.
+
+@ 060.02 spk=18 face=02
+# speaker: 大向 美智子
+JP ごくろうさまです。
+JP 風間の使いで参ったのですが、
+JP 大仁田社長は？
+EN Thank you for your hard work.
+EN I've come on Kazama's behalf.
+EN Where is Boss Onita?
+
+@ 060.03 spk=13 face=01
+# speaker: 鍋野 ゆき江
+JP リングの方に。
+EN He's over by the ring.
+
+@ 060.04 spk=18 face=02
+# speaker: 大向 美智子
+JP そうですか、失礼します。
+EN I see. Excuse us.
+
+@ 060.05 spk=18 face=00
+# speaker: 大向 美智子
+JP じゃあ、{name}はそっちから行って。
+EN Okay, {name}, you go around that way.

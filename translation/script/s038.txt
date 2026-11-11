@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 38 id=30 group=00 original at 0xdbfde
+
+@ 038.00 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 地方っていいわよね。
+JP {p}なんだか伸び伸びとやれる。
+JP {p}そんな気がする。
+EN The countryside is nice.
+EN {p}Somehow I can wrestle freely here.
+EN {p}At least, that's how it feels.

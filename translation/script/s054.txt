@@ -1,0 +1,30 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 54 id=4a group=00 original at 0xdcc5a
+
+@ 054.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP おめでとう！試合内容については多くを望まないけど、勝ったことには拍手を送るわ。２回戦は、清水選手よ。
+EN Congratulations! I won't ask much about the match itself, but I'll applaud the win. Your second round is against Shimizu.
+
+@ 054.01 spk=00 face=00
+JP 何、あの試合は？
+JP デビューして一年でしょ？
+JP あんな試合またやったら、承知しないわよ！！
+EN What was that match?
+EN One year since your debut, right?
+EN If you wrestle like that again, I won't forgive you!!
+
+@ 054.02 spk=19 face=00
+# speaker: ハーレー斉藤
+JP きつい言い方かもしれないが、
+JP もうそろそろお客さんを頭に入れて試合をしな。
+JP {p}それがプロレスってものさ。
+EN It may sound harsh, but
+EN it's about time you wrestled with the fans in mind.
+EN {p}That's what pro wrestling is.

@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 266 id=7a group=03 original at 0xe5d6d
+
+@ 266.00 spk=13 face=00
+# speaker: 鍋野 ゆき江
+JP 鍋野ゆき江だよ。
+JP いつでも練習したいときには言って何も教えてあげられないけど、根性だけは鍛えて上げるわよ！！
+EN I'm Yukie Nabeno.
+EN Tell me whenever you want training. I can't teach you anything, but I'll toughen your guts for sure!!

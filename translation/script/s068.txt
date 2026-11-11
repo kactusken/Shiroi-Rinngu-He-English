@@ -1,0 +1,29 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 68 id=5b group=00 original at 0xdd71f
+
+@ 068.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP おはよう。なんだかいつもの{name}とは違うわね、戻ったような。
+EN Good morning. You seem different from usual, {name}. Like you're back to yourself.
+
+@ 068.01 spk=1c face=00
+# speaker: 風間 ルミ
+JP おはよう。
+JP 大仁田選手の言ったこと、無駄では無かったみたいね。
+JP 自分がレスラーだということ、
+JP 大仁田選手のメッセージ、
+JP 忘れちゃダメよ。
+JP そうだわ、新人王戦の決勝は１２月に行われるから、
+JP 出る者はしっかりね。
+EN Good morning.
+EN What Onita said wasn't wasted, it seems.
+EN Don't forget that you're a wrestler,
+EN and don't forget Onita's message.
+EN Oh, right, the Rookie Tournament final is in December,
+EN so those who are entering, do your best.

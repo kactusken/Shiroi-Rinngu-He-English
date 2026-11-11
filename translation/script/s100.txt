@@ -1,0 +1,27 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 100 id=94 group=00 original at 0xdefab
+
+@ 100.00 spk=08 face=01
+# speaker: イーグル沢井
+JP 勝負だ、イーグル・青野
+JP 対ハーレー・{name}
+JP で、勝った方に出場権を渡せ。
+EN Let's settle it: Eagle and Aono
+EN against Harley and {name}.
+EN The winners get the spot.
+
+@ 100.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP 判ったわ。
+EN Understood.
+
+@ 100.02 spk=08 face=01
+# speaker: イーグル沢井
+JP 次の後楽園だ！！
+EN At the next Korakuen show!!

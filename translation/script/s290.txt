@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 290 id=b9 group=03 original at 0xe67bd
+
+@ 290.00 spk=19 face=00
+# speaker: ハーレー斉藤
+JP ＦＭＷさんか．．．
+JP やっぱりトップは強いよ。
+JP そして、トップ経験者が、多いのもあそこの特徴だね。
+JP {p}けが人も多いけど。何かを背負った人間の強さをあそこで知ることができるわ。
+EN FMW, huh...
+EN Their top people are strong.
+EN And they have many former top people, that's their trait.
+EN {p}Lots of injured people too. But there you learn the strength of people carrying something.

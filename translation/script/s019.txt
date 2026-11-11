@@ -1,0 +1,66 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 19 id=14 group=00 original at 0xdada8
+
+@ 019.00 spk=11 face=01
+# speaker: 紅 夜叉
+JP なんだ、この騒ぎは。
+EN What's all the fuss?
+
+@ 019.01 spk=25 face=02
+# speaker: 青野 敬子
+JP 新人がテストなんですよ。
+EN The rookies have their test.
+
+@ 019.02 spk=11 face=01
+# speaker: 紅 夜叉
+JP へえ、もうそんな時期か、
+JP {p}今年は６人入って、残ったのは２人か。
+JP なかなかいいんじゃない。
+JP なあイーグル？
+EN Oh, is it that time already?
+EN {p}Six joined this year, and two are left.
+EN That's not bad at all.
+EN Right, Eagle?
+
+@ 019.03 spk=08 face=02
+# speaker: イーグル沢井
+JP ．．．。
+EN ...
+
+@ 019.04 spk=19 face=01
+# speaker: ハーレー斉藤
+JP へえ、イーグルでも新人が気になるのかい？
+EN Even you care about the rookies, Eagle?
+
+@ 019.05 spk=08 face=02
+# speaker: イーグル沢井
+JP ．．．。
+EN ...
+
+@ 019.06 spk=19 face=01
+# speaker: ハーレー斉藤
+JP なるほどね。
+JP まあ、どちらかがあんたの所に入るから目つけといてくれや。
+EN I see.
+EN Well, one of them will join you, so keep an eye on them.
+
+@ 019.07 spk=03 face=00
+# speaker: 嶋村 由佳
+JP はあ、はあ、ありがとうございました。
+EN Haah, haah... thank you very much.
+
+@ 019.08 spk=1c face=00
+# speaker: 風間 ルミ
+JP テストの結果は、来週知らせるわ。それまで、いつも通りの練習をしておきなさい。
+EN I'll announce the test results next week. Until then, train as usual.
+
+@ 019.09 spk=03 face=00
+# speaker: 嶋村 由佳
+JP はい。
+EN Yes.

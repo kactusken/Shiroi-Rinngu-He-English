@@ -1,0 +1,47 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 110 id=a9 group=00 original at 0xdf6ae
+
+@ 110.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP ３冠統一のシングルが始まります。王者は、８月には認定したいと思います。
+JP そして、この王座決定戦にＪＷＷＦの参加が決定しました。
+EN The Triple Crown unification singles tournament begins. I plan to crown the champion in August.
+EN And JWWF has decided to take part in this title tournament.
+
+@ 110.01 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 社長、神取選手は．．．。
+EN Boss, what about Kandori...?
+
+@ 110.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP でません。
+JP それ以外の選手は参加します。
+EN She won't enter.
+EN Everyone else will.
+
+@ 110.03 spk=11 face=01
+# speaker: 紅 夜叉
+JP 長嶋。
+EN Nagashima.
+
+@ 110.04 spk=09 face=01
+# speaker: 遠藤 美月
+JP 二上。
+EN Futagami.
+
+@ 110.05 spk=0a face=01
+# speaker: 半田 美希
+JP ジェンヌ。
+EN Jenne.
+
+@ 110.06 spk=1c face=02
+# speaker: 風間 ルミ
+JP わだかまりを捨てて頑張りなさい。
+EN Put your grudges aside and give it your best.

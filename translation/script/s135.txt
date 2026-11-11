@@ -1,0 +1,37 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 135 id=df group=00 original at 0xe1060
+
+@ 135.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、紅を選ぶのね。
+JP 紅！！ちょっと。
+EN I see, you're choosing Kurenai.
+EN Kurenai!! A moment.
+
+@ 135.01 spk=11 face=01
+# speaker: 紅 夜叉
+JP 何だ。
+EN What is it?
+
+@ 135.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP 貴方の付き人に{name}を付けるから、鍛えてね。
+EN I'm assigning {name} as your attendant, so train her well.
+
+@ 135.03 spk=11 face=01
+# speaker: 紅 夜叉
+JP そうかい。{name}、こっちに来な。
+JP 私の付き人になったからには、頑張ってもらうぜ。
+EN I see. {name}, come here.
+EN Now that you're my attendant, I'll expect you to work hard.
+
+@ 135.04 spk=1c face=02
+# speaker: 風間 ルミ
+JP 付き人は、５月からお願いね。
+EN The attendant duty starts in May.

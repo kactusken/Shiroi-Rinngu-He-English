@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 299 id=d4 group=03 original at 0xe6bde
+
+@ 299.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 私にアドバイス？？
+JP 私は現役を離れた人間だから、
+JP 何もいえないわ。
+JP そうね、言えることは、
+JP アドバイスは、よく変わるから、
+JP 聞き逃さない事かな。
+EN Advice from me??
+EN I'm retired from active wrestling,
+EN so I can't say anything.
+EN Well, what I can say is
+EN Advice changes often,
+EN so don't miss it.

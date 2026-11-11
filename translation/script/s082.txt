@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 82 id=78 group=00 original at 0xde302
+
+@ 082.00 spk=21 face=00
+# speaker: 竹中さん
+JP どうもどうも、竹中です。
+JP 今度、ショッピングモールでサイン会があります。
+JP よろしくお願いします。
+EN Hello, hello, Takenaka here.
+EN There'll be an autograph session at a shopping mall soon.
+EN Thank you for your cooperation.

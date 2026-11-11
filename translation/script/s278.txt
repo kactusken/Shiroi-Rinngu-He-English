@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 278 id=a5 group=03 original at 0xe6243
+
+@ 278.00 spk=17 face=00
+# speaker: ニ上 美紀子
+JP ＦＭＷ？
+JP そうやなあ、対抗戦になると、叩き潰しに来るんで、試合巧者には嫌われるなあ。
+JP でもな、力を力で返してこそ強さやと思うぞ。
+EN FMW?
+EN Well, in inter-promotion matches they come to smash you, so skillful workers hate them.
+EN But I think real strength is meeting power with power.

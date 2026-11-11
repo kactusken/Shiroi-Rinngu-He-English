@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 261 id=66 group=03 original at 0xe5b2e
+
+@ 261.00 spk=11 face=00
+# speaker: 紅 夜叉
+JP 紅だ。ヒールに教えを受けるには、ヒールにならなきゃいけないよ。
+JP {p}あんた、素質がありそうだねえ。{p}
+JP 今のＬＬＰＷのヒールは、
+JP イーグル。遠藤。立野。そして私。練習生の間は正規軍だろうから、
+JP 一生懸命頑張るんだね。
+EN I'm Kurenai. To learn from a heel, you have to become a heel.
+EN {p}You've got talent, I'd say.{p}
+EN LLPW's heels right now are
+EN Eagle, Endo, Tateno, and me. While you're a trainee you'll be in the regular army,
+EN so work hard.

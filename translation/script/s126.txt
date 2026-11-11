@@ -1,0 +1,41 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 126 id=bb group=00 original at 0xe0a5a
+
+@ 126.00 spk=23 face=00
+# speaker: 大仁田 厚
+JP よう、元気か。
+JP そんな目でにらむな、まだ怒ってんのか？
+JP あんな昔のこと。
+JP {p}神取とやるらしいな。
+JP {p}悩んでるようだから、って風間に頼まれてな。
+JP なあ、強さってなんだ？
+JP おれは、電流爆破をやってきた。
+JP デスマッチの帝王だった。
+JP でも自分が強いとは思わなかった。{p}Ｍｒ．ポーゴとやるときは、いつも憎悪との戦いだった。
+JP それが、自分の心で押さえられなかったとき、デスマッチをやった。
+JP それって、強いと思うか？？
+JP {p}人間同士が、憎しみあうことは強さじゃない。
+JP だから神取はお前に託したんじゃないのか。
+JP {p}これからのプロレスをお前の心に。{p}純粋に、戦って勝ちたいと思う心に{p}神取は賭けたんじゃないのかな。
+JP じゃあな、引退した男の小言だ。
+EN Hey, how's it going?
+EN Don't glare at me like that. Still angry?
+EN About something that long ago.
+EN {p}I hear you're fighting Kandori.
+EN {p}Kazama asked me to come, since you seem troubled.
+EN Tell me, what is strength?
+EN I did the Electric Current Explosion matches.
+EN I was the Emperor of Deathmatches.
+EN But I never thought I was strong.{p}Whenever I fought Mr. Pogo, it was always a battle against hatred.
+EN When I couldn't hold it down in my own heart, I did deathmatches.
+EN Do you call that strong?
+EN {p}People hating each other is not strength.
+EN That's why Kandori entrusted you, isn't it?
+EN {p}The future of pro wrestling, in your heart.{p}A heart that simply wants to fight and win. I think Kandori bet on that.
+EN Well, see you. Just the nagging of a retired man.

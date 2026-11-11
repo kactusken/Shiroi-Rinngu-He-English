@@ -1,0 +1,13 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 300 id=de group=03 original at 0xe6c6f
+
+@ 300.00 spk=1d face=00
+# speaker: シャーク土屋
+JP ふん。ちょろちょろするのは構わないけど、私の邪魔だけはしないでくれよ。練習？？下半身のパワー中心さ！！
+EN Hmph. Scurry around if you like, just don't get in my way. Training?? Lower-body power!!

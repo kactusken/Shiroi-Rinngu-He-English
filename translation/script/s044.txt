@@ -1,0 +1,16 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 44 id=38 group=00 original at 0xdc4b0
+
+@ 044.00 spk=00 face=00
+JP おーい、{name}。
+JP 今月は私とのタッグが中心だから足ひっぱらないようにしろよ。
+JP タッグが初めて？？私がリードするから安心しな！
+EN Hey, {name}.
+EN This month is mostly tag matches with me, so don't hold me back.
+EN First time in a tag match? I'll lead, so don't worry!

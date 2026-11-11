@@ -1,0 +1,29 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 37 id=2e group=00 original at 0xdbf13
+
+@ 037.00 spk=09 face=00
+# speaker: 遠藤 美月
+JP 何してんの。
+JP リングがあがったら椅子並べだよ。ホールじゃないんだから、全部やるの！！
+EN What are you doing?
+EN Once the ring is up, set out the chairs. This isn't a hall, so we do everything!!
+
+@ 037.01 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ホント大変ね地方巡業は。
+JP じゃね、ここお願い。
+EN Touring the provinces is really tough.
+EN Well, I'll leave this to you.
+
+@ 037.02 spk=11 face=00
+# speaker: 紅 夜叉
+JP どうした？嶋村か？
+JP 戦って、色々と考えることがあったんだろうよ。
+EN What's up? Is it Shimamura?
+EN She must have had a lot to think about after fighting.

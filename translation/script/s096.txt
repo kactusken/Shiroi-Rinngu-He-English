@@ -1,0 +1,54 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 96 id=89 group=00 original at 0xdeb72
+
+@ 096.00 spk=08 face=01
+# speaker: イーグル沢井
+JP 風間！！ＪＷＷＦと交流戦だ！！
+EN Kazama!! Set up an exchange match with JWWF!!
+
+@ 096.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP イ、イーグル。無茶言わないで。
+EN E-Eagle. Don't be unreasonable.
+
+@ 096.02 spk=08 face=01
+# speaker: イーグル沢井
+JP あそこまで言われて、じっとしていられるか！！
+EN After being told that, how can I sit still!!
+
+@ 096.03 spk=19 face=02
+# speaker: ハーレー斉藤
+JP イーグル！！やめろ。
+JP 篭野は確かに強い。下手をするとお前より、
+EN Eagle!! Stop it.
+EN Kagono is strong, no doubt. She might even be better than you,
+
+@ 096.04 spk=08 face=01
+# speaker: イーグル沢井
+JP 何言ってやがる！私はチャンピオンだ！！挑戦者を選ぶ権利はあるはずだ！
+EN What are you saying! I'm the champion!! I have the right to choose my challengers!
+
+@ 096.05 spk=1c face=02
+# speaker: 風間 ルミ
+JP イーグル！！
+EN Eagle!!
+
+@ 096.06 spk=08 face=00
+# speaker: イーグル沢井
+JP ．．．。
+EN ...
+
+@ 096.07 spk=1c face=02
+# speaker: 風間 ルミ
+JP やめなさい。
+JP Ｊとの対抗戦が今一番難しいのは、貴方も判っているでしょ。
+JP さあ、練習を開始しなさい。
+EN Stop it.
+EN You know that the matches against J are the hardest right now.
+EN Now, start your training.

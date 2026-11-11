@@ -1,0 +1,13 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 228 id=16 group=03 original at 0xe4e01
+
+@ 228.00 spk=09 face=00
+# speaker: 遠藤 美月
+JP 遠藤美月だ。よろしくな。ヒールなんで、練習する機会は少ないが、合同練習の時にはいつでも来い。
+EN I'm Mizuki Endo. Nice to meet you. I'm a heel, so I rarely get to train, but come to any joint training session.

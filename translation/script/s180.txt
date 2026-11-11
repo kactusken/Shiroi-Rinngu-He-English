@@ -1,0 +1,59 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 180 id=c2 group=01 original at 0xe360c
+
+@ 180.00 spk=01 face=02
+# speaker: コンバット豊田
+JP こんにちは。
+EN Hello.
+
+@ 180.01 spk=0f face=01
+# speaker: 神取 忍
+JP はい。
+JP ．．．ＦＭＷのコンバットさんと{name}選手ですね。
+JP お待ちしておりました。
+JP では、交流戦について、
+EN Yes.
+EN ...You're Combat from FMW and {name}.
+EN We've been expecting you.
+EN Now, about the exchange match,
+
+@ 180.02 spk=01 face=02
+# speaker: コンバット豊田
+JP ちょっと待った。
+EN Hold on.
+
+@ 180.03 spk=0f face=01
+# speaker: 神取 忍
+JP 何でしょう。
+EN What is it?
+
+@ 180.04 spk=01 face=02
+# speaker: コンバット豊田
+JP ＦＭＷは逃げも隠れもしない。
+JP しかし、しかしだ。神取、あんたはどうも気に入らない。
+JP あの噂、本当なのか？ここで答えろ！！
+EN FMW isn't running or hiding.
+EN But, Kandori, I just don't like you.
+EN Is that rumor true? Answer me here!!
+
+@ 180.05 spk=0f face=01
+# speaker: 神取 忍
+JP ．．．私は神取忍だ。
+EN ...I am Shinobu Kandori.
+
+@ 180.06 spk=01 face=02
+# speaker: コンバット豊田
+JP ハハハハ。
+JP よく判ったよ。
+JP {name}！！話を聞いといで。あたしは先に帰るからね。
+JP 神取！！戦える日を楽しみにしとくよ。
+EN Ha ha ha ha.
+EN Now I understand.
+EN {name}!! Go hear her out. I'm heading back first.
+EN Kandori!! I'm looking forward to the day we fight.

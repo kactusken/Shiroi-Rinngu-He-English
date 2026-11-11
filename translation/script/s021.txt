@@ -1,0 +1,43 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 21 id=16 group=00 original at 0xdb1ae
+
+@ 021.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP ちょっと、{name}、
+JP 嶋村。
+JP こっちに来てくれない？？
+JP あのね、あなた達もプロデビューしたことだし、付き人になってもらわなきゃいけないの。
+JP プロになったって言うことは地方巡業に付いてきてもらう事になるし、先輩方の身の回りの世話をすることで勉強していく事も沢山ある。
+JP 選んで欲しいの。
+JP 今、付き人がいないのは、キャロルと、紅の２人。
+JP 正規軍か、イーグル軍かの選択だと思って欲しいの。{p}
+JP 一人が選んだら、自動的にもう一人が決まってしまうから、
+JP 充分話し合って決めてね。
+EN Hey, {name},
+EN Shimamura.
+EN Could you come over here?
+EN Now that you two have gone pro, you have to become attendants.
+EN As pros you'll follow the tours around the country, and there's a lot to learn from looking after the seniors.
+EN I want you to choose.
+EN The ones without an attendant right now are Carol and Kurenai.
+EN Think of it as choosing between the regular army and Eagle's army.{p}
+EN When one of you chooses, the other is decided automatically,
+EN so talk it over well before deciding.
+
+@ 021.01 spk=03 face=00
+# speaker: 嶋村 由佳
+JP 貴方が決めて。私は、どちらでも構わないわ。
+EN You decide. Either is fine with me.
+
+@ 021.02 spk=1c face=00
+# speaker: 風間 ルミ
+JP じゃあ、貴方が決めなさい。
+JP {p}キャロルか、紅。
+EN Then you decide.
+EN {p}Carol or Kurenai.

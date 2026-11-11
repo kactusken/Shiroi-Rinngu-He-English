@@ -1,0 +1,26 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 90 id=81 group=00 original at 0xde6b4
+
+@ 090.00 spk=1d face=02
+# speaker: シャーク土屋
+JP ハーレー！！
+JP そして、チビ！！
+JP なかなかやるじゃねえか。
+JP 今度は前泊と来てやる。
+JP 覚悟を決めときな！！！
+EN Harley!!
+EN And you, shorty!!
+EN You're not bad.
+EN Next time I'll come with Maedomari.
+EN Get ready for it!!!
+
+@ 090.01 spk=19 face=00
+# speaker: ハーレー斉藤
+JP やったな。本丸のお出ましだ。
+EN We did it. The main force is coming out.

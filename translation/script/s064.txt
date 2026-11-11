@@ -1,0 +1,27 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 64 id=57 group=00 original at 0xdd3f5
+
+@ 064.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP こんばんは。
+JP こんな時間だけど、ちょっといい？{p}なんだかＦＭＷのチケット貰った時の{name}、
+JP 顔が青ざめていたから。
+JP 何かあったの？
+JP {p}．．．．．．．。
+JP {p}なるほどね、あの大仁田厚に喧嘩売っちゃったんだ。
+JP でも、チケットくれたからって、試合会場で取って食う訳じゃあ無いでしょ。
+JP 気にしちゃだめよ。
+EN Good evening.
+EN I know it's late, but do you have a minute?{p}When you got those FMW tickets, {name},
+EN you went pale.
+EN What happened?
+EN {p}......
+EN {p}I see. So you picked a fight with the one and only Atsushi Onita.
+EN But he gave you a ticket, so he's not going to eat you alive at the venue.
+EN Don't let it get to you.

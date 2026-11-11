@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 122 id=b7 group=00 original at 0xe05a9
+
+@ 122.00 spk=06 face=00
+# speaker: 篭野 ことり
+JP うちの負けや。
+JP 確かに、勝負には勝った。
+JP でもな、心に届かんかった。
+JP 神取さんが言うた通りや。
+JP また次を楽しみにしてるで。じゃあな。３冠王者？そんな張りぼて、用はないわ。
+EN I lost.
+EN I won the match, sure.
+EN But I couldn't reach your heart.
+EN Kandori was right.
+EN I'm looking forward to the next one. See ya. Triple Crown champion? That paper tiger means nothing to me.

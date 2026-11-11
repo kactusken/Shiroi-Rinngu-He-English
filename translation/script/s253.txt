@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 253 id=48 group=03 original at 0xe58b8
+
+@ 253.00 spk=0e face=00
+# speaker: ジェンヌゆかり
+JP ジェンヌゆかりよ。
+JP あなたもＬＬＰＷあがりなんですって？
+JP 大仁田さんのお願いで預かったお客さんだけど、練習についてこれなきゃ見捨てるからね。
+EN I'm Jenne Yukari.
+EN So you came up through LLPW too?
+EN Onita asked me to look after you, but if you can't keep up with training, I'll drop you.

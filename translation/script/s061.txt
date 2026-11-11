@@ -1,0 +1,63 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 61 id=54 group=00 original at 0xdd0f7
+
+@ 061.00 spk=23 face=01
+# speaker: 大仁田 厚
+JP おっと大丈夫か？前をみて歩けよ。{p}あれ？君はたしか風間さんの所の、たしか、静岡でうちの中山とやったそう、
+JP {name}選手だね。
+JP どうした、ぼーっとして、
+JP レスラーなら背筋を伸ばせ！！
+JP どうした？その目は、
+JP 引退した人間には言われたくない。って顔をしてるな。
+EN Whoa, are you all right? Watch where you're walking.{p}Huh? You're from Kazama's place, aren't you? The one who fought our Nakayama in Shizuoka.
+EN You're {name}, right?
+EN What's wrong? Why the daze?
+EN If you're a wrestler, stand up straight!!
+EN What's with that look?
+EN You look like you're thinking, "I don't need that from a retired man."
+
+@ 061.01 spk=18 face=02
+# speaker: 大向 美智子
+JP どうしたの？{name}。
+JP あっ、大仁田社長おはようございます。
+EN What's wrong, {name}?
+EN Oh, good morning, Boss Onita.
+
+@ 061.02 spk=23 face=01
+# speaker: 大仁田 厚
+JP おう、大向か。どうした、今日は？
+EN Oh, Omukai. What brings you here today?
+
+@ 061.03 spk=18 face=02
+# speaker: 大向 美智子
+JP 風間に頼まれまして、これを。
+EN Kazama asked me to bring you this.
+
+@ 061.04 spk=23 face=01
+# speaker: 大仁田 厚
+JP どれどれ、
+JP ．．．．
+JP {p}なるほど、わかりました。
+JP とお伝え下さい。
+EN Let's see.
+EN ...
+EN {p}I see. Understood.
+EN Please tell her that.
+
+@ 061.05 spk=18 face=02
+# speaker: 大向 美智子
+JP はい。
+EN Yes.
+
+@ 061.06 spk=23 face=01
+# speaker: 大仁田 厚
+JP じゃあな、{name}。憶えておけ、レスラーは心なくしてはレスラーには成れない。
+JP 今のお前は、レスラーじゃない！！
+EN See you, {name}. Remember this: without heart, you can't become a wrestler.
+EN Right now, you're no wrestler!!

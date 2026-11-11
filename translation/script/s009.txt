@@ -1,0 +1,40 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 9 id=0a group=00 original at 0xd9eee
+
+@ 009.00 spk=1c face=01
+# speaker: 風間 ルミ
+JP 頑張ってる？
+EN Working hard?
+
+@ 009.01 spk=03 face=02
+# speaker: 嶋村 由佳
+JP ごくろうさまです。
+EN Thank you for your hard work.
+
+@ 009.02 spk=1c face=01
+# speaker: 風間 ルミ
+JP 新人ちょっと借りていいかしら。
+EN Can I borrow the rookies for a bit?
+
+@ 009.03 spk=19 face=02
+# speaker: ハーレー斉藤
+JP どうしました？
+EN What's the matter?
+
+@ 009.04 spk=1c face=01
+# speaker: 風間 ルミ
+JP ＦＭＷに今度の対抗戦の打ち合わせに行くんだけど、新人の話をしたら「つれてこい。」
+JP って言われちゃって。
+EN I'm going to FMW to discuss the coming interpromotional match, and when I mentioned the rookies they said, "Bring them."
+EN So there you go.
+
+@ 009.05 spk=19 face=02
+# speaker: ハーレー斉藤
+JP そう言う事でしたら。
+EN In that case, of course.

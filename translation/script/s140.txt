@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 140 id=10 group=01 original at 0xe145e
+
+@ 140.00 spk=16 face=01
+# speaker: ナース中村
+JP 石倉！！返せ！！
+EN Ishikura!! Kick out!!
+
+@ 140.01 spk=00 face=02
+JP 嶋村！！いけえ！！
+EN Shimamura!! Go get her!!
+
+@ 140.02 spk=fe face=00
+JP １４分２８秒。
+JP 体固めで嶋村選手の勝ち。
+EN 14 minutes 28 seconds.
+EN Shimamura wins by pin.

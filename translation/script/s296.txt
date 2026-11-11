@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 296 id=c1 group=03 original at 0xe69f0
+
+@ 296.00 spk=1a face=00
+# speaker: 里 美和
+JP ＦＭＷ女子部は、
+JP ヒールとベビーフェイス、今はコンバットと工藤軍に別れているわ。
+JP {p}ヒールは、
+JP コンバット、クラッシャー、シャーク、岩見、石倉選手よ。
+JP ここは、ヒールとベビーフェイスが完全に別れているので、対抗戦で組むことはあっても、
+JP 一緒に練習することはないから覚えておいてね。
+EN The FMW women's division
+EN is split into heels and babyfaces, now Combat's side and Kudo's side.
+EN {p}The heels are
+EN Combat, Crusher, Shark, Iwami and Ishikura.
+EN Heels and babyfaces are completely separate here, so even if they team up in inter-promotion matches,
+EN they never train together. Remember that.

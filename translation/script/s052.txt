@@ -1,0 +1,24 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 52 id=48 group=00 original at 0xdcb95
+
+@ 052.00 spk=16 face=01
+# speaker: ナース中村
+JP 石倉！！返せ！！
+EN Ishikura!! Kick out!!
+
+@ 052.01 spk=11 face=02
+# speaker: 紅 夜叉
+JP きめろ！嶋村！！
+EN Finish it! Shimamura!!
+
+@ 052.02 spk=fe face=00
+JP １４分２８秒。
+JP 体固めで嶋村由佳選手の勝ち。
+EN 14 minutes, 28 seconds.
+EN With a body press, the winner is Yuka Shimamura.

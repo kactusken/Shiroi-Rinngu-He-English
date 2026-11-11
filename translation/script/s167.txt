@@ -1,0 +1,46 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 167 id=ac group=01 original at 0xe2c43
+
+@ 167.00 spk=2b face=02
+# speaker: グレートサスケ
+JP こんにちは！！
+EN Good day!!
+
+@ 167.01 spk=23 face=01
+# speaker: 大仁田 厚
+JP おう、サスケか。上がってくれい。どうした。
+EN Oh, Sasuke. Come on in. What brings you here?
+
+@ 167.02 spk=2b face=02
+# speaker: グレートサスケ
+JP やだなあ、「夏の興業に選手を貸して欲しい。」って頼んでたじゃないですか。
+EN Come on, I asked you for wrestlers to lend us for the summer show, remember?
+
+@ 167.03 spk=23 face=01
+# speaker: 大仁田 厚
+JP そうか、今、男でルチャ系には、マッハとバト．．．そうだ、金村なんて結構いけるぞ。
+EN Right. For male Lucha guys right now we have Mach and Bato... Oh, and Kanemura is pretty good too.
+
+@ 167.04 spk=2b face=02
+# speaker: グレートサスケ
+JP いえ、考えたんですが、女子選手が欲しいんですが。
+EN No, I thought about it, and I'd like a female wrestler.
+
+@ 167.05 spk=23 face=01
+# speaker: 大仁田 厚
+JP そうか。
+JP じゃあ、こいつはどうだ。
+JP うちの新人で{name}。まだ、スタイルを決めている途中だから、教えてくれないか。
+JP どうも、中途半端に考える癖があるんでな。
+JP どうだ？{name}。
+EN I see.
+EN Then how about her?
+EN This is our rookie {name}. She's still deciding her style, so teach her something.
+EN She has a habit of being half-hearted about things.
+EN What do you say, {name}?

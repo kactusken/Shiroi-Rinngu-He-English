@@ -1,0 +1,58 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 128 id=bd group=00 original at 0xe0d31
+
+@ 128.00 spk=04 face=02
+# speaker: 秋月 水葱
+JP 遂にやったね。
+JP 私の分も頑張ってね。
+EN You finally did it.
+EN Do your best for me, too.
+
+@ 128.01 spk=07 face=01
+# speaker: 岩下 直美
+JP あれ？秋月さんじゃないの？
+EN Huh? Isn't that Akizuki?
+
+@ 128.02 spk=04 face=02
+# speaker: 秋月 水葱
+JP あれれ！ナオちゃんじゃない！！
+EN Well, well! If it isn't Nao!!
+
+@ 128.03 spk=07 face=01
+# speaker: 岩下 直美
+JP どうしてここに．．．。
+EN What are you doing here...?
+
+@ 128.04 spk=04 face=02
+# speaker: 秋月 水葱
+JP それは、こっちのセリフ．．．。
+EN I could ask you the same...
+
+@ 128.05 spk=07 face=01
+# speaker: 岩下 直美
+JP フフフ。
+EN Heh heh heh.
+
+@ 128.06 spk=04 face=02
+# speaker: 秋月 水葱
+JP はははは。
+EN Ha ha ha ha.
+
+@ 128.07 spk=fe face=00
+JP おーい、入場口開いたよ！！
+EN Hey, the entrance is open!!
+
+@ 128.08 spk=05 face=00
+# speaker: 中村 加代
+JP はーい。待ってよう！！
+JP {name}。
+JP 貴方の生き方、答えを見せてもらうわ。
+EN Coming! Wait for me!!
+EN {name}.
+EN Show me your way of living, and your answer.

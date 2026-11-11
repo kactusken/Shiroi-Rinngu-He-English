@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 28 id=20 group=00 original at 0xdb9df
+
+@ 028.00 spk=25 face=00
+# speaker: 青野 敬子
+JP どうした。
+JP 不満そうな顔して。
+JP 同期がデビューして、そんなに悔しいか？
+JP あせるな、女子プロレスにおいてはデビューの早さ、遅さは関係ない。その、一つ一つを、どれだけ大事にするかだ。
+JP 焦らずにやんな。
+EN What's with that face?
+EN You look unhappy.
+EN Are you that frustrated your classmate debuted?
+EN Don't rush. In women's pro wrestling, debuting early or late doesn't matter. What counts is how much you value each match.
+EN Take it slow.

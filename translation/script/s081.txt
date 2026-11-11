@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 81 id=76 group=00 original at 0xde2a5
+
+@ 081.00 spk=19 face=00
+# speaker: ハーレー斉藤
+JP どう？対抗戦を本格的に始めた感想は。
+JP 下手にお客さんが殺気立ってるだけに、難しいでしょ。
+EN So, how does it feel now that the interpromotional matches are really under way?
+EN The crowds are so charged up, it's tough, isn't it?

@@ -1,0 +1,63 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 14 id=0f group=00 original at 0xda5c3
+
+@ 014.00 spk=06 face=00
+# speaker: 篭野 ことり
+JP よう。
+JP {p}なんや、その顔は。
+JP ウチが訪ねてきたのが、そんなに不思議か？
+JP {p}そら、あんたとは犬猿の仲やったさかいな。
+JP {p}．．．。
+JP {p}茶は出んのか？
+JP {p}悪いな、催促したようで。
+JP でな、
+JP {p}今日はな、
+JP 何と言うか、
+JP {p}ケンカを売りに来たというか、
+JP {p}何と言うか、早い話がお別れや。
+JP なにキョトンとしとる。
+JP {p}勘違いするんやないで、
+JP うちは、二上先輩と、神取選手の団体、ＪＷＷＦに移籍する。
+JP 風間社長には、その旨伝えて了承はとってある。
+JP {p}でな、これだけを言うときたかったんや。
+JP {p}絶対に辞めんな。
+JP 確かにな、ＬＬとＪＷは今は戦うことがでけへん。
+JP でも、元は一つなんや、いくら意見が食い違っても、行き着こうとしてるとこは一つやと思う。
+JP {p}だからな、あんたがメインを取った日に、対戦や。
+JP {p}まっとき、そんな日はすぐ来るからな。
+JP だから、
+JP {p}だからここでお別れや。
+JP {p}そして、ウチと戦う日まで辞めるんやないで。
+JP じゃあな。
+EN Hey.
+EN {p}What's with that face?
+EN Is it that strange that I came to see you?
+EN {p}Well, we were like cats and dogs, so.
+EN {p}...
+EN {p}No tea?
+EN {p}Sorry, sounds like I'm hurrying you.
+EN So, ya know,
+EN {p}today,
+EN how should I put it,
+EN {p}I came to pick a fight, or,
+EN {p}how should I put it, to put it short, it's goodbye.
+EN Why're you staring blankly?
+EN {p}Don't get me wrong.
+EN I'm moving to Futagami's and Kandori's promotion, the JWWF.
+EN I've told Boss Kazama and got her okay.
+EN {p}I only wanted to tell you this.
+EN {p}Don't you dare quit.
+EN It's true, LL and JW can't fight each other now.
+EN But we were one once. However much our opinions differ, I think we're headed to the same place.
+EN {p}So, the day you get the main event, we fight.
+EN {p}Just wait, that day will come soon.
+EN So,
+EN {p}so this is goodbye.
+EN {p}And don't quit till the day you fight me.
+EN See ya.

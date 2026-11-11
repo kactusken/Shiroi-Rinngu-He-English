@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 146 id=1e group=01 original at 0xe18fb
+
+@ 146.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、移籍するのね。
+JP 何も言わないわ、
+JP それは自分の道を歩く者の自由だから。
+JP ただ、これだけは覚えておいてあなたはＬＬＰＷのレスラーよ、
+JP ＦＭＷの選手に負けないでね。
+JP 来月の頭に報告します。
+JP それまでは、ＬＬで頑張りなさい。
+EN I see, you're transferring.
+EN I won't say a word,
+EN because it's the freedom of one who walks her own path.
+EN Just remember this: you are an LLPW wrestler.
+EN Don't lose to the FMW wrestlers.
+EN I'll announce it at the start of next month.
+EN Until then, do your best at LL.

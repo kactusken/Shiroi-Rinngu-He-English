@@ -1,0 +1,35 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 310 id=f8 group=03 original at 0xe7072
+
+@ 310.00 spk=0f face=02
+# speaker: 神取 忍
+JP イーグル！！それでも挑戦者か！！私の首を、取って見ろ！！
+EN Eagle!! Some challenger you are!! Try and take my head!!
+
+@ 310.01 spk=08 face=01
+# speaker: イーグル沢井
+JP ちくしょう、ちくしょう。
+EN Damn it, damn it.
+
+@ 310.02 spk=0f face=02
+# speaker: 神取 忍
+JP 悔しがるなら本気を出せ！！
+JP ハーレー！！
+JP また、かかってこねえのか！！
+JP 風間！！いつ工藤とやらせてくれるんだ。
+JP あたしは強い奴とやりてえんだよ。強い奴！！
+JP だれでもいいからかかってこい。
+JP 私が、私が神取忍だ！！
+EN If you're frustrated, show me your all!!
+EN Harley!!
+EN Aren't you coming at me again!!
+EN Kazama!! When will you let me fight Kudo?
+EN I want to fight the strong ones. The strong ones!!
+EN Anyone will do, come at me.
+EN I am Shinobu Kandori!!

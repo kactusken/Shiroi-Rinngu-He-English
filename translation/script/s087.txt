@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 87 id=7d group=00 original at 0xde4ce
+
+@ 087.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP メインの感想は？
+JP うちも層が薄いんで、何度かメインに上がって貰うようになるの。
+JP 緊張感も何もかも違うから、
+JP いい勉強だと思いなさい。
+EN How was the main event?
+EN We're thin on talent, so I'll be putting you in the main event several times.
+EN The tension and everything else is different,
+EN so think of it as good experience.

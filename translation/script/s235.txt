@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 235 id=24 group=03 original at 0xe5140
+
+@ 235.00 spk=0a face=00
+# speaker: 半田 美希
+JP 私は、スープレックス強化よ。
+JP それ以外は無視無視。
+EN I'm building up my Suplexes.
+EN I ignore everything else.

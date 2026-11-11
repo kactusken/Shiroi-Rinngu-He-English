@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 67 id=5a group=00 original at 0xdd646
+
+@ 067.00 spk=23 face=01
+# speaker: 大仁田 厚
+JP お前ら！！
+JP 確かにワシは引退した！
+JP お前らとの約束を破った！！
+JP だがな、レスラーには、どうしてもリングに上がらなければいけない時があるんじゃ。
+JP ワシは、引退しても一生レスラーなんじゃ！！！
+JP 心は捨てられないんじゃ！！
+EN You all!!
+EN It's true, I retired!
+EN I broke my promise to you!!
+EN But there are times when a wrestler has to climb into the ring, no matter what.
+EN Even retired, I'm a wrestler for life!!!
+EN I can't throw away my heart!!

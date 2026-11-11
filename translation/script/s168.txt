@@ -1,0 +1,24 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 168 id=ad group=01 original at 0xe2df6
+
+@ 168.00 spk=2b face=02
+# speaker: グレートサスケ
+JP きてくれますか。
+JP ありがとうございます。
+JP 後は？
+EN Will you come?
+EN Thank you very much.
+EN Who else?
+
+@ 168.01 spk=23 face=01
+# speaker: 大仁田 厚
+JP そうだな、中山を貸すよ。
+JP あいつはサブゥー志望だからな。
+EN Let's see, I'll lend you Nakayama.
+EN She wants to be like Sabu.

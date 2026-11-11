@@ -1,0 +1,31 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 141 id=12 group=01 original at 0xe14b3
+
+@ 141.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP おめでとう！試合内容については多くを望まないけど、勝ったことには拍手を送るわ。
+EN Congratulations! I won't ask much of the match itself, but a win deserves applause.
+
+@ 141.01 spk=11 face=00
+# speaker: 紅 夜叉
+JP 何を習ってきた。
+JP あんな試合またやったら承知しねえぞ！！
+EN What did you learn?
+EN Wrestle a match like that again and you'll answer to me!!
+
+@ 141.02 spk=08 face=00
+# speaker: イーグル沢井
+JP 勝つことは難しくはないのさ。
+JP ヒールはお客さんを手のひらに乗せることが出来なくてはいけない。
+JP あんたがやってるのは、ばたばたと手足を動かしてるだけだ。
+JP そんなこと、プロレスごっこでしか無いんだよ。
+EN Winning isn't hard.
+EN A heel has to hold the crowd in the palm of her hand.
+EN All you do is flail your arms and legs around.
+EN That's nothing but playing wrestling.

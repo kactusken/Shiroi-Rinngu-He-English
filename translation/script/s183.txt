@@ -1,0 +1,41 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 183 id=c5 group=01 original at 0xe3a02
+
+@ 183.00 spk=0e face=00
+# speaker: ジェンヌゆかり
+JP 井上は、そう言ったきりだった。
+JP {p}強くなりたくて、ＬＬが好きで入って来た子だった。
+JP ＬＬを最強の団体にしようとしていた。
+JP {p}病が見つかったとき。
+JP 社長に懇願して、隠してもらった。{p}そして、病気は再発した。
+JP {p}世間では、スパー中に神取が殺したことになってる。
+JP 神取さんも、自分がスパー中に殺したと思っている、
+JP {p}そして、神取は悩んだ末にＬＬＰＷを飛び出した。
+JP 最強になること。最強の座を作り上げること。
+JP {p}そして、外からＬＬＰＷを最強の団体にすること。
+JP {p}でも、そこからのの気持ちは解らない。
+JP 拳を交えることで、解るかもしれない。
+JP だから、迷いを捨てて戦いな。
+JP そして、彼女の問いに答えな。
+JP {p}仙人が、山から下りてきてくれることはそう無いのだから。
+EN That was all Inoue said.
+EN {p}She was a girl who wanted to be strong, and she joined because she loved LL.
+EN She was trying to make LL the strongest promotion.
+EN {p}When her illness was found,
+EN she begged the Boss to keep it secret.{p}And then the illness came back.
+EN {p}People say Kandori killed her in sparring.
+EN Kandori herself believes she killed her in sparring.
+EN {p}And after agonizing, Kandori left LLPW.
+EN To become the strongest. To build the throne of the strongest.
+EN {p}And to make LLPW the strongest promotion from the outside.
+EN {p}But I can't know what she feels now.
+EN Trading blows might tell you.
+EN So throw away your doubts and fight.
+EN And answer her question.
+EN {p}A hermit doesn't come down from the mountain very often.

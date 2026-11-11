@@ -1,0 +1,49 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 129 id=be group=00 original at 0xe0e49
+
+@ 129.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP 頑張りなさい。
+EN Do your best.
+
+@ 129.01 spk=00 face=01
+JP 前を見て行きな！！
+EN Keep your eyes forward!!
+
+@ 129.02 spk=11 face=02
+# speaker: 紅 夜叉
+JP 引くんじゃないよ。
+EN Don't you back down.
+
+@ 129.03 spk=0a face=01
+# speaker: 半田 美希
+JP 基本を忘れちゃ駄目よ。
+EN Don't forget the basics.
+
+@ 129.04 spk=09 face=02
+# speaker: 遠藤 美月
+JP 頑張れ！
+EN Go get 'em!
+
+@ 129.05 spk=18 face=01
+# speaker: 大向 美智子
+JP 負けてもいいけど、
+JP 魅せなさいよ！！
+EN You can lose if you have to,
+EN but put on a show!!
+
+@ 129.06 spk=1e face=02
+# speaker: 立野 記代
+JP 大向の言う事聞いちゃ駄目よ。
+EN Don't listen to anything Omukai says.
+
+@ 129.07 spk=19 face=00
+# speaker: ハーレー斉藤
+JP さあ、表でみんな待ってるよ。
+EN Now, everyone's waiting out there.

@@ -1,0 +1,37 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 25 id=1c group=00 original at 0xdb67d
+
+@ 025.00 spk=21 face=00
+# speaker: 竹中さん
+JP こんにちは。
+EN Hello.
+
+@ 025.01 spk=1c face=01
+# speaker: 風間 ルミ
+JP あれ？竹中さん。
+JP 今日は何用？？
+EN Oh? Mr. Takenaka.
+EN What brings you here today?
+
+@ 025.02 spk=21 face=00
+# speaker: 竹中さん
+JP やだなあ、社長。
+JP {p}新人の子がプロデビューしたら、教えてくれるって言ったじゃないですか。
+JP 今度の後楽園ホールのカードを見て慌てて飛んできたんですよ。
+JP この子ですか、今度デビューするのは。
+JP どうもどうも、
+JP ＬＬＰＷのマネージメントの、
+JP メルブレ竹中です。
+EN Oh, come on, Boss.
+EN {p}You said you'd tell me when a rookie made her pro debut.
+EN I saw the card for the next Korakuen Hall show and rushed right over.
+EN Is this the girl debuting?
+EN Nice to meet you,
+EN I'm from LLPW management,
+EN Merbure Takenaka.

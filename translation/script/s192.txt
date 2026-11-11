@@ -1,0 +1,51 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 192 id=8a group=02 original at 0xe4073
+
+@ 192.00 spk=06 face=00
+# speaker: 篭野 ことり
+JP おい、{name}！{name}！
+JP なんやボーっとして、いくで、今日の試合は負けられん試合やで。
+JP 最強の看板は、
+JP まだ預かっとかんとな。
+EN Hey, {name}! {name}!
+EN What are you spacing out for? Let's go, we can't lose today.
+EN We're still holding on to
+EN the sign of the strongest.
+
+@ 192.01 spk=0f face=00
+# speaker: 神取 忍
+JP これで、あんたに最強を渡せるよ。{p}だけどね、５年後、５年後に私の意志を継いで現れる。
+JP まってな、
+JP そしてリターンマッチだ！！
+EN With this, I can hand you the strongest title.{p}But in five years, five years from now, someone who carries on my will will appear.
+EN Wait for it,
+EN and then it's the rematch!!
+
+@ 192.02 spk=0b face=00
+# speaker: 主人公
+JP あの試合から、ＪＷＷＦとＬＬＰＷは元の一つの団体に戻った。
+JP しかし、神取選手は消えていった。{p}私は最強の言葉を背に、団体を守ることとなった。
+JP タイトルも手に取り、全てを手に取った自分の心には、何かが足りなかった。
+JP ．．．．．神取選手もそうだったんだろうか。
+JP 最強の言葉、形なき物の黄昏。
+JP {p}今でも考えることがある。
+JP 本当に神取選手は勝つつもりがあったのだろうか、
+JP まさか！！！
+JP ただ、自分は上がるだけだ。
+JP 星を掴むまで、白いリングへ。
+EN After that match, JWWF and LLPW went back to being one promotion.
+EN But Kandori disappeared.{p}With the word strongest on my back, I came to protect the promotion.
+EN I took the title and had everything, yet something was missing in my heart.
+EN ...Was Kandori the same?
+EN The word strongest, the twilight of something with no shape.
+EN {p}I still think about it.
+EN Did Kandori really mean to win?
+EN Of course not!!!
+EN I'll just keep climbing.
+EN Until I grasp the star, to the White Ring.

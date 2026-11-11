@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 111 id=aa group=00 original at 0xdf7b8
+
+@ 111.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP えーと、{name}。いたいた。
+JP シングル戦だけど、もちろん貴方も入っているから、頑張りなさいね。{p}篭野の、神取の期待を裏切っちゃ駄目よ。
+JP どうしたの？きょとんとして。
+JP 神取は、「全ての選手」っていったでしょ。勿論、あなたも入っているわよ。
+JP タッグ戦や、対抗戦を経験した貴方は、立派なメインイベンターだわ。
+EN Let's see, {name}. There you are.
+EN It's a singles tournament, but of course you're in it too, so do your best.{p}Don't betray Kagono, or Kandori's expectations.
+EN What's with that blank look?
+EN Kandori said "every wrestler," remember? Of course that includes you.
+EN After tag matches and the interpromotional shows, you're a proper main eventer.

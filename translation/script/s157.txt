@@ -1,0 +1,32 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 157 id=7d group=01 original at 0xe239a
+
+@ 157.00 spk=06 face=01
+# speaker: 篭野 ことり
+JP よう、元気か。
+EN Hey, how's it going?
+
+@ 157.01 spk=11 face=02
+# speaker: 紅 夜叉
+JP 控え室まで来るとはいい度胸だな？
+EN You've got guts, coming all the way to the locker room.
+
+@ 157.02 spk=06 face=01
+# speaker: 篭野 ことり
+JP こわいこといわんで下さいな。一言いいにきただけです。
+JP 「約束通りきたで。」
+JP じゃあ、失礼します。
+EN Don't be scary. I only came to say one thing.
+EN "I came like I promised."
+EN Well, excuse me.
+
+@ 157.03 spk=11 face=02
+# speaker: 紅 夜叉
+JP なんだありゃ。
+EN What was that?

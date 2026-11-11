@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 184 id=c6 group=01 original at 0xe3c78
+
+@ 184.00 spk=2b face=00
+# speaker: グレートサスケ
+JP やあ、神取選手と戦うんだって？
+JP 大仕事だね。
+JP でもね、これだけは忘れちゃいけないよ。
+JP プロレスは、楽しいもんだ。
+JP 自分も、相手も、お客さんも。
+JP 最強なんて言葉は、後から付いて来るんだ。
+JP まず、最初に何があるかを、見ておくんだよ。
+EN Hey, I hear you're fighting Kandori?
+EN That's a big job.
+EN But don't forget this.
+EN Pro wrestling is fun.
+EN For yourself, your opponent and the fans.
+EN The word strongest comes afterward.
+EN First, make sure you see what comes at the start.

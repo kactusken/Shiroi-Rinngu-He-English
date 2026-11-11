@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 239 id=2d group=03 original at 0xe5319
+
+@ 239.00 spk=22 face=00
+# speaker: 石川 雄規
+JP はて？神取さんと一緒にきてた選手．．．
+JP ああ、井上ちゃんか。
+JP いい筋はしてたよ。
+JP あんな病気じゃなけりゃあ、いい所までいく選手だったろうにねえ。
+EN Hm? A wrestler who came with Kandori...
+EN Ah, you mean Inoue.
+EN She had good potential.
+EN If not for that illness, she'd have gone far.

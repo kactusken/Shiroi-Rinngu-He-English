@@ -1,0 +1,37 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 43 id=36 group=00 original at 0xdc3b2
+
+@ 043.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP ここは．．．。
+EN This place is...
+
+@ 043.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP そうね、言うなれば貴方達の先輩かな。
+EN Well, you could say they're your seniors.
+
+@ 043.02 spk=03 face=01
+# speaker: 嶋村 由佳
+JP 先輩？
+EN Seniors?
+
+@ 043.03 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、そしてＬＬＰＷという団体の精神でもあるわ。
+JP この件については、いつか話すこともあると思うの。
+JP そう、貴方達が一人前になってここに報告に来ることが出来たときに話すわ。
+EN Yes, and they're also the spirit of LLPW.
+EN I think I'll talk about this someday.
+EN Right: when you've become full-fledged and can come here to report, I'll tell you.
+
+@ 043.04 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ．．．．．。
+EN ...

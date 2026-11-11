@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 150 id=22 group=01 original at 0xe1bd7
+
+@ 150.00 spk=20 face=00
+# speaker: 藤原 善明
+JP そうだ、いい心がけだ。
+JP どうしたい？？そんな顔して、悩みがあるなら聞いてやるぜ。
+JP 聞かせてみな。
+JP ．．．そうか、自分がしている事が何なのか、
+JP 自分の心の中で納得出来ない、か。今ヒマか？俺の道場にきな、同じ事言ってた奴が練習に来る頃だ。
+EN That's right, good attitude.
+EN What's wrong? That face. If you've got worries, I'll listen.
+EN Tell me.
+EN ...I see. You can't convince yourself
+EN what it is you're doing. Free now? Come to my dojo. A guy who said the same thing should be coming for training soon.

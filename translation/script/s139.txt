@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 139 id=00 group=01 original at 0xe1405
+
+@ 139.00 spk=11 face=00
+# speaker: 紅 夜叉
+JP おい。
+JP 今月は私とのタッグが中心だから足ひっぱんなよ。
+JP タッグは初めて？？
+JP しるか！！
+EN Hey.
+EN This month is mostly tag matches with me, so don't hold me back.
+EN Your first tag match??
+EN Like I care!!

@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 58 id=4e group=00 original at 0xdcf5d
+
+@ 058.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 今月は新人王戦の２回戦があるわ。勝った者は、より高くを目指すために、
+JP {p}負けた者は、それ以上を追い求めて練習しなさい。
+EN This month has the second round of the Rookie Tournament. Winners, train to aim even higher,
+EN {p}and losers, train to chase even more than that.

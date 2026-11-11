@@ -1,0 +1,48 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 13 id=0e group=00 original at 0xda46a
+
+@ 013.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 昨年も無事にみんなと過ごすことができたわ。
+JP 今年もよろしく頼むわね。
+JP {p}特に新人の３人は、
+JP そろそろデビューだから頑張りなさい。
+EN We got through last year safely, all together.
+EN I'm counting on you again this year.
+EN {p}Especially you three rookies,
+EN you'll debut soon, so do your best.
+
+@ 013.01 spk=06 face=02
+# speaker: 篭野 ことり
+JP 社長、その事でちょっと話があるんやけど。
+EN Boss, I've got something to talk to you about on that.
+
+@ 013.02 spk=1c face=01
+# speaker: 風間 ルミ
+JP 言ってみなさい。
+EN Go ahead and say it.
+
+@ 013.03 spk=06 face=02
+# speaker: 篭野 ことり
+JP 後で言いますわ。
+EN I'll tell you later.
+
+@ 013.04 spk=1c face=01
+# speaker: 風間 ルミ
+JP わかった。後で部屋に来なさい。
+EN All right. Come to my room later.
+
+@ 013.05 spk=03 face=00
+# speaker: 嶋村 由佳
+JP なんだろうね。
+JP まあ、彼女の事だから、大した事じゃないでしょうけど、
+JP そうそう、今年もよろしくね！！
+EN I wonder what it is.
+EN Well, it's her, so it's probably nothing big.
+EN Oh right, happy new year to you too!!

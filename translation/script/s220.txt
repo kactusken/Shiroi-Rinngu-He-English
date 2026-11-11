@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 220 id=f9 group=02 original at 0xe4bb2
+
+@ 220.00 spk=06 face=00
+# speaker: 篭野 ことり
+JP なんや！！
+JP スキル？？
+JP {p}そうやな、一番強く成れるんなら、どんな技術でもええ。
+JP {p}もういいやろ、練習の邪魔や！！
+EN What!!
+EN Skills??
+EN {p}Well, any technique's fine if it makes me the strongest.
+EN {p}That's enough, ya're getting in the way of my training!!

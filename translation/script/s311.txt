@@ -1,0 +1,30 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 311 id=f9 group=03 original at 0xe719a
+
+@ 311.00 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP 社長！！神取とやらせて下さい。
+JP ＦＭＷは逃げません！！
+EN Boss!! Let me fight Kandori.
+EN FMW won't run away!!
+
+@ 311.01 spk=23 face=02
+# speaker: 大仁田 厚
+JP 工藤、落ちつけ、お前は２冠王だ。王者がそんなことでどうする。
+EN Kudo, calm down. You're the double champion. What kind of champion acts like this?
+
+@ 311.02 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP ．．．。
+EN ...
+
+@ 311.03 spk=23 face=02
+# speaker: 大仁田 厚
+JP 頭を冷やせ。
+EN Cool your head.

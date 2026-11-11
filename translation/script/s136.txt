@@ -1,0 +1,26 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 136 id=e2 group=00 original at 0xe112a
+
+@ 136.00 spk=25 face=02
+# speaker: 青野 敬子
+JP どうした？嶋村の事か？
+JP あいつもあいつなりに一生懸命なんだ。
+JP 「自己主張がない」ってキャロルに言われてね。
+JP {p}気にするな、ライバルが同じ団体にいる限り戦えるさ。
+EN What's wrong? Is it about Shimamura?
+EN She's doing her best in her own way.
+EN Carol told her, "You have no self-assertion."
+EN {p}Don't let it bother you. As long as your rival is in the same promotion, you can fight her.
+
+@ 136.01 spk=11 face=00
+# speaker: 紅 夜叉
+JP そう言う事だ、
+JP 青野も同期が居なくなったからな。
+EN That's right.
+EN Aono's classmates are gone now, too.

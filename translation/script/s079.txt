@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 79 id=72 group=00 original at 0xde18a
+
+@ 079.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP これで、私のリングも終わりね。
+JP どうしたの、そんな顔しないでよ。貴方らしくないわよ。
+JP 笑って見送ってね。
+JP {p}大丈夫、私は精一杯やったから、
+JP 嶋村由佳はリングの上で生きていたから。
+JP {p}じゃあね。
+JP ．．．メリークリスマス！！
+EN So this is the end of my ring.
+EN What's wrong? Don't make that face. It's not like you.
+EN Send me off with a smile.
+EN {p}It's okay, I gave it everything,
+EN Yuka Shimamura lived in the ring.
+EN {p}Well, see you.
+EN ...Merry Christmas!!

@@ -1,0 +1,472 @@
+# Menus, messages, names, stats, places, clubs, help and ending text: written back IN PLACE (see tools/systext.py).
+# english: at most as many cells as japanese has characters (max_bytes / 2); a tool checks the fit.
+# `\n` / `\r` are line breaks, `%s` `%2d` `{xNN}` stay as they are. Fixed-width fields are padded by the build.
+# Rows whose notes hold "# keep:" stay Japanese (copy the Japanese into english).
+offset,max_bytes,section,japanese,english,notes
+0x0D3412,33,choices (move to another group?),私は残ります。　\n移籍します。　　,I'll stay.\nI'll transfer.,# section: choices (move to another group?)
+0x0D3682,33,choices (move to another group?),いかせてください\n無理です。　　　,Let me go.\nI can't.,# section: choices (move to another group?)
+0x0F801A,6,credits (staff roll labels: keep Japanese),原　作,Story,# pad: spaces # opening cards (names: readings provisional)
+0x0F8021,10,credits (staff roll labels: keep Japanese),長友　慎也,長友　慎也,# keep: credits (names stay Japanese)
+0x0F802C,20,credits (staff roll labels: keep Japanese),キャラクターデザイン,Character Design,# pad: spaces # opening cards (names: readings provisional)
+0x0F8041,8,credits (staff roll labels: keep Japanese),厳華彼方,厳華彼方,# keep: credits (names stay Japanese)
+0x0F804A,8,credits (staff roll labels: keep Japanese),音響効果,Sound FX,# pad: spaces # opening cards (names: readings provisional)
+0x0F8053,20,credits (staff roll labels: keep Japanese),アトリエ・ドゥーブル,アトリエ・ドゥーブル,# keep: credits (names stay Japanese)
+0x0F8068,6,credits (staff roll labels: keep Japanese),音　楽,Music,# pad: spaces # opening cards (names: readings provisional)
+0x0F806F,10,credits (staff roll labels: keep Japanese),須貝　秀之,須貝　秀之,# keep: credits (names stay Japanese)
+0x0F807A,4,credits (staff roll labels: keep Japanese),企画,Plan,# pad: spaces # opening cards
+0x0F8082,4,custom wrestler bank save/delete menus (versus mode),開発,Made,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F808B,4,custom wrestler bank save/delete menus (versus mode),出演,Cast,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F80B4,17,custom wrestler bank save/delete menus (versus mode),空き　　　　　　\n,Empty\n,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F80C6,18,custom wrestler bank save/delete menus (versus mode),登録するバンクは？,Save to which bank?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F80D9,18,custom wrestler bank save/delete menus (versus mode),%sに上書きします。,Overwrite %s.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F80EC,16,custom wrestler bank save/delete menus (versus mode),よろしいですか？,Are you sure?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F80FE,19,custom wrestler bank save/delete menus (versus mode),キャンセル\n登録する,Cancel\nRegister,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8112,18,custom wrestler bank save/delete menus (versus mode),%sを登録しました。,%s registered.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8125,16,custom wrestler bank save/delete menus (versus mode),削除する選手は？,Delete whom?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8136,16,custom wrestler bank save/delete menus (versus mode),%sを削除します。,Delete %s.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8147,16,custom wrestler bank save/delete menus (versus mode),よろしいですか？,Are you sure?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8159,19,custom wrestler bank save/delete menus (versus mode),キャンセル\n削除する,Cancel\nDelete,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F816D,18,custom wrestler bank save/delete menus (versus mode),%sを削除しました。,%s deleted.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8180,40,custom wrestler bank save/delete menus (versus mode),このバンクには選手が登録されていません。,No wrestlers in this bank.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F81A9,32,custom wrestler bank save/delete menus (versus mode),ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰ,ABCDEFGHIJKLMNOP,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F81CA,28,custom wrestler bank save/delete menus (versus mode),パスワードを表示する選手は？,Show password for whom?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F81E7,40,custom wrestler bank save/delete menus (versus mode),このバンクには選手が登録されていません。,No wrestlers in this bank.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8210,10,custom wrestler bank save/delete menus (versus mode),　　　　　,,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F822D,16,custom wrestler bank save/delete menus (versus mode),　　　　　　　　,,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8242,16,custom wrestler bank save/delete menus (versus mode),　　　　　　　　,,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8256,32,custom wrestler bank save/delete menus (versus mode),ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰ,ABCDEFGHIJKLMNOP,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F827A,28,custom wrestler bank save/delete menus (versus mode),パスワードが間違っています。,Wrong password.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8297,18,custom wrestler bank save/delete menus (versus mode),登録するバンクは？,Save to which bank?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F82AA,18,custom wrestler bank save/delete menus (versus mode),%sに上書きします。,Overwrite %s.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F82BD,16,custom wrestler bank save/delete menus (versus mode),よろしいですか？,Are you sure?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F82CF,19,custom wrestler bank save/delete menus (versus mode),キャンセル\n登録する,Cancel\nRegister,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F82E3,40,custom wrestler bank save/delete menus (versus mode),このバンクには選手が登録されていません。,No wrestlers in this bank.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F830C,20,custom wrestler bank save/delete menus (versus mode),赤コーナーの選手は？,Red corner wrestler?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8321,20,custom wrestler bank save/delete menus (versus mode),青コーナーの選手は？,Blue corner wrestler?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8336,22,custom wrestler bank save/delete menus (versus mode),赤コーナーの選手１は？,Red corner wrestler 1?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F834D,22,custom wrestler bank save/delete menus (versus mode),赤コーナーの選手２は？,Red corner wrestler 2?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8364,22,custom wrestler bank save/delete menus (versus mode),青コーナーの選手１は？,Blue corner wrestler 1?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F837B,22,custom wrestler bank save/delete menus (versus mode),青コーナーの選手２は？,Blue corner wrestler 2?,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8397,4,custom wrestler bank save/delete menus (versus mode),対戦,VS,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F839D,101,custom wrestler bank save/delete menus (versus mode),戻る　　　　　　\nシングル対戦　　\nタッグ対戦　　　\n選手の削除　　　\nパスワード表示　\nパスワード入力　,Back\nSingles Match\nTag Match\nDelete Wrestler\nShow Password\nEnter Password,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8404,118,custom wrestler bank save/delete menus (versus mode),戻る　　　　　　\nシングル対戦　　\nタッグ対戦　　　\n選手の登録　　　\n選手の削除　　　\nパスワード表示　\nパスワード入力　,Back\nSingles Match\nTag Match\nRegister Wrestler\nDelete Wrestler\nShow Password\nEnter Password,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F848A,6,custom wrestler bank save/delete menus (versus mode),三年後,3 Yrs,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F84A1,58,custom wrestler bank save/delete menus (versus mode),またのお越しを\nお待ち申し上げます。\n電源をお切りください。,Thank you for\nplaying!\nPlease turn off power.,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F84F6,16,custom wrestler bank save/delete menus (versus mode),　　　　　　　　,,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8509,38,"schedule, training and status menus",一ヶ月の練習メニューを決めてください。,Plan this month's training.,"# section: schedule, training and status menus"
+0x0F8530,12,"schedule, training and status menus",スケジュール,Schedule,"# section: schedule, training and status menus"
+0x0F853D,10,"schedule, training and status menus",アドバイス,Advice,"# section: schedule, training and status menus"
+0x0F8565,12,"schedule, training and status menus",負傷箇所なし,No Injuries,"# section: schedule, training and status menus"
+0x0F8572,14,"schedule, training and status menus",今月の練習結果,Results,"# section: schedule, training and status menus"
+0x0F8581,10,"schedule, training and status menus",ステータス,Status,"# section: schedule, training and status menus"
+0x0F8592,18,"schedule, training and status menus",今月のトレーニング,This Month's Training,"# section: schedule, training and status menus"
+0x0F85A5,18,"schedule, training and status menus",今月のトレーニング,This Month's Training,"# section: schedule, training and status menus"
+0x0F85B8,36,"schedule, training and status menus",練習パートナーが未定の週があります。,Some weeks have no training partner.,"# section: schedule, training and status menus"
+0x0F85DD,26,"schedule, training and status menus",スケジュールを決定します。,Setting the schedule.,"# section: schedule, training and status menus"
+0x0F8601,10,save and load,%2d分%2d秒,%2dm %2ds,# section: save and load
+0x0F8610,26,save and load,何も御預かりしていません。,Nothing is saved.,# section: save and load
+0x0F862B,47,save and load,%s。\n%1d年目%2d月１日。\nを御預かりしています。\n,"%s.\nYr %1d, Mo %2d, Day 1.\nis saved.\n",# section: save and load
+0x0F865B,20,save and load,ロードいたしますか。,Load it?,# section: save and load
+0x0F8671,11,save and load,はい\nいいえ,Yes\nNo,# section: save and load
+0x0F867E,24,save and load,キャンセル\nセーブ\nロード,Cancel\nSave\nLoad,# section: save and load
+0x0F8697,51,save and load,%s。\n%1d年目%2d月１日。\nが既にセーブされています。\n,"%s.\nYr %1d, Mo %2d, Day 1.\nis already saved.\n",# section: save and load
+0x0F86CB,32,save and load,セーブデータは消えてしまいますが,The saved data will be erased.,# section: save and load
+0x0F86EC,16,save and load,セーブしますか。,Save anyway?,# section: save and load
+0x0F86FE,11,save and load,はい\nいいえ,Yes\nNo,# section: save and load
+0x0F8711,24,title menu,途中から\nはじめから\n対戦,Continue\nNew Game\nVS,# section: title menu
+0x0F872D,10,title menu,　　　　　,,# section: title menu
+0x0F8755,10,profile screen,末堂　春美,H. Sueda,# section: profile screen
+0x0F8769,13,profile screen,Ａ\nＢ\nＯ\nＡＢ,A\nB\nO\nAB,# section: profile screen
+0x0F877A,6,profile screen,Ａ型　,Type A,# section: profile screen
+0x0F8781,6,profile screen,Ｂ型　,Type B,# section: profile screen
+0x0F8788,6,profile screen,Ｏ型　,Type O,# section: profile screen
+0x0F878F,6,profile screen,ＡＢ型,AB,# section: profile screen
+0x0F87AC,74,profile screen,名前\n星座\n血液型\nクラブ活動歴\n小１\n　２\n　３\n　４\n　５\n　６\n中１\n　２\n　３,Name\nSign\nBlood\nClub History\nGr.1\n 2\n 3\n 4\n 5\n 6\nJH1\n 2\n 3,# section: profile screen
+0x0F87FA,16,profile screen,　　　　　　　　,,# section: profile screen
+0x0F8814,12,training result messages,手応えあり！,Nice work!,# section: training result messages
+0x0F8821,8,training result messages,成果なし,No result,# section: training result messages
+0x0F882C,17,training result messages,%sが%2d下がった。,%s down by %2d.,# section: training result messages
+0x0F883E,17,training result messages,%sが%2d上がった。,%s up by %2d.,# section: training result messages
+0x0F8850,20,training result messages,ステータス変化なし。,No status change.,# section: training result messages
+0x0F8874,6,training result messages,休日：,Off:,# section: training result messages
+0x0F887B,6,training result messages,練習：,Train:,# section: training result messages
+0x0F8882,4,training result messages,試合,Bout,# section: training result messages
+0x0F8890,32,training result messages,　　　　　　　　　　　　　　　　,,# section: training result messages
+0x0F88B8,51,swimsuit shop and hair salon,いらっしゃいませ。\n今日はどの様な、水着にしますか？,Welcome.\nWhat kind of swimsuit today?,# section: swimsuit shop and hair salon
+0x0F88EC,60,swimsuit shop and hair salon,左右で、お好みの水着を、上下で、お好みの色を、選んで下さい。,Left/right: choose a swimsuit. Up/down: choose a color.,# section: swimsuit shop and hair salon
+0x0F8929,22,swimsuit shop and hair salon,これでよろしいですか？,Is this OK?,# section: swimsuit shop and hair salon
+0x0F8941,11,swimsuit shop and hair salon,はい\nいいえ,Yes\nNo,# section: swimsuit shop and hair salon
+0x0F894D,51,swimsuit shop and hair salon,いらっしゃいませ。\n今日はどの様な、髪型にしますか？,Welcome.\nWhat kind of hairstyle today?,# section: swimsuit shop and hair salon
+0x0F8981,39,swimsuit shop and hair salon,左右で、お好みの髪型を、\n選んで下さい。,Left/right: choose a\nhairstyle.,# section: swimsuit shop and hair salon
+0x0F89A9,22,swimsuit shop and hair salon,これでよろしいですか？,Is this OK?,# section: swimsuit shop and hair salon
+0x0F89C1,11,swimsuit shop and hair salon,はい\nいいえ,Yes\nNo,# section: swimsuit shop and hair salon
+0x0F8A28,22,injury notice,怪我のため、試合欠場。,Out of match: injury.,# section: injury notice
+0x0F9071,18,calendar: holidays,元日　　　　　　　,New Year's Day,# section: calendar: holidays
+0x0F9084,18,calendar: holidays,成人の日　　　　　,Coming-of-Age Day,# section: calendar: holidays
+0x0F9097,18,calendar: holidays,建国記念日　　　　,Foundation Day,# section: calendar: holidays
+0x0F90AA,18,calendar: holidays,春分の日　　　　　,Vernal Equinox,# section: calendar: holidays
+0x0F90BD,18,calendar: holidays,緑の日　　　　　　,Greenery Day,# section: calendar: holidays
+0x0F90D0,18,calendar: holidays,憲法記念日　　　　,Constitution Day,# section: calendar: holidays
+0x0F90E3,18,calendar: holidays,国民の休日　　　　,Citizens' Holiday,# section: calendar: holidays
+0x0F90F6,18,calendar: holidays,子供の日　　　　　,Children's Day,# section: calendar: holidays
+0x0F9109,18,calendar: holidays,敬老の日　　　　　,Respect for Aged,# section: calendar: holidays
+0x0F911C,18,calendar: holidays,秋分の日　　　　　,Autumnal Equinox,# section: calendar: holidays
+0x0F912F,18,calendar: holidays,体育の日　　　　　,Sports Day,# section: calendar: holidays
+0x0F9142,18,calendar: holidays,文化の日　　　　　,Culture Day,# section: calendar: holidays
+0x0F9155,18,calendar: holidays,勤労感謝の日　　　,Labor Thanksgiving,# section: calendar: holidays
+0x0F9168,18,calendar: holidays,天皇誕生日　　　　,Emperor's Birthday,# section: calendar: holidays
+0x0F91AB,10,zodiac signs,おひつじ座,Aries,# section: zodiac signs
+0x0F91B6,10,zodiac signs,おうし座　,Taurus,# section: zodiac signs
+0x0F91C1,10,zodiac signs,ふたご座　,Gemini,# section: zodiac signs
+0x0F91CC,10,zodiac signs,かに座　　,Cancer,# section: zodiac signs
+0x0F91D7,10,zodiac signs,しし座　　,Leo,# section: zodiac signs
+0x0F91E2,10,zodiac signs,おとめ座　,Virgo,# section: zodiac signs
+0x0F91ED,10,zodiac signs,てんびん座,Libra,# section: zodiac signs
+0x0F91F8,10,zodiac signs,さそり座　,Scorpio,# section: zodiac signs
+0x0F9203,10,zodiac signs,いて座　　,Sagittarius,# section: zodiac signs
+0x0F920E,10,zodiac signs,やぎ座　　,Capricorn,# section: zodiac signs
+0x0F9219,10,zodiac signs,みずがめ座,Aquarius,# section: zodiac signs
+0x0F9224,10,zodiac signs,うお座　　,Pisces,# section: zodiac signs
+0x0F97FF,16,"names of people (speaker ids 0-45, in order)",キャロル美鳥　　,Carol Midori,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9810,16,"names of people (speaker ids 0-45, in order)",コンバット豊田　,Combat Toyoda,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9821,16,"names of people (speaker ids 0-45, in order)",クラッシャー前泊,Crusher Maedomari,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9832,16,"names of people (speaker ids 0-45, in order)",嶋村　由佳　　　,Yuka Shimamura,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9843,16,"names of people (speaker ids 0-45, in order)",秋月　水葱　　　,Nagi Akizuki,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9854,16,"names of people (speaker ids 0-45, in order)",中村　加代　　　,Kayo Nakamura,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9865,16,"names of people (speaker ids 0-45, in order)",篭野　ことり　　,Kotori Kagono,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9876,16,"names of people (speaker ids 0-45, in order)",岩下　直美　　　,Naomi Iwashita,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9887,16,"names of people (speaker ids 0-45, in order)",イーグル沢井　　,Eagle Sawai,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9898,16,"names of people (speaker ids 0-45, in order)",遠藤　美月　　　,Mizuki Endo,"# section: names of people (speaker ids 0-45, in order)"
+0x0F98A9,16,"names of people (speaker ids 0-45, in order)",半田　美希　　　,Miki Handa,"# section: names of people (speaker ids 0-45, in order)"
+0x0F98BA,16,"names of people (speaker ids 0-45, in order)",主人公　　　　　,Heroine,"# section: names of people (speaker ids 0-45, in order)"
+0x0F98CB,16,"names of people (speaker ids 0-45, in order)",石倉　由加利　　,Yukari Ishikura,"# section: names of people (speaker ids 0-45, in order)"
+0x0F98DC,16,"names of people (speaker ids 0-45, in order)",岩見　敬子　　　,Keiko Iwami,"# section: names of people (speaker ids 0-45, in order)"
+0x0F98ED,16,"names of people (speaker ids 0-45, in order)",ジェンヌゆかり　,Jenne Yukari,"# section: names of people (speaker ids 0-45, in order)"
+0x0F98FE,16,"names of people (speaker ids 0-45, in order)",神取　忍　　　　,Shinobu Kandori,"# section: names of people (speaker ids 0-45, in order)"
+0x0F990F,16,"names of people (speaker ids 0-45, in order)",工藤　めぐみ　　,Megumi Kudo,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9920,16,"names of people (speaker ids 0-45, in order)",紅　夜叉　　　　,Kurenai Yasha,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9931,16,"names of people (speaker ids 0-45, in order)",レオ北村　　　　,Leo Kitamura,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9942,16,"names of people (speaker ids 0-45, in order)",鍋野　ゆき江　　,Yukie Nabeno,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9953,16,"names of people (speaker ids 0-45, in order)",長嶋　美智子　　,Michiko Nagashima,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9964,16,"names of people (speaker ids 0-45, in order)",中山　香里　　　,Kaori Nakayama,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9975,16,"names of people (speaker ids 0-45, in order)",ナース中村　　　,Nurse Nakamura,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9986,16,"names of people (speaker ids 0-45, in order)",ニ上　美紀子　　,Mikiko Futagami,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9997,16,"names of people (speaker ids 0-45, in order)",大向　美智子　　,Michiko Omukai,"# section: names of people (speaker ids 0-45, in order)"
+0x0F99A8,16,"names of people (speaker ids 0-45, in order)",ハーレー斉藤　　,Harley Saito,"# section: names of people (speaker ids 0-45, in order)"
+0x0F99B9,16,"names of people (speaker ids 0-45, in order)",里　美和　　　　,Miwa Sato,"# section: names of people (speaker ids 0-45, in order)"
+0x0F99CA,16,"names of people (speaker ids 0-45, in order)",清水　真弓　　　,Mayumi Shimizu,"# section: names of people (speaker ids 0-45, in order)"
+0x0F99DB,16,"names of people (speaker ids 0-45, in order)",風間　ルミ　　　,Rumi Kazama,"# section: names of people (speaker ids 0-45, in order)"
+0x0F99EC,16,"names of people (speaker ids 0-45, in order)",シャーク土屋　　,Shark Tsuchiya,"# section: names of people (speaker ids 0-45, in order)"
+0x0F99FD,16,"names of people (speaker ids 0-45, in order)",立野　記代　　　,Noriyo Tateno,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A0E,16,"names of people (speaker ids 0-45, in order)",ツッパリ・マック,Tsuppari Mac,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A1F,16,"names of people (speaker ids 0-45, in order)",藤原　善明　　　,Yoshiaki Fujiwara,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A30,16,"names of people (speaker ids 0-45, in order)",竹中さん　　　　,Mr. Takenaka,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A41,16,"names of people (speaker ids 0-45, in order)",石川　雄規　　　,Yuki Ishikawa,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A52,16,"names of people (speaker ids 0-45, in order)",大仁田　厚　　　,Atsushi Onita,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A63,16,"names of people (speaker ids 0-45, in order)",山下　淳　　　　,Jun Yamashita,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A74,16,"names of people (speaker ids 0-45, in order)",青野　敬子　　　,Keiko Aono,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A85,16,"names of people (speaker ids 0-45, in order)",多和田　初美　　,Hatsumi Tawada,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9A96,16,"names of people (speaker ids 0-45, in order)",ターザン後藤　　,Tarzan Goto,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9AA7,16,"names of people (speaker ids 0-45, in order)",美容院　　　　　,Hair Salon,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9AB8,16,"names of people (speaker ids 0-45, in order)",水着屋　　　　　,Swimsuit Shop,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9AC9,16,"names of people (speaker ids 0-45, in order)",案内人　　　　　,Guide,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9ADA,16,"names of people (speaker ids 0-45, in order)",グレートサスケ　,Great Sasuke,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9AEB,16,"names of people (speaker ids 0-45, in order)",Ｓ．デルフィン　,Super Delfin,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9AFC,16,"names of people (speaker ids 0-45, in order)",新崎　人生　　　,Jinsei Shinzaki,"# section: names of people (speaker ids 0-45, in order)"
+0x0F9B45,97,status screens (templates: keep the line structure),スタミナ　%3d\r体力　　　%3d\r筋力　　　%3d\r根性　　　%3d\rスピード　%3d\r柔軟性　　%3d\r器用さ　　%3d,Stamina   %3d\rHealth    %3d\rPower     %3d\rGuts      %3d\rSpeed     %3d\rFlexib.   %3d\rDex       %3d,# section: status screens (templates: keep the line structure)
+0x0F9BA7,103,status screens (templates: keep the line structure),身長　　　%3d\r体重　　　%3d\rストレス　%3d\r人気　　　%3d\rプロポーション　\r　　　　　%3d\r　　　　　　　　,Height    %3d\rWeight    %3d\rStress    %3d\rFame      %3d\rFigure\r          %3d\r,# section: status screens (templates: keep the line structure)
+0x0F9C0F,111,status screens (templates: keep the line structure),持ち技　　　　　\r　　　　　　　　\r　パンチ系　%2d\r　キック系　%2d\r　関節技　　%2d\r　投げ技　%3d\r　飛び技　　%2d,Moves\r\r  Punch     %2d\r  Kick      %2d\r  Joint     %2d\r  Throw   %3d\r  Aerial    %2d,# section: status screens (templates: keep the line structure)
+0x0F9C7F,118,status screens (templates: keep the line structure),習得スキル　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　,Skills\r\r\r\r\r\r,# section: status screens (templates: keep the line structure)
+0x0F9CF6,118,status screens (templates: keep the line structure),負傷　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　,Injuries\r\r\r\r\r\r,# section: status screens (templates: keep the line structure)
+0x0F9D6D,62,status screens (templates: keep the line structure),スタミナ\r体力　　\r筋力　　\r根性　　\rスピード\r柔軟性　\r器用さ　,Stamina\rHealth\rPower\rGuts\rSpeed\rFlexib.\rDex,# section: status screens (templates: keep the line structure)
+0x0F9DAC,78,status screens (templates: keep the line structure),身長　　\r体重　　\rストレス\r人気　　\rプロポーション　\r　　　　\r　　　　　　　　,Height\rWeight\rStress\rFame\rFigure\r\r,# section: status screens (templates: keep the line structure)
+0x0F9DFB,122,status screens (templates: keep the line structure),持ち技　　　　　\r　　　　　　　　\r　パンチ系　　　　\r　キック系　　　　\r　関節技　　　　\r　投げ技　　　　\r　飛び技　　　　,Moves\r\r  Punch\r  Kick\r  Joint\r  Throw\r  Aerial,# section: status screens (templates: keep the line structure)
+0x0F9E76,106,status screens (templates: keep the line structure),負傷　　　　　　\r　　　%s　　　\r%s　　　　%s\r　　　%s　　　\r　　　　　　　　\r　%s　　%s　\r　　　　　　　　,Injuries\r      %s\r%s        %s\r      %s\r\r  %s    %s\r,# section: status screens (templates: keep the line structure)
+0x0F9F19,17,places to go (fixed 16 byte lines),食事　　　　　　\r,Dining\r,# section: places to go (fixed 16 byte lines)
+0x0F9F2B,17,places to go (fixed 16 byte lines),映画　　　　　　\r,Movies\r,# section: places to go (fixed 16 byte lines)
+0x0F9F3D,17,places to go (fixed 16 byte lines),ランニング　　　\r,Running\r,# section: places to go (fixed 16 byte lines)
+0x0F9F4F,17,places to go (fixed 16 byte lines),完全休養　　　　\r,Full Rest\r,# section: places to go (fixed 16 byte lines)
+0x0F9F61,17,places to go (fixed 16 byte lines),キックジム　　　\r,Kick Gym\r,# section: places to go (fixed 16 byte lines)
+0x0F9F73,17,places to go (fixed 16 byte lines),柔道場　　　　　\r,Judo Dojo\r,# section: places to go (fixed 16 byte lines)
+0x0F9F85,17,places to go (fixed 16 byte lines),空手道場　　　　\r,Karate Dojo\r,# section: places to go (fixed 16 byte lines)
+0x0F9F97,17,places to go (fixed 16 byte lines),水着屋　　　　　\r,Swimsuit Shop\r,# section: places to go (fixed 16 byte lines)
+0x0F9FA9,17,places to go (fixed 16 byte lines),美容院　　　　　\r,Hair Salon\r,# section: places to go (fixed 16 byte lines)
+0x0F9FBB,17,places to go (fixed 16 byte lines),カラオケＢＯＸ　\r,Karaoke Box\r,# section: places to go (fixed 16 byte lines)
+0x0F9FCD,17,places to go (fixed 16 byte lines),プール　　　　　\r,Pool\r,# section: places to go (fixed 16 byte lines)
+0x0F9FDF,17,places to go (fixed 16 byte lines),ショッピング　　\r,Shopping\r,# section: places to go (fixed 16 byte lines)
+0x0F9FF1,17,places to go (fixed 16 byte lines),サンボクラブ　　\r,Sambo Club\r,# section: places to go (fixed 16 byte lines)
+0x0FA003,17,places to go (fixed 16 byte lines),エアロビジム　　\r,Aerobics Gym\r,# section: places to go (fixed 16 byte lines)
+0x0FA471,16,school clubs (fixed 16 byte records),帰宅部　　　　　,Go-Home Club,# section: school clubs (fixed 16 byte records)
+0x0FA482,16,school clubs (fixed 16 byte records),陸上部　　　　　,Track Club,# section: school clubs (fixed 16 byte records)
+0x0FA493,16,school clubs (fixed 16 byte records),ボディビル探求会,Bodybuilding,# section: school clubs (fixed 16 byte records)
+0x0FA4A4,16,school clubs (fixed 16 byte records),卓球部　　　　　,Table Tennis,# section: school clubs (fixed 16 byte records)
+0x0FA4B5,16,school clubs (fixed 16 byte records),ヨガ研究会　　　,Yoga Club,# section: school clubs (fixed 16 byte records)
+0x0FA4C6,16,school clubs (fixed 16 byte records),弓道部　　　　　,Archery Club,# section: school clubs (fixed 16 byte records)
+0x0FA4D7,16,school clubs (fixed 16 byte records),チーマー　　　　,Street Gang,# section: school clubs (fixed 16 byte records)
+0x0FA4E8,16,school clubs (fixed 16 byte records),アイドル　　　　,Idol,# section: school clubs (fixed 16 byte records)
+0x0FA4F9,16,school clubs (fixed 16 byte records),生徒会　　　　　,Student Council,# section: school clubs (fixed 16 byte records)
+0x0FA50A,16,school clubs (fixed 16 byte records),バレー部　　　　,Volleyball,# section: school clubs (fixed 16 byte records)
+0x0FA51B,16,school clubs (fixed 16 byte records),映画鑑賞同好会　,Movie Club,# section: school clubs (fixed 16 byte records)
+0x0FA52C,16,school clubs (fixed 16 byte records),エアロビクス　　,Aerobics,# section: school clubs (fixed 16 byte records)
+0x0FA53D,16,school clubs (fixed 16 byte records),テコンドー部　　,Taekwondo,# section: school clubs (fixed 16 byte records)
+0x0FA54E,16,school clubs (fixed 16 byte records),ボクシング部　　,Boxing Club,# section: school clubs (fixed 16 byte records)
+0x0FA55F,16,school clubs (fixed 16 byte records),合気道部　　　　,Aikido Club,# section: school clubs (fixed 16 byte records)
+0x0FA570,16,school clubs (fixed 16 byte records),レスリング部　　,Wrestling,# section: school clubs (fixed 16 byte records)
+0x0FA581,16,school clubs (fixed 16 byte records),体操部　　　　　,Gymnastics,# section: school clubs (fixed 16 byte records)
+0x0FA592,16,school clubs (fixed 16 byte records),珠算研究会　　　,Abacus Club,# section: school clubs (fixed 16 byte records)
+0x0FA5A3,16,school clubs (fixed 16 byte records),ハイキング部　　,Hiking Club,# section: school clubs (fixed 16 byte records)
+0x0FA5B4,16,school clubs (fixed 16 byte records),調理研究会　　　,Cooking Club,# section: school clubs (fixed 16 byte records)
+0x0FA5C5,16,school clubs (fixed 16 byte records),陶芸同好会　　　,Pottery Club,# section: school clubs (fixed 16 byte records)
+0x0FA5D6,16,school clubs (fixed 16 byte records),バスケット部　　,Basketball,# section: school clubs (fixed 16 byte records)
+0x0FA5E7,16,school clubs (fixed 16 byte records),剣道部　　　　　,Kendo Club,# section: school clubs (fixed 16 byte records)
+0x0FA5F8,16,school clubs (fixed 16 byte records),書道部　　　　　,Calligraphy,# section: school clubs (fixed 16 byte records)
+0x0FA609,16,school clubs (fixed 16 byte records),道徳研究会　　　,Ethics Club,# section: school clubs (fixed 16 byte records)
+0x0FA61A,16,school clubs (fixed 16 byte records),演劇部　　　　　,Drama Club,# section: school clubs (fixed 16 byte records)
+0x0FA62B,16,school clubs (fixed 16 byte records),コーラス部　　　,Chorus Club,# section: school clubs (fixed 16 byte records)
+0x0FA63C,16,school clubs (fixed 16 byte records),柔道部　　　　　,Judo Club,# section: school clubs (fixed 16 byte records)
+0x0FA64D,16,school clubs (fixed 16 byte records),空手部　　　　　,Karate Club,# section: school clubs (fixed 16 byte records)
+0x0FA65E,16,school clubs (fixed 16 byte records),中国拳法部　　　,Kung Fu Club,# section: school clubs (fixed 16 byte records)
+0x0FA66F,16,school clubs (fixed 16 byte records),バレエ部　　　　,Ballet Club,# section: school clubs (fixed 16 byte records)
+0x0FA680,16,school clubs (fixed 16 byte records),ソフトボール部　,Softball,# section: school clubs (fixed 16 byte records)
+0x0FA691,16,school clubs (fixed 16 byte records),サッカー部　　　,Soccer Club,# section: school clubs (fixed 16 byte records)
+0x0FA6A2,16,school clubs (fixed 16 byte records),ワンゲル部　　　,Trekking,# section: school clubs (fixed 16 byte records)
+0x0FA6B3,16,school clubs (fixed 16 byte records),新体操部　　　　,Rhythmic Gym,# section: school clubs (fixed 16 byte records)
+0x0FA6C4,16,school clubs (fixed 16 byte records),水泳部　　　　　,Swim Club,# section: school clubs (fixed 16 byte records)
+0x0FA6D5,16,school clubs (fixed 16 byte records),チアリーディング,Cheerleading,# section: school clubs (fixed 16 byte records)
+0x0FA6E6,16,school clubs (fixed 16 byte records),テニス部　　　　,Tennis,# section: school clubs (fixed 16 byte records)
+0x0FA6F7,16,school clubs (fixed 16 byte records),腕相撲愛好会　　,Arm Wrestling,# section: school clubs (fixed 16 byte records)
+0x0FA708,16,school clubs (fixed 16 byte records),軽音楽部　　　　,Light Music,# section: school clubs (fixed 16 byte records)
+0x0FA719,16,school clubs (fixed 16 byte records),吹奏楽部　　　　,Brass Band,# section: school clubs (fixed 16 byte records)
+0x0FA72A,16,school clubs (fixed 16 byte records),美術部　　　　　,Art Club,# section: school clubs (fixed 16 byte records)
+0x0FA73B,16,school clubs (fixed 16 byte records),漫画研究会　　　,Manga Club,# section: school clubs (fixed 16 byte records)
+0x0FA74C,16,school clubs (fixed 16 byte records),茶道部　　　　　,Tea Ceremony,# section: school clubs (fixed 16 byte records)
+0x0FA75D,16,school clubs (fixed 16 byte records),華道部　　　　　,Ikebana,# section: school clubs (fixed 16 byte records)
+0x0FA76E,16,school clubs (fixed 16 byte records),神社仏閣探求会　,Shrines&Temples,# section: school clubs (fixed 16 byte records)
+0x0FA77F,16,school clubs (fixed 16 byte records),手芸部　　　　　,Handicrafts,# section: school clubs (fixed 16 byte records)
+0x0FA790,16,school clubs (fixed 16 byte records),和学研究会　　　,Japanese Studies,# section: school clubs (fixed 16 byte records)
+0x0FA7A1,16,school clubs (fixed 16 byte records),園芸部　　　　　,Gardening,# section: school clubs (fixed 16 byte records)
+0x0FA7B2,16,school clubs (fixed 16 byte records),古武術　　　　　,Old Martial Arts,# section: school clubs (fixed 16 byte records)
+0x0FAE63,154,numbering,　１\r　２\r　３\r　４\r　５\r　６\r　７\r　８\r　９\r１０\r１１\r１２\r１３\r１４\r１５\r１６\r１７\r１８\r１９\r２０\r２１\r２２\r２３\r２４\r２５\r２６\r２７\r２８\r２９\r３０\r３１,1\r2\r3\r4\r5\r6\r7\r8\r9\r10\r11\r12\r13\r14\r15\r16\r17\r18\r19\r20\r21\r22\r23\r24\r25\r26\r27\r28\r29\r30\r31,# section: numbering
+0x0FB50E,12,training exercises,サイドレイズ,Side Raise,# section: training exercises
+0x0FB51B,14,training exercises,プッシュアップ,Push-ups,# section: training exercises
+0x0FB52A,14,training exercises,フロントレイズ,Front Raise,# section: training exercises
+0x0FB539,18,training exercises,ロープクライミング,Rope Climbing,# section: training exercises
+0x0FB54C,8,training exercises,ブリッジ,Bridge,# section: training exercises
+0x0FB555,16,training exercises,ケーブルクランチ,Cable Crunch,# section: training exercises
+0x0FB566,12,training exercises,シットアップ,Sit-ups,# section: training exercises
+0x0FB573,6,training exercises,パンチ,Punch,# section: training exercises
+0x0FB57A,18,training exercises,ヒンズースクワット,Hindu Squats,# section: training exercises
+0x0FB58D,6,training exercises,縄跳び,Rope,# section: training exercises
+0x0FB594,6,training exercises,キック,Kicks,# section: training exercises
+0x0FB59B,12,training exercises,エアロビクス,Aerobics,# section: training exercises
+0x0FB5A8,12,training exercises,スパーリング,Sparring,# section: training exercises
+0x0FB5B5,6,training exercises,受け身,Falls,# section: training exercises
+0x0FB5BC,18,training exercises,アドリミナルタップ,Abdominal Tap,# section: training exercises
+0x0FB5CF,10,training exercises,ランニング,Running,# section: training exercises
+0x0FB9BC,8,statistics and skill names (labels),スピード,Speed,# section: statistics and skill names (labels)
+0x0FB9C5,6,statistics and skill names (labels),柔軟性,Flex,# section: statistics and skill names (labels)
+0x0FB9CC,4,statistics and skill names (labels),器用,Dex,# section: statistics and skill names (labels)
+0x0FB9D1,4,statistics and skill names (labels),根性,Guts,# section: statistics and skill names (labels)
+0x0FB9D6,4,statistics and skill names (labels),人気,Fame,# section: statistics and skill names (labels)
+0x0FB9DB,4,statistics and skill names (labels),身長,Ht,# section: statistics and skill names (labels)
+0x0FB9E0,4,statistics and skill names (labels),体重,Wt,# section: statistics and skill names (labels)
+0x0FB9E5,6,statistics and skill names (labels),誕生月,Month,# section: statistics and skill names (labels)
+0x0FB9EC,6,statistics and skill names (labels),誕生日,Day,# section: statistics and skill names (labels)
+0x0FB9F3,6,statistics and skill names (labels),血液型,Blood,# section: statistics and skill names (labels)
+0x0FB9FA,8,statistics and skill names (labels),右腕体力,R Arm St,# section: statistics and skill names (labels)
+0x0FBA03,8,statistics and skill names (labels),左腕体力,L Arm St,# section: statistics and skill names (labels)
+0x0FBA0C,8,statistics and skill names (labels),右脚体力,R Leg St,# section: statistics and skill names (labels)
+0x0FBA15,8,statistics and skill names (labels),左脚体力,L Leg St,# section: statistics and skill names (labels)
+0x0FBA1E,8,statistics and skill names (labels),頭部体力,Head St,# section: statistics and skill names (labels)
+0x0FBA27,8,statistics and skill names (labels),胴体体力,Body St,# section: statistics and skill names (labels)
+0x0FBA30,8,statistics and skill names (labels),右腕筋力,R Arm Pw,# section: statistics and skill names (labels)
+0x0FBA39,8,statistics and skill names (labels),左腕筋力,L Arm Pw,# section: statistics and skill names (labels)
+0x0FBA42,8,statistics and skill names (labels),右脚筋力,R Leg Pw,# section: statistics and skill names (labels)
+0x0FBA4B,8,statistics and skill names (labels),左脚筋力,L Leg Pw,# section: statistics and skill names (labels)
+0x0FBA54,8,statistics and skill names (labels),頭部筋力,Head Pw,# section: statistics and skill names (labels)
+0x0FBA5D,8,statistics and skill names (labels),胴体筋力,Body Pw,# section: statistics and skill names (labels)
+0x0FBA66,10,statistics and skill names (labels),ジャンプ力,Jumping,# section: statistics and skill names (labels)
+0x0FBA71,8,statistics and skill names (labels),プロレス,Pro Wres,# section: statistics and skill names (labels)
+0x0FBA7A,6,statistics and skill names (labels),パンチ,Punch,# section: statistics and skill names (labels)
+0x0FBA81,6,statistics and skill names (labels),キック,Kicks,# section: statistics and skill names (labels)
+0x0FBA88,6,statistics and skill names (labels),飛び技,Aerial,# section: statistics and skill names (labels)
+0x0FBA8F,4,statistics and skill names (labels),空手,Kara,# section: statistics and skill names (labels)
+0x0FBA94,4,statistics and skill names (labels),柔道,Judo,# section: statistics and skill names (labels)
+0x0FBA99,6,statistics and skill names (labels),サンボ,Sambo,# section: statistics and skill names (labels)
+0x0FBAA0,16,statistics and skill names (labels),キックボクシング,Kickboxing,# section: statistics and skill names (labels)
+0x0FBAB1,6,statistics and skill names (labels),ルチャ,Lucha,# section: statistics and skill names (labels)
+0x0FBAB8,6,statistics and skill names (labels),藤原組,Fuji,# section: statistics and skill names (labels)
+0x0FBABF,6,statistics and skill names (labels),ＦＭＷ,FMW,# section: statistics and skill names (labels)
+0x0FBAC6,6,statistics and skill names (labels),関節技,Joints,# section: statistics and skill names (labels)
+0x0FBACD,6,statistics and skill names (labels),受け身,Falls,# section: statistics and skill names (labels)
+0x0FBAD4,14,statistics and skill names (labels),スープレックス,Suplexes,# section: statistics and skill names (labels)
+0x0FBAE3,4,statistics and skill names (labels),ラフ,Rgh,# section: statistics and skill names (labels)
+0x0FBAE8,12,statistics and skill names (labels),冷静さ最大値,Max Calm,# section: statistics and skill names (labels)
+0x0FBAF5,6,statistics and skill names (labels),正義感,Justice,# section: statistics and skill names (labels)
+0x0FBAFC,10,statistics and skill names (labels),ストロング,Strong,# section: statistics and skill names (labels)
+0x0FBB07,16,statistics and skill names (labels),エンタテイメント,Entertainment,# section: statistics and skill names (labels)
+0x0FBB18,14,statistics and skill names (labels),ベビーフェイス,Babyface,# section: statistics and skill names (labels)
+0x0FBB27,6,statistics and skill names (labels),パワー,Power,# section: statistics and skill names (labels)
+0x0FBB2E,6,statistics and skill names (labels),ヒール,Heel,# section: statistics and skill names (labels)
+0x0FBB35,6,statistics and skill names (labels),得意技,Move,# section: statistics and skill names (labels)
+0x0FBB3C,10,statistics and skill names (labels),得意返し技,Counter,# section: statistics and skill names (labels)
+0x0FBB47,10,statistics and skill names (labels),得意決め技,Fav Finish,# section: statistics and skill names (labels)
+0x0FBB52,8,statistics and skill names (labels),スタミナ,Stamina,# section: statistics and skill names (labels)
+0x0FBB5B,4,statistics and skill names (labels),体力,Hlth,# section: statistics and skill names (labels)
+0x0FBB60,4,statistics and skill names (labels),筋力,Pwr,# section: statistics and skill names (labels)
+0x0FBB65,4,statistics and skill names (labels),身長,Ht,# section: statistics and skill names (labels)
+0x0FBB6A,4,statistics and skill names (labels),体重,Wt,# section: statistics and skill names (labels)
+0x0FBB6F,14,statistics and skill names (labels),プロポーション,Proportions,# section: statistics and skill names (labels)
+0x0FBB7E,8,statistics and skill names (labels),ストレス,Stress,# section: statistics and skill names (labels)
+0x0FBB87,8,statistics and skill names (labels),キック系,Kicks,# section: statistics and skill names (labels)
+0x0FBB90,8,statistics and skill names (labels),パンチ系,Punches,# section: statistics and skill names (labels)
+0x0FBB99,8,statistics and skill names (labels),関節技系,Joints,# section: statistics and skill names (labels)
+0x0FBBA2,8,statistics and skill names (labels),投げ技系,Throws,# section: statistics and skill names (labels)
+0x0FBBAB,8,statistics and skill names (labels),飛び技系,Aerial,# section: statistics and skill names (labels)
+0x0FBBB4,6,statistics and skill names (labels),スキル,Skill,# section: statistics and skill names (labels)
+0x0FBBBB,8,statistics and skill names (labels),右腕負傷,R Arm Inj,# section: statistics and skill names (labels)
+0x0FBBC4,8,statistics and skill names (labels),左腕負傷,L Arm Inj,# section: statistics and skill names (labels)
+0x0FBBCD,8,statistics and skill names (labels),右脚負傷,R Leg Inj,# section: statistics and skill names (labels)
+0x0FBBD6,8,statistics and skill names (labels),左脚負傷,L Leg Inj,# section: statistics and skill names (labels)
+0x0FBBDF,8,statistics and skill names (labels),頭部負傷,Head Inj,# section: statistics and skill names (labels)
+0x0FBBE8,8,statistics and skill names (labels),胴体負傷,Body Inj,# section: statistics and skill names (labels)
+0x0FBBF1,10,statistics and skill names (labels),クラブ小一,Club E1,# section: statistics and skill names (labels)
+0x0FBBFC,10,statistics and skill names (labels),クラブ小二,Club E2,# section: statistics and skill names (labels)
+0x0FBC07,10,statistics and skill names (labels),クラブ小三,Club E3,# section: statistics and skill names (labels)
+0x0FBC12,10,statistics and skill names (labels),クラブ小四,Club E4,# section: statistics and skill names (labels)
+0x0FBC1D,10,statistics and skill names (labels),クラブ小五,Club E5,# section: statistics and skill names (labels)
+0x0FBC28,10,statistics and skill names (labels),クラブ小六,Club E6,# section: statistics and skill names (labels)
+0x0FBC33,10,statistics and skill names (labels),クラブ中一,Club JH1,# section: statistics and skill names (labels)
+0x0FBC3E,10,statistics and skill names (labels),クラブ中二,Club JH2,# section: statistics and skill names (labels)
+0x0FBC49,10,statistics and skill names (labels),クラブ中三,Club JH3,# section: statistics and skill names (labels)
+0x0FBC54,6,statistics and skill names (labels),冷静さ,Calm,# section: statistics and skill names (labels)
+0x0FBC5B,6,statistics and skill names (labels),演技力,Acting,# section: statistics and skill names (labels)
+0x0FBC62,6,statistics and skill names (labels),歌唱力,Singing,# section: statistics and skill names (labels)
+0x0FBC69,6,statistics and skill names (labels),集中力,Focus,# section: statistics and skill names (labels)
+0x0FBC70,14,statistics and skill names (labels),右腕負傷レベル,R Arm Injury Lv,# section: statistics and skill names (labels)
+0x0FBC7F,14,statistics and skill names (labels),左腕負傷レベル,L Arm Injury Lv,# section: statistics and skill names (labels)
+0x0FBC8E,14,statistics and skill names (labels),右脚負傷レベル,R Leg Injury Lv,# section: statistics and skill names (labels)
+0x0FBC9D,14,statistics and skill names (labels),左脚負傷レベル,L Leg Injury Lv,# section: statistics and skill names (labels)
+0x0FBCAC,14,statistics and skill names (labels),頭部負傷レベル,Head Injury Lv,# section: statistics and skill names (labels)
+0x0FBCBB,14,statistics and skill names (labels),胴体負傷レベル,Body Injury Lv,# section: statistics and skill names (labels)
+0x0FBCCA,10,statistics and skill names (labels),右腕負傷度,R Arm Hurt,# section: statistics and skill names (labels)
+0x0FBCD5,10,statistics and skill names (labels),左腕負傷度,L Arm Hurt,# section: statistics and skill names (labels)
+0x0FBCE0,10,statistics and skill names (labels),右脚負傷度,R Leg Hurt,# section: statistics and skill names (labels)
+0x0FBCEB,10,statistics and skill names (labels),左脚負傷度,L Leg Hurt,# section: statistics and skill names (labels)
+0x0FBCF6,10,statistics and skill names (labels),頭部負傷度,Head Hurt,# section: statistics and skill names (labels)
+0x0FBD01,10,statistics and skill names (labels),胴体負傷度,Body Hurt,# section: statistics and skill names (labels)
+0x0FBD0C,12,statistics and skill names (labels),右腕負傷深度,R Arm Depth,# section: statistics and skill names (labels)
+0x0FBD19,12,statistics and skill names (labels),左腕負傷深度,L Arm Depth,# section: statistics and skill names (labels)
+0x0FBD26,12,statistics and skill names (labels),右腕負傷深度,R Arm Depth,# section: statistics and skill names (labels)
+0x0FBD33,12,statistics and skill names (labels),左脚負傷深度,L Leg Depth,# section: statistics and skill names (labels)
+0x0FBD40,12,statistics and skill names (labels),頭部負傷深度,Head Depth,# section: statistics and skill names (labels)
+0x0FBD4D,12,statistics and skill names (labels),胴体負傷深度,Body Depth,# section: statistics and skill names (labels)
+0x0FBD5A,12,statistics and skill names (labels),右腕再負傷度,R Arm Reinj.,# section: statistics and skill names (labels)
+0x0FBD67,12,statistics and skill names (labels),左腕再負傷度,L Arm Reinj.,# section: statistics and skill names (labels)
+0x0FBD74,12,statistics and skill names (labels),右脚再負傷度,R Leg Reinj.,# section: statistics and skill names (labels)
+0x0FBD81,12,statistics and skill names (labels),左脚再負傷度,L Leg Reinj.,# section: statistics and skill names (labels)
+0x0FBD8E,12,statistics and skill names (labels),頭部再負傷度,Head Reinjury,# section: statistics and skill names (labels)
+0x0FBD9B,12,statistics and skill names (labels),胴体再負傷度,Body Reinjury,# section: statistics and skill names (labels)
+0x0FBDA8,12,statistics and skill names (labels),練習失敗回数,Training Fails,# section: statistics and skill names (labels)
+0x0FBDB5,12,statistics and skill names (labels),右腕スタミナ,R Arm Stamina,# section: statistics and skill names (labels)
+0x0FBDC2,12,statistics and skill names (labels),左腕スタミナ,L Arm Stamina,# section: statistics and skill names (labels)
+0x0FBDCF,12,statistics and skill names (labels),右脚スタミナ,R Leg Stamina,# section: statistics and skill names (labels)
+0x0FBDDC,12,statistics and skill names (labels),左脚スタミナ,L Leg Stamina,# section: statistics and skill names (labels)
+0x0FBDE9,12,statistics and skill names (labels),頭部スタミナ,Head Stamina,# section: statistics and skill names (labels)
+0x0FBDF6,12,statistics and skill names (labels),胴体スタミナ,Body Stamina,# section: statistics and skill names (labels)
+0x0FBE03,4,statistics and skill names (labels),名前,Name,# section: statistics and skill names (labels)
+0x0FBE7B,36,help and prompts,ヒロインのプロフィールを設定します。,Set up the heroine's profile.,# section: help and prompts
+0x0FBEA0,60,help and prompts,文字の種類を選んでください（ＢＳは最後の文字を削除します）。,Choose a character type (BS deletes the last letter).,# section: help and prompts
+0x0FBEDD,44,help and prompts,読みの一文字目を入力してください（音読み）。,Enter the first letter of the reading.,# section: help and prompts
+0x0FBF0A,36,help and prompts,学年ごとに所属クラブを設定できます。,You can set a club for each school year.,# section: help and prompts
+0x0FBF2F,28,help and prompts,所属クラブを選んでください。,Choose a club.,# section: help and prompts
+0x0FBF4C,176,help and prompts,ＡＤＶＩＣＥ：\r　仲間の話を聞きます。\rＳＣＨＥＤＵＬＥ：\r　練習スケジュールを決めます。{x07}\rＳＴＡＴＵＳ：\r　パラメーターを見ます。\rＣＯＭＰＬＥＴＥ：\r　スケジュールを実行します。,ADVICE:\r Hear from your friends.\rSCHEDULE:\r Plan your training.{x07}\rSTATUS:\r View your stats.\rCOMPLETE:\r Run the schedule.,# section: help and prompts
+0x0FBFFD,30,help and prompts,話を聞く相手を選んでください。,Choose who to talk to.,# section: help and prompts
+0x0FC01C,42,help and prompts,スケジュールを設定する週を選んでください。,Choose a week to schedule.,# section: help and prompts
+0x0FC047,73,help and prompts,日曜・祝日以外に練習ができます。\r「休み」を選ぶと、一週間全休になります。,"Train any day but Sun and holidays.\rChoose ""Rest"" to take the whole week off.",# section: help and prompts
+0x0FC091,26,help and prompts,練習相手を選んでください。,Choose a training partner.,# section: help and prompts
+0x0FC0AC,32,help and prompts,どこに出かけるか決めてください。,Decide where to go.,# section: help and prompts
+0x0FC0CD,30,help and prompts,月・日の順に入力してください。,"Enter the month, then the day.",# section: help and prompts
+0x0FC18C,16,arenas (fixed 16 byte records),札幌中島体育Ｓ　,Nakajima Gym,# section: arenas (fixed 16 byte records)
+0x0FC19D,16,arenas (fixed 16 byte records),十和田市民体育館,Towada Civic Gym,# section: arenas (fixed 16 byte records)
+0x0FC1AE,16,arenas (fixed 16 byte records),盛岡市特設試合場,Morioka Special Ring,# section: arenas (fixed 16 byte records)
+0x0FC1BF,16,arenas (fixed 16 byte records),石巻市立体育館　,Ishinomaki Gym,# section: arenas (fixed 16 byte records)
+0x0FC1D0,16,arenas (fixed 16 byte records),能代市民体育Ｓ　,Noshiro Civic Gym,# section: arenas (fixed 16 byte records)
+0x0FC1E1,16,arenas (fixed 16 byte records),山形県立体育館　,Yamagata Pref. Gym,# section: arenas (fixed 16 byte records)
+0x0FC1F2,16,arenas (fixed 16 byte records),郡山ホール　　　,Koriyama Hall,# section: arenas (fixed 16 byte records)
+0x0FC203,16,arenas (fixed 16 byte records),水戸市民体育館　,Mito Civic Gym,# section: arenas (fixed 16 byte records)
+0x0FC214,16,arenas (fixed 16 byte records),宇都宮総合体育館,Utsunomiya Gym,# section: arenas (fixed 16 byte records)
+0x0FC225,16,arenas (fixed 16 byte records),ドーム前橋　　　,Dome Maebashi,# section: arenas (fixed 16 byte records)
+0x0FC236,16,arenas (fixed 16 byte records),大宮スケートＳ　,Omiya Skate,# section: arenas (fixed 16 byte records)
+0x0FC247,16,arenas (fixed 16 byte records),松戸運動公園　　,Matsudo Park,# section: arenas (fixed 16 byte records)
+0x0FC258,16,arenas (fixed 16 byte records),後楽園ホール　　,Korakuen Hall,# section: arenas (fixed 16 byte records)
+0x0FC269,16,arenas (fixed 16 byte records),東京ドーム　　　,Tokyo Dome,# section: arenas (fixed 16 byte records)
+0x0FC27A,16,arenas (fixed 16 byte records),東京体育館　　　,Tokyo Gym,# section: arenas (fixed 16 byte records)
+0x0FC28B,16,arenas (fixed 16 byte records),横浜文化体育館　,Yokohama Gym,# section: arenas (fixed 16 byte records)
+0x0FC29C,16,arenas (fixed 16 byte records),富山県総合体育館,Toyama Pref. Gym,# section: arenas (fixed 16 byte records)
+0x0FC2AD,16,arenas (fixed 16 byte records),ハイランド特設　,Highland Special,# section: arenas (fixed 16 byte records)
+0x0FC2BE,16,arenas (fixed 16 byte records),浜松アリーナ　　,Hamamatsu Arena,# section: arenas (fixed 16 byte records)
+0x0FC2CF,16,arenas (fixed 16 byte records),大府第２体育館　,Obu No.2 Gym,# section: arenas (fixed 16 byte records)
+0x0FC2E0,16,arenas (fixed 16 byte records),神戸ワールド　　,Kobe World Hall,# section: arenas (fixed 16 byte records)
+0x0FC2F1,16,arenas (fixed 16 byte records),岡山武道館　　　,Okayama Budokan,# section: arenas (fixed 16 byte records)
+0x0FC302,16,arenas (fixed 16 byte records),広島サンプラザ　,Sun Plaza,# section: arenas (fixed 16 byte records)
+0x0FC313,16,arenas (fixed 16 byte records),下関市体育館　　,Shimonoseki Gym,# section: arenas (fixed 16 byte records)
+0x0FC324,16,arenas (fixed 16 byte records),徳島市立体育館　,Tokushima Gym,# section: arenas (fixed 16 byte records)
+0x0FC335,16,arenas (fixed 16 byte records),博多スターレーン,Hakata Starlane,# section: arenas (fixed 16 byte records)
+0x0FC346,16,arenas (fixed 16 byte records),佐賀スポーツＳ　,Saga Sports,# section: arenas (fixed 16 byte records)
+0x0FC357,16,arenas (fixed 16 byte records),佐世保体育Ｓ　　,Sasebo Sports,# section: arenas (fixed 16 byte records)
+0x0FC368,16,arenas (fixed 16 byte records),宮崎県体育館　　,Miyazaki Pref. Gym,# section: arenas (fixed 16 byte records)
+0x0FC379,16,arenas (fixed 16 byte records),鹿児島アリーナ　,Kagoshima Arena,# section: arenas (fixed 16 byte records)
+0x0FC38A,16,arenas (fixed 16 byte records),大野村民体育館　,Ono Village Gym,# section: arenas (fixed 16 byte records)
+0x0FC39B,16,arenas (fixed 16 byte records),藤里町営体育館　,Fujisato Town Gym,# section: arenas (fixed 16 byte records)
+0x0FC3AC,16,arenas (fixed 16 byte records),宮古市立体育館　,Miyako Civic Gym,# section: arenas (fixed 16 byte records)
+0x0FC3BD,16,arenas (fixed 16 byte records),滝沢総合体育館　,Takizawa Gym,# section: arenas (fixed 16 byte records)
+0x0FC3CE,16,arenas (fixed 16 byte records),安代体育センター,Ashiro Sports Ctr,# section: arenas (fixed 16 byte records)
+0x0FC3DF,16,arenas (fixed 16 byte records),江刺体育会館　　,Esashi Gym,# section: arenas (fixed 16 byte records)
+0x0FC3F0,16,arenas (fixed 16 byte records),釜石文化総合Ｓ　,Kamaishi Hall,# section: arenas (fixed 16 byte records)
+0x0FC401,16,arenas (fixed 16 byte records),水沢武道館　　　,Mizusawa Budokan,# section: arenas (fixed 16 byte records)
+0x0FC412,16,arenas (fixed 16 byte records),東能代三熊記念館,Mikuma Hall,# section: arenas (fixed 16 byte records)
+0x0FC423,16,arenas (fixed 16 byte records),大槌体育館　　　,Otsuchi Gym,# section: arenas (fixed 16 byte records)
+0x0FC454,20,"name entry keyboards (kana, latin)",らりるれろあいうえお,らりるれろあいうえお,# keep: keyboards
+0x0FC46A,20,"name entry keyboards (kana, latin)",わをんー　かきくけこ,わをんー　かきくけこ,# keep: keyboards
+0x0FC480,20,"name entry keyboards (kana, latin)",がぎぐげごさしすせそ,がぎぐげごさしすせそ,# keep: keyboards
+0x0FC496,20,"name entry keyboards (kana, latin)",ざじずぜぞたちつてと,ざじずぜぞたちつてと,# keep: keyboards
+0x0FC4AC,20,"name entry keyboards (kana, latin)",だぢづでどなにぬねの,だぢづでどなにぬねの,# keep: keyboards
+0x0FC4C2,20,"name entry keyboards (kana, latin)",ばびぶべぼはひふへほ,ばびぶべぼはひふへほ,# keep: keyboards
+0x0FC4D8,20,"name entry keyboards (kana, latin)",ぱぴぷぺぽまみむめも,ぱぴぷぺぽまみむめも,# keep: keyboards
+0x0FC4EE,20,"name entry keyboards (kana, latin)",ぁぃぅぇぉやゆよ　　,ぁぃぅぇぉやゆよ　　,# keep: keyboards
+0x0FC504,12,"name entry keyboards (kana, latin)",っゃゅょ　　,っゃゅょ　　,# keep: keyboards
+0x0FC51C,20,"name entry keyboards (kana, latin)",ラリルレロアイウエオ,ラリルレロアイウエオ,# keep: keyboards
+0x0FC532,20,"name entry keyboards (kana, latin)",ワヲンー　カキクケコ,ワヲンー　カキクケコ,# keep: keyboards
+0x0FC548,20,"name entry keyboards (kana, latin)",ガギグゲゴサシスセソ,ガギグゲゴサシスセソ,# keep: keyboards
+0x0FC55E,20,"name entry keyboards (kana, latin)",ザジズゼゾタチツテト,ザジズゼゾタチツテト,# keep: keyboards
+0x0FC574,20,"name entry keyboards (kana, latin)",ダヂヅデドナニヌネノ,ダヂヅデドナニヌネノ,# keep: keyboards
+0x0FC58A,20,"name entry keyboards (kana, latin)",バビブベボハヒフヘホ,バビブベボハヒフヘホ,# keep: keyboards
+0x0FC5A0,20,"name entry keyboards (kana, latin)",パピプペポマミムメモ,パピプペポマミムメモ,# keep: keyboards
+0x0FC5B6,20,"name entry keyboards (kana, latin)",ァィゥェォヤユヨ　　,ァィゥェォヤユヨ　　,# keep: keyboards
+0x0FC5CC,12,"name entry keyboards (kana, latin)",ッャュョ　　,ッャュョ　　,# keep: keyboards
+0x0FC5E2,108,"name entry keyboards (kana, latin)",ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ．，ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ,ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ．，ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ,# keep: keyboards
+0x0FC6AA,20,"name entry keyboards (kana, latin)",らりるれろあいうえお,らりるれろあいうえお,# keep: keyboards
+0x0FC6CA,10,"name entry keyboards (kana, latin)",かきくけこ,かきくけこ,# keep: keyboards
+0x0FC6E0,10,"name entry keyboards (kana, latin)",さしすせそ,さしすせそ,# keep: keyboards
+0x0FC6F6,10,"name entry keyboards (kana, latin)",たちつてと,たちつてと,# keep: keyboards
+0x0FC70C,10,"name entry keyboards (kana, latin)",なにぬねの,なにぬねの,# keep: keyboards
+0x0FC722,10,"name entry keyboards (kana, latin)",はひふへほ,はひふへほ,# keep: keyboards
+0x0FC738,10,"name entry keyboards (kana, latin)",まみむめも,まみむめも,# keep: keyboards
+0x0FC74E,6,"name entry keyboards (kana, latin)",やゆよ,やゆよ,# keep: keyboards
+0x0FCA89,166,ending story and staff roll (staff roll: keep Japanese),大歓声の中で闘いは終わった。\r勝ったのか、負けたのか、\rあの時の私には気にならなかっ\rた。\r「星は、掴めたかもしれない。」\rそうつぶやきながら目を閉じた\rことを覚えている。,"The fight ended amid\rhuge cheers. Win or lose,\rI didn't care back\rthen.\r""Maybe I grasped the star.""\rI remember closing my eyes\rand whispering that.",# section: ending story and staff roll (staff roll: keep Japanese)
+0x0FCB35,50,ending story and staff roll (staff roll: keep Japanese),女子プロレスＳＴＯＲＹ\r「白いリングへ」\rＳＴＡＦＦ,女子プロレスＳＴＯＲＹ\r「白いリングへ」\rＳＴＡＦＦ,# keep: credits
+0x0FCB6C,100,ending story and staff roll (staff roll: keep Japanese),企画・仕様\r　　企画事務所メルヘンブレーカー\r　　　　湯佐　哲也\r　　　　鈴木　孝司\r　　　　嶋村　美和,企画・仕様\r　　企画事務所メルヘンブレーカー\r　　　　湯佐　哲也\r　　　　鈴木　孝司\r　　　　嶋村　美和,# keep: credits
+0x0FCBD6,23,ending story and staff roll (staff roll: keep Japanese),仕様基礎\r　　塚本　啓明,仕様基礎\r　　塚本　啓明,# keep: credits
+0x0FCBF3,35,ending story and staff roll (staff roll: keep Japanese),キャラクターデザイン\r　　厳華　彼方,キャラクターデザイン\r　　厳華　彼方,# keep: credits
+0x0FCC1C,19,ending story and staff roll (staff roll: keep Japanese),作曲\r　　須貝　秀之,作曲\r　　須貝　秀之,# keep: credits
+0x0FCC35,56,ending story and staff roll (staff roll: keep Japanese),音響効果\r　　（株）アトリエドゥーブル\r　　　　富沢　賢一,音響効果\r　　（株）アトリエドゥーブル\r　　　　富沢　賢一,# keep: credits
+0x0FCC72,92,ending story and staff roll (staff roll: keep Japanese),制作補助\r　　エニックスゲームスクール\r　　　　斎川　辰一\r　　　　福田　裕\r　　　　舟根　洋明,制作補助\r　　エニックスゲームスクール\r　　　　斎川　辰一\r　　　　福田　裕\r　　　　舟根　洋明,# keep: credits
+0x0FCCD3,75,ending story and staff roll (staff roll: keep Japanese),　　　　松本　貴之\r　　　　最上　昇\r　　　　山口　祐司\r　　　　吉田　謙一郎,　　　　松本　貴之\r　　　　最上　昇\r　　　　山口　祐司\r　　　　吉田　謙一郎,# keep: credits
+0x0FCD24,58,ending story and staff roll (staff roll: keep Japanese),制作補助担当\r　　（株）ポニーキャニオン\r　　　　貝塚　竜也,制作補助担当\r　　（株）ポニーキャニオン\r　　　　貝塚　竜也,# keep: credits
+0x0FCD62,123,ending story and staff roll (staff roll: keep Japanese),制作協力団体\r　　ＬＬＰＷ\r　　ＦＭＷ\r　　プロフェッショナルレスリング\r　　　　　　　　　　　　　藤原組\r　　みちのくプロレス,制作協力団体\r　　ＬＬＰＷ\r　　ＦＭＷ\r　　プロフェッショナルレスリング\r　　　　　　　　　　　　　藤原組\r　　みちのくプロレス,# keep: credits
+0x0FCDE2,51,ending story and staff roll (staff roll: keep Japanese),声の出演\r　　井上喜久子\r　　久川　綾\r　　神田　わか,声の出演\r　　井上喜久子\r　　久川　綾\r　　神田　わか,# keep: credits
+0x0FCE1B,27,ending story and staff roll (staff roll: keep Japanese),開発\r　　（株）オペラハウス,開発\r　　（株）オペラハウス,# keep: credits
+0x0FCE3A,98,ending story and staff roll (staff roll: keep Japanese),グラフィック\r　　ハスラーのドッター\rｗｉｔｈ\r　　水谷　康昭\r　　ＧＵＮ\r　　ＣＡＰ\r　　石神　奈奈子,グラフィック\r　　ハスラーのドッター\rｗｉｔｈ\r　　水谷　康昭\r　　ＧＵＮ\r　　ＣＡＰ\r　　石神　奈奈子,# keep: credits
+0x0FCEA2,25,ending story and staff roll (staff roll: keep Japanese),プログラム\r　　Ｒｅｂｅｌ,プログラム\r　　Ｒｅｂｅｌ,# keep: credits
+0x0FCEC1,25,ending story and staff roll (staff roll: keep Japanese),原作・演出\r　　長友　慎也,原作・演出\r　　長友　慎也,# keep: credits

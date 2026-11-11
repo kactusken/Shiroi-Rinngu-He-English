@@ -1,0 +1,95 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 16 id=11 group=00 original at 0xda99f
+
+@ 016.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP おはよう。
+JP 最初に報告があるの、聞いてね。
+EN Good morning.
+EN I have an announcement first, so listen.
+
+@ 016.01 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 社長。
+EN Boss.
+
+@ 016.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP 何？
+EN What?
+
+@ 016.03 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 二上と篭野が来ていませんが。
+EN Futagami and Kagono haven't come.
+
+@ 016.04 spk=1c face=02
+# speaker: 風間 ルミ
+JP いいの、その事だから。
+EN It's fine, that's what this is about.
+
+@ 016.05 spk=18 face=01
+# speaker: 大向 美智子
+JP 社長、まさか。
+EN Boss, don't tell me...
+
+@ 016.06 spk=1c face=02
+# speaker: 風間 ルミ
+JP そう、そのまさかよ。
+JP 二上と篭野は、先月付けでＬＬＰＷを退職しました。
+JP 以上、練習開始！！
+EN Yes, exactly that.
+EN Futagami and Kagono left LLPW as of last month.
+EN That's all. Begin training!!
+
+@ 016.07 spk=19 face=01
+# speaker: ハーレー斉藤
+JP 社長！！
+EN Boss!!
+
+@ 016.08 spk=1c face=02
+# speaker: 風間 ルミ
+JP いなくなってしまった者をどうこう言っても仕方がないの。
+JP さあ、練習を始めて！！
+EN There's no point fussing over people who are gone.
+EN Now, start training!!
+
+@ 016.09 spk=08 face=01
+# speaker: イーグル沢井
+JP 風間！！２人は神取のとこに行ったんじゃねえのか！
+JP 神取の所の旗揚げが近付いている。そんな時期に離脱者なら、
+JP そうとしか考えられねえぞ！
+EN Kazama!! Didn't those two go to Kandori's place?
+EN Kandori's launch is close. A defection at a time like this
+EN can only mean that!
+
+@ 016.10 spk=19 face=02
+# speaker: ハーレー斉藤
+JP イーグル、だまれ！！
+EN Eagle, shut up!!
+
+@ 016.11 spk=08 face=01
+# speaker: イーグル沢井
+JP なんだと、貴様が正規軍を率いてコーチしてんだろうが、そんなことだから離脱すんだよ！！
+EN What? You're the one leading the regular army and coaching, and that's why they defect!!
+
+@ 016.12 spk=19 face=02
+# speaker: ハーレー斉藤
+JP なんだと！！それ以上言うと、たとえ道場でも、
+EN What did you say?! One more word and even in the dojo,
+
+@ 016.13 spk=08 face=01
+# speaker: イーグル沢井
+JP ちょうどいい、あんたに預けたベルト返してもらうよ！！
+EN Perfect, give me back the belt I left with you!!
+
+@ 016.14 spk=19 face=02
+# speaker: ハーレー斉藤
+JP なんだと！！
+EN What did you say?!

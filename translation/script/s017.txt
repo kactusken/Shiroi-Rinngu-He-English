@@ -1,0 +1,34 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 17 id=12 group=00 original at 0xdac47
+
+@ 017.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP まちなさい。
+JP {p}イーグルの言う通り、
+JP ２人はＪＷＷＦに移籍したわ。
+JP 相談された上で、退職届を受け取りました。
+JP 去る者は追わない。これがＬＬのスタンスよ。
+JP {p}わかったら、練習しなさい。
+EN Wait.
+EN {p}Eagle's right. Those two moved to JWWF.
+EN They talked to me first, and I accepted their resignations.
+EN We don't chase after those who leave. That's LL's stance.
+EN {p}Now that you understand, get back to training.
+
+@ 017.01 spk=08 face=01
+# speaker: イーグル沢井
+JP ふん、やっぱりそーかい。
+JP 紅！！ランニングに行くよ！
+EN Hmph, I knew it.
+EN Kurenai!! We're going running!
+
+@ 017.02 spk=11 face=02
+# speaker: 紅 夜叉
+JP おう。
+EN Yeah.

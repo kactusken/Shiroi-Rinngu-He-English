@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 287 id=b6 group=03 original at 0xe6600
+
+@ 287.00 spk=19 face=00
+# speaker: ハーレー斉藤
+JP さっそく質問？いい心がけだね。
+JP 練習は、人によって方向性が違うから、自分にあった練習を選ばないとつらいわよ。
+JP {p}私の練習は、基礎体力があって、
+JP それをプロレス力にする練習。
+JP 練習について来るには、今の７倍の体力がいるわよ。
+JP 練習の特性は、一度やってみるしかないわね。
+EN A question already? Good attitude.
+EN Training heads in a different direction for each person, so if you don't choose what suits you, it'll be hard.
+EN {p}My training is built on basic stamina
+EN and turning it into wrestling power.
+EN To keep up, you need 7 times the stamina you have now.
+EN You can only learn a training's traits by trying it.

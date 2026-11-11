@@ -1,0 +1,53 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 171 id=b0 group=01 original at 0xe2fea
+
+@ 171.00 spk=2b face=02
+# speaker: グレートサスケ
+JP どうだい？
+JP ストロングからは離れた団体だけどもし、やっても負けはしないよ。
+JP ルチャにはその良さがある。
+JP 跳ぶことでお客さんが喜んでくれるなら、僕らは何処までも跳んでいくよ。
+JP その為には、やっぱり練習しかないんだ。
+JP 練習して、練習して、技を鍛えていくことが、僕達の力なんだ。
+JP 自分の技を信じることで、対戦相手にも、お客さんにも、安心して試合に集中してもらえる。それがプロレスだと思うよ。
+JP 強さを追い求めるのは、影でしかないんだよ。
+EN So, what do you think?
+EN We're far from the strong style, but if it came to a fight, we wouldn't lose.
+EN That's the beauty of Lucha.
+EN If the fans are happy when we fly, we'll fly anywhere.
+EN And for that, there's nothing but training.
+EN Training, training and honing our moves is our strength.
+EN When you trust your own moves, your opponent and the crowd can both relax and focus on the match. That's what pro wrestling is.
+EN Chasing after strength is only a shadow.
+
+@ 171.01 spk=2c face=01
+# speaker: Ｓ．デルフィン
+JP えらい、いいこと言うなあサスケ。
+EN That's a good line, Sasuke.
+
+@ 171.02 spk=2b face=02
+# speaker: グレートサスケ
+JP で、デルフィン。どうしてここに。
+EN So, Delfin, why are you here?
+
+@ 171.03 spk=2c face=01
+# speaker: Ｓ．デルフィン
+JP いや、かわいい女の子が練習に来てるっていうんで見に来たんや。
+JP な、人生。
+EN Well, I heard a cute girl was coming to training, so I came to see. Right, Jinsei?
+
+@ 171.04 spk=2d face=01
+# speaker: 新崎 人生
+JP ．．．．．．。
+EN ......
+
+@ 171.05 spk=2b face=02
+# speaker: グレートサスケ
+JP じ、人生まで。
+EN J-Jinsei too?

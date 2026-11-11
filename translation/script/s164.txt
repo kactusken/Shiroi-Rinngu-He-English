@@ -1,0 +1,39 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 164 id=a9 group=01 original at 0xe2a65
+
+@ 164.00 spk=21 face=02
+# speaker: 竹中さん
+JP どーもーこんにちはー。
+EN Hellooo, good day!
+
+@ 164.01 spk=23 face=01
+# speaker: 大仁田 厚
+JP おう武中くんか。上がってくれ。
+EN Oh, Takenaka. Come on in.
+
+@ 164.02 spk=21 face=02
+# speaker: 竹中さん
+JP どうもお世話様です。
+EN Thanks for having me.
+
+@ 164.03 spk=23 face=01
+# speaker: 大仁田 厚
+JP おう、紹介してなかったな。
+JP うちの芸能関係のプロモートの武中氏だ。
+JP こいつが新人の{name}だ。ＬＬＰＷさんからの移籍でな。
+EN Oh, I haven't introduced you.
+EN This is Takenaka, our promoter for entertainment work.
+EN And this is our rookie {name}. She came over from LLPW.
+
+@ 164.04 spk=21 face=02
+# speaker: 竹中さん
+JP 私の顔に何か付いてます？ＬＬＰＷの方って必ず似た反応されますね。
+JP 昔、風間社長を紹介してくださった時も、こうだったでしょ。
+EN Do I have something on my face? LLPW people always react the same way.
+EN You did the same thing when you introduced Boss Kazama, remember?

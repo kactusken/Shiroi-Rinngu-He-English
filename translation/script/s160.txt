@@ -1,0 +1,34 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 160 id=a5 group=01 original at 0xe2751
+
+@ 160.00 spk=23 face=02
+# speaker: 大仁田 厚
+JP おう！！よく来たな。
+JP ＦＭＷの試合スタイルに早く馴れろよ。
+JP 工藤！！工藤！！！
+EN Hey!! Glad you came.
+EN Get used to the FMW style fast.
+EN Kudo!! Kudo!!!
+
+@ 160.01 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP はい。
+EN Yes.
+
+@ 160.02 spk=23 face=02
+# speaker: 大仁田 厚
+JP この前話したＬＬＰＷから移籍の{name}選手だ。
+JP ベビーフェイス側で預かってくれ。
+EN This is {name}, who transferred from LLPW, as I told you before.
+EN Take her in on the babyface side.
+
+@ 160.03 spk=10 face=01
+# speaker: 工藤 めぐみ
+JP はい。じゃあ、{name}選手。練習だから準備して！！
+EN Yes. Okay, {name}, it's training, so get ready!!

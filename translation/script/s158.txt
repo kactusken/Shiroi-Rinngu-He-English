@@ -1,0 +1,51 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 158 id=83 group=01 original at 0xe2443
+
+@ 158.00 spk=20 face=01
+# speaker: 藤原 善明
+JP 神取を倒す技を教えて欲しい？？いいだろう。石川！！
+EN You want me to teach you a move to beat Kandori?? All right. Ishikawa!!
+
+@ 158.01 spk=22 face=02
+# speaker: 石川 雄規
+JP なんです？組長？？
+EN What is it, Chief??
+
+@ 158.02 spk=20 face=01
+# speaker: 藤原 善明
+JP よーく見てろ、そりゃ！！
+EN Watch closely. Hah!!
+
+@ 158.03 spk=22 face=02
+# speaker: 石川 雄規
+JP ぐわっ！！！
+EN Gwah!!!
+
+@ 158.04 spk=20 face=00
+# speaker: 藤原 善明
+JP 何があったかわかるか？
+JP 脇固めだ。
+JP ただし本気のな。関節技は、重心のかけ方と、骨にある。
+JP 脇固めは一番の基礎だ。
+JP タイミングが狂うことによって、全てのダメージが伝わらない。神取で８割だ。
+JP 覚えているか、オールスター戦で神取がある選手の肩を外したことを。つまり、客に魅せる試合では使えない。
+JP しかし、神取には使えるはずだ。
+JP ９割だ。
+JP ９割にしろ。
+JP そうすれば、神取にも通用する。
+EN Do you know what happened?
+EN An armlock.
+EN But a real one. Joint locks come down to how you place your weight, and to the bone.
+EN The armlock is the most basic of all.
+EN If the timing is off, the damage doesn't all get through. With Kandori, it's 80 percent.
+EN Remember when Kandori dislocated a wrestler's shoulder at the All-Star match? Which means you can't use it in a match meant to entertain the crowd.
+EN But you should be able to use it on Kandori.
+EN 90 percent.
+EN Make it 90 percent.
+EN Then it'll work even on Kandori.

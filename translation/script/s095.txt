@@ -1,0 +1,59 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 95 id=88 group=00 original at 0xde987
+
+@ 095.00 spk=fe face=00
+JP ３８分４８秒。
+JP イーグルキャノンで、イーグル沢井選手の勝ちとなります。
+EN 38 minutes 48 seconds.
+EN Eagle Sawai wins with the Eagle Cannon.
+
+@ 095.01 spk=08 face=02
+# speaker: イーグル沢井
+JP ハーレー、返して貰ったよ！！
+JP 聞いてるか神取！！
+JP 最強を名乗る前に私と戦え！！
+JP 工藤！！神取戦は、私と戦ってからだ！！
+EN Harley, I took you back!!
+EN Are you listening, Kandori!!
+EN Before you call yourself the strongest, fight me!!
+EN Kudo!! Before you fight Kandori, you fight me!!
+
+@ 095.02 spk=06 face=01
+# speaker: 篭野 ことり
+JP 待てや。
+EN Hold on there.
+
+@ 095.03 spk=08 face=02
+# speaker: イーグル沢井
+JP か、篭野。なんのようだ！！
+EN K-Kagono. What do you want!!
+
+@ 095.04 spk=06 face=01
+# speaker: 篭野 ことり
+JP 何用とは言ってくれたな。
+JP 神取選手からの伝言や、
+JP 「まだだ。魅力がない。」
+EN "What do you want," huh? Nice.
+EN I've got a message from Kandori.
+EN "Not yet. You lack charm."
+
+@ 095.05 spk=08 face=02
+# speaker: イーグル沢井
+JP 篭野！！そんな口がいつ叩けるようになった！！
+EN Kagono!! When did you get to talk like that!!
+
+@ 095.06 spk=06 face=01
+# speaker: 篭野 ことり
+JP 神取選手からの伝言やというたろ。ほんじゃ。そうだ、イーグル・先・輩。うち、これでも神取選手とのスパーリング互角ですから。
+EN I told ya, it's a message from Kandori. See ya. Oh, right, Eagle... se-nior. I can hold my own sparring with Kandori, ya know.
+
+@ 095.07 spk=08 face=02
+# speaker: イーグル沢井
+JP な、何！！
+EN Wh-what!!

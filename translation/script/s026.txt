@@ -1,0 +1,82 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 26 id=1d group=00 original at 0xdb7a9
+
+@ 026.00 spk=1c face=01
+# speaker: 風間 ルミ
+JP た・け・な・か・さん。
+EN Ta. Ke. Na. Ka. Mr. Takenaka.
+
+@ 026.01 spk=21 face=02
+# speaker: 竹中さん
+JP え、どうしたの？
+JP 社長？そんなに怒って？
+JP まさか、デビューの事、
+EN Huh? What's wrong?
+EN Boss? Why so angry?
+EN Don't tell me, it's about the debut...
+
+@ 026.02 spk=1c face=01
+# speaker: 風間 ルミ
+JP そのまさか。
+EN Exactly that.
+
+@ 026.03 spk=21 face=02
+# speaker: 竹中さん
+JP すいません。
+EN I'm sorry.
+
+@ 026.04 spk=1c face=01
+# speaker: 風間 ルミ
+JP まあいいわ。
+JP 嶋村、ちょっと来て。
+EN Oh, never mind.
+EN Shimamura, come here a moment.
+
+@ 026.05 spk=03 face=02
+# speaker: 嶋村 由佳
+JP はい。
+EN Yes.
+
+@ 026.06 spk=1c face=01
+# speaker: 風間 ルミ
+JP 竹中さん。この子が今度デビューする。嶋村由佳よ。
+EN Mr. Takenaka, this is the girl debuting next. Yuka Shimamura.
+
+@ 026.07 spk=21 face=02
+# speaker: 竹中さん
+JP え？この子は？？
+EN Huh? And this one?
+
+@ 026.08 spk=1c face=01
+# speaker: 風間 ルミ
+JP この子は{name}。
+JP {p}まだデビューは無理だわ。
+JP {p}次の後楽園ね。
+JP 嶋村、挨拶。
+EN This is {name}.
+EN {p}She isn't ready to debut yet.
+EN {p}It'll be the next Korakuen.
+EN Shimamura, say hello.
+
+@ 026.09 spk=03 face=02
+# speaker: 嶋村 由佳
+JP よろしくお願いします。
+EN Pleased to meet you.
+
+@ 026.10 spk=1c face=01
+# speaker: 風間 ルミ
+JP じゃあ竹中さん、奥へどうぞ。
+JP {p}あなた達は練習を続けなさい。
+EN Well then, Mr. Takenaka, please come inside.
+EN {p}You two keep training.
+
+@ 026.11 spk=03 face=00
+# speaker: 嶋村 由佳
+JP 先にデビューさせて貰うみたいね。早く上がってきなさい！！
+EN Looks like I get to debut first. Hurry up and join me!!

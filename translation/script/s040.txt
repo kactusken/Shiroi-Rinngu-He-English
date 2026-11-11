@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 40 id=33 group=00 original at 0xdc135
+
+@ 040.00 spk=03 face=00
+# speaker: 嶋村 由佳
+JP へえ、そんなことがあったの。
+JP 彼女らしいわね。
+JP 私？もちろん行かせて貰うわ。
+JP 楽しみね。
+EN Oh, so that happened.
+EN That's just like her.
+EN Me? Of course I'll go.
+EN I can't wait.

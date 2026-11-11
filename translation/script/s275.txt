@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 275 id=a2 group=03 original at 0xe60f1
+
+@ 275.00 spk=17 face=00
+# speaker: ニ上 美紀子
+JP 二上や、よろしくな。
+JP ステータス画面はよく見るんやで、体力無いと、練習の効果は期待できんからな。
+JP {p}アドバイスを聞いて、ステータスを見る。{p}
+JP 自分にあった練習をスケジュールで決めて、
+JP {p}コンプリートして練習開始や。
+JP これをちゃんとするかで、最強になれるかどうかが決まるんや。
+EN I'm Futagami. Nice to meet ya.
+EN Check the Status screen often. Without stamina, you can't expect training to work.
+EN {p}Listen to Advice, then check Status.{p}
+EN Pick training that suits you in the Schedule,
+EN {p}then press Complete and begin training.
+EN Whether you do this properly decides if you become the strongest.

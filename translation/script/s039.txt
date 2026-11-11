@@ -1,0 +1,31 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 39 id=32 group=00 original at 0xdc026
+
+@ 039.00 spk=06 face=00
+# speaker: 篭野 ことり
+JP よお、元気か。
+JP 嶋村とは仲ようやってるか。
+JP お茶は、
+JP {p}すまんな。
+JP 何しに来たって？お前にいい物やろう思ってな。
+JP 今月７日に、Ｊは旗揚げする。
+JP そのチケットや。見に来たってや。{p}５０００円や。
+JP {p}恐い顔すんなや。
+JP {p}冗談や、チケットおいてくで。
+JP 嶋村と一緒に来てくれ、絶対やで。
+EN Hey, how are you?
+EN Getting along with Shimamura?
+EN Tea...
+EN {p}Thanks.
+EN Why did I come? I got something good for you.
+EN J is having its first show on the 7th of this month.
+EN Here's the ticket. Come and watch.{p}It's 5000 yen.
+EN {p}Don't make that scary face.
+EN {p}Just kidding. I'm leaving the ticket here.
+EN Come with Shimamura. Don't miss it.

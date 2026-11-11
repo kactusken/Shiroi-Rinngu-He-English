@@ -1,0 +1,36 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 138 id=f6 group=00 original at 0xe12c4
+
+@ 138.00 spk=09 face=00
+# speaker: 遠藤 美月
+JP 何してんの。
+JP リングがあがったら椅子並べだよ。ホールじゃないんだから、全部やるの！！
+EN What are you doing?
+EN Once the ring is up, set out the chairs. This isn't a hall, so we do everything!!
+
+@ 138.01 spk=03 face=01
+# speaker: 嶋村 由佳
+JP はーい、判りました。
+JP ホント大変ね。
+JP じゃね、ここお願い。
+EN Yes, understood.
+EN It's really tough, isn't it?
+EN Okay, I'll leave this to you.
+
+@ 138.02 spk=00 face=00
+JP 不思議な顔してどうしたの？
+JP 嶋村？？
+JP そうね、戦うことで貴方と自分との関係と、プロレスへの悩みが無くなったんでしょ。
+JP 自分を表現できるようになってきたわよね。
+JP いいことだわ。
+EN Why the puzzled look?
+EN Shimamura??
+EN Right. By fighting you, she got over her doubts about herself, you and pro wrestling.
+EN She's learned to express herself.
+EN That's a good thing.

@@ -1,0 +1,64 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 123 id=b8 group=00 original at 0xe0655
+
+@ 123.00 spk=08 face=01
+# speaker: イーグル沢井
+JP ．．．。
+EN ...
+
+@ 123.01 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP ．．．。
+EN ...
+
+@ 123.02 spk=06 face=01
+# speaker: 篭野 ことり
+JP ．．．。
+EN ...
+
+@ 123.03 spk=03 face=02
+# speaker: 嶋村 由佳
+JP ．．．。
+EN ...
+
+@ 123.04 spk=0f face=00
+# speaker: 神取 忍
+JP ．．．。
+EN ...
+
+@ 123.05 spk=08 face=01
+# speaker: イーグル沢井
+JP 神取、約束通り来たぞ。
+JP さあ、誰と戦うんだ！！
+EN Kandori, I came like I promised.
+EN Now, who are you fighting?!
+
+@ 123.06 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP ．．．。
+EN ...
+
+@ 123.07 spk=0f face=00
+# speaker: 神取 忍
+JP 私が、戦う相手。
+JP それは、{name}。
+EN The one I will fight
+EN is {name}.
+
+@ 123.08 spk=08 face=01
+# speaker: イーグル沢井
+JP なぜ{name}、
+JP 一番経歴の浅いこいつが、
+EN Why {name}?
+EN The one with the shortest career of all...
+
+@ 123.09 spk=10 face=02
+# speaker: 工藤 めぐみ
+JP ．．．。
+EN ...

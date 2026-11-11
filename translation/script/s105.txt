@@ -1,0 +1,65 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 105 id=a2 group=00 original at 0xdf28b
+
+@ 105.00 spk=08 face=00
+# speaker: イーグル沢井
+JP 神取！！てめえ、どの面下げてきやがった。
+EN Kandori!! How dare you show your face here!
+
+@ 105.01 spk=0f face=02
+# speaker: 神取 忍
+JP ．．．。
+EN ...
+
+@ 105.02 spk=1c face=01
+# speaker: 風間 ルミ
+JP イーグル！
+EN Eagle!
+
+@ 105.03 spk=08 face=02
+# speaker: イーグル沢井
+JP 社長！
+JP そうか、{name}をつれて。
+EN Boss!
+EN I see. You brought {name} along.
+
+@ 105.04 spk=0f face=01
+# speaker: 神取 忍
+JP ．．．。
+EN ...
+
+@ 105.05 spk=08 face=02
+# speaker: イーグル沢井
+JP 神取、最強を名乗るのは勝手だ！！だがな！！ケジメは付けさせてもらう！！
+EN Call yourself the strongest all you like, Kandori!! But I'm going to make you answer for it!!
+
+@ 105.06 spk=06 face=00
+# speaker: 篭野 ことり
+JP 神取さん、正直に言ったらどうですか。戦う価値もないってね。
+EN Kandori, why not be honest? Say we're not even worth fighting.
+
+@ 105.07 spk=03 face=01
+# speaker: 嶋村 由佳
+JP ことり！！
+EN Kotori!!
+
+@ 105.08 spk=08 face=02
+# speaker: イーグル沢井
+JP 篭野！！てめえはだまってろ！！
+EN Kagono!! Shut your mouth!!
+
+@ 105.09 spk=06 face=01
+# speaker: 篭野 ことり
+JP へえ、私に勝って言って貰いましょうか、先・輩。
+EN Oh? Then beat me first and say it to my face, se-nior.
+
+@ 105.10 spk=08 face=02
+# speaker: イーグル沢井
+JP なんだと！！
+EN What did you say?!

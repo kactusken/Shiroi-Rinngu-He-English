@@ -1,0 +1,23 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 89 id=80 group=00 original at 0xde591
+
+@ 089.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 今回の対抗戦は、ウチのリングで行います。
+JP 相手は、土屋＆岩見組です。
+JP 本来ならば、半田クラスの人間を当てるところですが、今回は、チャンスの意味をこめて、そして層の拡大をねがって、
+JP ハーレー＆{name}組、
+JP で戦います。チャンスよ頑張りなさい。
+JP {name}は、この試合で土屋＆前泊を引っ張り出せれば、大金星よ。
+EN This interpromotional match will be held in our ring.
+EN Our opponents are Tsuchiya and Iwami.
+EN Normally I'd use someone of Handa's rank, but this time, as a chance and to deepen our roster,
+EN we'll send Harley and {name} as a team.
+EN It's your chance, so do your best.
+EN {name}, if you can draw Tsuchiya and Maedomari out in this match, it'll be a huge upset.

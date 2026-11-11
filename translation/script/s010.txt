@@ -1,0 +1,96 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 10 id=0b group=00 original at 0xd9fc6
+
+@ 010.00 spk=1c face=02
+# speaker: 風間 ルミ
+JP ここがＦＭＷの道場よ。
+JP {p}おはようございます。
+EN This is the FMW dojo.
+EN {p}Good morning.
+
+@ 010.01 spk=0d face=01
+# speaker: 岩見 敬子
+JP はい。
+EN Yes.
+
+@ 010.02 spk=1c face=02
+# speaker: 風間 ルミ
+JP 大仁田社長、いらっしゃいますか。
+EN Boss Onita, are you in?
+
+@ 010.03 spk=0d face=01
+# speaker: 岩見 敬子
+JP お待ちください。
+EN Please wait.
+
+@ 010.04 spk=23 face=01
+# speaker: 大仁田 厚
+JP よお、しばらく。
+EN Hey, it's been a while.
+
+@ 010.05 spk=1c face=02
+# speaker: 風間 ルミ
+JP おはようございます。社長。
+EN Good morning, Boss.
+
+@ 010.06 spk=23 face=01
+# speaker: 大仁田 厚
+JP 後ろのが電話の新人か。
+EN Are those the rookies from the phone call?
+
+@ 010.07 spk=1c face=02
+# speaker: 風間 ルミ
+JP そうです。
+JP 左から、篭野ことり。
+EN Yes.
+EN From the left, Kotori Kagono.
+
+@ 010.08 spk=06 face=02
+# speaker: 篭野 ことり
+JP よろしくお願いします。
+EN Pleased to meet you.
+
+@ 010.09 spk=1c face=01
+# speaker: 風間 ルミ
+JP 嶋村由佳。{name}。
+EN Yuka Shimamura. {name}.
+
+@ 010.10 spk=03 face=01
+# speaker: 嶋村 由佳
+JP よろしくお願いします。
+EN Pleased to meet you.
+
+@ 010.11 spk=23 face=01
+# speaker: 大仁田 厚
+JP おう、俺が大仁田厚だ。
+JP うちの選手と戦う時は、
+JP ガンガン来てくれよ。
+EN Yeah, I'm Atsushi Onita.
+EN When you fight our wrestlers,
+EN come at them hard.
+
+@ 010.12 spk=06 face=02
+# speaker: 篭野 ことり
+JP はい。
+EN Yes.
+
+@ 010.13 spk=23 face=01
+# speaker: 大仁田 厚
+JP いい返事だ。
+EN Good answer.
+
+@ 010.14 spk=1c face=02
+# speaker: 風間 ルミ
+JP 私は大仁田さんと打ち合わせがあるので、先に道場に戻ってくれる。
+EN I have a meeting with Onita, so go back to the dojo ahead of me, will you?
+
+@ 010.15 spk=03 face=01
+# speaker: 嶋村 由佳
+JP はい。
+EN Yes.

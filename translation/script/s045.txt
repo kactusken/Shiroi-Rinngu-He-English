@@ -1,0 +1,17 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 45 id=3a group=00 original at 0xdc52b
+
+@ 045.00 spk=09 face=00
+# speaker: 遠藤 美月
+JP どうした。ぼーっとして。
+JP 悩み事でもあるのか。プロレスに悩んでるなんて言うなよ！
+JP 悩む前に、身体を動かすもんだぜ。
+EN What's wrong? Spacing out.
+EN Something on your mind? Don't tell me you're worried about wrestling!
+EN Before you worry, move your body.

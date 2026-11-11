@@ -1,0 +1,37 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 316 id=fe group=03 original at 0xe75e1
+
+@ 316.00 spk=0f face=00
+# speaker: 神取 忍
+JP じゃあな！！
+JP ついて来る奴はついてきな！！
+EN See you around!!
+EN Follow me if you've got the guts!!
+
+@ 316.01 spk=0e face=01
+# speaker: ジェンヌゆかり
+JP 私は変わりたい。
+EN I want to change.
+
+@ 316.02 spk=14 face=02
+# speaker: 長嶋 美智子
+JP 今しかない！！
+EN It's now or never!!
+
+@ 316.03 spk=17 face=01
+# speaker: ニ上 美紀子
+JP ．．．．。
+EN ......
+
+@ 316.04 spk=0f face=00
+# speaker: 神取 忍
+JP 風間！！イーグル！！ハーレー！！本気になったらかかってこい。
+JP いつでも相手になってやるぜ。
+EN Kazama!! Eagle!! Harley!! Come at me when you're serious.
+EN I'll take you on any time.

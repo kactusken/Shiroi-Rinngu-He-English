@@ -1,0 +1,27 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 314 id=fc group=03 original at 0xe73dc
+
+@ 314.00 spk=0f face=00
+# speaker: 神取 忍
+JP 風間！！そして、会場のみんな！！聞いてくれ。
+JP 本日のこの試合を以て、
+JP 神取忍は、ＬＬＰＷをやめる。
+JP ベルトは返還する。
+JP 神取忍と戦いたい奴！！
+JP 私を強いと思っている奴！！
+JP かかってこい。
+JP 私が、最強！！神取忍だ！！！！！
+EN Kazama!! And everyone in the arena!! Listen to me.
+EN With today's match,
+EN Shinobu Kandori is leaving LLPW.
+EN I'm returning the belt.
+EN Anyone who wants to fight me!!
+EN Anyone who thinks I'm strong!!
+EN Come and get me.
+EN I'm the strongest!! Shinobu Kandori!!!!!

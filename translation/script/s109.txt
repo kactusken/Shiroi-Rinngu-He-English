@@ -1,0 +1,21 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 109 id=a8 group=00 original at 0xdf5d9
+
+@ 109.00 spk=1c face=00
+# speaker: 風間 ルミ
+JP 昨年は、
+JP タッグ王座中心ごくろうさま。
+JP 今年は、シングル中心で行きたいと思います。
+JP 頑張りましょう。
+JP {p}そして、ＬＬとＦＭのベルトを一本化しようという動きもあります。３冠王者を設立するのが夢だから、頑張りなさい。
+EN Last year,
+EN you all did well in the tag title picture.
+EN This year, I want to focus on singles.
+EN Let's give it everything.
+EN {p}There's also a move to unify the LL and FM belts. My dream is to create a Triple Crown champion, so do your best.

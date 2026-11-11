@@ -1,0 +1,19 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 241 id=2f group=03 original at 0xe5433
+
+@ 241.00 spk=23 face=00
+# speaker: 大仁田 厚
+JP 神取？
+JP たしかに今、最強を名乗る資格があるのは、あいつ一人かもしれん。
+JP でも、神取は約束を守っているだけなんだ。
+JP 自分の最強をだれかに継いで欲しくてああ言ってるんじゃ。
+EN Kandori?
+EN Right now she may be the only one who deserves to call herself the strongest.
+EN But Kandori is only keeping a promise.
+EN She says that because she wants someone to inherit her strength.

@@ -1,0 +1,48 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 155 id=5a group=01 original at 0xe21d7
+
+@ 155.00 spk=08 face=00
+# speaker: イーグル沢井
+JP かざまあ！！
+EN Kazama!!
+
+@ 155.01 spk=1c face=02
+# speaker: 風間 ルミ
+JP ほら。
+EN There, see?
+
+@ 155.02 spk=08 face=01
+# speaker: イーグル沢井
+JP タッグ戦に工藤が来るんだって！！
+EN I hear Kudo's coming to the tag match!!
+
+@ 155.03 spk=1c face=02
+# speaker: 風間 ルミ
+JP だめよ。
+EN No.
+
+@ 155.04 spk=08 face=01
+# speaker: イーグル沢井
+JP 何故だ！！
+EN Why not?!
+
+@ 155.05 spk=1c face=02
+# speaker: 風間 ルミ
+JP その試合は、ハーレー・{name}組と決めてます。
+EN I've already decided that match is Harley and {name}.
+
+@ 155.06 spk=08 face=01
+# speaker: イーグル沢井
+JP なぜだ、元々{name}はヒールの人間だろ。
+EN Why not? {name} is a heel to begin with.
+
+@ 155.07 spk=1c face=02
+# speaker: 風間 ルミ
+JP イーグル！！団体対抗戦にヒールとベビーの境は無いって言うのは約束でしょ！！
+EN Eagle!! We promised there's no line between heel and babyface in interpromotional matches!!

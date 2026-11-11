@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 237 id=2b group=03 original at 0xe51e0
+
+@ 237.00 spk=20 face=00
+# speaker: 藤原 善明
+JP 不思議なもんだな。お前さんの目を見てると、神取の若い頃を思いださせるよ。
+JP 俺の生涯で、女子レスラーでそんな目をしているのを見たのは３人目だよ。
+EN Funny. Looking in your eyes reminds me of Kandori when she was young.
+EN In my whole life, you're the third woman wrestler I've seen with eyes like that.

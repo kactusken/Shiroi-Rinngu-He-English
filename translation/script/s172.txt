@@ -1,0 +1,25 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 172 id=b1 group=01 original at 0xe3247
+
+@ 172.00 spk=2b face=02
+# speaker: グレートサスケ
+JP そういえば、大仁田さんに聞いたけど。
+JP {name}さんは、ＬＬＰＷ出身何だって？
+JP そうか．．．あそこの選手も、いろいろあって大変だったみたいだからねえ。{p}
+JP そうだ。
+JP 遠いかもしれないけど、
+JP いつでも練習に来ていいからね。
+JP {p}まってるよ。
+EN By the way, I heard from Onita.
+EN You came from LLPW, {name}?
+EN I see... Things were rough for the wrestlers there, with everything that happened.{p}
+EN Oh, right.
+EN It may be far,
+EN but you're welcome to come to training here anytime.
+EN {p}We'll be waiting.

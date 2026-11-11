@@ -1,0 +1,15 @@
+# Story dialogue: one block per message window; one file per scene.
+# JP is the original. Write the English as EN lines: they are joined with a space and laid out by
+# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:
+#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)
+#   {name}   the heroine's name (typed by the player), up to 6 letters
+#   {n}      force a new line (rare)
+# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.
+# scene 210 id=d4 group=02 original at 0xe48b0
+
+@ 210.00 spk=02 face=00
+# speaker: クラッシャー前泊
+JP タッグの面白さ？
+JP そりゃあ自分の力の１０倍は出るからね。
+EN The fun of tag matches?
+EN Well, you get ten times your own strength.
