@@ -36,7 +36,7 @@ EN ...I'm counting on you.
 # speaker: 篭野 ことり
 JP 気合いや！！
 JP 気合い入れていきや！！
-EN Fight, now!!
+EN Fire it up!!
 EN Put some guts into it!!
 
 @ 130.06 spk=03 face=01

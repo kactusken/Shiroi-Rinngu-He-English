@@ -10,4 +10,4 @@
 @ 093.00 spk=1d face=00
 # speaker: シャーク土屋
 JP うちらを倒すとはね。気に入った。何度でもやろう！！今度は負けないよ！！
-EN To beat us, huh. I like you. Let's do it again anytime!! Next time we won't lose!!
+EN You actually beat us. I like you. Let's do it again anytime!! Next time we won't lose!!

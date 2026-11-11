@@ -15,7 +15,7 @@ EN Oh? Someone's here.
 @ 104.01 spk=03 face=01
 # speaker: 嶋村 由佳
 JP 社長！！お久しぶりです。
-EN Boss!! It's been a long time.
+EN President!! It's been a long time.
 
 @ 104.02 spk=1c face=02
 # speaker: 風間 ルミ

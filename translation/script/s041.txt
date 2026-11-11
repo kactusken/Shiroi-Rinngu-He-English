@@ -10,8 +10,8 @@
 @ 041.00 spk=fe face=00
 JP ２分１４秒。
 JP ヒールホールドで篭野選手の勝ち。
-EN Two minutes, 14 seconds.
-EN With a Heel Hold, the winner is Kagono.
+EN 2 minutes 14 seconds.
+EN Kagono wins by Heel Hold.
 
 @ 041.01 spk=14 face=01
 # speaker: 長嶋 美智子

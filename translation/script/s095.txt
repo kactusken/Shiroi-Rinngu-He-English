@@ -19,7 +19,7 @@ JP ハーレー、返して貰ったよ！！
 JP 聞いてるか神取！！
 JP 最強を名乗る前に私と戦え！！
 JP 工藤！！神取戦は、私と戦ってからだ！！
-EN Harley, I took you back!!
+EN Harley, I took back what's mine!!
 EN Are you listening, Kandori!!
 EN Before you call yourself the strongest, fight me!!
 EN Kudo!! Before you fight Kandori, you fight me!!
@@ -46,7 +46,7 @@ EN "Not yet. You lack charm."
 @ 095.05 spk=08 face=02
 # speaker: イーグル沢井
 JP 篭野！！そんな口がいつ叩けるようになった！！
-EN Kagono!! When did you get to talk like that!!
+EN Kagono!! Since when do you talk back like that!!
 
 @ 095.06 spk=06 face=01
 # speaker: 篭野 ことり

@@ -10,7 +10,7 @@
 @ 026.00 spk=1c face=01
 # speaker: 風間 ルミ
 JP た・け・な・か・さん。
-EN Ta. Ke. Na. Ka. Mr. Takenaka.
+EN Mr. Ta-ke-na-ka.
 
 @ 026.01 spk=21 face=02
 # speaker: 竹中さん
@@ -18,7 +18,7 @@ JP え、どうしたの？
 JP 社長？そんなに怒って？
 JP まさか、デビューの事、
 EN Huh? What's wrong?
-EN Boss? Why so angry?
+EN President? Why so angry?
 EN Don't tell me, it's about the debut...
 
 @ 026.02 spk=1c face=01
@@ -61,7 +61,7 @@ JP {p}次の後楽園ね。
 JP 嶋村、挨拶。
 EN This is {name}.
 EN {p}She isn't ready to debut yet.
-EN {p}It'll be the next Korakuen.
+EN {p}Her turn will be the Korakuen show after that.
 EN Shimamura, say hello.
 
 @ 026.09 spk=03 face=02

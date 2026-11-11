@@ -14,7 +14,7 @@ offset,max_bytes,section,japanese,english,notes
 0x0F8068,6,credits (staff roll labels: keep Japanese),音　楽,Music,# pad: spaces # opening cards (names: readings provisional)
 0x0F806F,10,credits (staff roll labels: keep Japanese),須貝　秀之,須貝　秀之,# keep: credits (names stay Japanese)
 0x0F807A,4,credits (staff roll labels: keep Japanese),企画,Plan,# pad: spaces # opening cards
-0x0F8082,4,custom wrestler bank save/delete menus (versus mode),開発,Made,# section: custom wrestler bank save/delete menus (versus mode)
+0x0F8082,4,custom wrestler bank save/delete menus (versus mode),開発,Dev.,# section: custom wrestler bank save/delete menus (versus mode)
 0x0F808B,4,custom wrestler bank save/delete menus (versus mode),出演,Cast,# section: custom wrestler bank save/delete menus (versus mode)
 0x0F80B4,17,custom wrestler bank save/delete menus (versus mode),空き　　　　　　\n,Empty\n,# section: custom wrestler bank save/delete menus (versus mode)
 0x0F80C6,18,custom wrestler bank save/delete menus (versus mode),登録するバンクは？,Save to which bank?,# section: custom wrestler bank save/delete menus (versus mode)
@@ -77,9 +77,9 @@ offset,max_bytes,section,japanese,english,notes
 0x0F872D,10,title menu,　　　　　,,# section: title menu
 0x0F8755,10,profile screen,末堂　春美,H. Sueda,# section: profile screen
 0x0F8769,13,profile screen,Ａ\nＢ\nＯ\nＡＢ,A\nB\nO\nAB,# section: profile screen
-0x0F877A,6,profile screen,Ａ型　,Type A,# section: profile screen
-0x0F8781,6,profile screen,Ｂ型　,Type B,# section: profile screen
-0x0F8788,6,profile screen,Ｏ型　,Type O,# section: profile screen
+0x0F877A,6,profile screen,Ａ型　,A,# section: profile screen
+0x0F8781,6,profile screen,Ｂ型　,B,# section: profile screen
+0x0F8788,6,profile screen,Ｏ型　,O,# section: profile screen
 0x0F878F,6,profile screen,ＡＢ型,AB,# section: profile screen
 0x0F87AC,74,profile screen,名前\n星座\n血液型\nクラブ活動歴\n小１\n　２\n　３\n　４\n　５\n　６\n中１\n　２\n　３,Name\nSign\nBlood\nClub History\nGr.1\n 2\n 3\n 4\n 5\n 6\nJH1\n 2\n 3,# section: profile screen
 0x0F87FA,16,profile screen,　　　　　　　　,,# section: profile screen
@@ -173,14 +173,14 @@ offset,max_bytes,section,japanese,english,notes
 0x0F9ADA,16,"names of people (speaker ids 0-45, in order)",グレートサスケ　,Great Sasuke,"# section: names of people (speaker ids 0-45, in order)"
 0x0F9AEB,16,"names of people (speaker ids 0-45, in order)",Ｓ．デルフィン　,Super Delfin,"# section: names of people (speaker ids 0-45, in order)"
 0x0F9AFC,16,"names of people (speaker ids 0-45, in order)",新崎　人生　　　,Jinsei Shinzaki,"# section: names of people (speaker ids 0-45, in order)"
-0x0F9B45,97,status screens (templates: keep the line structure),スタミナ　%3d\r体力　　　%3d\r筋力　　　%3d\r根性　　　%3d\rスピード　%3d\r柔軟性　　%3d\r器用さ　　%3d,Stamina   %3d\rHealth    %3d\rPower     %3d\rGuts      %3d\rSpeed     %3d\rFlexib.   %3d\rDex       %3d,# section: status screens (templates: keep the line structure)
+0x0F9B45,97,status screens (templates: keep the line structure),スタミナ　%3d\r体力　　　%3d\r筋力　　　%3d\r根性　　　%3d\rスピード　%3d\r柔軟性　　%3d\r器用さ　　%3d,Stamina   %3d\rHP        %3d\rStrength  %3d\rGuts      %3d\rSpeed     %3d\rFlex      %3d\rDex       %3d,# section: status screens (templates: keep the line structure)
 0x0F9BA7,103,status screens (templates: keep the line structure),身長　　　%3d\r体重　　　%3d\rストレス　%3d\r人気　　　%3d\rプロポーション　\r　　　　　%3d\r　　　　　　　　,Height    %3d\rWeight    %3d\rStress    %3d\rFame      %3d\rFigure\r          %3d\r,# section: status screens (templates: keep the line structure)
-0x0F9C0F,111,status screens (templates: keep the line structure),持ち技　　　　　\r　　　　　　　　\r　パンチ系　%2d\r　キック系　%2d\r　関節技　　%2d\r　投げ技　%3d\r　飛び技　　%2d,Moves\r\r  Punch     %2d\r  Kick      %2d\r  Joint     %2d\r  Throw   %3d\r  Aerial    %2d,# section: status screens (templates: keep the line structure)
+0x0F9C0F,111,status screens (templates: keep the line structure),持ち技　　　　　\r　　　　　　　　\r　パンチ系　%2d\r　キック系　%2d\r　関節技　　%2d\r　投げ技　%3d\r　飛び技　　%2d,Moves\r\r  Punch     %2d\r  Kick      %2d\r  Holds     %2d\r  Throw   %3d\r  Aerial    %2d,# section: status screens (templates: keep the line structure)
 0x0F9C7F,118,status screens (templates: keep the line structure),習得スキル　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　,Skills\r\r\r\r\r\r,# section: status screens (templates: keep the line structure)
 0x0F9CF6,118,status screens (templates: keep the line structure),負傷　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　\r　　　　　　　　,Injuries\r\r\r\r\r\r,# section: status screens (templates: keep the line structure)
-0x0F9D6D,62,status screens (templates: keep the line structure),スタミナ\r体力　　\r筋力　　\r根性　　\rスピード\r柔軟性　\r器用さ　,Stamina\rHealth\rPower\rGuts\rSpeed\rFlexib.\rDex,# section: status screens (templates: keep the line structure)
+0x0F9D6D,62,status screens (templates: keep the line structure),スタミナ\r体力　　\r筋力　　\r根性　　\rスピード\r柔軟性　\r器用さ　,Stamina\rHP\rStrength\rGuts\rSpeed\rFlex\rDex,# section: status screens (templates: keep the line structure)
 0x0F9DAC,78,status screens (templates: keep the line structure),身長　　\r体重　　\rストレス\r人気　　\rプロポーション　\r　　　　\r　　　　　　　　,Height\rWeight\rStress\rFame\rFigure\r\r,# section: status screens (templates: keep the line structure)
-0x0F9DFB,122,status screens (templates: keep the line structure),持ち技　　　　　\r　　　　　　　　\r　パンチ系　　　　\r　キック系　　　　\r　関節技　　　　\r　投げ技　　　　\r　飛び技　　　　,Moves\r\r  Punch\r  Kick\r  Joint\r  Throw\r  Aerial,# section: status screens (templates: keep the line structure)
+0x0F9DFB,122,status screens (templates: keep the line structure),持ち技　　　　　\r　　　　　　　　\r　パンチ系　　　　\r　キック系　　　　\r　関節技　　　　\r　投げ技　　　　\r　飛び技　　　　,Moves\r\r  Punch\r  Kick\r  Holds\r  Throw\r  Aerial,# section: status screens (templates: keep the line structure)
 0x0F9E76,106,status screens (templates: keep the line structure),負傷　　　　　　\r　　　%s　　　\r%s　　　　%s\r　　　%s　　　\r　　　　　　　　\r　%s　　%s　\r　　　　　　　　,Injuries\r      %s\r%s        %s\r      %s\r\r  %s    %s\r,# section: status screens (templates: keep the line structure)
 0x0F9F19,17,places to go (fixed 16 byte lines),食事　　　　　　\r,Dining\r,# section: places to go (fixed 16 byte lines)
 0x0F9F2B,17,places to go (fixed 16 byte lines),映画　　　　　　\r,Movies\r,# section: places to go (fixed 16 byte lines)
@@ -256,7 +256,7 @@ offset,max_bytes,section,japanese,english,notes
 0x0FB566,12,training exercises,シットアップ,Sit-ups,# section: training exercises
 0x0FB573,6,training exercises,パンチ,Punch,# section: training exercises
 0x0FB57A,18,training exercises,ヒンズースクワット,Hindu Squats,# section: training exercises
-0x0FB58D,6,training exercises,縄跳び,Rope,# section: training exercises
+0x0FB58D,6,training exercises,縄跳び,J.Rope,# section: training exercises
 0x0FB594,6,training exercises,キック,Kicks,# section: training exercises
 0x0FB59B,12,training exercises,エアロビクス,Aerobics,# section: training exercises
 0x0FB5A8,12,training exercises,スパーリング,Sparring,# section: training exercises
@@ -273,18 +273,18 @@ offset,max_bytes,section,japanese,english,notes
 0x0FB9E5,6,statistics and skill names (labels),誕生月,Month,# section: statistics and skill names (labels)
 0x0FB9EC,6,statistics and skill names (labels),誕生日,Day,# section: statistics and skill names (labels)
 0x0FB9F3,6,statistics and skill names (labels),血液型,Blood,# section: statistics and skill names (labels)
-0x0FB9FA,8,statistics and skill names (labels),右腕体力,R Arm St,# section: statistics and skill names (labels)
-0x0FBA03,8,statistics and skill names (labels),左腕体力,L Arm St,# section: statistics and skill names (labels)
-0x0FBA0C,8,statistics and skill names (labels),右脚体力,R Leg St,# section: statistics and skill names (labels)
-0x0FBA15,8,statistics and skill names (labels),左脚体力,L Leg St,# section: statistics and skill names (labels)
-0x0FBA1E,8,statistics and skill names (labels),頭部体力,Head St,# section: statistics and skill names (labels)
-0x0FBA27,8,statistics and skill names (labels),胴体体力,Body St,# section: statistics and skill names (labels)
-0x0FBA30,8,statistics and skill names (labels),右腕筋力,R Arm Pw,# section: statistics and skill names (labels)
-0x0FBA39,8,statistics and skill names (labels),左腕筋力,L Arm Pw,# section: statistics and skill names (labels)
-0x0FBA42,8,statistics and skill names (labels),右脚筋力,R Leg Pw,# section: statistics and skill names (labels)
-0x0FBA4B,8,statistics and skill names (labels),左脚筋力,L Leg Pw,# section: statistics and skill names (labels)
-0x0FBA54,8,statistics and skill names (labels),頭部筋力,Head Pw,# section: statistics and skill names (labels)
-0x0FBA5D,8,statistics and skill names (labels),胴体筋力,Body Pw,# section: statistics and skill names (labels)
+0x0FB9FA,8,statistics and skill names (labels),右腕体力,R Arm HP,# section: statistics and skill names (labels)
+0x0FBA03,8,statistics and skill names (labels),左腕体力,L Arm HP,# section: statistics and skill names (labels)
+0x0FBA0C,8,statistics and skill names (labels),右脚体力,R Leg HP,# section: statistics and skill names (labels)
+0x0FBA15,8,statistics and skill names (labels),左脚体力,L Leg HP,# section: statistics and skill names (labels)
+0x0FBA1E,8,statistics and skill names (labels),頭部体力,Head HP,# section: statistics and skill names (labels)
+0x0FBA27,8,statistics and skill names (labels),胴体体力,Body HP,# section: statistics and skill names (labels)
+0x0FBA30,8,statistics and skill names (labels),右腕筋力,R Arm Str,# section: statistics and skill names (labels)
+0x0FBA39,8,statistics and skill names (labels),左腕筋力,L Arm Str,# section: statistics and skill names (labels)
+0x0FBA42,8,statistics and skill names (labels),右脚筋力,R Leg Str,# section: statistics and skill names (labels)
+0x0FBA4B,8,statistics and skill names (labels),左脚筋力,L Leg Str,# section: statistics and skill names (labels)
+0x0FBA54,8,statistics and skill names (labels),頭部筋力,Head Str,# section: statistics and skill names (labels)
+0x0FBA5D,8,statistics and skill names (labels),胴体筋力,Body Str,# section: statistics and skill names (labels)
 0x0FBA66,10,statistics and skill names (labels),ジャンプ力,Jumping,# section: statistics and skill names (labels)
 0x0FBA71,8,statistics and skill names (labels),プロレス,Pro Wres,# section: statistics and skill names (labels)
 0x0FBA7A,6,statistics and skill names (labels),パンチ,Punch,# section: statistics and skill names (labels)
@@ -297,7 +297,7 @@ offset,max_bytes,section,japanese,english,notes
 0x0FBAB1,6,statistics and skill names (labels),ルチャ,Lucha,# section: statistics and skill names (labels)
 0x0FBAB8,6,statistics and skill names (labels),藤原組,Fuji,# section: statistics and skill names (labels)
 0x0FBABF,6,statistics and skill names (labels),ＦＭＷ,FMW,# section: statistics and skill names (labels)
-0x0FBAC6,6,statistics and skill names (labels),関節技,Joints,# section: statistics and skill names (labels)
+0x0FBAC6,6,statistics and skill names (labels),関節技,Holds,# section: statistics and skill names (labels)
 0x0FBACD,6,statistics and skill names (labels),受け身,Falls,# section: statistics and skill names (labels)
 0x0FBAD4,14,statistics and skill names (labels),スープレックス,Suplexes,# section: statistics and skill names (labels)
 0x0FBAE3,4,statistics and skill names (labels),ラフ,Rgh,# section: statistics and skill names (labels)
@@ -310,17 +310,17 @@ offset,max_bytes,section,japanese,english,notes
 0x0FBB2E,6,statistics and skill names (labels),ヒール,Heel,# section: statistics and skill names (labels)
 0x0FBB35,6,statistics and skill names (labels),得意技,Move,# section: statistics and skill names (labels)
 0x0FBB3C,10,statistics and skill names (labels),得意返し技,Counter,# section: statistics and skill names (labels)
-0x0FBB47,10,statistics and skill names (labels),得意決め技,Fav Finish,# section: statistics and skill names (labels)
+0x0FBB47,10,statistics and skill names (labels),得意決め技,Finisher,# section: statistics and skill names (labels)
 0x0FBB52,8,statistics and skill names (labels),スタミナ,Stamina,# section: statistics and skill names (labels)
-0x0FBB5B,4,statistics and skill names (labels),体力,Hlth,# section: statistics and skill names (labels)
-0x0FBB60,4,statistics and skill names (labels),筋力,Pwr,# section: statistics and skill names (labels)
+0x0FBB5B,4,statistics and skill names (labels),体力,HP,# section: statistics and skill names (labels)
+0x0FBB60,4,statistics and skill names (labels),筋力,Str,# section: statistics and skill names (labels)
 0x0FBB65,4,statistics and skill names (labels),身長,Ht,# section: statistics and skill names (labels)
 0x0FBB6A,4,statistics and skill names (labels),体重,Wt,# section: statistics and skill names (labels)
-0x0FBB6F,14,statistics and skill names (labels),プロポーション,Proportions,# section: statistics and skill names (labels)
+0x0FBB6F,14,statistics and skill names (labels),プロポーション,Figure,# section: statistics and skill names (labels)
 0x0FBB7E,8,statistics and skill names (labels),ストレス,Stress,# section: statistics and skill names (labels)
 0x0FBB87,8,statistics and skill names (labels),キック系,Kicks,# section: statistics and skill names (labels)
 0x0FBB90,8,statistics and skill names (labels),パンチ系,Punches,# section: statistics and skill names (labels)
-0x0FBB99,8,statistics and skill names (labels),関節技系,Joints,# section: statistics and skill names (labels)
+0x0FBB99,8,statistics and skill names (labels),関節技系,Holds,# section: statistics and skill names (labels)
 0x0FBBA2,8,statistics and skill names (labels),投げ技系,Throws,# section: statistics and skill names (labels)
 0x0FBBAB,8,statistics and skill names (labels),飛び技系,Aerial,# section: statistics and skill names (labels)
 0x0FBBB4,6,statistics and skill names (labels),スキル,Skill,# section: statistics and skill names (labels)
@@ -376,7 +376,7 @@ offset,max_bytes,section,japanese,english,notes
 0x0FBDF6,12,statistics and skill names (labels),胴体スタミナ,Body Stamina,# section: statistics and skill names (labels)
 0x0FBE03,4,statistics and skill names (labels),名前,Name,# section: statistics and skill names (labels)
 0x0FBE7B,36,help and prompts,ヒロインのプロフィールを設定します。,Set up the heroine's profile.,# section: help and prompts
-0x0FBEA0,60,help and prompts,文字の種類を選んでください（ＢＳは最後の文字を削除します）。,Choose a character type (BS deletes the last letter).,# section: help and prompts
+0x0FBEA0,60,help and prompts,文字の種類を選んでください（ＢＳは最後の文字を削除します）。,Choose a character set (BS deletes the last letter).,# section: help and prompts
 0x0FBEDD,44,help and prompts,読みの一文字目を入力してください（音読み）。,Enter the first letter of the reading.,# section: help and prompts
 0x0FBF0A,36,help and prompts,学年ごとに所属クラブを設定できます。,You can set a club for each school year.,# section: help and prompts
 0x0FBF2F,28,help and prompts,所属クラブを選んでください。,Choose a club.,# section: help and prompts

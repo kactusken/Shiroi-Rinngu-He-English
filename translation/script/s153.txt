@@ -23,7 +23,7 @@ JP 本気でやらないとケガするよ。
 JP まあ、今の{name}の顔見たら、そんなこと言っても無駄だと思ったわ。
 JP いい顔してるわね。
 EN Don't be silly, it's the opposite.
-EN Shimamura may be in the best shape of all.
+EN Shimamura might be at her very best right now.
 EN If you're not serious, you'll get hurt.
 EN Well, seeing {name}'s face now, I figured saying that would be pointless.
 EN You look good.
@@ -31,4 +31,4 @@ EN You look good.
 @ 153.03 spk=08 face=00
 # speaker: イーグル沢井
 JP 素直じゃないね。
-EN You're not very honest.
+EN You never just say it straight, do you?

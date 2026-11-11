@@ -10,4 +10,4 @@
 @ 248.00 spk=0c face=00
 # speaker: 石倉 由加利
 JP 対抗戦には興味があまりないわね。まだ、自分が完成してないから。
-EN I'm not very interested in the inter-promotion matches. I'm not complete yet.
+EN I'm not very interested in interpromotional matches. I'm not complete yet.

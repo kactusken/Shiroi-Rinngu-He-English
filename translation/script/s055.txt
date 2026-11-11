@@ -15,7 +15,7 @@ JP 時々、{name}の才能には嫉妬することだってあるのよ。
 JP 確かに巡業で戦ってはいるけど、
 JP 私は貴方の本当の力が知りたいの！
 EN You did it.
-EN I was looking forward to the final with you. Kagono said so too,
-EN but sometimes I even envy {name}'s talent.
+EN I was looking forward to facing you in the final. Like Kagono said,
+EN sometimes I even envy your talent, {name}.
 EN Sure, we fight on tour,
 EN but I want to know your real strength!

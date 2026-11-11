@@ -20,7 +20,7 @@ EN E-Eagle. Don't be unreasonable.
 @ 096.02 spk=08 face=01
 # speaker: イーグル沢井
 JP あそこまで言われて、じっとしていられるか！！
-EN After being told that, how can I sit still!!
+EN After talk like that, you expect me to sit still?!
 
 @ 096.03 spk=19 face=02
 # speaker: ハーレー斉藤
@@ -50,5 +50,5 @@ JP やめなさい。
 JP Ｊとの対抗戦が今一番難しいのは、貴方も判っているでしょ。
 JP さあ、練習を開始しなさい。
 EN Stop it.
-EN You know that the matches against J are the hardest right now.
+EN You know a match against J is the hardest thing to arrange right now.
 EN Now, start your training.

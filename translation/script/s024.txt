@@ -18,4 +18,4 @@ EN {p}Don't worry about it. As long as your rival is in the same promotion, you 
 
 @ 024.01 spk=00 face=00
 JP そう言う事、遠藤は、二上が居なくなったから。
-EN Exactly. Endo only says that because Futagami is gone.
+EN That's how it is. Endo lost Futagami, after all.

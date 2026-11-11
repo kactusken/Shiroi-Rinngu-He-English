@@ -16,7 +16,7 @@ JP 自分にあった練習をスケジュールで決めて、
 JP {p}コンプリートして練習開始や。
 JP これをちゃんとするかで、最強になれるかどうかが決まるんや。
 EN I'm Futagami. Nice to meet ya.
-EN Check the Status screen often. Without stamina, you can't expect training to work.
+EN Check the Status screen often. If your HP is low, don't expect training to do much.
 EN {p}Listen to Advice, then check Status.{p}
 EN Pick training that suits you in the Schedule,
 EN {p}then press Complete and begin training.

@@ -15,5 +15,5 @@ JP {p}どんなことかって？
 JP なんでも、人が一人死んだっていう事らしいけど．．．．
 EN Kandori??
 EN She might have stayed at LL forever if not for that incident.
-EN {p}What incident?
+EN {p}What happened, you ask?
 EN They say someone died, apparently...

@@ -18,10 +18,9 @@ JP {p}この道場で、入門の日に、
 JP リングの上で、挨拶をした日から、うちらはレスラーなんや。
 JP {p}女なんぞ、とっくに捨てなあかん。わかったな、明日も早い。
 EN Let's go home.
-EN {p}I forgot my towel, and when I went back it was already taken in.
-EN {p}That girl, too.
-EN She loves pro wrestling too.
-EN {p}That's why she came to see the dojo one last time. But we're wrestlers.
+EN {p}I forgot my towel and came back, but you two were busy, so...
+EN {p}She... she loves pro wrestling too.
+EN {p}That's why she came to see the dojo one last time. {p}But we're wrestlers.
 EN {p}In this dojo, from the day we entered,
-EN the day we said hello on the ring, we've been wrestlers.
-EN {p}A woman, we should have thrown that away long ago. Got it? Tomorrow's early too.
+EN the day we stood in that ring and said our hellos, we've been wrestlers.
+EN {p}Being a girl? We should've thrown that away long ago. Got it? Another early start tomorrow.

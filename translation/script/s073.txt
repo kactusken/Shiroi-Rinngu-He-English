@@ -10,7 +10,7 @@
 @ 073.00 spk=1e face=02
 # speaker: 立野 記代
 JP 社長がよんでるよ。
-EN The Boss is calling for you.
+EN The President is calling for you.
 
 @ 073.01 spk=1c face=00
 # speaker: 風間 ルミ

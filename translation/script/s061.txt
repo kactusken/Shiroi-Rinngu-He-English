@@ -27,7 +27,7 @@ EN You look like you're thinking, "I don't need that from a retired man."
 JP どうしたの？{name}。
 JP あっ、大仁田社長おはようございます。
 EN What's wrong, {name}?
-EN Oh, good morning, Boss Onita.
+EN Oh, good morning, President Onita.
 
 @ 061.02 spk=23 face=01
 # speaker: 大仁田 厚

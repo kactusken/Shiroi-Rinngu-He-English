@@ -9,4 +9,4 @@
 
 @ 133.00 spk=fe face=00
 JP 今日のスケジュール：特撮出演
-EN Today's Schedule: Special Effects Show
+EN Today's Schedule: Hero Show

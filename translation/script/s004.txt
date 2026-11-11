@@ -19,5 +19,5 @@ EN Think about matches when you train.
 EN Pro wrestling has Skills.
 EN {p}Of course they build up through training,
 EN and your Skills decide how many moves you have.
-EN {p}How do you check your moves?
-EN They'll move by themselves in the match!!
+EN {p}How do you check your moves, you ask?
+EN In a match, your body will move on its own!!

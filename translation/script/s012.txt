@@ -13,7 +13,7 @@ JP クリスマスやなあ。
 JP {p}俗世間のイベントとは無関係なこの道場でも、さすがにクリスマスと聞くと寂しいもんやな。
 JP {p}何がかなしゅうて、イブの日にバーベル上げとんのやろ。
 EN It's Christmas, huh.
-EN {p}Even in this dojo, cut off from worldly events, hearing "Christmas" is lonely.
+EN {p}Even in this dojo, cut off from the outside world, the word "Christmas" still makes ya lonely.
 EN {p}Why am I lifting barbells on Christmas Eve, of all things?
 
 @ 012.01 spk=0a face=01
@@ -44,7 +44,7 @@ EN Why's that?
 @ 012.06 spk=17 face=02
 # speaker: ニ上 美紀子
 JP ３禁がないＬＬで、ここでバーベルもっとる奴は。
-EN In LL, with no Three Bans, whoever's lifting barbells here is...
+EN There's no dating ban in LL, so anyone lifting barbells here on Christmas Eve...
 
 @ 012.07 spk=06 face=01
 # speaker: 篭野 ことり

@@ -15,7 +15,7 @@ EN Everyone, listen up.
 @ 159.01 spk=11 face=01
 # speaker: 紅 夜叉
 JP どうしました？社長。
-EN What is it, Boss?
+EN What is it, President?
 
 @ 159.02 spk=1c face=02
 # speaker: 風間 ルミ
@@ -34,7 +34,7 @@ EN Really?
 JP ええ、貴重な戦力を失うけど、
 JP 新しい戦士の新しい戦場を祝福して欲しいの。
 EN Yes. We lose a valuable fighter,
-EN but I want you to bless a new warrior on a new battlefield.
+EN but I want you to wish a new warrior well on her new battlefield.
 
 @ 159.05 spk=03 face=01
 # speaker: 嶋村 由佳

@@ -24,6 +24,6 @@ EN {p}Strong, who show off their strength.
 EN Entertainment, for the show of the match.
 EN Babyface, the idol type. Power, the brute force type.
 EN Heel, the villain.
-EN Every wrestler is one of these. Keep training with someone and you'll grow closer to them.
-EN {p}But be careful: a person's type is not just one.
+EN Every wrestler is one of these. Keep training with someone and you'll become more like them.
+EN {p}But be careful: a wrestler can have more than one type.
 EN {p}Listen closely to everyone's Advice.

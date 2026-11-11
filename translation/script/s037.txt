@@ -12,7 +12,7 @@
 JP 何してんの。
 JP リングがあがったら椅子並べだよ。ホールじゃないんだから、全部やるの！！
 EN What are you doing?
-EN Once the ring is up, set out the chairs. This isn't a hall, so we do everything!!
+EN Once the ring is up, set out the chairs. We're not at the Hall, so we do everything ourselves!!
 
 @ 037.01 spk=03 face=01
 # speaker: 嶋村 由佳
@@ -26,4 +26,4 @@ EN Well, I'll leave this to you.
 JP どうした？嶋村か？
 JP 戦って、色々と考えることがあったんだろうよ。
 EN What's up? Is it Shimamura?
-EN She must have had a lot to think about after fighting.
+EN Fighting you must've given her a lot to think about.

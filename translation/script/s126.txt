@@ -30,12 +30,12 @@ EN About something that long ago.
 EN {p}I hear you're fighting Kandori.
 EN {p}Kazama asked me to come, since you seem troubled.
 EN Tell me, what is strength?
-EN I did the Electric Current Explosion matches.
+EN I did the exploding barbed-wire matches.
 EN I was the Emperor of Deathmatches.
 EN But I never thought I was strong.{p}Whenever I fought Mr. Pogo, it was always a battle against hatred.
 EN When I couldn't hold it down in my own heart, I did deathmatches.
 EN Do you call that strong?
 EN {p}People hating each other is not strength.
-EN That's why Kandori entrusted you, isn't it?
-EN {p}The future of pro wrestling, in your heart.{p}A heart that simply wants to fight and win. I think Kandori bet on that.
-EN Well, see you. Just the nagging of a retired man.
+EN Isn't that why Kandori handed it to you?
+EN {p}The future of pro wrestling, to your heart.{p}A heart that simply wants to fight and win. I think Kandori bet on that.
+EN Well, so long. That's just a retired guy's grumbling.

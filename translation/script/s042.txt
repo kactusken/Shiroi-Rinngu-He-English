@@ -25,7 +25,7 @@ EN You two came to watch?
 # speaker: 嶋村 由佳
 JP 社長！！
 JP 来てらっしゃったんですか。
-EN Boss!!
+EN President!!
 EN You're here too?
 
 @ 042.03 spk=1c face=02

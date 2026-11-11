@@ -10,4 +10,4 @@
 @ 186.00 spk=23 face=00
 # speaker: 大仁田 厚
 JP 今月から、ＪＷＷＦで練習出来る許可を取ってある。
-EN From this month, I've gotten permission for you to do training at JWWF.
+EN Starting this month, you've got permission to do your training at JWWF.

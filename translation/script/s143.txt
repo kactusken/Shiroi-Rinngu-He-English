@@ -12,12 +12,12 @@
 JP どうしたＬＬの{name}じゃないか。元気か？？
 JP ．．．そうだ。おまえ、ＦＭＷに移籍する気はないか？この前の中山との試合、出来はどうあれ、ＦＭ向きだと思うんだけど．．．風間社長には言っておくから、考えといてくれ。
 EN If it isn't {name} from LL. How are you?
-EN ...Say. Have you thought about transferring to FMW? Whatever the result was, I think your match with Nakayama showed you suit FMW... I'll tell Boss Kazama, so think it over.
+EN ...Say. Have you thought about transferring to FMW? However well it went, I think your match with Nakayama showed you suit FMW... I'll tell President Kazama, so think it over.
 
 @ 143.01 spk=18 face=01
 # speaker: 大向 美智子
 JP あ、いたいた。{name}、駄目じゃない呼んでくれなきゃ。大仁田社長、風間からです。
-EN Oh, there you are. {name}, you should've called me. Boss Onita, a call from Kazama.
+EN Oh, there you are. {name}, you should've called me. President Onita, a call from Kazama.
 
 @ 143.02 spk=23 face=02
 # speaker: 大仁田 厚

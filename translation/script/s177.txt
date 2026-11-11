@@ -13,5 +13,5 @@ JP おい、{name}。
 JP 今月のＬＬＰＷの興業。
 JP 招待券来てるから見てこい。
 EN Hey, {name}.
-EN This month's LLPW show.
-EN We got complimentary tickets, so go and watch.
+EN There's an LLPW show this month.
+EN We got complimentary tickets, so go and watch it.

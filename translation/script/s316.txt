@@ -12,7 +12,7 @@
 JP じゃあな！！
 JP ついて来る奴はついてきな！！
 EN See you around!!
-EN Follow me if you've got the guts!!
+EN Anyone who's coming, come on!!
 
 @ 316.01 spk=0e face=01
 # speaker: ジェンヌゆかり

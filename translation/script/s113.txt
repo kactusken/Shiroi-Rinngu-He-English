@@ -24,14 +24,14 @@ EN What is it?
 JP ２人を今度の最終戦で当てます。
 JP もちろん、３冠へのステップとしてね。
 JP 頑張りなさい。
-EN I'm putting the two of you against each other in the final match.
+EN I'm putting the two of you against each other at the final show.
 EN Naturally, as a step toward the Triple Crown.
 EN Do your best.
 
 @ 113.03 spk=19 face=01
 # speaker: ハーレー斉藤
 JP 社長！！なぜ、{name}と。
-EN Boss!! Why with {name}?
+EN President!! Why against {name}?
 
 @ 113.04 spk=1c face=02
 # speaker: 風間 ルミ

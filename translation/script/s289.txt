@@ -12,4 +12,4 @@
 JP 私のタイプは、ストロングだ。
 JP ヒール技能は下がるぞ。
 EN My type is Strong.
-EN Heel skill will drop.
+EN Your Heel skill will drop, though.

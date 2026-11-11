@@ -19,7 +19,7 @@ JP 負けんじゃないよ！！！！
 EN After weighing many opinions, Eagle will represent us in the Triple Crown match.
 EN FMW says Combat will represent them.
 EN The match is at Tokyo Gym this month.
-EN The semi-final is {name} against Kudo.
+EN The semi-main event is {name} against Kudo.
 EN Each of you, spend your training with your own opponent in mind.
 EN This is an all-out interpromotional show,
 EN so don't you dare lose!!!!

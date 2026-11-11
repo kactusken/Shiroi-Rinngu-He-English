@@ -15,5 +15,5 @@ JP 跳ぶことは、自由を勝ち取るための翼なんだ。
 JP 僕は、君にその翼を与えたいと思っているんだ。
 EN I do basic wrestling too, but I think of myself as a luchador.
 EN {p}Lucha means a fight for freedom.
-EN Flying is the wings that win freedom.
+EN Flying gives you the wings to win freedom.
 EN I want to give you those wings.

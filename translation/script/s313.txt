@@ -15,7 +15,7 @@ EN Kandori, what's with that vacant look?
 @ 313.01 spk=0f face=01
 # speaker: 神取 忍
 JP 組長。私は、最強になりたい。
-EN Chief. I want to be the strongest.
+EN Boss. I want to be the strongest.
 
 @ 313.02 spk=20 face=02
 # speaker: 藤原 善明

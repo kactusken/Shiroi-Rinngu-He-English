@@ -9,4 +9,4 @@
 
 @ 198.00 spk=00 face=00
 JP タイプはベビーフェースよ。
-EN My type is babyface.
+EN My type is Babyface.

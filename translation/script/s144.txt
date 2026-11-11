@@ -16,7 +16,7 @@ JP どうする？選ぶのは貴方よ。
 JP はっきり言って、貴方は今、壁にぶつかってるわ。
 JP どうするか自分で決めなさい。
 EN {name}, got a moment?
-EN I just had a call from Boss Onita of FMW.
+EN I just had a call from President Onita of FMW.
 EN FMW wants you...
 EN What will you do? The choice is yours.
 EN Frankly, you've hit a wall right now.

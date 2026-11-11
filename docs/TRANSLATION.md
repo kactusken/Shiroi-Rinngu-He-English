@@ -29,7 +29,7 @@ letter-run tokens automatically. Lint checks both.
 
 ## Style guide (provisional - decided by the lead for the first test build)
 - Western name order (Yuka Shimamura), Hepburn without macrons; surname-only forms kept as the Japanese has them.
-- Honorifics dropped; 社長 = "Boss"; 組長 (Fujiwara) = "Chief" (reviewer).
+- Honorifics dropped; 社長 = "President" ("President Onita"); 組長 (Fujiwara, yakuza undertone) = "Boss" (owner, 2026-11-11).
 - Quotes: double quotes; ellipsis `...`; `!` `?`; no curly quotes or long dashes (no glyphs).
 - Menus and labels in Title Case; dialogue in sentence case; wrestling terms in their usual English.
 - Heroine: `{name}` with no honorific.
@@ -42,6 +42,10 @@ letter-run tokens automatically. Lint checks both.
 |---|---|
 | True variable-width renderer hooked into the message loop; system text in place; scenes relocated to a 2 MB ROM | lead, 2026-11-09, after the owner found the first (token) approach too gappy |
 | Staff credits (the ending staff roll) and the name-entry keyboards stay Japanese; the 5 opening title cards (role labels + names) are translated, names stay Japanese | owner asked for credits to stay; the game already has a Latin tab |
+| ニールキック = Neil Kick (the puroresu name of the jumping scissor kick); 正規軍 = "regular army", 〜軍 = "army" (how Japanese wrestling factions are named); ending s192: the heroine suspects Kandori lost on purpose, then rejects it; ring announcements keep their varied wording (may differ by promotion) | owner, 2026-11-11 |
+| メルブレ dropped (s025: "I'm Takenaka, from LLPW management"); アルメテット路線 = "the Ultimate route" (LLPW's real 1995 L-1 shoot tournament); 華激 = "Glam-Extreme" (pun on FMW's 過激 "extreme") | owner, 2026-11-11 |
+| Wrestler types capitalised in dialogue (Babyface, Heel, Strong, Entertainment, Power); 脇固め = armbar; 特撮出演 = Hero Show; "TR" (top rope) in move names OK | owner, 2026-11-11 |
+| Stats: 体力 = HP, 筋力 = Strength (Str in short labels), 柔軟性 = Flex; 3禁 joke (s012) rendered as "no dating ban" | owner, 2026-11-11 |
 | Names, boss/chief, move-name abbreviations | lead, provisional - QUESTIONS.md |
 
 ## What stays untranslated

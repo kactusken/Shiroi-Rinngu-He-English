@@ -20,7 +20,7 @@ JP {p}頑張りなさい。
 EN Good morning.
 EN {p}From today on, you must live as wrestlers. There will be a lot of hard
 EN and sad times.
-EN But when you overcome them, you will be able to grasp a star as pro wrestlers.
+EN {p}But when you overcome them, you will be able to grasp a star as pro wrestlers.
 EN {p}Do your best.
 
 @ 000.01 spk=1c face=02
@@ -61,7 +61,7 @@ EN Hey!
 @ 000.06 spk=1c face=01
 # speaker: 風間 ルミ
 JP いいのハーレー、元気があるのは悪いことではないわ。
-EN It's fine, Harley. Having spirit is nothing bad.
+EN It's fine, Harley. There's nothing wrong with having spirit.
 
 @ 000.07 spk=04 face=02
 # speaker: 秋月 水葱
@@ -87,7 +87,7 @@ JP 大分県出身です。
 JP がんばれるだけ、がんばります。
 EN I'm Naomi Iwashita.
 EN I'm from Oita Prefecture.
-EN I'll do my best as long as I can.
+EN I'll work as hard as I can.
 
 @ 000.11 spk=03 face=02
 # speaker: 嶋村 由佳

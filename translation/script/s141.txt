@@ -16,7 +16,7 @@ EN Congratulations! I won't ask much of the match itself, but a win deserves app
 # speaker: 紅 夜叉
 JP 何を習ってきた。
 JP あんな試合またやったら承知しねえぞ！！
-EN What did you learn?
+EN What have you been learning?!
 EN Wrestle a match like that again and you'll answer to me!!
 
 @ 141.02 spk=08 face=00
@@ -28,4 +28,4 @@ JP そんなこと、プロレスごっこでしか無いんだよ。
 EN Winning isn't hard.
 EN A heel has to hold the crowd in the palm of her hand.
 EN All you do is flail your arms and legs around.
-EN That's nothing but playing wrestling.
+EN That's nothing but playing at wrestling.

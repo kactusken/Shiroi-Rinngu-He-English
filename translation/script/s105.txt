@@ -26,7 +26,7 @@ EN Eagle!
 # speaker: イーグル沢井
 JP 社長！
 JP そうか、{name}をつれて。
-EN Boss!
+EN President!
 EN I see. You brought {name} along.
 
 @ 105.04 spk=0f face=01

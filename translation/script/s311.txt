@@ -11,7 +11,7 @@
 # speaker: 工藤 めぐみ
 JP 社長！！神取とやらせて下さい。
 JP ＦＭＷは逃げません！！
-EN Boss!! Let me fight Kandori.
+EN President!! Let me fight Kandori.
 EN FMW won't run away!!
 
 @ 311.01 spk=23 face=02
@@ -27,4 +27,4 @@ EN ...
 @ 311.03 spk=23 face=02
 # speaker: 大仁田 厚
 JP 頭を冷やせ。
-EN Cool your head.
+EN Cool off.

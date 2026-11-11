@@ -22,7 +22,7 @@ EN Yes.
 @ 010.02 spk=1c face=02
 # speaker: 風間 ルミ
 JP 大仁田社長、いらっしゃいますか。
-EN Boss Onita, are you in?
+EN President Onita, are you in?
 
 @ 010.03 spk=0d face=01
 # speaker: 岩見 敬子
@@ -37,7 +37,7 @@ EN Hey, it's been a while.
 @ 010.05 spk=1c face=02
 # speaker: 風間 ルミ
 JP おはようございます。社長。
-EN Good morning, Boss.
+EN Good morning, President.
 
 @ 010.06 spk=23 face=01
 # speaker: 大仁田 厚

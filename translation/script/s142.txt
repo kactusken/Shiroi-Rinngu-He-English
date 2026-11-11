@@ -11,7 +11,7 @@
 # speaker: 嶋村 由佳
 JP 何で負けるのよ！
 JP 貴方と戦えるのを楽しみにしていたのに！！。
-EN Why did I lose?!
+EN Why did you lose?!
 EN I was looking forward to fighting you!!
 
 @ 142.01 spk=00 face=00

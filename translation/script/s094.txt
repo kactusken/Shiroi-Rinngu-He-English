@@ -10,7 +10,7 @@
 @ 094.00 spk=21 face=01
 # speaker: 竹中さん
 JP どうも、社長。
-EN Hello, Boss.
+EN Hello, President.
 
 @ 094.01 spk=1c face=02
 # speaker: 風間 ルミ
@@ -30,17 +30,17 @@ EN Waaah!
 @ 094.04 spk=21 face=01
 # speaker: 竹中さん
 JP え？社長．．．また秘密？？
-EN Huh? Boss... another secret??
+EN Huh? President... another secret??
 
 @ 094.05 spk=1c face=02
 # speaker: 風間 ルミ
 JP そうよ。まったくもう。
-EN Yes. Honestly, really.
+EN Yes, it was. Honestly!
 
 @ 094.06 spk=18 face=01
 # speaker: 大向 美智子
 JP 社長、旅行って？海外？？
-EN Boss, what trip? Overseas??
+EN President, what trip? Overseas??
 
 @ 094.07 spk=1c face=02
 # speaker: 風間 ルミ

@@ -16,6 +16,6 @@ JP 全て決定したら、キャンセルボタンで、元の画面に戻し�
 JP 変えたい場合は、上から重ねれば大丈夫よ。
 EN I'm Miki Handa.
 EN Fill the whole month's Schedule and start training.
-EN Open the Schedule window, pick a week up or down and press OK, and you can choose which wrestler to train with.
+EN Open the Schedule window, choose a week with Up/Down and press OK, then you can pick which wrestler to train with.
 EN When everything is set, press Cancel to go back.
 EN To change something, just overwrite it.

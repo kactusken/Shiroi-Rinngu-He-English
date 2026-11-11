@@ -28,8 +28,8 @@ EN I'm assigning {name} as your attendant, so train her well.
 # speaker: 紅 夜叉
 JP そうかい。{name}、こっちに来な。
 JP 私の付き人になったからには、頑張ってもらうぜ。
-EN I see. {name}, come here.
-EN Now that you're my attendant, I'll expect you to work hard.
+EN That so. {name}, get over here.
+EN Now that you're my attendant, you'd better pull your weight.
 
 @ 135.04 spk=1c face=02
 # speaker: 風間 ルミ

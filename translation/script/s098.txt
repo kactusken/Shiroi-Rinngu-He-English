@@ -35,7 +35,7 @@ EN No!
 @ 098.05 spk=19 face=01
 # speaker: ハーレー斉藤
 JP じゃあ、岩見・ナース？？
-EN Then Iwami and Nurse?
+EN Then Iwami and Nurse Nakamura?
 
 @ 098.06 spk=1c face=02
 # speaker: 風間 ルミ

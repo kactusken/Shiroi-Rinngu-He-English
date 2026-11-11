@@ -21,7 +21,7 @@ EN What's all the commotion?
 # speaker: 遠藤 美月
 JP 社長！！嶋村が！！
 JP 練習中に膝を。
-EN Boss!! It's Shimamura!!
+EN President!! It's Shimamura!!
 EN She hurt her knee in training.
 
 @ 071.03 spk=1c face=02

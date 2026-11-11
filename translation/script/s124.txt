@@ -16,7 +16,7 @@ EN Kudo!! Why aren't you saying anything? Kagono!! Where's your usual fire? Why 
 # speaker: 篭野 ことり
 JP イーグル先輩。あなたも判っているんでしょ。
 JP 神取選手の考え方が。ここにどうしてみんなを集めたか、どうして、{name}が選ばれているか。
-EN Senior Eagle, you understand too, don't you?
+EN Eagle, you understand too, don't you?
 EN What Kandori is thinking. Why she gathered us here, and why {name} was chosen.
 
 @ 124.02 spk=08 face=01

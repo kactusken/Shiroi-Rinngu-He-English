@@ -11,7 +11,7 @@
 # speaker: 工藤 めぐみ
 JP 社長！！待てません。
 JP 神取と戦わせて下さい。
-EN Boss!! I can't wait.
+EN President!! I can't wait.
 EN Let me fight Kandori.
 
 @ 315.01 spk=23 face=01
@@ -34,10 +34,10 @@ JP 導く事ではないのか！！
 JP 時期を待て、
 JP きっと、きっと来る。
 EN You idiot!!
-EN What's your goal!!
-EN Isn't it to lead the way!!
-EN Wait for your time.
-EN It will come. It will surely come.
+EN What's your goal?!
+EN Isn't it to lead the others?!
+EN Wait for the right time.
+EN It'll come. I promise you, it'll come.
 
 @ 315.04 spk=10 face=02
 # speaker: 工藤 めぐみ

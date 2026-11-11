@@ -10,4 +10,4 @@
 @ 257.00 spk=10 face=00
 # speaker: 工藤 めぐみ
 JP 私のタイプ？？ベビーフェースとストロングが半々かな。
-EN My type? Half babyface, half strong, I guess.
+EN My type? Half Babyface, half Strong, I guess.

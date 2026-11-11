@@ -10,4 +10,4 @@
 @ 277.00 spk=17 face=00
 # speaker: ニ上 美紀子
 JP うちは、踊れるストロングや。
-EN I'm a Strong style who can dance.
+EN Me? I'm a Strong type who can dance.

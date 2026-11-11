@@ -10,4 +10,4 @@
 @ 251.00 spk=0d face=00
 # speaker: 岩見 敬子
 JP タイプ？エンターティメントにヒールかな。
-EN Type? Entertainment and heel, I guess.
+EN Type? Entertainment and Heel, I guess.

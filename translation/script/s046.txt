@@ -12,7 +12,7 @@
 JP こら！！{name}。
 JP ロープの張りが悪いよ。
 EN Hey!! {name}.
-EN Your rope tension is bad.
+EN These ropes are too slack!
 
 @ 046.01 spk=03 face=00
 # speaker: 嶋村 由佳
@@ -21,4 +21,4 @@ JP Ｊの試合を見て何かあったの？
 JP 何でもないって、あったら相談してね。
 EN What's wrong?
 EN Did something happen after watching J's match?
-EN If it's nothing, fine, but if there is, talk to me.
+EN Nothing, you say? Well, if there is something, talk to me.

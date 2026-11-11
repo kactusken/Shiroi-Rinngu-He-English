@@ -22,9 +22,9 @@ EN You've got guts, coming all the way to the locker room.
 JP こわいこといわんで下さいな。一言いいにきただけです。
 JP 「約束通りきたで。」
 JP じゃあ、失礼します。
-EN Don't be scary. I only came to say one thing.
+EN Don't say scary stuff like that. I just came to say one thing.
 EN "I came like I promised."
-EN Well, excuse me.
+EN Well, I'll be off now.
 
 @ 157.03 spk=11 face=02
 # speaker: 紅 夜叉

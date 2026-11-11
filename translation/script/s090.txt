@@ -23,4 +23,4 @@ EN Get ready for it!!!
 @ 090.01 spk=19 face=00
 # speaker: ハーレー斉藤
 JP やったな。本丸のお出ましだ。
-EN We did it. The main force is coming out.
+EN Nice work. Now the big guns come out.

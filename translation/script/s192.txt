@@ -15,15 +15,15 @@ JP 最強の看板は、
 JP まだ預かっとかんとな。
 EN Hey, {name}! {name}!
 EN What are you spacing out for? Let's go, we can't lose today.
-EN We're still holding on to
-EN the sign of the strongest.
+EN We gotta keep the title of
+EN strongest in our hands a while longer.
 
 @ 192.01 spk=0f face=00
 # speaker: 神取 忍
 JP これで、あんたに最強を渡せるよ。{p}だけどね、５年後、５年後に私の意志を継いで現れる。
 JP まってな、
 JP そしてリターンマッチだ！！
-EN With this, I can hand you the strongest title.{p}But in five years, five years from now, someone who carries on my will will appear.
+EN With this, I can pass "strongest" on to you.{p}But in five years - five years from now - someone will come to carry on my will.
 EN Wait for it,
 EN and then it's the rematch!!
 
@@ -40,12 +40,12 @@ JP まさか！！！
 JP ただ、自分は上がるだけだ。
 JP 星を掴むまで、白いリングへ。
 EN After that match, JWWF and LLPW went back to being one promotion.
-EN But Kandori disappeared.{p}With the word strongest on my back, I came to protect the promotion.
+EN But Kandori faded away.{p}Carrying the word "strongest", it fell to me to protect the promotion.
 EN I took the title and had everything, yet something was missing in my heart.
 EN ...Was Kandori the same?
-EN The word strongest, the twilight of something with no shape.
+EN "Strongest" - the twilight of something with no shape.
 EN {p}I still think about it.
-EN Did Kandori really mean to win?
-EN Of course not!!!
+EN Did Kandori really mean to win... or not?
+EN No, that can't be!!!
 EN I'll just keep climbing.
 EN Until I grasp the star, to the White Ring.

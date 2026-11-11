@@ -10,7 +10,7 @@
 @ 167.00 spk=2b face=02
 # speaker: グレートサスケ
 JP こんにちは！！
-EN Good day!!
+EN Hello!!
 
 @ 167.01 spk=23 face=01
 # speaker: 大仁田 厚
@@ -20,12 +20,12 @@ EN Oh, Sasuke. Come on in. What brings you here?
 @ 167.02 spk=2b face=02
 # speaker: グレートサスケ
 JP やだなあ、「夏の興業に選手を貸して欲しい。」って頼んでたじゃないですか。
-EN Come on, I asked you for wrestlers to lend us for the summer show, remember?
+EN Come on, I asked you to lend us some wrestlers for the summer show, remember?
 
 @ 167.03 spk=23 face=01
 # speaker: 大仁田 厚
 JP そうか、今、男でルチャ系には、マッハとバト．．．そうだ、金村なんて結構いけるぞ。
-EN Right. For male Lucha guys right now we have Mach and Bato... Oh, and Kanemura is pretty good too.
+EN Right. For guys doing lucha right now, there's Mach and Bato... Oh, and Kanemura is pretty good too.
 
 @ 167.04 spk=2b face=02
 # speaker: グレートサスケ

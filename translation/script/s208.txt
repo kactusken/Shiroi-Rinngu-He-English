@@ -10,4 +10,4 @@
 @ 208.00 spk=02 face=00
 # speaker: クラッシャー前泊
 JP 腕力をつけていくのが私の練習さ。１３０ｋｇのイーグルぐらいなら上げれるさ。
-EN Building arm strength is my training. I can lift someone like Eagle, 130 kg.
+EN Building arm strength is my training. I could lift Eagle, all 130 kg of her.

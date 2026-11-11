@@ -75,7 +75,7 @@ JP 集中できないわよ。
 JP {p}スケジュールは月初めにアドバイスを良く聞いて決めなさい。
 JP {p}スケジュールを一ヶ月分、最初に決めないと、練習は始められないので気を付けてね。
 JP {p}じゃあ、練習を始めなさい。
-EN Take good care of your stamina.
+EN Keep a close eye on your HP.
 EN If you push training too hard and don't get enough rest or a change of pace,
 EN you won't be able to concentrate.
 EN {p}Decide your Schedule at the start of each month, after listening closely to the Advice.

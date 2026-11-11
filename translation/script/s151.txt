@@ -11,8 +11,8 @@
 # speaker: 石川 雄規
 JP あ、組長！！
 JP 紅ちゃん来てますよって、誰です？その子。
-EN Oh, Chief!!
-EN Kurenai's here, but who's that girl?
+EN Oh, Boss!!
+EN Kurenai's here... Wait, who's that girl?
 
 @ 151.01 spk=20 face=01
 # speaker: 藤原 善明
@@ -26,12 +26,12 @@ JP プロフェッショナルレスリング藤原組にようこそ！！石�
 JP で、貴方を連れてきたのが組長の藤原嘉明選手。
 EN You catch a lot of them.
 EN Welcome to Professional Wrestling Fujiwara-gumi!! I'm Yuki Ishikawa.
-EN And the one who brought you here is our Chief, Yoshiaki Fujiwara.
+EN And the one who brought you here is our Boss, Yoshiaki Fujiwara.
 
 @ 151.03 spk=11 face=01
 # speaker: 紅 夜叉
 JP 石川さん。組長来たんですって。
-EN Mr. Ishikawa. I hear the Chief is here.
+EN Mr. Ishikawa. I hear the Boss is here.
 
 @ 151.04 spk=22 face=02
 # speaker: 石川 雄規
@@ -50,7 +50,7 @@ JP よろしく。
 JP 紅って{name}！！
 JP なんでこんなトコにいるんだよ。
 EN Nice to meet you.
-EN Kurenai?! {name}!!
+EN I'm Kurenai... Huh? {name}!!
 EN What are you doing in a place like this?
 
 @ 151.06 spk=22 face=02
@@ -82,7 +82,7 @@ JP 試合もそうだが、「まず強くあれ」って事だ。
 JP 汗をかいた分、自分の身体は裏切らない。
 JP それが答えだ。
 JP いつでも練習に来い。待ってるぞ。
-EN I see, I thought you had a good build. You're a wrestler.
+EN I see. I figured you had the makings of one - so you're a wrestler.
 EN Then this is easy. Get training.
 EN A pro wrestler must never lose, no matter when.
 EN When I coached at the dojo, I trained so I'd be ready whenever a challenger showed up.

@@ -16,8 +16,8 @@ JP それをプロレス力にする練習。
 JP 練習について来るには、今の７倍の体力がいるわよ。
 JP 練習の特性は、一度やってみるしかないわね。
 EN A question already? Good attitude.
-EN Training heads in a different direction for each person, so if you don't choose what suits you, it'll be hard.
+EN Everyone's training goes a different way. Pick what suits you, or it'll be rough.
 EN {p}My training is built on basic stamina
 EN and turning it into wrestling power.
 EN To keep up, you need 7 times the stamina you have now.
-EN You can only learn a training's traits by trying it.
+EN To see what a training does, you just have to try it once.

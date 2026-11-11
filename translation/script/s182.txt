@@ -17,7 +17,7 @@ EN It happened before you joined LL.
 JP 神取先輩！！スパーリングしましょう！！
 JP やっぱり、強くなきゃあプロレスラーとは言えませんよ。
 JP 二人でＬＬを最強の団体にしましょうね。
-EN Senior Kandori!! Let's spar!!
+EN Kandori!! Let's spar!!
 EN If you're not strong, you can't call yourself a pro wrestler.
 EN Let's make LL the strongest promotion together.
 
@@ -49,7 +49,7 @@ EN Hey, what's wrong! Inoue! Inoue!!!
 @ 182.07 spk=1c face=02
 # speaker: 風間 ルミ
 JP どうしたの神取！
-EN What happened, Kandori!
+EN What happened, Kandori?!
 
 @ 182.08 spk=0f face=01
 # speaker: 神取 忍
@@ -65,7 +65,7 @@ EN Inoue, I knew it.
 # speaker: 篭野 ことり
 JP 社長、すいま、せ、ん。
 JP 私、ウ、ソを、
-EN Boss, I'm sor, ry. I li, ed...
+EN President, I'm sor, ry. I li, ed...
 
 @ 182.11 spk=12 face=02
 # speaker: レオ北村

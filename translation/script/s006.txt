@@ -13,7 +13,7 @@ JP ふう、今日も疲れたなあ。
 JP {p}最後まで練習しとんのも、うちとあんただけや。
 JP と、いっても戸締まりのあんたは、うちの練習に巻き込まれただけやけどな。
 JP 練習あがるわ。
-EN Phew, I'm tired again today.
-EN {p}We're the only two left training to the end.
-EN But you, who're locking up, just got dragged into my training.
-EN I'm done for the day.
+EN Phew, another tiring day.
+EN {p}You and me are the only ones still training this late.
+EN Well, you're only here 'cause you're on lock-up duty and got dragged into my training.
+EN I'm calling it a day.

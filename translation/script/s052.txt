@@ -20,5 +20,5 @@ EN Finish it! Shimamura!!
 @ 052.02 spk=fe face=00
 JP １４分２８秒。
 JP 体固めで嶋村由佳選手の勝ち。
-EN 14 minutes, 28 seconds.
-EN With a body press, the winner is Yuka Shimamura.
+EN 14 minutes 28 seconds.
+EN Yuka Shimamura wins by pin.

@@ -10,7 +10,7 @@
 @ 072.00 spk=19 face=02
 # speaker: ハーレー斉藤
 JP 社長！！嶋村が大ケガって本当ですか？
-EN Boss!! Is it true Shimamura is badly hurt?
+EN President!! Is it true Shimamura is badly hurt?
 
 @ 072.01 spk=1c face=01
 # speaker: 風間 ルミ

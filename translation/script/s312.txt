@@ -23,7 +23,7 @@ EN Kandori... I knew you'd be here.
 # speaker: 神取 忍
 JP 風間．．．私は、
 JP 私は一体だれなんだ。
-EN Kazama... Who am I?
+EN Kazama... I...
 EN Who the hell am I?
 
 @ 312.03 spk=1c face=01

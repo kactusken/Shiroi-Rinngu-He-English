@@ -11,8 +11,8 @@
 # speaker: 工藤 めぐみ
 JP 大仁田社長！！
 JP Ｊと契約したって本当ですか！！
-EN Boss Onita!!
-EN Is it true you signed with J!!
+EN President Onita!!
+EN Is it true you signed with J?!
 
 @ 190.01 spk=23 face=01
 # speaker: 大仁田 厚
@@ -22,7 +22,7 @@ EN Yes.
 @ 190.02 spk=10 face=02
 # speaker: 工藤 めぐみ
 JP 神取とシングル組んでください。
-EN Book me in a singles match with Kandori.
+EN Please book me a singles match with Kandori.
 
 @ 190.03 spk=23 face=01
 # speaker: 大仁田 厚

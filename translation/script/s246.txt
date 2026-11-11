@@ -10,4 +10,4 @@
 @ 246.00 spk=0c face=00
 # speaker: 石倉 由加利
 JP 私は叔父の後を継ぐために、空手をマスターしたいと思っているの。一緒に練習してくれるなら嬉しいな。
-EN I want to master karate to follow my uncle. I'd be glad if you did training with me.
+EN I want to master karate so I can take over from my uncle. I'd be glad to have you as a training partner.

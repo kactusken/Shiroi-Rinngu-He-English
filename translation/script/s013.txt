@@ -21,7 +21,7 @@ EN you'll debut soon, so do your best.
 @ 013.01 spk=06 face=02
 # speaker: 篭野 ことり
 JP 社長、その事でちょっと話があるんやけど。
-EN Boss, I've got something to talk to you about on that.
+EN President, I've got something to talk to you about on that.
 
 @ 013.02 spk=1c face=01
 # speaker: 風間 ルミ

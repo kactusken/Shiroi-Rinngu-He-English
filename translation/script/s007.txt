@@ -32,8 +32,8 @@ JP 応援してるから。
 EN ...
 EN {p}...
 EN You found me.
-EN I'm sorry.
-EN I'm sorry, please let it go!!
+EN {p}I'm sorry.
+EN I'm sorry, please just let me go!!
 EN I know.
 EN It's true, I'm weak!!
 EN But

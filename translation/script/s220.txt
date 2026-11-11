@@ -16,4 +16,4 @@ JP {p}もういいやろ、練習の邪魔や！！
 EN What!!
 EN Skills??
 EN {p}Well, any technique's fine if it makes me the strongest.
-EN {p}That's enough, ya're getting in the way of my training!!
+EN {p}That's enough, you're getting in the way of my training!!

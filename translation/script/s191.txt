@@ -34,7 +34,7 @@ EN ......
 @ 191.04 spk=23 face=02
 # speaker: 大仁田 厚
 JP 解っているから戦ったんだろ。
-EN You fought because you understood.
+EN You understood. That's why you fought, right?
 
 @ 191.05 spk=10 face=01
 # speaker: 工藤 めぐみ

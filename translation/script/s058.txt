@@ -12,4 +12,4 @@
 JP 今月は新人王戦の２回戦があるわ。勝った者は、より高くを目指すために、
 JP {p}負けた者は、それ以上を追い求めて練習しなさい。
 EN This month has the second round of the Rookie Tournament. Winners, train to aim even higher,
-EN {p}and losers, train to chase even more than that.
+EN {p}and losers, train to go further still.

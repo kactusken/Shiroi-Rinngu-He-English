@@ -15,7 +15,7 @@ EN You want me to teach you a move to beat Kandori?? All right. Ishikawa!!
 @ 158.01 spk=22 face=02
 # speaker: 石川 雄規
 JP なんです？組長？？
-EN What is it, Chief??
+EN What is it, Boss??
 
 @ 158.02 spk=20 face=01
 # speaker: 藤原 善明
@@ -40,10 +40,10 @@ JP ９割だ。
 JP ９割にしろ。
 JP そうすれば、神取にも通用する。
 EN Do you know what happened?
-EN An armlock.
+EN An armbar.
 EN But a real one. Joint locks come down to how you place your weight, and to the bone.
-EN The armlock is the most basic of all.
-EN If the timing is off, the damage doesn't all get through. With Kandori, it's 80 percent.
+EN The armbar is the most basic of all.
+EN If the timing is off, the damage doesn't all get through. Kandori's is at 80 percent.
 EN Remember when Kandori dislocated a wrestler's shoulder at the All-Star match? Which means you can't use it in a match meant to entertain the crowd.
 EN But you should be able to use it on Kandori.
 EN 90 percent.

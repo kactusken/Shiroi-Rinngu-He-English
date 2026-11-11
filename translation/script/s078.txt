@@ -27,9 +27,9 @@ EN Don't be stupid, it's the opposite.
 EN Shimamura today may be in the best shape of her life.
 EN If you're not serious, you'll get hurt.
 EN Well, seeing your face, I figure it's pointless to say it.
-EN You've got a good face on you.
+EN You've got the right look.
 
 @ 078.03 spk=0a face=00
 # speaker: 半田 美希
 JP 本当に紅って、素直じゃないわね。
-EN Kurenai really isn't honest, is she.
+EN Kurenai can never just say what she means, can she?

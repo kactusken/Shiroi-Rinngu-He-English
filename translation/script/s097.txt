@@ -10,7 +10,7 @@
 @ 097.00 spk=19 face=00
 # speaker: ハーレー斉藤
 JP 練習中悪いんだけど、{name}。風間社長の所まで来て。
-EN Sorry to interrupt your training, {name}. Come to Boss Kazama's office.
+EN Sorry to interrupt your training, {name}. Come to President Kazama's office.
 
 @ 097.01 spk=1c face=02
 # speaker: 風間 ルミ

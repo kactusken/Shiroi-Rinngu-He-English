@@ -16,7 +16,7 @@ EN Are you getting used to training? It'll take a while to sink in, but keep at 
 @ 003.01 spk=25 face=01
 # speaker: 青野 敬子
 JP 社長！！秋月が。
-EN Boss! Akizuki is...
+EN President! Akizuki is...
 
 @ 003.02 spk=1c face=02
 # speaker: 風間 ルミ
@@ -50,7 +50,7 @@ EN {p}"Nagi is tired, so
 @ 003.07 spk=25 face=01
 # speaker: 青野 敬子
 JP 社長、まあ。
-EN Boss, please.
+EN President, please.
 
 @ 003.08 spk=1c face=02
 # speaker: 風間 ルミ

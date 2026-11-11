@@ -11,5 +11,5 @@
 # speaker: 嶋村 由佳
 JP そうね、将来はヒールもやってみたいけど、
 JP ストロングスタイルからかな。
-EN Well, someday I'd like to try heel too,
-EN but I'll start with the strong style.
+EN Well, someday I'd like to try Heel too,
+EN but I'll start with Strong style.

@@ -23,9 +23,9 @@ EN Hey, how are you?
 EN Getting along with Shimamura?
 EN Tea...
 EN {p}Thanks.
-EN Why did I come? I got something good for you.
+EN What am I here for? I brought ya something good.
 EN J is having its first show on the 7th of this month.
 EN Here's the ticket. Come and watch.{p}It's 5000 yen.
 EN {p}Don't make that scary face.
 EN {p}Just kidding. I'm leaving the ticket here.
-EN Come with Shimamura. Don't miss it.
+EN Come with Shimamura, ya hear? Don't miss it.

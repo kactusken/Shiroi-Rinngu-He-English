@@ -24,7 +24,7 @@ EN Well? How are you finding the FMW show?
 @ 066.02 spk=03 face=01
 # speaker: 嶋村 由佳
 JP 社長！！いらしてたんですか。
-EN Boss!! You came!
+EN President!! You came!
 
 @ 066.03 spk=1c face=02
 # speaker: 風間 ルミ

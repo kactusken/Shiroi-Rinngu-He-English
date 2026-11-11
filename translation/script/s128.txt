@@ -55,4 +55,4 @@ JP {name}。
 JP 貴方の生き方、答えを見せてもらうわ。
 EN Coming! Wait for me!!
 EN {name}.
-EN Show me your way of living, and your answer.
+EN Show me your answer - the way you've chosen to live.

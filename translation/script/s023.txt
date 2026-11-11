@@ -15,7 +15,7 @@ EN ...
 @ 023.01 spk=1c face=00
 # speaker: 風間 ルミ
 JP 今月は、ヒール、ベビーフェイス入り交じっての合同練習よ、いつものしがらみは置いて、対抗戦を頭に入れて練習しなさい。
-EN This month is a joint training for heels and babyfaces together. Leave the usual grudges aside and train with the interpromotional matches in mind.
+EN This month we have joint training, heels and babyfaces together. Leave the usual grudges aside and train with the interpromotional matches in mind.
 
 @ 023.02 spk=03 face=00
 # speaker: 嶋村 由佳

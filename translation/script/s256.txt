@@ -10,4 +10,4 @@
 @ 256.00 spk=10 face=00
 # speaker: 工藤 めぐみ
 JP 体のバランスを整えながら、足腰の強化が練習の基本ね。
-EN Training basics are strengthening your legs and hips while balancing your body.
+EN The basis of training is building up your legs and hips while keeping your body in balance.

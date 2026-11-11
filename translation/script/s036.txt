@@ -22,13 +22,13 @@ EN ...
 JP お客さんがいて、自分がいて、相手がいて、
 JP {p}全てが自分の回りにいて、プロレスがあるの。
 EN There are the fans, there's you, there's your opponent,
-EN {p}and everything surrounds you. That's where pro wrestling is.
+EN {p}all of it around you. That's what pro wrestling is.
 
 @ 036.03 spk=19 face=02
 # speaker: ハーレー斉藤
 JP 今まであなた達が戦って来た後楽園ホールは、はっきり言ってお客さんも判ってくれてる。
 JP でも、プロレスはそんな選ばれし者が見る物ではない。
-EN Frankly, the fans at Korakuen Hall, where you've been fighting, already understand.
+EN Frankly, the Korakuen Hall crowds you've fought in front of so far already get it.
 EN But pro wrestling isn't meant only for such a chosen few.
 
 @ 036.04 spk=1c face=01
@@ -38,7 +38,7 @@ JP そんな人を満足させるプロレスを目指して頑張りなさい�
 JP 次のシリーズは全戦参加よ。
 EN Out in the country, many people will come who are seeing pro wrestling for the first time, or who only know men's pro wrestling.
 EN Aim for wrestling that satisfies those people, too.
-EN You'll be in every match of the next series.
+EN You'll be on every show of the next series.
 
 @ 036.05 spk=03 face=02
 # speaker: 嶋村 由佳

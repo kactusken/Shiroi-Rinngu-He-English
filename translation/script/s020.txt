@@ -59,7 +59,7 @@ EN From here on, you choose.{p}What will it be?
 @ 020.05 spk=03 face=02
 # speaker: 嶋村 由佳
 JP 星を掴みます。
-EN I'll grab the stars.
+EN I'll grasp a star.
 
 @ 020.06 spk=1c face=01
 # speaker: 風間 ルミ

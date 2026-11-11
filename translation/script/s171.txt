@@ -19,7 +19,7 @@ JP 自分の技を信じることで、対戦相手にも、お客さんにも�
 JP 強さを追い求めるのは、影でしかないんだよ。
 EN So, what do you think?
 EN We're far from the strong style, but if it came to a fight, we wouldn't lose.
-EN That's the beauty of Lucha.
+EN Lucha has its own strengths.
 EN If the fans are happy when we fly, we'll fly anywhere.
 EN And for that, there's nothing but training.
 EN Training, training and honing our moves is our strength.
@@ -29,7 +29,7 @@ EN Chasing after strength is only a shadow.
 @ 171.01 spk=2c face=01
 # speaker: Ｓ．デルフィン
 JP えらい、いいこと言うなあサスケ。
-EN That's a good line, Sasuke.
+EN Whoa, that's some fine talk, Sasuke.
 
 @ 171.02 spk=2b face=02
 # speaker: グレートサスケ

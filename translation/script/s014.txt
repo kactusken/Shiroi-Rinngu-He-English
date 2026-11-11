@@ -41,16 +41,16 @@ EN Is it that strange that I came to see you?
 EN {p}Well, we were like cats and dogs, so.
 EN {p}...
 EN {p}No tea?
-EN {p}Sorry, sounds like I'm hurrying you.
+EN {p}Sorry, didn't mean to sound pushy.
 EN So, ya know,
 EN {p}today,
 EN how should I put it,
 EN {p}I came to pick a fight, or,
-EN {p}how should I put it, to put it short, it's goodbye.
+EN {p}how should I put it... long story short, it's goodbye.
 EN Why're you staring blankly?
 EN {p}Don't get me wrong.
-EN I'm moving to Futagami's and Kandori's promotion, the JWWF.
-EN I've told Boss Kazama and got her okay.
+EN Futagami and I are moving to Kandori's promotion, the JWWF.
+EN I've told President Kazama and got her okay.
 EN {p}I only wanted to tell you this.
 EN {p}Don't you dare quit.
 EN It's true, LL and JW can't fight each other now.
