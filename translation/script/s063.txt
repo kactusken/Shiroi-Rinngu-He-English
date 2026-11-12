@@ -13,10 +13,10 @@ JP 嶋村、
 JP {name}。
 JP ちょっと来て。
 JP 大仁田社長から新人宛に、今度の後楽園の招待状が届いたわ。
-EN Shimamura.
-EN {name}.
-EN Come here a moment.
-EN President Onita has sent an invitation to the rookies for the next Korakuen show.
+EN Shimamura,
+EN {name},
+EN come here a moment.
+EN President Onita has sent the rookies an invitation to his next Korakuen show.
 
 @ 063.01 spk=03 face=01
 # speaker: 嶋村 由佳

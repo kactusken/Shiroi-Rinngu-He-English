@@ -10,4 +10,4 @@
 @ 203.00 spk=01 face=00
 # speaker: コンバット豊田
 JP あんたがＬＬから移籍した娘かい？大仁田さんの目を疑う訳じゃあないけど、物になるのかねえ。
-EN You're the girl who transferred from LL? I don't doubt Onita's eye, but will you amount to anything?
+EN You're the girl who transferred from LL? I don't doubt Onita's eye, but I wonder if you'll ever amount to much.

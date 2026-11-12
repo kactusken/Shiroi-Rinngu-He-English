@@ -15,16 +15,16 @@ EN Hey, how's it going?
 @ 157.01 spk=11 face=02
 # speaker: 紅 夜叉
 JP 控え室まで来るとはいい度胸だな？
-EN You've got guts, coming all the way to the locker room.
+EN You've got some nerve, coming all the way to our locker room.
 
 @ 157.02 spk=06 face=01
 # speaker: 篭野 ことり
 JP こわいこといわんで下さいな。一言いいにきただけです。
 JP 「約束通りきたで。」
 JP じゃあ、失礼します。
-EN Don't say scary stuff like that. I just came to say one thing.
-EN "I came like I promised."
-EN Well, I'll be off now.
+EN Don't go sayin' scary stuff like that. I just came to say one thing:
+EN "I'm here, just like I promised."
+EN Well, I'll be goin' now.
 
 @ 157.03 spk=11 face=02
 # speaker: 紅 夜叉

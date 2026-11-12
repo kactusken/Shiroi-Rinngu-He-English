@@ -13,7 +13,7 @@ JP そうか、神取がそんな事を。
 JP わかった。
 JP 俺には一つしかお前に言ってやれない。
 JP {p}「いってこい。」
-EN I see, Kandori said that.
-EN Understood.
-EN There's only one thing I can say to you.
+EN So Kandori said that.
+EN All right.
+EN There's only one thing I can tell you.
 EN {p}"Go."

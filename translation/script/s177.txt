@@ -14,4 +14,4 @@ JP 今月のＬＬＰＷの興業。
 JP 招待券来てるから見てこい。
 EN Hey, {name}.
 EN There's an LLPW show this month.
-EN We got complimentary tickets, so go and watch it.
+EN We got free tickets, so go take a look.

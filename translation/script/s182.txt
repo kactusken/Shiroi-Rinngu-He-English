@@ -39,7 +39,7 @@ EN Those two really go at it.
 @ 182.05 spk=19 face=02
 # speaker: ハーレー斉藤
 JP でも、いいもんだよ。練習で道場が活気づくのは。
-EN It's good, though. Training brings the dojo to life.
+EN It's nice, though. Hard training livens up the dojo.
 
 @ 182.06 spk=0f face=01
 # speaker: 神取 忍
@@ -59,7 +59,7 @@ EN Inoue went limp during sparring.
 @ 182.09 spk=1c face=02
 # speaker: 風間 ルミ
 JP 井上、やっぱりあんた。
-EN Inoue, I knew it.
+EN Inoue... You... I knew it.
 
 @ 182.10 spk=06 face=01
 # speaker: 篭野 ことり

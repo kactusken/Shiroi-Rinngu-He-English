@@ -13,5 +13,5 @@ JP おめでとう。
 JP どんな形であれ勝ったことはすごい事だわ。
 JP {p}ただ、みんなは貴方を狙ってくるわよ。気をつけなさい。
 EN Congratulations.
-EN Winning, however it happened, is a big deal.
+EN However you did it, winning is a big deal.
 EN {p}But everyone will be gunning for you now. Be careful.

@@ -23,7 +23,7 @@ EN President! Akizuki is...
 JP 夜逃げ？？
 JP しょうがないわねえ。
 JP まあ、そこまでだと思うしかないわね。
-EN Skipped town? Honestly, what a girl. I suppose that's as far as she could go.
+EN She ran off in the night? Honestly, that girl. Well, I suppose that's as far as she was ever going to get.
 
 @ 003.03 spk=25 face=01
 # speaker: 青野 敬子
@@ -33,31 +33,29 @@ EN Um, about that...
 @ 003.04 spk=1c face=02
 # speaker: 風間 ルミ
 JP まだ何か？
-EN Is there something else?
+EN Is there more?
 
 @ 003.05 spk=25 face=01
 # speaker: 青野 敬子
 JP ベットに置き手紙が、
-EN There was a note left on her bed.
+EN She left a note on her bed...
 
 @ 003.06 spk=1c face=02
 # speaker: 風間 ルミ
 JP え？？貸しなさい。
 JP {p}「水葱ちゃんは、疲れたので、
-EN What?? Let me see it.
-EN {p}"Nagi is tired, so
+EN What? Give it here. {p}"Nagi's all tired out, so
 
 @ 003.07 spk=25 face=01
 # speaker: 青野 敬子
 JP 社長、まあ。
-EN President, please.
+EN President, easy now...
 
 @ 003.08 spk=1c face=02
 # speaker: 風間 ルミ
 JP やめまーす。」
 JP あ、あの子はまったく。
-EN I quit!"
-EN Th-that girl, honestly.
+EN Nagi's quiiitting!" Wh-why, that girl... honestly!
 
 @ 003.09 spk=25 face=01
 # speaker: 青野 敬子

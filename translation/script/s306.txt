@@ -10,4 +10,4 @@
 @ 306.00 spk=25 face=00
 # speaker: 青野 敬子
 JP 私、ＦＭさんとの対抗戦全盛時代には参加していないのよ。
-EN I wasn't around in the heyday of the matches against FM.
+EN I missed the heyday of the matches against FM.

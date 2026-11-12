@@ -11,5 +11,5 @@
 # speaker: 青野 敬子
 JP 落ち込むこと無いって、
 JP そんだけやりゃあ十分だよ。
-EN Don't be so down.
-EN You did plenty.
+EN Hey, no need to mope.
+EN After all that, you did more than enough.

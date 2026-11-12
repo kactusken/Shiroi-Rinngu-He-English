@@ -13,5 +13,5 @@ JP どーもー武中です。
 JP そうだ、{name}さんＴＶにでてくれませんか。
 JP お願いします。助かります。
 EN Hellooo, Takenaka here.
-EN Oh, {name}, would you appear on TV?
-EN Please! You'd be a big help.
+EN Oh, that's right -- {name}, would you go on TV for us?
+EN Please! It'd really help me out.

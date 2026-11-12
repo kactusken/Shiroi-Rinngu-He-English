@@ -32,12 +32,12 @@ EN I'm doing office work for a pro wrestling promotion.
 @ 104.04 spk=1c face=02
 # speaker: 風間 ルミ
 JP そうなの、言ってくれればＬＬで面倒見たのに。
-EN Really? You should have told me, LL would have looked after you.
+EN Really? You should have come to me. LL would have taken care of you.
 
 @ 104.05 spk=03 face=01
 # speaker: 嶋村 由佳
 JP ＯＬだったんですが、続かなくて。
-EN I was an office lady before, but it didn't last.
+EN I worked in an office for a while, but it didn't work out.
 
 @ 104.06 spk=1c face=02
 # speaker: 風間 ルミ
@@ -57,7 +57,7 @@ EN Kandori! Don't tell me...
 @ 104.09 spk=03 face=01
 # speaker: 嶋村 由佳
 JP ええ、今はＪＷＷＦの事務をやってます。
-EN Yes, I do the office work for JWWF now.
+EN Yes. I work in the JWWF office now.
 
 @ 104.10 spk=1c face=02
 # speaker: 風間 ルミ

@@ -22,9 +22,10 @@ JP 本人の希望で、今度の東体で貴方と引退試合を行うから�
 JP けが人にこんな事させてはいけないのだけれど、
 JP あの子の希望だから、悔いの残らない試合をしなさい。
 EN There you are.
-EN It's about Shimamura, in the hospital.
-EN The compound fracture in her knee has ended her career as a wrestler.
-EN I'd planned to retire her at a retirement ceremony,
-EN but at her own request, she'll have her retirement match against you at the coming Tokyo Gym show.
-EN I shouldn't make an injured girl do this,
-EN but it's what she wants, so fight a match with no regrets.
+EN It's about Shimamura, who's in the hospital.
+EN The compound fracture in her knee has ended her career.
+EN I'd planned to give her a retirement ceremony,
+EN but she asked for a retirement match against you instead.
+EN It'll be at the upcoming Tokyo Gym show.
+EN I shouldn't let an injured girl do this, but it's what she wants.
+EN So give it everything, and leave no regrets.

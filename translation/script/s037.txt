@@ -12,18 +12,18 @@
 JP 何してんの。
 JP リングがあがったら椅子並べだよ。ホールじゃないんだから、全部やるの！！
 EN What are you doing?
-EN Once the ring is up, set out the chairs. We're not at the Hall, so we do everything ourselves!!
+EN Once the ring's up, you set out the chairs. This isn't the Hall, so we do it all ourselves!!
 
 @ 037.01 spk=03 face=01
 # speaker: 嶋村 由佳
 JP ホント大変ね地方巡業は。
 JP じゃね、ここお願い。
-EN Touring the provinces is really tough.
-EN Well, I'll leave this to you.
+EN Touring the provinces sure is tough.
+EN Okay, this part's all yours.
 
 @ 037.02 spk=11 face=00
 # speaker: 紅 夜叉
 JP どうした？嶋村か？
 JP 戦って、色々と考えることがあったんだろうよ。
 EN What's up? Is it Shimamura?
-EN Fighting you must've given her a lot to think about.
+EN Facing you must've given her plenty to chew on.

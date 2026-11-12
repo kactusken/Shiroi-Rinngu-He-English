@@ -71,6 +71,7 @@ the game's formats.
 | [docs/TRANSLATION.md](docs/TRANSLATION.md) | Text file formats, scope, style guide, glossary, and naming decisions |
 | [docs/EDITING.md](docs/EDITING.md) | Editing the in-game text graphics |
 | [docs/PATCHES.md](docs/PATCHES.md) | How each code patch works |
+| [docs/GAMEPLAY.md](docs/GAMEPLAY.md) | How character creation, training partners and days off work, with advice and tables |
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | The game's disc layout, archives, compression, data formats, and memory map |
 | [docs/PLATFORM.md](docs/PLATFORM.md) | SNES pitfalls for this kind of work |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |

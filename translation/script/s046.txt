@@ -11,7 +11,7 @@
 # speaker: ハーレー斉藤
 JP こら！！{name}。
 JP ロープの張りが悪いよ。
-EN Hey!! {name}.
+EN Hey! {name}!
 EN These ropes are too slack!
 
 @ 046.01 spk=03 face=00
@@ -20,5 +20,5 @@ JP どうしたの？
 JP Ｊの試合を見て何かあったの？
 JP 何でもないって、あったら相談してね。
 EN What's wrong?
-EN Did something happen after watching J's match?
-EN Nothing, you say? Well, if there is something, talk to me.
+EN Did watching J's match get to you?
+EN Nothing, you say? Okay, but if something's wrong, come talk to me.

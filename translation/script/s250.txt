@@ -10,4 +10,4 @@
 @ 250.00 spk=0d face=00
 # speaker: 岩見 敬子
 JP そうねえ、私これでも空手はいいとこまでいったから、教えてあげれるのは空手かな。
-EN Well, I got pretty far in karate, so karate is what I can teach you.
+EN Let's see... I may not look it, but I got pretty far in karate, so I guess karate's what I can teach you.

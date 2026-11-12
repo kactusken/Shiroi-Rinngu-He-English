@@ -19,21 +19,12 @@ JP 今、付き人がいないのは、キャロルと、紅の２人。
 JP 正規軍か、イーグル軍かの選択だと思って欲しいの。{p}
 JP 一人が選んだら、自動的にもう一人が決まってしまうから、
 JP 充分話し合って決めてね。
-EN Hey, {name},
-EN Shimamura.
-EN Could you come over here?
-EN Now that you two have gone pro, you have to become attendants.
-EN As pros you'll follow the tours around the country, and there's a lot to learn from looking after the seniors.
-EN I want you to choose.
-EN The ones without an attendant right now are Carol and Kurenai.
-EN Think of it as choosing between the regular army and Eagle's army.{p}
-EN When one of you chooses, the other is decided automatically,
-EN so talk it over well before deciding.
+EN {name}, Shimamura, could you come here a moment? Now that you two have gone pro, it's time you became attendants. Going pro means coming along on the regional tours, and looking after your seniors will teach you a lot. I want you to choose. Right now, the two without an attendant are Carol and Kurenai. Think of it as choosing between the regular army and Eagle's army. {p}Once one of you chooses, the other is decided automatically, so talk it over carefully first.
 
 @ 021.01 spk=03 face=00
 # speaker: 嶋村 由佳
 JP 貴方が決めて。私は、どちらでも構わないわ。
-EN You decide. Either is fine with me.
+EN You pick. Either one is fine with me.
 
 @ 021.02 spk=1c face=00
 # speaker: 風間 ルミ

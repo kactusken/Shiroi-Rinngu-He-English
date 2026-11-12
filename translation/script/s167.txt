@@ -30,7 +30,7 @@ EN Right. For guys doing lucha right now, there's Mach and Bato... Oh, and Kanem
 @ 167.04 spk=2b face=02
 # speaker: グレートサスケ
 JP いえ、考えたんですが、女子選手が欲しいんですが。
-EN No, I thought about it, and I'd like a female wrestler.
+EN Well, I gave it some thought, and I'd rather have a woman.
 
 @ 167.05 spk=23 face=01
 # speaker: 大仁田 厚
@@ -41,6 +41,6 @@ JP どうも、中途半端に考える癖があるんでな。
 JP どうだ？{name}。
 EN I see.
 EN Then how about her?
-EN This is our rookie {name}. She's still deciding her style, so teach her something.
-EN She has a habit of being half-hearted about things.
+EN This is our rookie {name}. She's still working out her style, so show her a thing or two.
+EN She's got a habit of doing things by halves.
 EN What do you say, {name}?

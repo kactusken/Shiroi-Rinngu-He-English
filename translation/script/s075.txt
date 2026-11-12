@@ -17,9 +17,9 @@ JP それはね私を潰しに来て欲しいの。私は、{name}の本気が�
 JP 最後まで、本気の貴方を見ずに終わりたくはない。
 JP だから本気で潰しに来て、お願い。
 EN Good evening.
-EN What's wrong? Your eyes are so wide. My leg? I still need crutches, but I can walk.
+EN What's wrong? You look so surprised. My leg? I still need crutches, but I can walk.
 EN I'm a wrestler, after all.
-EN I came tonight because I have a favor to ask.
+EN I came here tonight to ask you a favor.
 EN I want you to come and crush me. I don't think I've ever seen you go all out, {name}.
-EN I don't want to end without ever seeing you at your best.
-EN So please, come at me for real and crush me.
+EN I don't want my career to end without seeing you at your best.
+EN So please, come at me for real. Crush me.

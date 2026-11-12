@@ -15,7 +15,7 @@ EN Go! Go!
 @ 130.01 spk=1a face=02
 # speaker: 里 美和
 JP 頑張れ。
-EN Do your best.
+EN You can do it.
 
 @ 130.02 spk=02 face=01
 # speaker: クラッシャー前泊
@@ -25,7 +25,7 @@ EN Take it! Take Kandori's head!!
 @ 130.03 spk=01 face=02
 # speaker: コンバット豊田
 JP 何かをつかんで来いよ。
-EN Go grab something out there.
+EN Go out there and grab hold of something.
 
 @ 130.04 spk=10 face=01
 # speaker: 工藤 めぐみ
@@ -48,5 +48,4 @@ EN Go find your star.
 # speaker: イーグル沢井
 JP 準備はいい？
 JP 行くよ、全ての始まりの為に。
-EN Ready?
-EN Let's go, for the sake of a new beginning.
+EN Ready? Let's go. This is where it all begins.

@@ -24,18 +24,10 @@ JP {p}人間同士が、憎しみあうことは強さじゃない。
 JP だから神取はお前に託したんじゃないのか。
 JP {p}これからのプロレスをお前の心に。{p}純粋に、戦って勝ちたいと思う心に{p}神取は賭けたんじゃないのかな。
 JP じゃあな、引退した男の小言だ。
-EN Hey, how's it going?
-EN Don't glare at me like that. Still angry?
-EN About something that long ago.
-EN {p}I hear you're fighting Kandori.
-EN {p}Kazama asked me to come, since you seem troubled.
-EN Tell me, what is strength?
-EN I did the exploding barbed-wire matches.
-EN I was the Emperor of Deathmatches.
-EN But I never thought I was strong.{p}Whenever I fought Mr. Pogo, it was always a battle against hatred.
-EN When I couldn't hold it down in my own heart, I did deathmatches.
-EN Do you call that strong?
-EN {p}People hating each other is not strength.
-EN Isn't that why Kandori handed it to you?
-EN {p}The future of pro wrestling, to your heart.{p}A heart that simply wants to fight and win. I think Kandori bet on that.
-EN Well, so long. That's just a retired guy's grumbling.
+EN Hey, how's it going? Don't glare at me like that. You still mad? About something from way back? {p}I hear you're taking on Kandori. {p}Kazama asked me to drop by, said you seemed troubled. {p}
+EN Tell me, what is strength? I did the exploding barbed-wire matches. I was the Emperor of Deathmatches. But I never once thought I was strong.{p}
+EN Every time I faced Mr. Pogo, it was a fight against hatred. When my heart couldn't hold it back, I did a deathmatch. You call that strong? {p}
+EN People hating each other isn't strength. Isn't that why Kandori's trusting you with it? {p}
+EN The future of pro wrestling -- she's leaving it to your heart.{p}
+EN A heart that just wants to fight and win, plain and simple. I think that's what Kandori's betting on.
+EN Well, so long. That's just a retired old guy's nagging.

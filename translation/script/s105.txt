@@ -42,7 +42,7 @@ EN Call yourself the strongest all you like, Kandori!! But I'm going to make you
 @ 105.06 spk=06 face=00
 # speaker: 篭野 ことり
 JP 神取さん、正直に言ったらどうですか。戦う価値もないってね。
-EN Kandori, why not be honest? Say we're not even worth fighting.
+EN Kandori, why don't you just be honest and tell them? They're not even worth fighting.
 
 @ 105.07 spk=03 face=01
 # speaker: 嶋村 由佳
@@ -57,7 +57,7 @@ EN Kagono!! Shut your mouth!!
 @ 105.09 spk=06 face=01
 # speaker: 篭野 ことり
 JP へえ、私に勝って言って貰いましょうか、先・輩。
-EN Oh? Then beat me first and say it to my face, se-nior.
+EN Oh? Beat me first, then say that, se-nior.
 
 @ 105.10 spk=08 face=02
 # speaker: イーグル沢井

@@ -16,22 +16,14 @@ JP {p}もう、ただでさえ掃除の人数が足りないのに。
 JP どうしたの？
 JP 今日の{name}、変よ。
 JP 風邪でも引いた？
-EN Good morning.
-EN Huh, where's Kagono?
-EN Overslept again?
-EN {p}Honestly, we're already short on people for cleaning.
-EN What's wrong?
-EN You're strange today, {name}.
-EN Did you catch a cold?
+EN Good morning. Huh, where's Kagono? Overslept again? {p}Honestly, we're short-handed for cleaning as it is. What's wrong, {name}? You're acting strange today. Did you catch a cold?
 
 @ 015.01 spk=1c face=02
 # speaker: 風間 ルミ
 JP おはよう。
 JP 練習前にミーティングがあるの、
 JP みんなリングに集合してね。
-EN Good morning.
-EN We have a meeting before training,
-EN so everyone gather at the ring.
+EN Good morning. There's a meeting before training, so everyone gather at the ring.
 
 @ 015.02 spk=03 face=01
 # speaker: 嶋村 由佳

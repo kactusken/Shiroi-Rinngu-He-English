@@ -13,7 +13,4 @@ JP こら！！魚が逃げちまうだろ！！
 JP 石を投げるんじゃねえ。
 JP なんだその顔は？
 JP 悪い事したら謝るもんだろ。
-EN Hey! You'll scare the fish away!!
-EN Don't throw stones.
-EN What's with that look?
-EN If you do something wrong, you apologize.
+EN Hey! You'll scare off the fish!! Quit throwing stones. What's with that face? When you do something wrong, you say sorry.

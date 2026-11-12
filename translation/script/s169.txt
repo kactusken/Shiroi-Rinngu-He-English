@@ -17,7 +17,7 @@ EN Then I'll lend you Nakayama and Shimizu.
 @ 169.01 spk=2b face=02
 # speaker: グレートサスケ
 JP すいません。助かります。
-EN Sorry about that. Thank you.
+EN Thanks, that's a big help.
 
 @ 169.02 spk=23 face=01
 # speaker: 大仁田 厚

@@ -5,8 +5,10 @@ the in-place system strings, and the variable-width renderer (tools/vwf.py); als
 English is plain ASCII, one byte per letter, drawn by the hook in tools/asm/vwf.asm.
 
   gametext.py width 'some english'     pixels a line takes
+  gametext.py pages sNNN [sMMM...]     the screens each story block shows (|| = wait for a button)
 """
 import csv
+import functools
 import re
 import sys
 from pathlib import Path
@@ -36,6 +38,7 @@ def english_text(lines):
 
 # ------------------------------------------------------------------ layout (pixels)
 
+@functools.lru_cache(maxsize=None)
 def line_px(line):
     """Pixels of a line that may hold {name} and other codes."""
     total = 0
@@ -62,6 +65,10 @@ def wrap(text, limit=vwf.LINE_PX):
                     raise ValueError(f'word {w!r} is wider than a line')
                 lines.append(cur)
                 cur = w
+        if lines and ' ' not in cur and lines[-1].count(' ') >= 2:   # a lone last word: take one along
+            head, moved = lines[-1].rsplit(' ', 1)
+            if line_px(moved + ' ' + cur) <= limit:
+                lines[-1], cur = head, moved + ' ' + cur
         lines.append(cur)
     return lines
 
@@ -81,29 +88,92 @@ def ascii_bytes(text):
     return bytes(out)
 
 
+LAST_ROW_PX = 180      # a 4th row that reaches cell 16 makes the game wrap (and scroll) by itself
+_SENTENCE_END = re.compile(r'([.!?]|\.\.\.|…)["\')\]]*$')
+_CLAUSE_END = re.compile(r'[,;:]["\')\]]*$|--?$|—$')
+
+
+def _break_cost(word):
+    """How bad it is to end a screen after this word: a sentence end is free, a clause end is mild."""
+    if _SENTENCE_END.search(word):
+        return 0
+    if _CLAUSE_END.search(word):
+        return 4
+    return 12
+
+
+def screens(page, rows=vwf.PAGE_ROWS, last=False):
+    """Split one {p} page into screens (lists of lines). The game's page wait (07) does not clear the
+    window: the text after it types on in the bottom row and scrolls the rest up, so a screen followed
+    by a wait holds 3 lines (its break and the wait leave all of it on screen, *verified headless*
+    2026-11-12, scene 22); the message's final screen may take 4 when its last row leaves cell 16
+    free. Screens end where a sentence ends when they can, else at a comma, and a sentence is not
+    cut to leave a word or two on a screen of their own (shortest-cost split over the words)."""
+    words = page.split()
+    if not words:
+        return [[]]
+    n = len(words)
+
+    def lines_of(i, j):
+        return [ln for ln in wrap(' '.join(words[i:j])) if ln.strip()] or ['']
+
+    INF = float('inf')
+    best = [INF] * (n + 1)          # best[i] = cost of laying out words[i:]
+    nxt = [None] * (n + 1)
+    best[n] = 0
+    for i in range(n - 1, -1, -1):
+        for j in range(i + 1, n + 1):
+            ls = lines_of(i, j)
+            if len(ls) > rows:
+                break
+            cap = rows if (j == n and last) else rows - 1
+            if len(ls) > cap or (len(ls) == rows and line_px(ls[-1]) > LAST_ROW_PX):
+                continue
+            cost = 5 + best[j]
+            if j < n:
+                cost += _break_cost(words[j - 1])
+                if _break_cost(words[j - 1]):
+                    cost += 2 * (rows - 1 - len(ls))      # a cut sentence: keep the screen full
+                    tail = next((k for k in range(j, n) if _break_cost(words[k]) == 0), n - 1) + 1 - j
+                    if tail <= 3:
+                        cost += 10                       # ...and don't strand its last few words
+            if cost <= best[i]:                          # ties: the longer screen
+                best[i], nxt[i] = cost, j
+        if nxt[i] is None:
+            raise ValueError(f'cannot lay out {" ".join(words[i:])!r}')
+    out, i = [], 0
+    while i < n:
+        out.append(lines_of(i, nxt[i]))
+        i = nxt[i]
+    return out
+
+
 def message(text, rows=vwf.PAGE_ROWS, autoscroll=False):
     """Story text with {p} page breaks and {n} line breaks -> message bytes (0x0A between lines,
-    0x0A 0x07 between pages). The window has 4 rows and the game scrolls it when a line break lands
-    below the last row, so a page that is followed by another holds at most 3 lines (the break and
-    the wait then leave all of it on screen); the message's last page may take 4."""
+    0x0A 0x07 between screens); see screens() for where the waits go."""
     if autoscroll:        # a cut-scene narration (the intro): the game scrolls it by itself, a button press would skip it
         return b'\x0a'.join(ascii_bytes(ln) for ln in wrap(text.replace('{p}', '{n}')))
-    pages = [wrap(p.strip()) if p.strip() else [] for p in text.split('{p}')]
+    pages = text.split('{p}')
     chunks = []
-    for pi, lines in enumerate(pages):
-        last_page = pi == len(pages) - 1
-        k = 0
-        while k < max(len(lines), 1):
-            rest = len(lines) - k
-            take = rest if (last_page and rest <= rows) else min(rest, rows - 1)
-            chunks.append(lines[k:k + take])
-            k += max(take, 1)
+    for pi, p in enumerate(pages):
+        chunks += screens(p.strip(), rows, last=pi == len(pages) - 1)
     out = bytearray()
-    for chunk in chunks:
-        if out:
+    for k, chunk in enumerate(chunks):
+        if k:
             out += b'\x0a\x07'
         out += b'\x0a'.join(ascii_bytes(ln) for ln in chunk)
     return bytes(out)
+
+
+def layout(text, autoscroll=False):
+    """The screens a player sees, as lists of lines (for previews and checks)."""
+    if autoscroll:
+        return [wrap(text.replace('{p}', '{n}'))]
+    pages = text.split('{p}')
+    out = []
+    for pi, p in enumerate(pages):
+        out += screens(p.strip(), last=pi == len(pages) - 1)
+    return out
 
 
 # ------------------------------------------------------------------ story script
@@ -348,6 +418,20 @@ def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     if argv[:1] == ['width']:
         print(line_px(argv[1]))
+    elif argv[:1] == ['pages'] and argv[1:]:
+        for name in argv[1:]:
+            p = paths.TRANSLATION / 'script' / (name if name.endswith('.txt') else name + '.txt')
+            auto_scene = int(p.stem[1:]) >= AUTO_FROM
+            for b in blocks.BlockFile(p).blocks:
+                if not b.english:
+                    continue
+                auto = auto_scene or any('autoscroll' in c for c in b.tagged('#'))
+                print(f'@ {b.id}' + (' (scrolls by itself)' if auto else ''))
+                for k, scr in enumerate(layout(english_text(b.english), autoscroll=auto)):
+                    if k:
+                        print('  ||')
+                    for ln in scr:
+                        print('  | ' + ln)
     else:
         sys.exit(__doc__)
 

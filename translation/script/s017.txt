@@ -15,20 +15,15 @@ JP ２人はＪＷＷＦに移籍したわ。
 JP 相談された上で、退職届を受け取りました。
 JP 去る者は追わない。これがＬＬのスタンスよ。
 JP {p}わかったら、練習しなさい。
-EN Wait.
-EN {p}Eagle's right. Those two moved to JWWF.
-EN They talked to me first, and I accepted their resignations.
-EN We don't chase after those who leave. That's LL's stance.
-EN {p}Now that you understand, get back to training.
+EN That's enough. {p}Eagle's right. Those two moved to the JWWF. They came to me first, and I accepted their resignations. We don't chase those who leave. That's how LL does things. {p}Understood? Then get back to training.
 
 @ 017.01 spk=08 face=01
 # speaker: イーグル沢井
 JP ふん、やっぱりそーかい。
 JP 紅！！ランニングに行くよ！
-EN Hmph, I knew it.
-EN Kurenai!! We're going running!
+EN Hmph, I knew it. Kurenai!! We're going for a run!
 
 @ 017.02 spk=11 face=02
 # speaker: 紅 夜叉
 JP おう。
-EN Yeah.
+EN You got it.

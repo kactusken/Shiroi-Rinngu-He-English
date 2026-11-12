@@ -11,8 +11,7 @@
 # speaker: 風間 ルミ
 JP そう、キャロルを選ぶのね。
 JP キャロル！！ちょっと来て。
-EN I see, you chose Carol.
-EN Carol!! Come here a moment.
+EN So it's Carol, then. Carol!! Come here a moment.
 
 @ 022.01 spk=00 face=01
 JP 何です？
@@ -21,7 +20,7 @@ EN What is it?
 @ 022.02 spk=1c face=02
 # speaker: 風間 ルミ
 JP 貴方の付き人に{name}を付けるから、びしびし鍛えてね。
-EN {name} will be your attendant, so train her hard.
+EN I'm assigning {name} as your attendant. Don't go easy on her.
 
 @ 022.03 spk=00 face=01
 JP 判りました。{name}、こっちに来て。
@@ -29,8 +28,4 @@ JP 私の付き人になったからには、頑張ってもらうわよ！！
 JP 紅の付き人の嶋村なんかに負けてもらっちゃ困るんだから。
 JP わ・か・っ・た？
 JP {p}判ったら練習練習！！
-EN Understood. {name}, come here.
-EN Now that you're my attendant, I expect hard work from you!!
-EN I won't have you losing to Shimamura, Kurenai's attendant.
-EN Do. You. Get. It?
-EN {p}Now that you get it, train, train!!
+EN Got it. {name}, come here. You're my attendant now, so I expect you to work hard!! I won't have you losing to the likes of Shimamura, Kurenai's attendant. Got. That? {p}Good. Now train, train!!

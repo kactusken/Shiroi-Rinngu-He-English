@@ -13,7 +13,7 @@ JP 前にも言った、新人王戦の組み合わせを言うわね。
 JP {name}、貴方はＦＭＷの中山選手と戦うことになるわ、
 JP 言い方をかえれば、貴方にとっては初めての団体対抗戦になるわけだから気合いを入れるのよ。
 JP 何？嶋村？嶋村は、一回戦は石倉選手と対戦ね。
-EN Here are the Rookie Tournament pairings I mentioned before.
-EN {name}, you'll fight FMW's Nakayama.
-EN In other words, it's your first interpromotional match, so fight with spirit.
-EN What? Shimamura? Her first round is against Ishikura.
+EN As I promised, here are the Rookie Tournament pairings.
+EN {name}, you'll face FMW's Nakayama.
+EN That makes it your first match against another promotion, so get fired up.
+EN What? Shimamura? In the first round she faces Ishikura.

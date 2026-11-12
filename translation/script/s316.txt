@@ -11,8 +11,8 @@
 # speaker: 神取 忍
 JP じゃあな！！
 JP ついて来る奴はついてきな！！
-EN See you around!!
-EN Anyone who's coming, come on!!
+EN So long!!
+EN Whoever's with me, follow me!!
 
 @ 316.01 spk=0e face=01
 # speaker: ジェンヌゆかり
@@ -34,4 +34,4 @@ EN ......
 JP 風間！！イーグル！！ハーレー！！本気になったらかかってこい。
 JP いつでも相手になってやるぜ。
 EN Kazama!! Eagle!! Harley!! Come at me when you're serious.
-EN I'll take you on any time.
+EN I'll take you on anytime.

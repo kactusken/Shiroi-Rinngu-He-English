@@ -18,7 +18,7 @@ EN Shimamura wins by roll-up.
 JP ちっくしょう！！
 JP あんな手で来るなんて。
 EN Damn it!!
-EN I can't believe she pulled that move.
+EN Pulling a trick like that on me!
 
 @ 069.02 spk=03 face=02
 # speaker: 嶋村 由佳

@@ -12,23 +12,20 @@
 JP おう！！よく来たな。
 JP ＦＭＷの試合スタイルに早く馴れろよ。
 JP 工藤！！工藤！！！
-EN Hey!! Glad you came.
-EN Get used to the FMW style fast.
-EN Kudo!! Kudo!!!
+EN Hey!! Glad you made it. Get used to the FMW style quick. Kudo!! Kudo!!!
 
 @ 160.01 spk=10 face=01
 # speaker: 工藤 めぐみ
 JP はい。
-EN Yes.
+EN Yes?
 
 @ 160.02 spk=23 face=02
 # speaker: 大仁田 厚
 JP この前話したＬＬＰＷから移籍の{name}選手だ。
 JP ベビーフェイス側で預かってくれ。
-EN This is {name}, who transferred from LLPW, as I told you before.
-EN Take her in on the babyface side.
+EN This is {name}, the transfer from LLPW I told you about. Take her on the babyface side.
 
 @ 160.03 spk=10 face=01
 # speaker: 工藤 めぐみ
 JP はい。じゃあ、{name}選手。練習だから準備して！！
-EN Yes. Okay, {name}, it's training, so get ready!!
+EN All right. {name}, we're training, so get ready!!

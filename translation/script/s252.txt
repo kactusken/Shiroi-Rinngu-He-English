@@ -14,6 +14,6 @@ JP あの人も、あんな事さえなければＬＬにずっといたかも�
 JP {p}どんなことかって？
 JP なんでも、人が一人死んだっていう事らしいけど．．．．
 EN Kandori??
-EN She might have stayed at LL forever if not for that incident.
-EN {p}What happened, you ask?
-EN They say someone died, apparently...
+EN She might've stayed with LL for good, if that thing hadn't happened.
+EN {p}What thing, you ask?
+EN Word is, somebody died...

@@ -15,12 +15,12 @@ JP どうした、ぼーっとして、
 JP レスラーなら背筋を伸ばせ！！
 JP どうした？その目は、
 JP 引退した人間には言われたくない。って顔をしてるな。
-EN Whoa, are you all right? Watch where you're walking.{p}Huh? You're from Kazama's place, aren't you? The one who fought our Nakayama in Shizuoka.
-EN You're {name}, right?
-EN What's wrong? Why the daze?
-EN If you're a wrestler, stand up straight!!
-EN What's with that look?
-EN You look like you're thinking, "I don't need that from a retired man."
+EN Whoa, you all right? Watch where you're going.{p}Huh? Aren't you one of Kazama's girls? The one who wrestled our Nakayama in Shizuoka...
+EN {name}, right?
+EN What's with the daze?
+EN A wrestler stands up straight!!
+EN Hm? What's that look for?
+EN Your face says, "I don't need a lecture from a retired guy."
 
 @ 061.01 spk=18 face=02
 # speaker: 大向 美智子
@@ -47,17 +47,17 @@ JP {p}なるほど、わかりました。
 JP とお伝え下さい。
 EN Let's see.
 EN ...
-EN {p}I see. Understood.
-EN Please tell her that.
+EN {p}I see.
+EN Tell her I understand, would you?
 
 @ 061.05 spk=18 face=02
 # speaker: 大向 美智子
 JP はい。
-EN Yes.
+EN I will.
 
 @ 061.06 spk=23 face=01
 # speaker: 大仁田 厚
 JP じゃあな、{name}。憶えておけ、レスラーは心なくしてはレスラーには成れない。
 JP 今のお前は、レスラーじゃない！！
-EN See you, {name}. Remember this: without heart, you can't become a wrestler.
-EN Right now, you're no wrestler!!
+EN See you, {name}. Remember this: a wrestler without heart is no wrestler at all.
+EN And right now, you're no wrestler!!

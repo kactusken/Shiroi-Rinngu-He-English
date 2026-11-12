@@ -11,5 +11,4 @@
 # speaker: 竹中さん
 JP どうもどうも、竹中です。
 JP 今度クイズ番組の収録があります。よろしくお願いします。
-EN Hello, hello, I'm Takenaka.
-EN There's a quiz show taping coming up. I'm counting on you.
+EN Hello, hello, Takenaka here. We've got a quiz show taping coming up. Looking forward to working with you.

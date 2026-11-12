@@ -22,9 +22,9 @@ EN Yes.
 JP ごくろうさまです。
 JP 風間の使いで参ったのですが、
 JP 大仁田社長は？
-EN Thank you for your hard work.
+EN Good work today.
 EN I've come on Kazama's behalf.
-EN Where is President Onita?
+EN Is President Onita around?
 
 @ 060.03 spk=13 face=01
 # speaker: 鍋野 ゆき江
@@ -34,7 +34,7 @@ EN He's over by the ring.
 @ 060.04 spk=18 face=02
 # speaker: 大向 美智子
 JP そうですか、失礼します。
-EN I see. Excuse us.
+EN I see. Thank you.
 
 @ 060.05 spk=18 face=00
 # speaker: 大向 美智子

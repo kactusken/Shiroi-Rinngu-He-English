@@ -18,10 +18,8 @@ JP ＦＭＷさんから、
 JP 石倉、中山、清水選手がでます。
 JP 組み合わせ等は後で決めます。
 EN Happy New Year.
-EN This year, in a partnership with FMW, we will hold a Rookie Tournament.
-EN It's for wrestlers within three years of their debut.
-EN From our side:
-EN Aono, Shimamura, {name}.
-EN From FMW:
-EN Ishikura, Nakayama and Shimizu will enter.
-EN The pairings will be decided later.
+EN This year, together with FMW, we'll hold a Rookie Tournament.
+EN It's open to wrestlers no more than three years past their debut.
+EN From us: Aono, Shimamura and {name}.
+EN From FMW: Ishikura, Nakayama and Shimizu.
+EN We'll decide the matchups later.

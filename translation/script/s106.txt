@@ -21,8 +21,8 @@ EN What?
 # speaker: 神取 忍
 JP 一年後、私と戦う選手をここで発表する。
 JP それは、ここにいる選手全てに権利がある。
-EN One year from now, I'll announce here who I will fight.
-EN Every wrestler in this room has the right.
+EN One year from now, I'll announce here who I'll fight.
+EN Every wrestler here has that right.
 
 @ 106.03 spk=10 face=02
 # speaker: 工藤 めぐみ

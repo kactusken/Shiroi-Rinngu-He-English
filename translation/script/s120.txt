@@ -21,9 +21,9 @@ EN What do you want in the LLPW locker room?
 JP こわいこといわんで下さいな。一言いいにきただけです。
 JP 「約束通りきたで。」
 JP じゃあ、失礼します。
-EN Don't say scary stuff like that. I just came to say one thing.
-EN "I came like I promised."
-EN Well, I'll be off now.
+EN Don't go sayin' scary stuff like that. I just came to say one thing:
+EN "I'm here, just like I promised."
+EN Well, I'll be goin' now.
 
 @ 120.03 spk=00 face=02
 JP なあに？今の？

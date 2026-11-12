@@ -10,4 +10,4 @@
 @ 307.00 spk=25 face=00
 # speaker: 青野 敬子
 JP 私は格闘能力を上げていきたいの。キックを使う人ってＬＬは今いないじゃない。
-EN I want to raise my fighting ability. LL has nobody who uses kicks right now.
+EN I want to build up my fighting skills. Nobody in LL uses kicks right now, you know?

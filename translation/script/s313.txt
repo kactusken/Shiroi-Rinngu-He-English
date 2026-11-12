@@ -20,12 +20,12 @@ EN Boss. I want to be the strongest.
 @ 313.02 spk=20 face=02
 # speaker: 藤原 善明
 JP じゃあ、練習だ。
-EN Then it's training time.
+EN Then get training.
 
 @ 313.03 spk=0f face=01
 # speaker: 神取 忍
 JP わかってます。でも、わからない。
-EN I know. But I just don't understand.
+EN I know that. But... I don't know.
 
 @ 313.04 spk=20 face=02
 # speaker: 藤原 善明
@@ -41,8 +41,8 @@ EN Yes.
 # speaker: 藤原 善明
 JP 先ずはやってみることだ。
 JP そうすれば、どうにかなる。
-EN Just try it first.
-EN Then things will work themselves out.
+EN First, just do it.
+EN Then things'll work out somehow.
 
 @ 313.07 spk=0f face=01
 # speaker: 神取 忍

@@ -16,11 +16,11 @@ JP 今度は前泊と来てやる。
 JP 覚悟を決めときな！！！
 EN Harley!!
 EN And you, shorty!!
-EN You're not bad.
-EN Next time I'll come with Maedomari.
-EN Get ready for it!!!
+EN Not bad at all.
+EN Next time I'm bringing Maedomari.
+EN Better get ready!!!
 
 @ 090.01 spk=19 face=00
 # speaker: ハーレー斉藤
 JP やったな。本丸のお出ましだ。
-EN Nice work. Now the big guns come out.
+EN Nice work. Now the big guns are coming out.

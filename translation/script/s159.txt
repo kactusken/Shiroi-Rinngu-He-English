@@ -21,8 +21,7 @@ EN What is it, President?
 # speaker: 風間 ルミ
 JP ＦＭＷと私の話し合いで、
 JP {name}を、ＦＭＷに移籍させることが決定しました。
-EN After talks between FMW and me,
-EN it has been decided that {name} will transfer to FMW.
+EN FMW and I have talked it over, and it's been decided that {name} will transfer to FMW.
 
 @ 159.03 spk=03 face=01
 # speaker: 嶋村 由佳
@@ -33,8 +32,7 @@ EN Really?
 # speaker: 風間 ルミ
 JP ええ、貴重な戦力を失うけど、
 JP 新しい戦士の新しい戦場を祝福して欲しいの。
-EN Yes. We lose a valuable fighter,
-EN but I want you to wish a new warrior well on her new battlefield.
+EN Yes. We're losing a valuable fighter, but I want you all to wish our warrior well on her new battlefield.
 
 @ 159.05 spk=03 face=01
 # speaker: 嶋村 由佳

@@ -12,13 +12,13 @@
 JP きてくれますか。
 JP ありがとうございます。
 JP 後は？
-EN Will you come?
-EN Thank you very much.
-EN Who else?
+EN You'll come?
+EN Thank you so much!
+EN Anyone else?
 
 @ 168.01 spk=23 face=01
 # speaker: 大仁田 厚
 JP そうだな、中山を貸すよ。
 JP あいつはサブゥー志望だからな。
-EN Let's see, I'll lend you Nakayama.
-EN She wants to be like Sabu.
+EN Let's see... you can have Nakayama.
+EN She wants to be the next Sabu.

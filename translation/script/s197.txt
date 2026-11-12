@@ -10,4 +10,4 @@
 @ 197.00 spk=00 face=00
 JP スキルね。
 JP 私のスキルは飛び技かな。
-EN Skills? My skill is aerial moves, I'd say.
+EN Skills, huh? Mine would be aerial moves, I guess.

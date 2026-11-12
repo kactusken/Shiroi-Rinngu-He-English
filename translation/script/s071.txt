@@ -36,4 +36,4 @@ EN The rest of you, keep training.
 @ 071.04 spk=09 face=01
 # speaker: 遠藤 美月
 JP はい。
-EN Yes.
+EN Right.

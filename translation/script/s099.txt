@@ -15,14 +15,14 @@ EN Kazama!!
 @ 099.01 spk=1c face=02
 # speaker: 風間 ルミ
 JP ほら。
-EN There, see?
+EN See? There she is.
 
 @ 099.02 spk=08 face=01
 # speaker: イーグル沢井
 JP タッグに工藤が来るんだって。
 JP 出させて貰うよ！！
 EN I hear Kudo's coming for the tag match.
-EN I'm taking that match!!
+EN I want in!!
 
 @ 099.03 spk=1c face=02
 # speaker: 風間 ルミ
@@ -37,12 +37,12 @@ EN Why not?!
 @ 099.05 spk=1c face=02
 # speaker: 風間 ルミ
 JP その試合は、ハーレー・{name}組と決めてます。
-EN I've already decided that match is Harley and {name}.
+EN That match is already set: Harley and {name}.
 
 @ 099.06 spk=08 face=01
 # speaker: イーグル沢井
 JP 駄目だ！！
-EN I won't accept that!!
+EN No way!!
 
 @ 099.07 spk=1c face=02
 # speaker: 風間 ルミ

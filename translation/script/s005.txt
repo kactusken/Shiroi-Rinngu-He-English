@@ -18,12 +18,4 @@ JP 悪党のヒール。
 JP レスラーは必ずどれかのタイプよ。その人と練習すれば、その人に近付いていくわ。
 JP {p}でも、気を付けなければいけないのは、その人が持つタイプは一つではないの。
 JP {p}みんなのアドバイスを良く聞きなさい。
-EN Do you know the wrestler types?
-EN {p}Wrestlers fall into five main types.
-EN {p}Strong, who show off their strength.
-EN Entertainment, for the show of the match.
-EN Babyface, the idol type. Power, the brute force type.
-EN Heel, the villain.
-EN Every wrestler is one of these. Keep training with someone and you'll become more like them.
-EN {p}But be careful: a wrestler can have more than one type.
-EN {p}Listen closely to everyone's Advice.
+EN Do you know the wrestler types? {p}Wrestlers fall into five main types. {p}Strong: shows off strength. Entertainment: puts on a show. Babyface: the idol. Power: brute force. Heel: the villain. Every wrestler is one of these. Keep training with someone and you'll become more like them. {p}But be careful: a wrestler can have more than one type. {p}Listen closely to everyone's Advice.

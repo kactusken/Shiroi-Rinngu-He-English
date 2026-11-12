@@ -10,7 +10,7 @@
 @ 011.00 spk=03 face=00
 # speaker: 嶋村 由佳
 JP ああ、おかしかった。
-EN Ah, that was funny.
+EN Oh, that was hilarious.
 
 @ 011.01 spk=06 face=02
 # speaker: 篭野 ことり
@@ -20,29 +20,28 @@ EN What was?
 @ 011.02 spk=03 face=01
 # speaker: 嶋村 由佳
 JP ことり、貴方がよ。
-EN You, Kotori.
+EN You were, Kotori.
 
 @ 011.03 spk=06 face=02
 # speaker: 篭野 ことり
 JP 何で。
-EN Why?
+EN How come?
 
 @ 011.04 spk=03 face=01
 # speaker: 嶋村 由佳
 JP 私、あなたが標準語つかってるの聞いたの初めてよ。
-EN That's the first time I've heard you use standard Japanese.
+EN That's the first time I've ever heard you talk without your Osaka accent.
 
 @ 011.05 spk=06 face=02
 # speaker: 篭野 ことり
 JP うるさいなあ、ええやん。
 JP {p}ウチ、万博広場の地雷爆破は最前列で見たぐらいファンやねん。
-EN Shut up, what's wrong with it?
-EN {p}I'm such a fan, I watched the landmine blast at Expo Plaza from the front row, ya know.
+EN Shut up, so what? {p}I'm such a big fan, I watched the exploding landmine match at Expo Plaza from the front row, ya know.
 
 @ 011.06 spk=03 face=01
 # speaker: 嶋村 由佳
 JP じゃあ何でＬＬにきたのよ。
-EN Then why did you come to LL?
+EN Then why did you join LL?
 
 @ 011.07 spk=06 face=02
 # speaker: 篭野 ことり
@@ -52,4 +51,4 @@ EN That's a different matter!!
 @ 011.08 spk=03 face=01
 # speaker: 嶋村 由佳
 JP へんなの。
-EN How strange.
+EN You're so weird.

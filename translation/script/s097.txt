@@ -10,7 +10,7 @@
 @ 097.00 spk=19 face=00
 # speaker: ハーレー斉藤
 JP 練習中悪いんだけど、{name}。風間社長の所まで来て。
-EN Sorry to interrupt your training, {name}. Come to President Kazama's office.
+EN Sorry to bother you mid-training, {name}. President Kazama wants to see you.
 
 @ 097.01 spk=1c face=02
 # speaker: 風間 ルミ
@@ -18,7 +18,7 @@ JP ごくろうさま。練習中悪いわね。
 JP あのね、今度タッグ王座をＦＭＷさんと新設するんだけど、
 JP うちの代表をだれにするかで迷っているの。
 JP でね、クリスマスの再現ではないけど、ハーレーと貴方で行くから、任せたわよ！！
-EN Thanks for your hard work. Sorry to interrupt training.
-EN Listen, we're setting up a new tag title with FMW,
-EN and I'm torn over who should represent us.
-EN So, not exactly a Christmas replay, but it'll be Harley and you. I'm counting on you!!
+EN Thanks for coming. Sorry to pull you out of training.
+EN Listen, we're creating a new tag title together with FMW,
+EN and I've been torn over who should represent us.
+EN It's not quite a repeat of Christmas, but I'm sending Harley and you. I'm counting on you!!

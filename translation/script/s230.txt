@@ -11,5 +11,5 @@
 # speaker: 遠藤 美月
 JP ヒールと言っても、うちらはヒールを望んでいるわけじゃあないんだ。{p}ただ、倒したい奴があっちにいるから、こっちにいるだけ。
 JP 今は、そいつはいなくなっちまったけどね。
-EN Heel or not, we don't actually want to be heels.{p}There's just someone over there we want to beat, so we're over here.
-EN Though now that person's gone.
+EN Sure, we're heels, but it's not like we want to be.{p}There's just someone on that side we want to beat, so we're on this side.
+EN Not that the one we were after is still around.

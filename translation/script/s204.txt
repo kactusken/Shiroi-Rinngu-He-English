@@ -12,4 +12,4 @@
 JP 私のタイプ？
 JP ヒールとパワーファイターだよ。
 EN My type?
-EN Heel and Power fighter.
+EN A Heel and a Power fighter.

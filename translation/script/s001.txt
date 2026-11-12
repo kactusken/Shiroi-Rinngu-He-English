@@ -16,8 +16,7 @@ EN Harley Saito.
 # speaker: 風間 ルミ
 JP じゃあ後は頼むわ。
 JP ハーレーに詳しく聞いてね。
-EN Then I'll leave the rest to you.
-EN Ask Harley for the details.
+EN I'll leave the rest to you, then. Harley will fill you in on the details.
 
 @ 001.02 spk=19 face=00
 # speaker: ハーレー斉藤
@@ -26,11 +25,7 @@ JP {p}プロレスは、教えてもらう物では無い。
 JP 見て、聞いて、身体で憶えて、
 JP 技術を奪う。
 JP {p}これが基本、わかった？
-EN Now I'll explain training, so listen carefully.
-EN {p}Pro wrestling is not something you get taught.
-EN You watch, you listen, you learn it with your body,
-EN and you steal the technique.
-EN {p}That's the basics. Got it?
+EN Now, I'll explain how training works, so listen up. {p}Pro wrestling isn't something you get taught. You watch, you listen, you learn it with your body, and you steal the technique. {p}That's the basic idea. Got it?
 
 @ 001.03 spk=03 face=02
 # speaker: 嶋村 由佳
@@ -38,10 +33,7 @@ JP 質問があります。
 JP 技術を奪うなんて、
 JP 聞くと簡単ですが、
 JP どうすればいいんですか？？
-EN I have a question.
-EN Stealing technique
-EN sounds easy
-EN when you hear it, but how do we do it?
+EN I have a question. "Steal the technique" sounds easy enough, but how do we actually do it?
 
 @ 001.04 spk=19 face=01
 # speaker: ハーレー斉藤
@@ -53,14 +45,7 @@ JP 一緒に練習することで、その先輩の技、体力、戦い方、
 JP 全てを学び取る事が出来るの。
 JP {p}一緒に練習する相手は慎重に選びなさい。
 JP そうして工夫しながら、独自のスタイルを作り上げればいい。
-EN It's no wonder you don't get it.
-EN It's simple.
-EN Just train together with the senior wrestlers.
-EN And steal technique while you do.
-EN By training together, you can learn that senior's moves, stamina, fighting style,
-EN everything.
-EN {p}Choose carefully who you train with.
-EN Then work it out for yourselves and build your own style.
+EN No wonder you don't get it. It's simple. Train with the senior wrestlers, and steal their technique as you go. Training with a senior, you can learn everything about her: her moves, her stamina, her way of fighting. {p}So choose your training partners carefully. Experiment as you go, and build a style that's all your own.
 
 @ 001.05 spk=03 face=02
 # speaker: 嶋村 由佳
@@ -75,9 +60,4 @@ JP 集中できないわよ。
 JP {p}スケジュールは月初めにアドバイスを良く聞いて決めなさい。
 JP {p}スケジュールを一ヶ月分、最初に決めないと、練習は始められないので気を付けてね。
 JP {p}じゃあ、練習を始めなさい。
-EN Keep a close eye on your HP.
-EN If you push training too hard and don't get enough rest or a change of pace,
-EN you won't be able to concentrate.
-EN {p}Decide your Schedule at the start of each month, after listening closely to the Advice.
-EN {p}Be careful: you can't begin training until you've set the first month's Schedule.
-EN {p}All right, start training.
+EN Keep a close eye on your HP. If you throw yourself into training without enough rest or a change of pace, you won't be able to concentrate. {p}Set your Schedule at the start of each month, and listen closely to the Advice first. {p}Remember: you can't start training until you've set a full month's Schedule. {p}All right, get training.

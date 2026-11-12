@@ -12,6 +12,6 @@
 JP 残念だったわね。
 JP いい試合か、そうでなかったかは、自分がよく判ったと思うわ。
 JP {p}さあ、気持ちを切り替えて！！
-EN That's too bad.
-EN You know best whether it was a good match or not.
+EN Too bad.
+EN You know better than anyone whether that was a good match.
 EN {p}Now, shake it off!!

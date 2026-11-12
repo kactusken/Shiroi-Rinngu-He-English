@@ -10,14 +10,13 @@
 @ 124.00 spk=08 face=00
 # speaker: イーグル沢井
 JP 工藤！！なぜお前は何も言わない。篭野！！いつもの威勢はどうした。なぜ、みんなだまる。
-EN Kudo!! Why aren't you saying anything? Kagono!! Where's your usual fire? Why is everyone silent?
+EN Kudo!! Why aren't you saying anything? Kagono!! Where's that usual fire of yours? Why's everyone so quiet?
 
 @ 124.01 spk=06 face=02
 # speaker: 篭野 ことり
 JP イーグル先輩。あなたも判っているんでしょ。
 JP 神取選手の考え方が。ここにどうしてみんなを集めたか、どうして、{name}が選ばれているか。
-EN Eagle, you understand too, don't you?
-EN What Kandori is thinking. Why she gathered us here, and why {name} was chosen.
+EN You understand it too, don't you, Eagle? What Kandori's thinking. Why she called us all here, and why she chose {name}.
 
 @ 124.02 spk=08 face=01
 # speaker: イーグル沢井
@@ -44,11 +43,8 @@ JP {p}だけどな、みんな神取選手の気持ちは分かっているは�
 JP 逆に、うちが選ばれてもキャンセルするつもりやった。
 JP うちは、神取選手に対しては、憎悪しかなかったからな。{p}
 JP 神取選手に答えられるのは、ただ一人、{name}だけや。
-EN That doesn't matter anymore.
-EN Sure, I don't know how strong {name} is.
-EN {p}But everyone must understand how Kandori feels.
-EN If I'd been chosen, I'd have turned it down.
-EN All I ever felt toward Kandori was hatred.{p}
+EN That doesn't matter anymore. Sure, I can't say how strong {name} is. {p}But everyone here oughta know how Kandori feels.
+EN Even if she'd picked me, I'd have turned it down. All I ever felt for Kandori was hatred.{p}
 EN The only one who can answer Kandori is {name}.
 
 @ 124.06 spk=10 face=01
@@ -59,14 +55,13 @@ EN Yes, that's right.
 @ 124.07 spk=06 face=02
 # speaker: 篭野 ことり
 JP それじゃあな。きばりや。
-EN Well, see ya. Give it your all.
+EN See ya, then. Go get 'em.
 
 @ 124.08 spk=08 face=01
 # speaker: イーグル沢井
 JP 神取。
 JP 私は、その日、{name}のセコンドに付く。いいな。
-EN Kandori.
-EN On that day, I'll be in {name}'s corner. Got it?
+EN Kandori. When that day comes, I'll be in {name}'s corner. Got it?
 
 @ 124.09 spk=0f face=00
 # speaker: 神取 忍
@@ -75,10 +70,7 @@ JP すべての思いをかけて、
 JP 来年、３／３１日。
 JP 東京ドームでお前を待つ。{p}
 JP 期待している。
-EN ...{name}.
-EN Putting everything I have on the line,
-EN next year, March 31,
-EN I'll be waiting for you at Tokyo Dome.{p}
+EN ...{name}. With everything I have riding on it, I will wait for you at Tokyo Dome next year, on March 31.{p}
 EN I'm counting on you.
 
 @ 124.10 spk=1c face=02

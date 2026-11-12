@@ -10,7 +10,7 @@
 @ 164.00 spk=21 face=02
 # speaker: 竹中さん
 JP どーもーこんにちはー。
-EN Hellooo, good day!
+EN Hellooo, hi there!
 
 @ 164.01 spk=23 face=01
 # speaker: 大仁田 厚
@@ -36,4 +36,4 @@ EN And this is our rookie {name}. She came over from LLPW.
 JP 私の顔に何か付いてます？ＬＬＰＷの方って必ず似た反応されますね。
 JP 昔、風間社長を紹介してくださった時も、こうだったでしょ。
 EN Do I have something on my face? LLPW people always react the same way.
-EN It was the same when you introduced me to President Kazama way back, remember?
+EN It was just like this when you introduced me to President Kazama years ago, remember?

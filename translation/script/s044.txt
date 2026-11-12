@@ -12,5 +12,5 @@ JP おーい、{name}。
 JP 今月は私とのタッグが中心だから足ひっぱらないようにしろよ。
 JP タッグが初めて？？私がリードするから安心しな！
 EN Hey, {name}.
-EN This month is mostly tag matches with me, so don't hold me back.
-EN First time in a tag match? I'll lead, so don't worry!
+EN This month you're mostly teaming with me, so don't drag me down.
+EN First tag match? Relax, I'll lead!

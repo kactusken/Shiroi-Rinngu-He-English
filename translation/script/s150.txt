@@ -14,8 +14,6 @@ JP どうしたい？？そんな顔して、悩みがあるなら聞いてや�
 JP 聞かせてみな。
 JP ．．．そうか、自分がしている事が何なのか、
 JP 自分の心の中で納得出来ない、か。今ヒマか？俺の道場にきな、同じ事言ってた奴が練習に来る頃だ。
-EN That's right, good attitude.
-EN What's wrong? That face. If you've got worries, I'll listen.
-EN Tell me.
-EN ...I see. Deep down, you can't accept
-EN what it is you're doing, huh? Free now? Come to my dojo. A guy who said the same thing should be coming for training soon.
+EN That's right, good attitude. What's the matter? With a face like that... if something's eating at you, I'll listen. Go on, tell me.
+EN ...I see. Deep down, you can't make peace with what you're doing, huh?
+EN You free now? Come to my dojo. A guy who said the same thing should be showing up for training about now.

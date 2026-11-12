@@ -11,5 +11,5 @@
 # speaker: ハーレー斉藤
 JP 後楽園が鍵を握っているんだ。
 JP タッグ選手権は貰うぞ。
-EN Korakuen holds the key.
+EN Everything hinges on Korakuen.
 EN That title match is ours.

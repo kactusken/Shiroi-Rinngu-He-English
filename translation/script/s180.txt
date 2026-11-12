@@ -38,9 +38,9 @@ EN What is it?
 JP ＦＭＷは逃げも隠れもしない。
 JP しかし、しかしだ。神取、あんたはどうも気に入らない。
 JP あの噂、本当なのか？ここで答えろ！！
-EN FMW isn't running or hiding.
-EN But, Kandori, I just don't like you.
-EN Is that rumor true? Answer me here!!
+EN FMW won't run and won't hide.
+EN But -- and here's the thing -- Kandori, I don't like you one bit.
+EN Is that rumor true? Answer me, right here!!
 
 @ 180.05 spk=0f face=01
 # speaker: 神取 忍
@@ -54,6 +54,6 @@ JP よく判ったよ。
 JP {name}！！話を聞いといで。あたしは先に帰るからね。
 JP 神取！！戦える日を楽しみにしとくよ。
 EN Ha ha ha ha.
-EN Now I understand.
-EN {name}!! Go hear her out. I'm heading back first.
-EN Kandori!! I'm looking forward to the day we fight.
+EN Got it, loud and clear.
+EN {name}!! You stay and hear her out. I'm heading home.
+EN Kandori!! I can't wait for the day we fight.

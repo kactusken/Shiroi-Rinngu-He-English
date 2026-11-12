@@ -12,6 +12,6 @@
 JP ハーレー。{name}。
 JP ＦＭＷ側から挑戦が来ました。
 JP 今年のクリスマスで、土屋、前泊組と対戦よ。
-EN Harley. {name}.
-EN A challenge has come from FMW.
-EN This Christmas, you face Tsuchiya and Maedomari.
+EN Harley, {name}.
+EN FMW has sent us a challenge.
+EN This Christmas, you're facing Tsuchiya and Maedomari.

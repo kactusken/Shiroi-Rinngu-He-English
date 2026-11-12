@@ -10,7 +10,7 @@
 @ 310.00 spk=0f face=02
 # speaker: 神取 忍
 JP イーグル！！それでも挑戦者か！！私の首を、取って見ろ！！
-EN Eagle!! Some challenger you are!! Try and take my head!!
+EN Eagle!! You call yourself a challenger?! Come and take my head!!
 
 @ 310.01 spk=08 face=01
 # speaker: イーグル沢井
@@ -26,10 +26,10 @@ JP 風間！！いつ工藤とやらせてくれるんだ。
 JP あたしは強い奴とやりてえんだよ。強い奴！！
 JP だれでもいいからかかってこい。
 JP 私が、私が神取忍だ！！
-EN If it stings, then fight for real!!
+EN If you're that sore about it, then fight for real!!
 EN Harley!!
 EN Not coming at me again?!
-EN Kazama!! When will you let me fight Kudo?
-EN I want to fight the strong ones. The strong ones!!
-EN I don't care who - come at me!
-EN I am Shinobu Kandori!!
+EN Kazama!! When are you letting me fight Kudo?
+EN I wanna fight someone strong. Someone strong!!
+EN Anybody, I don't care. Come at me!
+EN I am... I am Shinobu Kandori!!

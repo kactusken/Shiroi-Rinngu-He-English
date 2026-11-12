@@ -24,16 +24,16 @@ EN What is it?
 JP ２人を今度の最終戦で当てます。
 JP もちろん、３冠へのステップとしてね。
 JP 頑張りなさい。
-EN I'm putting the two of you against each other at the final show.
+EN I'm putting the two of you against each other at this tour's final show.
 EN Naturally, as a step toward the Triple Crown.
 EN Do your best.
 
 @ 113.03 spk=19 face=01
 # speaker: ハーレー斉藤
 JP 社長！！なぜ、{name}と。
-EN President!! Why against {name}?
+EN President!! Why {name}?
 
 @ 113.04 spk=1c face=02
 # speaker: 風間 ルミ
 JP それは、今コーチしてる貴方の方が詳しいんじゃない？
-EN Wouldn't you know better than anyone, as her coach right now?
+EN You're the one coaching her right now. Shouldn't you know that better than me?

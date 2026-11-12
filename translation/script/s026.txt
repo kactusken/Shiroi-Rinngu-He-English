@@ -17,14 +17,14 @@ EN Mr. Ta-ke-na-ka.
 JP え、どうしたの？
 JP 社長？そんなに怒って？
 JP まさか、デビューの事、
-EN Huh? What's wrong?
-EN President? Why so angry?
-EN Don't tell me, it's about the debut...
+EN Huh? What is it, President?
+EN Why so angry?
+EN Don't tell me... it's about the debut?
 
 @ 026.02 spk=1c face=01
 # speaker: 風間 ルミ
 JP そのまさか。
-EN Exactly that.
+EN Exactly what you're thinking.
 
 @ 026.03 spk=21 face=02
 # speaker: 竹中さん
@@ -61,7 +61,7 @@ JP {p}次の後楽園ね。
 JP 嶋村、挨拶。
 EN This is {name}.
 EN {p}She isn't ready to debut yet.
-EN {p}Her turn will be the Korakuen show after that.
+EN {p}Maybe at the Korakuen show after that.
 EN Shimamura, say hello.
 
 @ 026.09 spk=03 face=02
@@ -73,7 +73,7 @@ EN Pleased to meet you.
 # speaker: 風間 ルミ
 JP じゃあ竹中さん、奥へどうぞ。
 JP {p}あなた達は練習を続けなさい。
-EN Well then, Mr. Takenaka, please come inside.
+EN Now then, Mr. Takenaka, please come through to the back.
 EN {p}You two keep training.
 
 @ 026.11 spk=03 face=00

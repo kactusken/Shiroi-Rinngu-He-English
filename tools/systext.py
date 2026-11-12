@@ -7,7 +7,8 @@
 Layout (from the ROM; the strings are NUL-terminated Shift-JIS, mostly in fixed 16-byte records or
 packed menus; English goes back IN PLACE, so every English string has at most the Japanese string's
 bytes - as cells, tools/tokens.py - and is padded with full-width spaces when the original was):
-  0xD3412 0xD3682   two choice menus
+  0xD0000-0xD8000   choice menus in the event scripts: opcode 25 13 <count>, then the items (\\n
+                    between them, NUL at the end); found by the opcode (4 menus)
   0xEB303-0xEEC4A   wrestling move names (about 370)
   0xF8000-0xFCD00   menus, messages, names of people and places, stats, clubs, help text, ending text
 Rows: offset, max_bytes (the Japanese string's length), section, japanese, english, notes. In the
@@ -23,11 +24,12 @@ import paths  # noqa: E402
 
 ASC = set(b'%sd 0123456789')
 EXTRA = [0xFBF4C, 0xFC504, 0xFC5CC]          # strings the scanner can't take (see docs/TECHNICAL.md)
+EVENTS = (0xD0000, 0xD8000)                  # event scripts: choice menus are opcode 25 13 <count> + text
 REGIONS = [(0xD3000, 0xD4000), (0xEB000, 0xF0000), (0xF8000, 0xFD000)]
 
 # section names: (first offset, name); a row belongs to the last one at or before its offset
 SECTIONS = [
-    (0xD3000, 'choices (move to another group?)'),
+    (0xD0000, 'choices (event script menus)'),
     (0xEB000, 'finishing moves (move names)'),
     (0xED000, 'moves (move names)'),
     (0xF8000, 'credits (staff roll labels: keep Japanese)'),
@@ -90,6 +92,13 @@ def strings(rom):
             if pairs >= 2 and j < hi and rom[j] == 0:
                 out[i] = j
             i = j if j > i else i + 1
+    lo, hi = EVENTS
+    i = rom.find(b'\x25\x13', lo, hi)
+    while i >= 0:
+        a = i + 3
+        if 1 <= rom[i + 2] <= 8 and is_lead(rom[a]):
+            out[a] = rom.index(b'\x00', a)
+        i = rom.find(b'\x25\x13', i + 1, hi)
     for a in EXTRA:
         j = a
         while rom[j] != 0 and not (rom[j] in (1, 2, 3, 4, 5) and rom[j + 1] == 0):
@@ -174,7 +183,7 @@ def dump():
             for s, n, sec, jp in items:
                 o = old.get(f'0x{s:06X}', {})
                 note = o.get('notes', '') or f'# section: {sec}'
-                if any(a <= s < b for a, b in KEEP_FROM.items()):
+                if not o and any(a <= s < b for a, b in KEEP_FROM.items()):   # new rows only: keep hand edits
                     note = '# keep: credits'
                     o = dict(o, english=jp)
                 w.writerow([f'0x{s:06X}', n, sec, jp, o.get('english', ''), note])

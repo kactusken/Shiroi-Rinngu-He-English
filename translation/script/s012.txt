@@ -12,34 +12,32 @@
 JP クリスマスやなあ。
 JP {p}俗世間のイベントとは無関係なこの道場でも、さすがにクリスマスと聞くと寂しいもんやな。
 JP {p}何がかなしゅうて、イブの日にバーベル上げとんのやろ。
-EN It's Christmas, huh.
-EN {p}Even in this dojo, cut off from the outside world, the word "Christmas" still makes ya lonely.
-EN {p}Why am I lifting barbells on Christmas Eve, of all things?
+EN It's Christmas, huh. {p}Even in this dojo, cut off from the outside world, the word "Christmas" still makes ya lonely. {p}Why on earth am I lifting barbells on Christmas Eve?
 
 @ 012.01 spk=0a face=01
 # speaker: 半田 美希
 JP 何おしゃべりしてるの！！
-EN What are you chatting for!!
+EN Quit your chattering!!
 
 @ 012.02 spk=06 face=02
 # speaker: 篭野 ことり
 JP いやいや、クリスマスはバーベルと２人きりと悲しんでたんですわ。
-EN No, no, I was just sad that on Christmas it's me and the barbell.
+EN Oh, nothing. I was just moaning that it's me and the barbell, all alone together for Christmas.
 
 @ 012.03 spk=0a face=01
 # speaker: 半田 美希
 JP あのね、
-EN Listen,
+EN Now look here,
 
 @ 012.04 spk=17 face=02
 # speaker: ニ上 美紀子
 JP 篭野、気遣ったりや。
-EN Kagono, be considerate.
+EN Kagono, have a little tact.
 
 @ 012.05 spk=06 face=01
 # speaker: 篭野 ことり
 JP なんでです。
-EN Why's that?
+EN How come?
 
 @ 012.06 spk=17 face=02
 # speaker: ニ上 美紀子
@@ -49,7 +47,7 @@ EN There's no dating ban in LL, so anyone lifting barbells here on Christmas Eve
 @ 012.07 spk=06 face=01
 # speaker: 篭野 ことり
 JP あ、なるほど。
-EN Oh, I see.
+EN Ohh, gotcha.
 
 @ 012.08 spk=0a face=00
 # speaker: 半田 美希
@@ -57,7 +55,4 @@ JP な・ん・か・い・っ・た！
 JP あの大阪芸人コンビは！！
 JP さあ、貴方も見てないで、
 JP 練習、練習！！
-EN What-did-you-say!
-EN That Osaka comedy duo!!
-EN Now, you too, stop watching and
-EN get to training, training!!
+EN What. Did. You. Say?! That Osaka comedy act!! And you, quit gawking. Training! Now, now!!

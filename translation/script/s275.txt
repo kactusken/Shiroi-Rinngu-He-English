@@ -16,8 +16,8 @@ JP 自分にあった練習をスケジュールで決めて、
 JP {p}コンプリートして練習開始や。
 JP これをちゃんとするかで、最強になれるかどうかが決まるんや。
 EN I'm Futagami. Nice to meet ya.
-EN Check the Status screen often. If your HP is low, don't expect training to do much.
-EN {p}Listen to Advice, then check Status.{p}
-EN Pick training that suits you in the Schedule,
-EN {p}then press Complete and begin training.
-EN Whether you do this properly decides if you become the strongest.
+EN Keep an eye on the Status screen, ya hear? Low HP, and your training won't do much good.
+EN {p}Hear the Advice, check your Status.{p}
+EN Pick training that suits ya in the Schedule,
+EN {p}then hit Complete and off ya go.
+EN Whether ya do this right decides if you'll ever be the strongest.

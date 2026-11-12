@@ -11,8 +11,7 @@
 # speaker: 風間 ルミ
 JP おはよう。
 JP 最初に報告があるの、聞いてね。
-EN Good morning.
-EN I have an announcement first, so listen.
+EN Good morning. First, I have an announcement, so listen carefully.
 
 @ 016.01 spk=19 face=01
 # speaker: ハーレー斉藤
@@ -27,12 +26,12 @@ EN What?
 @ 016.03 spk=19 face=01
 # speaker: ハーレー斉藤
 JP 二上と篭野が来ていませんが。
-EN Futagami and Kagono haven't come.
+EN Futagami and Kagono aren't here.
 
 @ 016.04 spk=1c face=02
 # speaker: 風間 ルミ
 JP いいの、その事だから。
-EN It's fine, that's what this is about.
+EN I know. That's what this is about.
 
 @ 016.05 spk=18 face=01
 # speaker: 大向 美智子
@@ -44,9 +43,7 @@ EN President, don't tell me...
 JP そう、そのまさかよ。
 JP 二上と篭野は、先月付けでＬＬＰＷを退職しました。
 JP 以上、練習開始！！
-EN Yes, exactly that.
-EN Futagami and Kagono left LLPW as of last month.
-EN That's all. Begin training!!
+EN Yes, it's just what you think. Futagami and Kagono left LLPW as of last month. That's all. Start training!!
 
 @ 016.07 spk=19 face=01
 # speaker: ハーレー斉藤
@@ -65,9 +62,7 @@ EN Now, start training!!
 JP 風間！！２人は神取のとこに行ったんじゃねえのか！
 JP 神取の所の旗揚げが近付いている。そんな時期に離脱者なら、
 JP そうとしか考えられねえぞ！
-EN Kazama!! Didn't those two go to Kandori's place?
-EN Kandori's promotion is about to launch. A defection at a time like this
-EN can only mean that!
+EN Kazama!! They went over to Kandori, didn't they? Her new promotion's about to launch. Two walkouts right now? That can only mean one thing!
 
 @ 016.10 spk=19 face=02
 # speaker: ハーレー斉藤
@@ -77,7 +72,7 @@ EN Eagle, shut up!!
 @ 016.11 spk=08 face=01
 # speaker: イーグル沢井
 JP なんだと、貴様が正規軍を率いてコーチしてんだろうが、そんなことだから離脱すんだよ！！
-EN What? You're the one leading the regular army and coaching, and that's why they defect!!
+EN Say what? You're the one leading the regular army and coaching them. That's exactly why they walk out!!
 
 @ 016.12 spk=19 face=02
 # speaker: ハーレー斉藤
@@ -87,9 +82,9 @@ EN What did you say?! One more word and, dojo or not,
 @ 016.13 spk=08 face=01
 # speaker: イーグル沢井
 JP ちょうどいい、あんたに預けたベルト返してもらうよ！！
-EN Suits me fine. I'm taking back that belt you're holding for me!!
+EN Fine by me. Time I took back that belt I let you hold!!
 
 @ 016.14 spk=19 face=02
 # speaker: ハーレー斉藤
 JP なんだと！！
-EN What did you say?!
+EN Why, you...!!

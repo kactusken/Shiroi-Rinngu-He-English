@@ -21,11 +21,5 @@ JP 練習中に足の骨を．．．。
 JP 行ってやれ。え？行かない？？
 JP そうか、ＦＭＷとして行くわけにはいかないか。
 JP わかった。
-EN Yes, FMW speaking.
-EN What?! {name}! {name}!
-EN Oh, you're here.
-EN Your classmate Shimamura
-EN broke her leg during training...
-EN Go see her. What? You won't?
-EN I see, you can't go as an FMW wrestler.
-EN Understood.
+EN Yeah, FMW. What?! {name}! {name}! Oh, there you are. Your classmate Shimamura broke her leg in training... Go see her.
+EN What? You won't go?? I see, you can't go as an FMW wrestler. Got it.

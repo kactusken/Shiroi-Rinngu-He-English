@@ -19,7 +19,7 @@ JP {p}まってるよ。
 EN By the way, I heard from Onita.
 EN You came from LLPW, {name}?
 EN I see... Things were rough for the wrestlers there, with everything that happened.{p}
-EN Oh, right.
-EN It may be far,
-EN but you're welcome to come to training here anytime.
+EN Oh, I know.
+EN It's a long way,
+EN but you're welcome at our training anytime.
 EN {p}We'll be waiting.

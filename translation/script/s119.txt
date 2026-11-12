@@ -14,8 +14,8 @@ JP 前哨戦で、{name}と篭野が対戦して、その結果いかんで、�
 JP 貴方の所で潰しなさい。
 JP {name}？{name}！！
 JP ぼーっとしてるんじゃないわよ！
-EN This month the JWWF crew is invading.{p}
-EN In the warm-up match, {name} faces Kagono, and depending on the result, we may have to give Kagono a Triple Crown shot.{p}{name}, the Triple Crown champion was chosen through a fierce fight between LL and FM.
-EN Crush her in your match.
-EN {name}? {name}!!
-EN Don't just zone out!
+EN This month, the JWWF crew is invading.{p}
+EN {name} faces Kagono in a warm-up match. Depending on how it goes, we may have to give Kagono a Triple Crown shot.{p}{name}, the Triple Crown champion was decided in a hard-fought battle between LL and FM.
+EN Crush Kagono in your match.
+EN {p}{name}? {name}!!
+EN Don't space out on me!

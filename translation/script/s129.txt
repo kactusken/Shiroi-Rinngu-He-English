@@ -46,4 +46,4 @@ EN Don't listen to anything Omukai says.
 @ 129.07 spk=19 face=00
 # speaker: ハーレー斉藤
 JP さあ、表でみんな待ってるよ。
-EN Now, everyone's waiting out there.
+EN Come on, everyone's waiting out there.

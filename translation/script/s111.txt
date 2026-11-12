@@ -14,8 +14,8 @@ JP シングル戦だけど、もちろん貴方も入っているから、頑�
 JP どうしたの？きょとんとして。
 JP 神取は、「全ての選手」っていったでしょ。勿論、あなたも入っているわよ。
 JP タッグ戦や、対抗戦を経験した貴方は、立派なメインイベンターだわ。
-EN Let's see, {name}. There you are.
-EN It's a singles tournament, but of course you're in it too, so do your best.{p}Don't let Kagono or Kandori down.
-EN What's with that blank look?
-EN Kandori said "every wrestler," remember? Of course that includes you.
-EN After tag matches and the interpromotional shows, you're a proper main eventer.
+EN Now, where's {name}... Ah, there you are.
+EN About the singles tournament: of course you're in it too, so give it your all.{p}Don't let Kagono and Kandori down.
+EN Why the blank look?
+EN Kandori said "every wrestler," remember? That includes you, of course.
+EN After all the tag matches and interpromotional shows you've been through, you're a real main eventer now.

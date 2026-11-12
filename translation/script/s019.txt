@@ -15,7 +15,7 @@ EN What's all the fuss?
 @ 019.01 spk=25 face=02
 # speaker: 青野 敬子
 JP 新人がテストなんですよ。
-EN The rookies have their test.
+EN The rookies are taking their test.
 
 @ 019.02 spk=11 face=01
 # speaker: 紅 夜叉
@@ -23,10 +23,7 @@ JP へえ、もうそんな時期か、
 JP {p}今年は６人入って、残ったのは２人か。
 JP なかなかいいんじゃない。
 JP なあイーグル？
-EN Oh, is it that time already?
-EN {p}Six joined this year, and two are left.
-EN That's not bad at all.
-EN Right, Eagle?
+EN Huh, that time already? {p}Six came in this year, and two are left. Not bad at all. Right, Eagle?
 
 @ 019.03 spk=08 face=02
 # speaker: イーグル沢井
@@ -36,7 +33,7 @@ EN ...
 @ 019.04 spk=19 face=01
 # speaker: ハーレー斉藤
 JP へえ、イーグルでも新人が気になるのかい？
-EN Even you care about the rookies, Eagle?
+EN Well, well. So even you're curious about the rookies, Eagle?
 
 @ 019.05 spk=08 face=02
 # speaker: イーグル沢井
@@ -47,13 +44,12 @@ EN ...
 # speaker: ハーレー斉藤
 JP なるほどね。
 JP まあ、どちらかがあんたの所に入るから目つけといてくれや。
-EN I see.
-EN Well, one of them will join you, so keep an eye on them.
+EN I see. Well, one of them's going to end up with you, so keep an eye on them.
 
 @ 019.07 spk=03 face=00
 # speaker: 嶋村 由佳
 JP はあ、はあ、ありがとうございました。
-EN Haah, haah... thank you very much.
+EN Haah, haah... Thank you!
 
 @ 019.08 spk=1c face=00
 # speaker: 風間 ルミ

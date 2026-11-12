@@ -22,14 +22,12 @@ EN Good morning!!!
 JP 元気ね、さすがに発表の日は興奮するのかしら？？
 JP 発表するわね。
 JP {p}おめでとう。合格よ。
-EN You're energetic. Are you excited because it's announcement day?
-EN I'll announce the results.
-EN {p}Congratulations. You passed.
+EN You're full of energy. I suppose results day has you excited? Well, here they are. {p}Congratulations. You passed.
 
 @ 020.03 spk=03 face=02
 # speaker: 嶋村 由佳
 JP やったあ！！
-EN Yes!!
+EN Yes! I did it!!
 
 @ 020.04 spk=1c face=01
 # speaker: 風間 ルミ
@@ -44,28 +42,16 @@ JP あなた達は扉を開けました。
 JP {p}後は、１歩踏み込むだけ。
 JP 引き返すことも簡単だわ。
 JP これからは、貴方達が選びなさい。{p}どうする？
-EN Don't get carried away. You've passed the pro test,
-EN but until now it was a fight against yourself.
-EN From now on it's different:
-EN {p}your opponents,
-EN the fans watching your matches,
-EN and your own heart.
-EN {p}Beyond those, even greater hardships will come at you.
-EN You have opened the door.
-EN {p}All that's left is to take one step in.
-EN Turning back is easy, too.
-EN From here on, you choose.{p}What will it be?
+EN Don't get carried away. You passed the pro test, yes, but so far you've only fought yourselves. From now on, it's different. {p}Your opponents, the fans watching your matches, and your own heart... {p}And beyond those, hardships greater than any you've known will come at you. You've opened the door. {p}All that's left is to take one step through. Turning back would be easy, too. From here on, the choice is yours. {p}What will it be?
 
 @ 020.05 spk=03 face=02
 # speaker: 嶋村 由佳
 JP 星を掴みます。
-EN I'll grasp a star.
+EN I'm going to grasp a star.
 
 @ 020.06 spk=1c face=01
 # speaker: 風間 ルミ
 JP 今、この瞬間から、選ばれた美闘家が２人増えました。
 JP おめでとう。
 JP {p}デビュー戦が決まったらまた連絡します。
-EN From this very moment, there are two more chosen fighters.
-EN Congratulations.
-EN {p}I'll contact you again once your debut match is set.
+EN As of this moment, two more have joined the chosen ranks of beautiful fighters. Congratulations. {p}I'll let you know once your debut matches are set.

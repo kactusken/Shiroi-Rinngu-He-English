@@ -10,4 +10,4 @@
 @ 185.00 spk=1c face=00
 # speaker: 風間 ルミ
 JP こんにちは。活躍してる様ね。ちょっと、時間いいかしら？大仁田社長には許可を取ってあるから。
-EN Hello. I hear you're doing well. Do you have a moment? I got permission from President Onita.
+EN Hello. I hear you're doing well. Do you have a moment? President Onita has already said it's fine.

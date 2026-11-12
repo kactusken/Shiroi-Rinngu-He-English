@@ -20,9 +20,9 @@ JP 聞いてるか神取！！
 JP 最強を名乗る前に私と戦え！！
 JP 工藤！！神取戦は、私と戦ってからだ！！
 EN Harley, I took back what's mine!!
-EN Are you listening, Kandori!!
+EN You hear me, Kandori?!
 EN Before you call yourself the strongest, fight me!!
-EN Kudo!! Before you fight Kandori, you fight me!!
+EN Kudo!! You don't get Kandori until you've gone through me!!
 
 @ 095.02 spk=06 face=01
 # speaker: 篭野 ことり
@@ -32,21 +32,21 @@ EN Hold on there.
 @ 095.03 spk=08 face=02
 # speaker: イーグル沢井
 JP か、篭野。なんのようだ！！
-EN K-Kagono. What do you want!!
+EN K-Kagono! What do you want?!
 
 @ 095.04 spk=06 face=01
 # speaker: 篭野 ことり
 JP 何用とは言ってくれたな。
 JP 神取選手からの伝言や、
 JP 「まだだ。魅力がない。」
-EN "What do you want," huh? Nice.
+EN "What do you want?" Well, ain't that nice.
 EN I've got a message from Kandori.
 EN "Not yet. You lack charm."
 
 @ 095.05 spk=08 face=02
 # speaker: イーグル沢井
 JP 篭野！！そんな口がいつ叩けるようになった！！
-EN Kagono!! Since when do you talk back like that!!
+EN Kagono!! Since when do you get to mouth off like that?!
 
 @ 095.06 spk=06 face=01
 # speaker: 篭野 ことり

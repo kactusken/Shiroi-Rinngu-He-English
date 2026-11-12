@@ -10,7 +10,7 @@
 @ 102.00 spk=08 face=02
 # speaker: イーグル沢井
 JP 貴方達がここまで強くなってるとはねえ。判った、タッグの挑戦権はくれてやるよ。青野！！いいね。
-EN I never thought you two had grown this strong. All right, I'll hand over the tag title shot. Aono!! You got that?
+EN Didn't think you two had gotten this strong. All right, the tag title shot is yours. Aono!! Got it?
 
 @ 102.01 spk=25 face=01
 # speaker: 青野 敬子

@@ -13,14 +13,11 @@ JP どうした？嶋村の事か？
 JP あいつもあいつなりに一生懸命なんだ。
 JP 「自己主張がない」ってキャロルに言われてね。
 JP {p}気にするな、ライバルが同じ団体にいる限り戦えるさ。
-EN What's wrong? Is it about Shimamura?
-EN She's doing her best in her own way.
-EN Carol told her, "You have no self-assertion."
-EN {p}Don't let it bother you. As long as your rival is in the same promotion, you can fight her.
+EN What's wrong? Is it Shimamura? She's trying hard in her own way. Carol told her she "never speaks up for herself." {p}
+EN Don't let it get to you. As long as your rival's in the same promotion, you'll get your chance to fight her.
 
 @ 136.01 spk=11 face=00
 # speaker: 紅 夜叉
 JP そう言う事だ、
 JP 青野も同期が居なくなったからな。
-EN That's right.
-EN Aono's classmates are gone now, too.
+EN That's how it is. Aono's got no classmates left either.

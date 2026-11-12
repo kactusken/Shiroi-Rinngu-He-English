@@ -13,6 +13,6 @@ JP アドバイスを良く聞きなさい。
 JP {p}大事なことを聞き逃さないのも、
 JP 努力のうちよ。
 EN I'm Carol Midori.
-EN Listen well to the advice.
-EN {p}Not missing the important things
-EN is part of making an effort.
+EN Listen carefully to my advice.
+EN {p}Catching the important things
+EN is part of the hard work, too.

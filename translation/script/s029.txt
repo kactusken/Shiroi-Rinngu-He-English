@@ -18,4 +18,4 @@ EN Hey, {name}.
 EN Ah, there you are.
 EN {p}You'll debut at Korakuen Hall this month.
 EN Train hard.
-EN Your opponent is Aono. Fight with spirit, and don't get hurt.
+EN Your opponent is Aono. Give it everything you've got, but don't get hurt.

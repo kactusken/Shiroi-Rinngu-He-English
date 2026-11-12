@@ -31,5 +31,5 @@ EN But Kudo won't allow that, will she?
 # speaker: 大仁田 厚
 JP だから、ヒール側が道を開く。
 JP 叩かなければ扉は開かないぞ。
-EN That's why the heel side opens the way.
-EN If you don't knock, the door won't open.
+EN That's why the heels go in first to open the way.
+EN The door won't open unless you knock.

@@ -21,15 +21,15 @@ EN So, what do you think?
 EN We're far from the strong style, but if it came to a fight, we wouldn't lose.
 EN Lucha has its own strengths.
 EN If the fans are happy when we fly, we'll fly anywhere.
-EN And for that, there's nothing but training.
-EN Training, training and honing our moves is our strength.
-EN When you trust your own moves, your opponent and the crowd can both relax and focus on the match. That's what pro wrestling is.
-EN Chasing after strength is only a shadow.
+EN And that takes training, plain and simple.
+EN We train and train to sharpen our moves. That's our strength.
+EN {p}If you trust your own moves, your opponent and the crowd can relax and focus on the match. That's what pro wrestling is, I think.
+EN Chasing strength alone is chasing a shadow.
 
 @ 171.01 spk=2c face=01
 # speaker: Ｓ．デルフィン
 JP えらい、いいこと言うなあサスケ。
-EN Whoa, that's some fine talk, Sasuke.
+EN Well now, ain't that a fine speech, Sasuke.
 
 @ 171.02 spk=2b face=02
 # speaker: グレートサスケ

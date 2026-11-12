@@ -10,4 +10,4 @@
 @ 294.00 spk=19 face=00
 # speaker: ハーレー斉藤
 JP 大向に今なに聞いても無駄よ。
-EN It's useless to ask Omukai anything now.
+EN There's no point asking Omukai anything right now.

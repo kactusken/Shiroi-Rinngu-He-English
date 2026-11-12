@@ -10,4 +10,4 @@
 @ 260.00 spk=10 face=00
 # speaker: 工藤 めぐみ
 JP 勝負の世界に情けは禁物よ。
-EN There's no mercy in the world of competition.
+EN When it's win or lose, mercy has no place.

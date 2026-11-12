@@ -15,12 +15,12 @@ EN Big trouble!
 @ 098.01 spk=19 face=01
 # speaker: ハーレー斉藤
 JP どうしたんです？血相変えて？？
-EN What's wrong? You look pale.
+EN What is it? You're white as a sheet!
 
 @ 098.02 spk=1c face=02
 # speaker: 風間 ルミ
 JP ＦＭＷのタッグの代表が、
-EN The FMW tag team representatives are...
+EN FMW's pick for the tag team is...
 
 @ 098.03 spk=19 face=01
 # speaker: ハーレー斉藤
@@ -52,12 +52,12 @@ EN Don't tell me...
 JP そう、工藤・豊田組なのよ。
 JP 最強メンバー！！
 EN Yes, it's Kudo and Toyoda.
-EN The strongest team there is!!
+EN Their strongest lineup!!
 
 @ 098.09 spk=19 face=01
 # speaker: ハーレー斉藤
 JP でもやるしかないでしょう。
-EN We have no choice but to fight them.
+EN Well, we've got no choice but to fight them.
 
 @ 098.10 spk=1c face=02
 # speaker: 風間 ルミ

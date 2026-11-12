@@ -10,4 +10,4 @@
 @ 226.00 spk=08 face=00
 # speaker: イーグル沢井
 JP 腕力中心だね。パワーはそこから生まれるのさ。
-EN It's all arm strength. Power comes from there.
+EN I train arm strength mostly. That's where power comes from.

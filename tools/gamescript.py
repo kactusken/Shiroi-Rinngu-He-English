@@ -11,7 +11,7 @@ Format (from the code and the ROM, verified in game for the intro):
     scene, in ROM order; every scene sits behind a 0xFF marker byte in banks 1B-1C (0xD9000-0xE76xx)
   - a scene: id byte, group byte, then messages: speaker byte, face byte, Shift-JIS text, 0x00
     (the first message of the first scene: 00 00 1C 02 text ...). 0xFF follows the last message.
-  - in the text: 0x0A new line, 0x07 wait for a button then clear the window ({p}), 0x06 the
+  - in the text: 0x0A new line, 0x07 wait for a button ({p}; the text then scrolls on, the window is not cleared), 0x06 the
     heroine's name ({name}); everything else is Shift-JIS pairs. The loader (bank 05) copies the
     message to 7F:0000; the window is 16 cells x 4 lines (7E:6CCD, 6CCE) and wraps by itself.
 """
@@ -123,7 +123,7 @@ HEADER = [
     '# Story dialogue: one block per message window; one file per scene.',
     '# JP is the original. Write the English as EN lines: they are joined with a space and laid out by',
     '# the build (the window is 16 cells wide, 4 lines; see docs/TRANSLATION.md). Codes:',
-    '#   {p}      wait for a button, then clear the window (a page break; extra breaks are made automatically)',
+    '#   {p}      wait for a button (a beat; the build adds the other waits, ending screens at sentence ends)',
     '#   {name}   the heroine\'s name (typed by the player), up to 6 letters',
     '#   {n}      force a new line (rare)',
     '# `spk` is the speaker id (also picks the face picture); `face` the expression. Not for editing.',

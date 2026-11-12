@@ -11,7 +11,7 @@
 # speaker: 嶋村 由佳
 JP 何で負けるのよ！
 JP あなたと戦えるのを楽しみにしていたのに！！
-EN Why did you lose!
+EN Why did you have to lose?!
 EN I was looking forward to fighting you!!
 
 @ 056.01 spk=11 face=00
@@ -20,7 +20,7 @@ JP やめとけ、嶋村。
 JP 他団体での対抗戦とはそんな物だ。実力を１００％だせる対抗戦なんて１年目の人間には荷が重すぎる。
 JP 良くやったよ、
 JP {name}は。
-EN Enough, Shimamura.
-EN That's how interpromotional matches are. Showing 100% of your strength there is too heavy a burden for a first-year.
-EN {name}
-EN did well.
+EN Drop it, Shimamura.
+EN That's how it goes in another promotion's ring. Giving 100% in an interpromotional match is too much to ask of a first-year.
+EN She did good out there,
+EN {name} did.

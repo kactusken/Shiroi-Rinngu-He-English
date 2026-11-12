@@ -15,7 +15,6 @@ JP でもな、素直じゃないんだよ、
 JP 結局な。{p}
 JP だから、うちの工藤と似たもの同士引き合うんだろうけどな。
 EN JWWF, huh...
-EN {p}I understand what Kandori wants to say.
-EN But she's not honest with herself,
-EN in the end.{p}
-EN Maybe that's why she and our Kudo, two of a kind, are drawn to each other.
+EN {p}I get what Kandori is trying to say.
+EN But in the end, she just won't be honest with herself.{p}
+EN I guess that's why she and our Kudo are drawn to each other. They're two of a kind.

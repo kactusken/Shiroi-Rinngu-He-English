@@ -27,12 +27,12 @@ EN After talk like that, you expect me to sit still?!
 JP イーグル！！やめろ。
 JP 篭野は確かに強い。下手をするとお前より、
 EN Eagle!! Stop it.
-EN Kagono is strong, no doubt. She might even be better than you,
+EN Kagono is strong, no doubt. She might even be stronger than you--
 
 @ 096.04 spk=08 face=01
 # speaker: イーグル沢井
 JP 何言ってやがる！私はチャンピオンだ！！挑戦者を選ぶ権利はあるはずだ！
-EN What are you saying! I'm the champion!! I have the right to choose my challengers!
+EN What's that supposed to mean?! I'm the champion!! I've got the right to pick my challengers!
 
 @ 096.05 spk=1c face=02
 # speaker: 風間 ルミ
@@ -50,5 +50,5 @@ JP やめなさい。
 JP Ｊとの対抗戦が今一番難しいのは、貴方も判っているでしょ。
 JP さあ、練習を開始しなさい。
 EN Stop it.
-EN You know a match against J is the hardest thing to arrange right now.
-EN Now, start your training.
+EN You know as well as I do that a match with J is the hardest thing to set up right now.
+EN Now go and start training.

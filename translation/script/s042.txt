@@ -11,8 +11,8 @@
 # speaker: 嶋村 由佳
 JP ロープに飛ば無いなんて。
 JP 考えてもいなかった試合を見たわ。
-EN Not even running the ropes.
-EN I saw a match I'd never imagined.
+EN No running the ropes at all...
+EN I never imagined a match like that.
 
 @ 042.01 spk=1c face=02
 # speaker: 風間 ルミ
@@ -44,7 +44,7 @@ EN Kagono invited us.
 # speaker: 風間 ルミ
 JP そう、いろいろな団体が招待されたみたいね。
 JP {p}で、なんであなた達は練習もせずにここにいるのかな？？
-EN I see. It seems various promotions were invited.
+EN I see. It seems they invited people from all sorts of promotions.
 EN {p}So why are you two here instead of training?
 
 @ 042.06 spk=03 face=01
@@ -58,5 +58,5 @@ JP まあいいわ。
 JP さっきもキャロルらしき人物が、私の前から逃げていったしね。
 JP ところで貴方達、これからちょっとつきあって。
 EN Oh, never mind.
-EN Someone who looked like Carol also ran away from me just now.
-EN By the way, come along with me for a bit.
+EN Someone who looked a lot like Carol ran off the moment she saw me, too.
+EN Anyway, you two, come with me for a bit.

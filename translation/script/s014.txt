@@ -35,29 +35,4 @@ JP だから、
 JP {p}だからここでお別れや。
 JP {p}そして、ウチと戦う日まで辞めるんやないで。
 JP じゃあな。
-EN Hey.
-EN {p}What's with that face?
-EN Is it that strange that I came to see you?
-EN {p}Well, we were like cats and dogs, so.
-EN {p}...
-EN {p}No tea?
-EN {p}Sorry, didn't mean to sound pushy.
-EN So, ya know,
-EN {p}today,
-EN how should I put it,
-EN {p}I came to pick a fight, or,
-EN {p}how should I put it... long story short, it's goodbye.
-EN Why're you staring blankly?
-EN {p}Don't get me wrong.
-EN Futagami and I are moving to Kandori's promotion, the JWWF.
-EN I've told President Kazama and got her okay.
-EN {p}I only wanted to tell you this.
-EN {p}Don't you dare quit.
-EN It's true, LL and JW can't fight each other now.
-EN But we were one once. However much our opinions differ, I think we're headed to the same place.
-EN {p}So, the day you get the main event, we fight.
-EN {p}Just wait, that day will come soon.
-EN So,
-EN {p}so this is goodbye.
-EN {p}And don't quit till the day you fight me.
-EN See ya.
+EN Hey. {p}What's with that face? Is it so weird that I came to see you? {p}Well, we always did fight like cats and dogs. {p}... {p}No tea? {p}Sorry, didn't mean to beg. Anyway, ya know, {p}today, how do I put it, {p}I came to pick a fight, sort of, {p}or, how do I put it... long story short, I'm here to say goodbye. What's with the blank look? {p}Don't get the wrong idea. Futagami and I are moving to Kandori's promotion, the JWWF. I've told President Kazama, and she gave us her okay. {p}There's just one thing I wanted to tell you. {p}Don't you dare quit. Sure, LL and JW can't fight each other right now. But we started out as one. However much we disagree, I think we're all headed for the same place. {p}So the day you make the main event, we fight. {p}Just wait, that day'll come soon enough. So... {p}so this is goodbye. {p}And don't you quit before the day you fight me. See ya.

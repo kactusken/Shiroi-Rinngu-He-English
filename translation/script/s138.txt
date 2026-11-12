@@ -11,17 +11,14 @@
 # speaker: 遠藤 美月
 JP 何してんの。
 JP リングがあがったら椅子並べだよ。ホールじゃないんだから、全部やるの！！
-EN What are you doing?
-EN Once the ring is up, set out the chairs. We're not at the Hall, so we do everything ourselves!!
+EN What are you doing? Once the ring's up, set out the chairs. This isn't the Hall, so we do everything ourselves!!
 
 @ 138.01 spk=03 face=01
 # speaker: 嶋村 由佳
 JP はーい、判りました。
 JP ホント大変ね。
 JP じゃね、ここお願い。
-EN Yes, understood.
-EN It's really tough, isn't it?
-EN Okay, I'll leave this to you.
+EN Okay, got it. This is really tough, huh? Well, I'll leave this part to you.
 
 @ 138.02 spk=00 face=00
 JP 不思議な顔してどうしたの？
@@ -29,8 +26,4 @@ JP 嶋村？？
 JP そうね、戦うことで貴方と自分との関係と、プロレスへの悩みが無くなったんでしょ。
 JP 自分を表現できるようになってきたわよね。
 JP いいことだわ。
-EN Why the puzzled look?
-EN Shimamura??
-EN Right. Fighting you sorted out how she feels about you, and her worries about pro wrestling are gone.
-EN She's learned to express herself.
-EN That's a good thing.
+EN Why the puzzled look? Shimamura?? Yes, fighting you cleared up how she feels about you, and her worries about pro wrestling too. She's starting to express herself. That's a good thing.

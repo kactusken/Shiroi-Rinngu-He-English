@@ -15,7 +15,7 @@ EN Working hard?
 @ 009.01 spk=03 face=02
 # speaker: 嶋村 由佳
 JP ごくろうさまです。
-EN Thank you for your hard work.
+EN Good to see you, President.
 
 @ 009.02 spk=1c face=01
 # speaker: 風間 ルミ
@@ -25,16 +25,15 @@ EN Can I borrow the rookies for a bit?
 @ 009.03 spk=19 face=02
 # speaker: ハーレー斉藤
 JP どうしました？
-EN What's the matter?
+EN What's this about?
 
 @ 009.04 spk=1c face=01
 # speaker: 風間 ルミ
 JP ＦＭＷに今度の対抗戦の打ち合わせに行くんだけど、新人の話をしたら「つれてこい。」
 JP って言われちゃって。
-EN I'm going to FMW to discuss the coming interpromotional match, and when I mentioned the rookies they said, "Bring them."
-EN So there you go.
+EN I'm heading to FMW to plan the upcoming interpromotional show, and when I mentioned our rookies, they said, "Bring 'em along." So here I am.
 
 @ 009.05 spk=19 face=02
 # speaker: ハーレー斉藤
 JP そう言う事でしたら。
-EN In that case, of course.
+EN Well, if that's the case, go right ahead.

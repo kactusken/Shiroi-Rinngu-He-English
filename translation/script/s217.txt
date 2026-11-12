@@ -10,4 +10,4 @@
 @ 217.00 spk=05 face=00
 # speaker: 中村 加代
 JP がんばりましょう！！根性根性！
-EN Let's do our best!! Guts, guts!
+EN Let's give it everything!! Guts, guts!

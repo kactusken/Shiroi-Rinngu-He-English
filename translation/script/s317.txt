@@ -10,4 +10,4 @@
 @ 317.00 spk=0b face=00
 # speaker: 主人公
 JP 決めた、私の道はここにしかない。
-EN That's it. This is the only road for me.
+EN I've made up my mind. My path is here, and nowhere else.

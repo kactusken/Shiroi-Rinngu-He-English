@@ -17,11 +17,11 @@ JP セミは、
 JP ハーレー・{name}組対
 JP 工藤めぐみ・コンバット豊田組よ
 JP 判ったわね。
-EN This month
-EN is the traditional Christmas show at Tokyo Gym.
+EN This month it's our traditional
+EN Christmas show at Tokyo Gym.
 EN The main event is
 EN Eagle against Crusher Maedomari.
-EN The semi-main event is
+EN The semi-main is
 EN Harley and {name} against
 EN Megumi Kudo and Combat Toyoda.
 EN Understood?

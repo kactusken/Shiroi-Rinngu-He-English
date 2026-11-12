@@ -13,8 +13,8 @@ JP そんな．．．嘘！！
 JP え？何故って？
 JP 大仁田さんは、５月５日の引退試合で、２度とリングに上がらないって言ったのよ！！
 EN No... It can't be!!
-EN Huh? Why, you ask?
-EN Onita said at his retirement match on May 5th that he'd never step into the ring again!!
+EN Huh? What's so strange about it?
+EN Onita said at his retirement match on May 5th that he'd never step into a ring again!!
 
 @ 066.01 spk=1c face=02
 # speaker: 風間 ルミ
@@ -34,9 +34,10 @@ EN I was invited.
 @ 066.04 spk=03 face=01
 # speaker: 嶋村 由佳
 JP 大仁田さんが、リングに！！
-EN Onita is in the ring!!
+EN Onita's back in the ring!!
 
 @ 066.05 spk=1c face=02
 # speaker: 風間 ルミ
 JP 何故かしら？{name}、貴方には判るんじゃない？
-EN I wonder why? {name}, I think you know.
+EN I wonder why...
+EN {name}, I think you might know.

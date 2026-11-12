@@ -12,4 +12,4 @@
 JP 篭野の事？．．．しらん、他をあたってくれ。
 JP あ、そうだ{name}、篭野はお前を認めてるで、一番な。
 EN About Kagono?... Dunno, ask someone else.
-EN Oh, right, {name}, Kagono respects you. You most of all.
+EN Oh yeah, {name}, Kagono thinks highly of you. More than anyone.

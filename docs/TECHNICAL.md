@@ -2,7 +2,8 @@
 
 **Conventions:** numbers in hex with `0x`; addresses are RAM addresses unless marked as file
 offsets; `u16`/`u32` little-endian unless marked BE. Findings are marked *verified in game* or
-*from the code*.
+*from the code*. Gameplay rules (training, character creation) and their tables and addresses are in
+[GAMEPLAY.md](GAMEPLAY.md).
 
 ## Contents
 - [Image](#image) · [Disc layout](#disc-layout) · [Executable and memory](#executable-and-memory)
@@ -108,11 +109,22 @@ much of the visible text is images? *(answer these first)*
   when the game's per-letter wait is on (00:B437 patched, FLUSH_AT). *verified in game (emulator)*.
 - Story script: 319 scenes via a table of 4-byte pointers at 0xD8000, scenes 0xD9000-0xE76xx
   ([FF] id group, then spk face text 00 per message); the bank-05 script engine copies a message to 7F:0000;
-  window 16 cells x 4 rows (7E:6CCB..6CCE). 0x0A newline, 0x07 page wait, 0x06 heroine name. Speaker ids index
+  window 16 cells x 4 rows (7E:6CCB..6CCE). 0x0A newline, 0x07 page wait, 0x06 heroine name.
+  0x0D is a newline too. The page wait (07, JSL 05:8000) does NOT clear the window: after the button
+  the text types on in the bottom row and scrolls the rows above up (newline at the last row: 00:B2FA,
+  scroll 00:B65F); the Japanese pages of 5+ rows scroll the same way. So the build ends a screen
+  followed by a wait at 3 lines (break + wait leave them all visible) and lets the message's final
+  screen take 4 when its last row leaves cell 16 free (a full row makes the game wrap and scroll by
+  itself). Screens end at sentence ends where possible (tools/gametext.py screens()).
+  *verified headless 2026-11-12, scene 22 from the owner's savestate*. Speaker ids index
   the people table at 0xF97FF (16 bytes + NUL). The build moves the scenes to 0x180000 (ROM expanded to 2 MB)
   and repoints the table: verified in game for the intro scene.
-- System text (menus, names, stats, places, moves) is NUL-terminated Shift-JIS in 0xD3412, 0xEB303-0xEEC4A,
+- System text (menus, names, stats, places, moves) is NUL-terminated Shift-JIS in 0xEB303-0xEEC4A and
   0xF8000-0xFCD00, written back in place (tools/systext.py, translation/text/system.csv and moves.csv).
+- Choice menus sit inline in the event scripts (0xD0000-0xD8000): opcode `25 13 <count>`, then the items
+  (8 cells each, 0x0A between them, NUL at the end). systext.py finds them by that opcode: four menus, at
+  0xD1398 (Carol / Kurenai), 0xD2A35 (the fisherman, scene 148), 0xD3412 and 0xD3682. *From the code*; the first
+  two were missed by an address-range scan until play-test round 16.
 - Name entry already has a Latin tab (A) with full-width letters; the keyboard page keeps one letter per cell, the typed
   name is drawn proportionally (owner decision 2026-11-10).
 - Name keyboard: typing (05:C7A9) goes to column 4, draws the whole name (7E:7E01, length 7E:7837, at most 8) and then

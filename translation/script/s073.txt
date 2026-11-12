@@ -25,12 +25,12 @@ JP けが人にこんな事させてはいけないのだけれど、
 JP あの子の希望だから．．．。
 JP 精一杯悔いの残らない試合をしなさい。
 EN There you are.
-EN It's about Shimamura, in the hospital.
-EN Coming back?
-EN No, the opposite.
-EN The compound fracture in her knee has ended her career as a wrestler.
-EN I'd planned to retire her at a retirement ceremony,
-EN but at her own request, she'll have her retirement match, the Rookie Tournament final, at the coming Tokyo Gym show.
-EN I shouldn't make an injured girl do this,
+EN It's about Shimamura, who's in the hospital.
+EN Is she coming back?
+EN No, quite the opposite.
+EN The compound fracture in her knee has ended her career.
+EN I'd planned to give her a retirement ceremony.
+EN But at her own request, her retirement match will be the Rookie Tournament final, at the upcoming Tokyo Gym show.
+EN I shouldn't let an injured girl do this,
 EN but it's what she wants...
-EN Give it everything, and fight a match with no regrets.
+EN Give it everything you have, and leave no regrets.

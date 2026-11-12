@@ -12,6 +12,6 @@
 JP ちょっと来て、{name}。
 JP つきあって貰うわね、ついて来て。前に約束してたわね。
 JP 一人前になったら、ここにつれて来るって。
-EN Come here a moment, {name}.
-EN I need you to come along with me. I promised you before:
-EN once you were a full-fledged wrestler, I'd bring you here.
+EN {name}, come here a moment.
+EN I'd like you to come somewhere with me. Remember the promise I made you?
+EN That once you'd made it as a wrestler, I'd bring you here.

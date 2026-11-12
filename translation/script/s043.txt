@@ -28,8 +28,8 @@ JP そう、そしてＬＬＰＷという団体の精神でもあるわ。
 JP この件については、いつか話すこともあると思うの。
 JP そう、貴方達が一人前になってここに報告に来ることが出来たときに話すわ。
 EN Yes, and they're also the spirit of LLPW.
-EN I think I'll talk about this someday.
-EN Right: when you've become full-fledged and can come here to report, I'll tell you.
+EN I'll tell you about it someday.
+EN Yes... once you're full-fledged wrestlers and can come here to tell them so.
 
 @ 043.04 spk=03 face=01
 # speaker: 嶋村 由佳

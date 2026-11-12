@@ -15,7 +15,7 @@ EN Ishikura!! Kick out!!
 @ 052.01 spk=11 face=02
 # speaker: 紅 夜叉
 JP きめろ！嶋村！！
-EN Finish it! Shimamura!!
+EN Finish it, Shimamura!!
 
 @ 052.02 spk=fe face=00
 JP １４分２８秒。

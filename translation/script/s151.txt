@@ -17,16 +17,14 @@ EN Kurenai's here... Wait, who's that girl?
 @ 151.01 spk=20 face=01
 # speaker: 藤原 善明
 JP 悩める女の子を釣ってきたのさ。
-EN A troubled girl I fished up.
+EN Reeled in a girl with troubles.
 
 @ 151.02 spk=22 face=02
 # speaker: 石川 雄規
 JP よく釣れますね。
 JP プロフェッショナルレスリング藤原組にようこそ！！石川雄規です。
 JP で、貴方を連れてきたのが組長の藤原嘉明選手。
-EN You catch a lot of them.
-EN Welcome to Professional Wrestling Fujiwara-gumi!! I'm Yuki Ishikawa.
-EN And the one who brought you here is our Boss, Yoshiaki Fujiwara.
+EN You sure catch a lot of 'em. Welcome to Professional Wrestling Fujiwara-gumi!! I'm Yuki Ishikawa. And the man who brought you here is our Boss, Yoshiaki Fujiwara.
 
 @ 151.03 spk=11 face=01
 # speaker: 紅 夜叉
@@ -39,10 +37,7 @@ JP うん、今着替えてるよ。
 JP そうだ、紹介しとくね。
 JP ＬＬＰＷの紅夜叉さん。
 JP え～とこちらは、
-EN Yeah, he's changing now.
-EN Oh, let me introduce you.
-EN Kurenai Yasha of LLPW.
-EN Um, and this is,
+EN Yeah, he's changing. Oh, let me introduce you. This is Kurenai Yasha from LLPW. Um, and this is...
 
 @ 151.05 spk=11 face=01
 # speaker: 紅 夜叉
@@ -70,7 +65,7 @@ EN What's so funny?
 @ 151.08 spk=22 face=02
 # speaker: 石川 雄規
 JP いやあ、同じ悩みで同じトコで釣られるってのは、いい師弟だなあって思ってね。
-EN Well, getting hooked at the same place with the same worries, I thought you two make a good master and student.
+EN Nah, I just thought... getting hooked in the same spot over the same worries -- you two make a fine master and student.
 
 @ 151.09 spk=20 face=00
 # speaker: 藤原 善明
@@ -82,11 +77,7 @@ JP 試合もそうだが、「まず強くあれ」って事だ。
 JP 汗をかいた分、自分の身体は裏切らない。
 JP それが答えだ。
 JP いつでも練習に来い。待ってるぞ。
-EN I see. I figured you had the makings of one - so you're a wrestler.
-EN Then this is easy. Get training.
-EN A pro wrestler must never lose, no matter when.
-EN When I coached at the dojo, I trained so I'd be ready whenever a challenger showed up.
-EN Same with matches: "Be strong first."
-EN Your body won't betray the sweat you put in.
-EN That's the answer.
-EN Come train anytime. We'll be waiting.
+EN I see. Thought you had good instincts -- turns out you're a wrestler. That makes it simple. Get training.
+EN A pro wrestler must never lose, no matter what. When I coached at the dojo, I trained so I'd be ready for any challenger who walked in.
+EN Same goes for matches: "Be strong, first and foremost." Your body won't betray the sweat you put in. That's your answer.
+EN Come train anytime. I'll be waiting.

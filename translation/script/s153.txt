@@ -22,13 +22,10 @@ JP 嶋村は、下手すると一番絶好調かもしれないわ。
 JP 本気でやらないとケガするよ。
 JP まあ、今の{name}の顔見たら、そんなこと言っても無駄だと思ったわ。
 JP いい顔してるわね。
-EN Don't be silly, it's the opposite.
-EN Shimamura might be at her very best right now.
-EN If you're not serious, you'll get hurt.
-EN Well, seeing {name}'s face now, I figured saying that would be pointless.
-EN You look good.
+EN Don't be silly, it's the other way around. Shimamura might be in the best shape of anyone right now. If you don't take it seriously, you'll get hurt.
+EN Well, one look at {name}'s face and I can tell saying that's pointless. You've got a good look in your eyes.
 
 @ 153.03 spk=08 face=00
 # speaker: イーグル沢井
 JP 素直じゃないね。
-EN You never just say it straight, do you?
+EN Can't just say it straight, can you?

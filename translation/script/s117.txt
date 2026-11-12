@@ -16,10 +16,10 @@ JP セミは、{name}対工藤です。
 JP 各自、自分の対戦相手を想定して練習しなさい。
 JP 今回は全面対抗戦なんで、
 JP 負けんじゃないよ！！！！
-EN After weighing many opinions, Eagle will represent us in the Triple Crown match.
-EN FMW says Combat will represent them.
+EN After weighing everyone's views, I've chosen Eagle to represent us in the Triple Crown match.
+EN FMW is sending Combat.
 EN The match is at Tokyo Gym this month.
-EN The semi-main event is {name} against Kudo.
-EN Each of you, spend your training with your own opponent in mind.
+EN The semi-main is {name} against Kudo.
+EN Each of you, focus your training on your own opponent.
 EN This is an all-out interpromotional show,
 EN so don't you dare lose!!!!

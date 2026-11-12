@@ -15,5 +15,5 @@ JP {p}ケガをしない事が一番の大事よ。
 JP わかった？
 EN You're stiff as a board.
 EN Well, it's your debut match, so relax and stay calm.
-EN {p}Not getting hurt is the most important thing.
+EN {p}Above all, don't get hurt.
 EN Got it?

@@ -22,9 +22,8 @@ EN What is it?
 JP {name}とピンだ。
 JP すっきりしたくはないか。
 JP あの日までに。
-EN It's a one-on-one with {name}.
-EN Don't you want to clear your head?
-EN Before that day.
+EN You've got a singles match with {name}.
+EN Don't you want to clear your head before that day comes?
 
 @ 191.03 spk=10 face=01
 # speaker: 工藤 めぐみ
@@ -34,7 +33,7 @@ EN ......
 @ 191.04 spk=23 face=02
 # speaker: 大仁田 厚
 JP 解っているから戦ったんだろ。
-EN You understood. That's why you fought, right?
+EN You fought because you understood, didn't you?
 
 @ 191.05 spk=10 face=01
 # speaker: 工藤 めぐみ

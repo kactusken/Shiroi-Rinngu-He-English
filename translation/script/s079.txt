@@ -17,7 +17,7 @@ JP 嶋村由佳はリングの上で生きていたから。
 JP {p}じゃあね。
 JP ．．．メリークリスマス！！
 EN So this is the end of my time in the ring.
-EN What's wrong? Don't make that face. It's not like you.
+EN Hey, don't make that face. It's not like you.
 EN Send me off with a smile.
 EN {p}It's okay. I gave it everything I had.
 EN Yuka Shimamura truly lived in the ring.

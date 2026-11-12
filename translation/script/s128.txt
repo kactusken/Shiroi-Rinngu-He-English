@@ -11,8 +11,7 @@
 # speaker: 秋月 水葱
 JP 遂にやったね。
 JP 私の分も頑張ってね。
-EN You finally did it.
-EN Do your best for me, too.
+EN You finally made it. Give it your all for me, too.
 
 @ 128.01 spk=07 face=01
 # speaker: 岩下 直美
@@ -53,6 +52,4 @@ EN Hey, the entrance is open!!
 JP はーい。待ってよう！！
 JP {name}。
 JP 貴方の生き方、答えを見せてもらうわ。
-EN Coming! Wait for me!!
-EN {name}.
-EN Show me your answer - the way you've chosen to live.
+EN Coming! Wait up!! {name}. Show me your answer: the way you've chosen to live.

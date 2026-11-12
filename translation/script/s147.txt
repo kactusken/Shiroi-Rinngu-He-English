@@ -14,8 +14,5 @@ JP なに気の入ってない練習を繰り返してるんだよ！！
 JP そんな風に紅はてめえに教育してんのか！！
 JP {p}「紅がいないと何もできません。」なんて言わせねえぞ！！
 JP 顔を洗ってランニングしてこい！！
-EN You!!
-EN Why do you keep doing training with no spirit in it?!
-EN Is that how Kurenai teaches you?!
-EN {p}I won't let you say, "I can't do anything without Kurenai"!!
-EN Go wash your face and run laps!!
+EN You!! What's with all this half-hearted training?! Is that how Kurenai's been teaching you?! {p}
+EN Don't you dare tell me, "I can't do anything without Kurenai"!! Go wash your face and run some laps!!

@@ -46,6 +46,8 @@ letter-run tokens automatically. Lint checks both.
 | メルブレ dropped (s025: "I'm Takenaka, from LLPW management"); アルメテット路線 = "the Ultimate route" (LLPW's real 1995 L-1 shoot tournament); 華激 = "Glam-Extreme" (pun on FMW's 過激 "extreme") | owner, 2026-11-11 |
 | Wrestler types capitalised in dialogue (Babyface, Heel, Strong, Entertainment, Power); 脇固め = armbar; 特撮出演 = Hero Show; "TR" (top rope) in move names OK | owner, 2026-11-11 |
 | Stats: 体力 = HP, 筋力 = Strength (Str in short labels), 柔軟性 = Flex; 3禁 joke (s012) rendered as "no dating ban" | owner, 2026-11-11 |
+| Button waits end screens at sentence ends (3 lines, last screen 4); extra {p} only at a topic change (e.g. 171.00) | owner asked, 2026-11-12 |
+| Natural English over literal: Nagi's drawn-out endings ("Nagi's heeere!"), 標準語 joke as "talk without your Osaka accent" (011.04), "Happy New Year" added in 013.00, "Tokyo Dome" without "the"; story lines keep full width (the speaker sprite overlap is readable) | owner, 2026-11-12 |
 | Names, boss/chief, move-name abbreviations | lead, provisional - QUESTIONS.md |
 
 ## What stays untranslated

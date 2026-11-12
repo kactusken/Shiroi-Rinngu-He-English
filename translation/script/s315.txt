@@ -11,7 +11,7 @@
 # speaker: 工藤 めぐみ
 JP 社長！！待てません。
 JP 神取と戦わせて下さい。
-EN President!! I can't wait.
+EN President!! I can't wait any longer.
 EN Let me fight Kandori.
 
 @ 315.01 spk=23 face=01
@@ -24,7 +24,7 @@ EN if you lose, what happens to FMW? You carry this promotion on your back!
 @ 315.02 spk=10 face=02
 # speaker: 工藤 めぐみ
 JP ベルトは、お返しします。
-EN I'll give back the belt.
+EN I'll give up the belt.
 
 @ 315.03 spk=23 face=01
 # speaker: 大仁田 厚

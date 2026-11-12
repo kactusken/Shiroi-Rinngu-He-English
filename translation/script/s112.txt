@@ -11,5 +11,5 @@
 # speaker: 風間 ルミ
 JP 今月は、シングルのみよ。
 JP その結果を見て当てて行くからね。
-EN This month is singles only.
-EN I'll decide your matchups based on the results.
+EN This month it's singles only.
+EN I'll set the matchups based on how you do.

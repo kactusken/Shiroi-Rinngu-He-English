@@ -3,8 +3,10 @@
 # `\n` / `\r` are line breaks, `%s` `%2d` `{xNN}` stay as they are. Fixed-width fields are padded by the build.
 # Rows whose notes hold "# keep:" stay Japanese (copy the Japanese into english).
 offset,max_bytes,section,japanese,english,notes
-0x0D3412,33,choices (move to another group?),私は残ります。　\n移籍します。　　,I'll stay.\nI'll transfer.,# section: choices (move to another group?)
-0x0D3682,33,choices (move to another group?),いかせてください\n無理です。　　　,Let me go.\nI can't.,# section: choices (move to another group?)
+0x0D1398,33,choices (event script menus),キャロル　　　　\n紅　　　　　　　,Carol\nKurenai,# section: choices (event script menus)
+0x0D2A35,33,choices (event script menus),うるせえジジイ。\nごめんなさい。　,"Shut up, old man.\nI'm sorry.",# section: choices (event script menus)
+0x0D3412,33,choices (event script menus),私は残ります。　\n移籍します。　　,I'll stay.\nI'll transfer.,# section: choices (move to another group?)
+0x0D3682,33,choices (event script menus),いかせてください\n無理です。　　　,Let me go.\nI can't.,# section: choices (move to another group?)
 0x0F801A,6,credits (staff roll labels: keep Japanese),原　作,Story,# pad: spaces # opening cards (names: readings provisional)
 0x0F8021,10,credits (staff roll labels: keep Japanese),長友　慎也,長友　慎也,# keep: credits (names stay Japanese)
 0x0F802C,20,credits (staff roll labels: keep Japanese),キャラクターデザイン,Character Design,# pad: spaces # opening cards (names: readings provisional)

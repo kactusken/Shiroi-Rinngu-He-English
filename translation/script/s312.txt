@@ -11,7 +11,7 @@
 # speaker: 神取 忍
 JP なんで戦えねえんだろうな。
 JP 約束は、守れないかもしれない。
-EN Why can't I fight?
+EN Why can't I ever get a fight?
 EN I might not be able to keep that promise.
 
 @ 312.01 spk=1c face=01
@@ -41,4 +41,4 @@ EN Am I the strongest?
 @ 312.05 spk=1c face=01
 # speaker: 風間 ルミ
 JP ＬＬＰＷが、最強の団体ならね。
-EN If LLPW is the strongest promotion, yes.
+EN If LLPW is the strongest promotion, you are.

@@ -16,14 +16,13 @@ EN Where's Iwashita?
 
 @ 002.01 spk=00 face=02
 JP 来てません。
-EN She hasn't come.
+EN She hasn't shown up.
 
 @ 002.02 spk=1c face=01
 # speaker: 風間 ルミ
 JP １週間か、気の弱い所があった子だからね。
 JP まあいいわ、練習を始めなさい。
-EN A week already. She was a timid girl, after all.
-EN Well, never mind. Start training.
+EN One week, huh. She always was a bit timid. Well, never mind. Start training.
 
 @ 002.03 spk=00 face=02
 JP はい。
@@ -32,7 +31,7 @@ EN Yes.
 @ 002.04 spk=17 face=01
 # speaker: ニ上 美紀子
 JP いやー、早くも脱落者か。
-EN Heh, a dropout already.
+EN Well, well, a dropout already.
 
 @ 002.05 spk=00 face=02
 JP そんなこと言わないでよ。
@@ -42,5 +41,4 @@ EN Don't say that.
 # speaker: ニ上 美紀子
 JP なんや、ライバルは少ない方がええて、
 JP たとえ、新人でもな！！
-EN Well, fewer rivals is better, ya know.
-EN Even if they're rookies!!
+EN What? The fewer rivals the better, ya know. Even if they're just rookies!!

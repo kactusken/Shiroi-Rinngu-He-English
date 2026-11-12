@@ -11,8 +11,7 @@
 # speaker: 風間 ルミ
 JP そう、紅を選ぶのね。
 JP 紅！！ちょっと。
-EN I see, you're choosing Kurenai.
-EN Kurenai!! A moment.
+EN So you're choosing Kurenai. Kurenai!! Come here a moment.
 
 @ 135.01 spk=11 face=01
 # speaker: 紅 夜叉
@@ -22,16 +21,15 @@ EN What is it?
 @ 135.02 spk=1c face=02
 # speaker: 風間 ルミ
 JP 貴方の付き人に{name}を付けるから、鍛えてね。
-EN I'm assigning {name} as your attendant, so train her well.
+EN I'm making {name} your attendant. Train her well.
 
 @ 135.03 spk=11 face=01
 # speaker: 紅 夜叉
 JP そうかい。{name}、こっちに来な。
 JP 私の付き人になったからには、頑張ってもらうぜ。
-EN That so. {name}, get over here.
-EN Now that you're my attendant, you'd better pull your weight.
+EN That so? {name}, get over here. You're my attendant now, so you'd better pull your weight.
 
 @ 135.04 spk=1c face=02
 # speaker: 風間 ルミ
 JP 付き人は、５月からお願いね。
-EN The attendant duty starts in May.
+EN Your attendant duties start in May.

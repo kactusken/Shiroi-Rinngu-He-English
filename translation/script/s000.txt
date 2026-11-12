@@ -17,11 +17,7 @@ JP {p}でも、それを乗り越えたとき、
 JP プロレスラーとして、
 JP 星をつかむことが出来るのです。
 JP {p}頑張りなさい。
-EN Good morning.
-EN {p}From today on, you must live as wrestlers. There will be a lot of hard
-EN and sad times.
-EN {p}But when you overcome them, you will be able to grasp a star as pro wrestlers.
-EN {p}Do your best.
+EN Good morning. {p}From today on, you must live your lives as wrestlers. There will be many hard times, and many sad ones. {p}But when you overcome them, you'll be able to grasp a star as a pro wrestler. {p}Give it everything you have.
 
 @ 000.01 spk=1c face=02
 # speaker: 風間 ルミ
@@ -38,9 +34,7 @@ EN Good morning.
 JP 紹介するわ、ハーレー。
 JP これが今年の新人達よ。
 JP みんな、自己紹介して。
-EN Let me introduce them, Harley.
-EN These are this year's rookies.
-EN Everyone, introduce yourselves.
+EN Harley, let me introduce this year's rookies. Go ahead, everyone, introduce yourselves.
 
 @ 000.04 spk=06 face=01
 # speaker: 篭野 ことり
@@ -48,10 +42,7 @@ JP 篭野ことりや。
 JP 大阪や。
 JP 私は誰にも負けへん。
 JP 神取にもや！！
-EN I'm Kotori Kagono.
-EN From Osaka, ya know.
-EN I won't lose to anybody.
-EN Not even Kandori!!
+EN Name's Kotori Kagono, from Osaka. I'm not losing to anybody. Not even Kandori!!
 
 @ 000.05 spk=19 face=02
 # speaker: ハーレー斉藤
@@ -67,8 +58,7 @@ EN It's fine, Harley. There's nothing wrong with having spirit.
 # speaker: 秋月 水葱
 JP 水葱ちゃんでーす。
 JP がんばりまーす。
-EN I'm Nagi!
-EN I'll do my best!
+EN Nagi's heeere! Nagi'll do her beeest!
 
 @ 000.08 spk=1c face=01
 # speaker: 風間 ルミ
@@ -85,25 +75,20 @@ EN Now, now.
 JP 岩下直美です。
 JP 大分県出身です。
 JP がんばれるだけ、がんばります。
-EN I'm Naomi Iwashita.
-EN I'm from Oita Prefecture.
-EN I'll work as hard as I can.
+EN I'm Naomi Iwashita, from Oita Prefecture. I'll try as hard as I possibly can.
 
 @ 000.11 spk=03 face=02
 # speaker: 嶋村 由佳
 JP 嶋村由佳です。
 JP 秋田県、東能代から上京しました。星をつかむために、リングに立ちます。
 JP よろしくお願いします。
-EN I'm Yuka Shimamura.
-EN I came up to Tokyo from Higashi-Noshiro, Akita. I'll stand in the ring to grasp a star.
-EN Pleased to meet you.
+EN I'm Yuka Shimamura. I came to Tokyo from Higashi-Noshiro in Akita. I'm going to stand in the ring and grasp a star. Pleased to meet you.
 
 @ 000.12 spk=05 face=01
 # speaker: 中村 加代
 JP 中村加代です。
 JP 根性だけは負けません。
-EN I'm Kayo Nakamura.
-EN I won't lose to anyone in guts, at least.
+EN I'm Kayo Nakamura. When it comes to guts, nobody beats me.
 
 @ 000.13 spk=1c face=00
 # speaker: 風間 ルミ
@@ -111,7 +96,4 @@ JP 最後に、{name}よ。
 JP {p}これで全員の顔合わせは終わったわね。
 JP 紹介するわ。
 JP コーチ役の、
-EN And last, {name}.
-EN {p}That's everyone introduced.
-EN Now let me introduce your
-EN coach,
+EN And last of all, {name}. {p}That's everyone. Now, let me introduce your coach,

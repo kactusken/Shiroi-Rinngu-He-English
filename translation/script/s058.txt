@@ -11,5 +11,5 @@
 # speaker: 風間 ルミ
 JP 今月は新人王戦の２回戦があるわ。勝った者は、より高くを目指すために、
 JP {p}負けた者は、それ以上を追い求めて練習しなさい。
-EN This month has the second round of the Rookie Tournament. Winners, train to aim even higher,
-EN {p}and losers, train to go further still.
+EN The Rookie Tournament's second round is this month. Winners, train to aim even higher.
+EN {p}Losers, train to chase something greater still.

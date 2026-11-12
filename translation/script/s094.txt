@@ -15,12 +15,12 @@ EN Hello, President.
 @ 094.01 spk=1c face=02
 # speaker: 風間 ルミ
 JP どうしました？竹中さん新年早々。
-EN What is it, Mr. Takenaka? So early in the new year.
+EN Mr. Takenaka? What brings you here so early in the new year?
 
 @ 094.02 spk=21 face=01
 # speaker: 竹中さん
 JP やだなあ、旅行の話の詰めですよ。
-EN Come on, it's about finalizing the trip.
+EN Oh, come on. I'm here to finalize the trip.
 
 @ 094.03 spk=1c face=02
 # speaker: 風間 ルミ
@@ -47,9 +47,9 @@ EN President, what trip? Overseas??
 JP しかたがないわね。
 JP みんな、ちょっと来て。
 JP えー今度、サイパンに行きます。
-EN I guess it can't be helped.
+EN Well, I suppose it can't be helped.
 EN Everyone, come here a moment.
-EN Well, we're going to Saipan.
+EN So... we're going to Saipan.
 
 @ 094.08 spk=18 face=01
 # speaker: 大向 美智子
@@ -60,5 +60,5 @@ EN Yay!
 # speaker: 風間 ルミ
 JP だ・け・ど。写真撮影やるから仕事よ仕事。
 JP {name}、貴方は初めてだけど、わかんない事は先輩に聞きなさい。
-EN But! There'll be a photo shoot, so it's work, work.
-EN {name}, it's your first time, but ask the seniors if there's anything you don't know.
+EN Bu-ut! There's a photo shoot, so it's work. Strictly work.
+EN {name}, it's your first time, so ask your seniors about anything you don't know.

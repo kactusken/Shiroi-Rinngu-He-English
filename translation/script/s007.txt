@@ -29,23 +29,4 @@ JP {p}１６才の女の子じゃ耐えられないのよ！！
 JP さようなら、貴方は頑張ってね。
 JP 私のように逃げ出さないでね。
 JP 応援してるから。
-EN ...
-EN {p}...
-EN You found me.
-EN {p}I'm sorry.
-EN I'm sorry, please just let me go!!
-EN I know.
-EN It's true, I'm weak!!
-EN But
-EN I just can't take it.
-EN {p}It's not that the training is too hard.
-EN {p}But you see, I'm 16.
-EN I want to buy clothes,
-EN I want to have fun.
-EN I want to go on dates, too.
-EN {p}Look at this arm.
-EN It's all skin and bone.
-EN {p}A 16-year-old girl can't take this!!
-EN Goodbye. You do your best.
-EN Don't run away like I did.
-EN I'll be cheering for you.
+EN ... {p}... You found me. {p}I'm sorry. I'm sorry, please just let me go!! I know. It's true, I'm weak!! But I just can't take it. {p}It's not that the training is too hard. {p}But you see, I'm 16. I want to buy clothes, I want to have fun. I want to go on dates, too. {p}Look at this arm. It's all skin and bone. {p}A 16-year-old girl can't take this!! Goodbye. You keep at it, okay? Don't run away like I did. I'll be rooting for you.

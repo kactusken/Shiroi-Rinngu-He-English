@@ -12,10 +12,10 @@
 JP ちっくしょう。
 JP 嶋村のやつ、ワンチャンスで狙ってやがった。
 EN Damn it.
-EN That Shimamura, she was waiting for one chance.
+EN Shimamura was just waiting for that one opening.
 
 @ 070.01 spk=00 face=02
 JP あんたが後輩と思ってナメるからよ。
 JP {name}、ボヤボヤしてると嶋村に追いつけなくなるよ。
-EN That's what you get for looking down on her as a junior.
-EN {name}, if you dawdle, you won't be able to catch up with Shimamura.
+EN That's what you get for underestimating her just 'cause she's your junior.
+EN {name}, if you slack off, you'll never catch up to Shimamura.

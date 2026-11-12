@@ -18,10 +18,10 @@ JP そりゃあ、この世界も長くいると、プロレス以外の格闘�
 JP それも休日にやるもんよ。
 JP {p}あ、そうそう、振り替え休日はないからね。
 EN I'm Michiko Omukai. Nice to meet you!!
-EN At LLPW, days off follow the calendar.
+EN At LLPW, we get the calendar holidays off.
 EN On days off, decide for yourself what to do.{p}
-EN Sure, training might raise your ability,
+EN Sure, more training might make you better,
 EN but it's pointless if you're too tired to put your heart into it.{p}
-EN And when you've been in this world a while, you'll want to learn martial arts besides pro wrestling,
-EN but do that on days off too.
-EN {p}Oh, and there are no substitute holidays.
+EN And once you've been in this business a while, you'll want to learn other martial arts too,
+EN but save that for days off.
+EN {p}Oh, and when a holiday falls on a Sunday, you don't get Monday off.

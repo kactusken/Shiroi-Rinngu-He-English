@@ -11,9 +11,9 @@
 JP ５分１８秒。
 JP ニールキックからのエビ固めで、
 JP 青野敬子選手の勝ちとなります。
-EN Five minutes, 18 seconds.
-EN With a Neil Kick into a roll-up,
-EN the winner is Keiko Aono.
+EN 5 minutes 18 seconds.
+EN Keiko Aono wins with a Neil Kick
+EN into a roll-up.
 
 @ 027.01 spk=03 face=01
 # speaker: 嶋村 由佳
@@ -23,4 +23,4 @@ EN ...
 @ 027.02 spk=25 face=02
 # speaker: 青野 敬子
 JP ま、こんなもんだろ。
-EN Well, that's about right.
+EN Eh, that's about what I expected.

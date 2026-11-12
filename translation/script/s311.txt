@@ -17,7 +17,7 @@ EN FMW won't run away!!
 @ 311.01 spk=23 face=02
 # speaker: 大仁田 厚
 JP 工藤、落ちつけ、お前は２冠王だ。王者がそんなことでどうする。
-EN Kudo, calm down. You're the double champion. What kind of champion acts like this?
+EN Kudo, calm down. You're the double champion. What kind of champion acts like that?
 
 @ 311.02 spk=10 face=01
 # speaker: 工藤 めぐみ

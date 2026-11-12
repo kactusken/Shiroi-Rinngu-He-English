@@ -31,11 +31,11 @@ EN {p}When her illness was found,
 EN she begged the President to keep it secret.{p}And then the illness came back.
 EN {p}People say Kandori killed her in sparring.
 EN Kandori herself believes she killed her in sparring.
-EN {p}And after agonizing, Kandori left LLPW.
+EN {p}After agonizing over it, Kandori walked out of LLPW.
 EN To become the strongest. To build the throne of the strongest.
 EN {p}And to make LLPW the strongest promotion from the outside.
-EN {p}But what she's felt since then, I don't know.
-EN Trading blows might tell you.
-EN So throw away your doubts and fight.
+EN {p}But what she's been feeling since then, I can't say.
+EN Maybe you'll understand once you trade blows.
+EN So drop your doubts and fight her.
 EN And answer her question.
-EN {p}A hermit doesn't come down from the mountain very often.
+EN {p}It's not often the hermit comes down from the mountain.

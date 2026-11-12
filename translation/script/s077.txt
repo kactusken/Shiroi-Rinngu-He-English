@@ -12,6 +12,6 @@
 JP みんな、今月は東体があるわ。そして、第一試合は、嶋村の引退試合を行います。
 JP 対戦相手は{name}。
 JP 無茶な試合かもしれないけど、その試合は、みんなもセコンドについて欲しいの、お願いね。
-EN Everyone, the Tokyo Gym show is this month. The first match will be Shimamura's retirement match.
+EN Everyone, we have the Tokyo Gym show this month, and the opening match will be Shimamura's retirement match.
 EN Her opponent is {name}.
-EN It may be a reckless match, but I want all of you at ringside as seconds. Please.
+EN It may be a reckless match, but I'd like all of you at ringside as seconds for it. Please.

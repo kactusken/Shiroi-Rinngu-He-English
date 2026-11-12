@@ -15,9 +15,4 @@ JP {p}それは、もちろん練習で身に付いて行く物なんだけど�
 JP そのスキルで技の数がきまっていくからね。
 JP {p}技の確認はどうするかって？？
 JP そんなもの、試合で身体が勝手に動いてくれるわよ！！
-EN Think about matches when you train.
-EN Pro wrestling has Skills.
-EN {p}Of course they build up through training,
-EN and your Skills decide how many moves you have.
-EN {p}How do you check your moves, you ask?
-EN In a match, your body will move on its own!!
+EN Train with your matches in mind. Pro wrestling has Skills. {p}You build them up through training, of course, and your Skills decide how many moves you can use. {p}And how do you check your moves? Don't worry. In a match, your body will move on its own!!
