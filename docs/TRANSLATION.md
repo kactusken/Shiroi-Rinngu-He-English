@@ -49,6 +49,12 @@ letter-run tokens automatically. Lint checks both.
 | Button waits end screens at sentence ends (3 lines, last screen 4); extra {p} only at a topic change (e.g. 171.00) | owner asked, 2026-11-12 |
 | Natural English over literal: Nagi's drawn-out endings ("Nagi's heeere!"), 標準語 joke as "talk without your Osaka accent" (011.04), "Happy New Year" added in 013.00, "Tokyo Dome" without "the"; story lines keep full width (the speaker sprite overlap is readable) | owner, 2026-11-12 |
 | Names, boss/chief, move-name abbreviations | lead, provisional - QUESTIONS.md |
+- 2026-11-12: hidden content - the unused training animation viewer ships in the main English patch (patch group
+  dev-anim-viewer, Down+L at power-on); the cut FMW-route JWWF exchange is documented only, not restored
+  (docs/HIDDEN_CONTENT.md).
+- 2026-11-12: 正拳づき (move 39) = "Seiken" (owner chose "Seiken Punch"; only "Seiken" fits the 48 px slot), so it
+  no longer reads "Punch" like パンチ; データ欠落 (move 277, the original's "data missing" placeholder) = "(data missing)".
+- 2026-11-12: the English patch fixes the Carol-route dead end after losing to Kagono (fix-kagono-loss, docs/PATCHES.md).
 
 ## What stays untranslated
 Staff credits (rows `# keep:`), name-entry kana keyboards, the title logo pictures.

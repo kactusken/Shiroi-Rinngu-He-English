@@ -1,8 +1,5 @@
 # How to Patch Shiroi Rinngu He - Twinkle Little Star Story
 
-*(For players who have never patched a game: keep it this short. Fill in the emulator, add a line
-for each extra patch, and drop "with no copier header" on GBA, then delete this note.)*
-
 You apply one patch to your ROM in a web browser, then open the new file in an emulator.
 
 ## What you need
@@ -21,7 +18,7 @@ You apply one patch to your ROM in a web browser, then open the new file in an e
 2. Under **ROM file**, choose your original game.
 3. Under **Patch file**, choose `Shiroi Rinngu He - Twinkle Little Star Story (English).bps`.
 4. Click **Apply patch** and save the new file. It can have any name.
-5. Open the new file in your emulator. It has been tested in *(emulator)*.
+5. Open the new file in your emulator. It has been tested in [Mesen 2](https://www.mesen.ca/).
 
 ## If it goes wrong
 

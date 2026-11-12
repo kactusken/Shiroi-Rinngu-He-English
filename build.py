@@ -52,13 +52,30 @@ def _debug_events():
              'TEST BUILD: $05:8000 wait -> event player')]
 
 
+def _anim_viewer():
+    """dev-anim-viewer: Down+L at power-on opens the unused training animation viewer (tools/asm/anim_viewer.asm)."""
+    import asm65816
+    code, _ = asm65816.assemble((Path(__file__).resolve().parent / 'tools' / 'asm' / 'anim_viewer.asm').read_text(), 0x22FF00)
+    return [('dev-anim-viewer', '/rom.sfc', 0x22FF00, b'\xff' * len(code), code, 'Down+L at power-on: animation viewer stub'),
+            ('dev-anim-viewer', '/rom.sfc', 0x048464, bytes.fromhex('22bed907'), bytes.fromhex('2200ff22'),
+             'boot: title call -> animation viewer check')]
+
+
+# fix-kagono-loss (owner 2026-11-12, main patch): on the Carol route a loss in the Sep 14, 1999 match vs Kotori
+# Kagono made event 0x0094 call the pre-match event 0x0093 again (s120 replays, no final, no ending; seen headless).
+# Call the intended loss event 0x0096 (s122, then October as after a win) instead. docs/GAMEPLAY.md, PATCHES.md.
+_FIX_KAGONO = [('fix-kagono-loss', '/rom.sfc', 0x1AA302, b'\x93', b'\x96',
+                'event 0x0094: on a loss call 0x0096 (Kagono s122) instead of 0x0093')]
+
 CODE_PATCHES = [
     *_debug_events(),
+    *_anim_viewer(),
+    *_FIX_KAGONO,
 ]
-ALWAYS_GROUPS = set()               # in every translated build, not a choice (--unlocks ignores them): the English's own fixes
+ALWAYS_GROUPS = {'fix-kagono-loss'}               # in every translated build, not a choice (--unlocks ignores them): the English's own fixes
 UNLOCK_GROUPS = sorted({p[0] for p in CODE_PATCHES} - ALWAYS_GROUPS)
 PLAYER_GROUPS = [g for g in UNLOCK_GROUPS if not g.startswith('debug-')]
-DEFAULT_GROUPS = set(PLAYER_GROUPS)  # without --unlocks; set() when the extras ship as separate "(All Unlocked)" patches
+DEFAULT_GROUPS = set(PLAYER_GROUPS)  # owner 2026-11-12: dev-anim-viewer ships in the main English patch. Without --unlocks; set() when the extras ship as separate "(All Unlocked)" patches
 
 # --boot: (part, file, address, original, new) - patches that start the game in a given part.
 BOOT_PATCHES = {

@@ -1,6 +1,6 @@
 # Gameplay mechanics - Shiroi Rinngu He - Twinkle Little Star Story
 
-How character creation and monthly training work, read from the game's code. It is written as
+How character creation and monthly training work, read from the game's code. The player's guide built on it is [docs/guide/](guide/index.html). It is written as
 source material for a player's guide: the first half explains the rules and gives advice, and the
 reference tables and memory addresses follow.
 
@@ -229,7 +229,8 @@ that matter when every exercise applies.
 | Michiko Omukai (10) | 0 | 0 | +1 | 0 | −2 | **+15** | Str, once HP is high |
 | Keiko Aono (10) | +1 | +2 | 0 | 0 | +2 | 0 | Poor value |
 
-1. **First months: Carol only**, with **Full Rest** every Sunday. She is the only partner a starting
+1. **First months: Carol only**, with days off chosen by the rule under [Days off](#days-off-1) (Full
+   Rest every Sunday locks training out by May). She is the only partner a starting
    wrestler can afford several times a week, and her +8 part HP a day raises both the Stamina cap and
    the Full Rest refill. If Futagami is still there and you can afford her for a week, her Pro
    Wrestling is worth taking before she leaves.
@@ -255,7 +256,13 @@ that matter when every exercise applies.
    50-80% of the time.
 
 ### Days off
-- **Full Rest** by default: it is the only real Stamina refill (+HP ÷ 2). It does not lower Stress.
+- **Watch Stress, not only Stamina.** *Seen headless (2026-11-12, test21, April-May 1994 with Carol
+  every week):* Full Rest on every day off left Stress at 27 on 1 May and 50 on 1 June; Focus starts at
+  10, so not one day of May was trained. Choosing each day off by this rule gave HP 22 → 38 → 63 by
+  1 June instead:
+  1. Stress within 3 of Focus, or above it → **Dining** (−10 Stress);
+  2. else Stamina below about 60% of HP → **Full Rest** (+HP ÷ 2 Stamina; it does not lower Stress);
+  3. else → **Movies** (−5 Stress, +2 Focus for good).
 - **Stress:** training stops while Stress is above Focus. Stress is on the status screen, but Focus
   is hidden, so keep a running count (see the Stress, Focus row in [What each stat does](#what-each-stat-does)). Which fix you have depends on the year
   (see [which places are open](#days-off)):
@@ -454,15 +461,21 @@ Kandori also has Guts 250 and Holds 250.
 
   So the endings are locked only by the **route** and by **winning the final match**. Stats decide the
   ending only by deciding whether you win.
-- **Possible story bug:** on the Carol route, losing the September 15 match against Kotori Kagono calls
-  the wrong follow-up event. It replays the pre-match scene and books the same match again, so the
-  story may loop until you win. The other routes handle their equivalent correctly. *Needs an emulator
-  test.*
-- **Cut content:** an event chain (scenes s165, s179-s183) that nothing starts, and nine scenes no event
-  plays (s083, s085, s118, s133, s166, s173-s175, s186).
-- **Possible debug inputs (unverified):**
-  - Holding exactly Up+R on controller 1 at the right moment runs event 0xFFFF, which sets the stats
-    to 200 (`$04:83C7`).
+- **Story bug: losing to Kotori Kagono on the Carol route ends the story.** After a loss in the
+  September 14, 1999 match, the result event (E094) calls the pre-match event (E093) instead of the
+  loss event (E096, which nothing calls). That replays the pre-match scene s120 on September 15 and
+  books no rematch; October's scenes never play, March 31, 2000 is an ordinary training day with no
+  final or ending, and the game runs on past it (s120 replays each September 15). The only way out is
+  a save from before the match. **The English patch fixes this** (fix-kagono-loss in
+  [PATCHES.md](PATCHES.md)): a loss now plays Kagono's s122 and the story goes on to October. *Seen headless (2026-11-12, test19, stats poked to 1 to lose; screens
+  in build/work/guide-story-carol/r67sheet.png).* The other routes handle their equivalent correctly.
+- **Cut content:** a second copy of the FMW route's 1997 (events `0x02F8`-`0x0359`) that nothing
+  schedules, with a JWWF exchange in July (s179, s180) and an LLPW interpromotional month in August
+  (s165); and nine scenes no event plays (s083, s085, s118, s133, s166, s173-s175, s186). Details in
+  [HIDDEN_CONTENT.md](HIDDEN_CONTENT.md).
+- **Debug inputs** (*seen headless*, 2026-11-12; more in [HIDDEN_CONTENT.md](HIDDEN_CONTENT.md)):
+  - Holding exactly Up+R on controller 1 at power-on runs event 0xFFFF, which sets the stats
+    to 200 and books an automatic match. The match repeats until reset (`$04:83C7`).
   - Holding exactly Y+Down+R during a match ends it after the current turn (`$06:F01C`, checked once
     per turn). The winner is the side that made the last move (`$06:F210`: `$7E:7E74` = attacker
     slot ÷ 2), so it is not an automatic win for the heroine.
@@ -699,7 +712,7 @@ CPU addresses (LoROM). The game is compiled C: functions use a stack frame, and 
 ## Open questions
 - Confirm the match rules and bugs listed under [Matches](#matches) in a real match (no match savestate
   yet), above all that an uncountered miss lands, and the moves that may never be used.
-- Confirm the possible Carol-route loop after losing on September 15, and the two debug inputs.
+- Confirm the two debug inputs in normal play.
 - Whether every club is offered in every school year.
 - What the Swimsuit Shop and Hair Salon change, beyond Figure, and what the Advice menu changes (likely
   only which dialogue plays).

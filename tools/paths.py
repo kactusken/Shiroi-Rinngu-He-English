@@ -46,7 +46,7 @@ PUBLISHER = 'Pony Canyon (developed by Opera House)'
 RELEASE_DATE = '1995'  # day unconfirmed: Wikipedia says 1995-12-27, RAWG/mirrors 1995-10-27
 # The AI disclosure for README.txt, the release notes and submissions: a short generic line, e.g.
 # 'AI assisted with the translation.' make_patches.py won't make a release without it (FRAMEWORK.md section 11).
-AI_DISCLOSURE = ''
+AI_DISCLOSURE = 'AI assisted with the translation.'
 # The original the patches apply to (make_patches.py and build.py check it)
 ORIGINAL = {'size': 1572864, 'crc32': '534824f0', 'md5': 'bd65c07647005501d26eff6e355cf2ec', 'sha1': 'efb2756402dda3a0e5e5285f6f16dd6e0b773d9a'}
 

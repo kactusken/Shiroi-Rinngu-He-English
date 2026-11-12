@@ -68,6 +68,7 @@ Set up from the translation kit (version 2ea49c4). Tools marked *game* are stubs
 | [asciiscan.py](asciiscan.py) | finds names the game keeps as plain ASCII (a HUD table) and spells differently from the names CSV (`LYGER` for Liger); run it on the original and on every build |
 | [pagecheck.py](pagecheck.py) | reads guide pages as a player does: hedging ("not tested"), fact markers, author notes, template placeholders, empty brackets, bad `alt`, doubled headings; runs in `check.py` (`--allow-markers` or `private/guide.json` `{"fact_markers": true}` for an owner who wants markings) |
 | [pagedata.py](pagedata.py) | fills the JSON data block of a reference page in `docs/` (`--check`); a game's data tool calls `pagedata.write()` |
+| [guidedata.py](guidedata.py) | the player's guide data, read from the original ROM with the patch's English names: moves, wrestlers, partners, exercises, day-off places, clubs, signs and every story match per route, into `docs/guide/` and `docs/guide/story/` (`--check` runs in `check.py`, `--json OUT`, `--summary`) |
 | [dis65816.py](dis65816.py) | 65816 disassembler (M/X flags followed through REP/SEP) and reference/pointer search |
 | [walk65816.py](walk65816.py) | recursive disassembly of a whole game into listings with who-calls-what, jump tables, never-set flags, button masks tested |
 | [asm/vwf_example.asm](asm/vwf_example.asm) | a finished variable-width renderer to read before writing one (Fight da Pon's: its addresses) |
