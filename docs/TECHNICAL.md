@@ -121,6 +121,14 @@ much of the visible text is images? *(answer these first)*
   and repoints the table: verified in game for the intro scene.
 - System text (menus, names, stats, places, moves) is NUL-terminated Shift-JIS in 0xEB303-0xEEC4A and
   0xF8000-0xFCD00, written back in place (tools/systext.py, translation/text/system.csv and moves.csv).
+- Button wait: `$05:8000` is the game's "wait for a button" routine (blinking prompt; dialogue page waits, many
+  menus), looping at `$05:8080` once a frame. Event opcode 13 (two-option menu) is handled at `$05:A289` and
+  waits in its own loop. Event queue: `$7E:7E8C`, 4-byte entries {month, day, event id}; day 0 = the start of
+  the month (`$04:C650`), played as the previous month ends, before the new month's menu (seen headless:
+  the May 1996 transfer menu). Main menu loop `$04:C807`, its cursor at `$7E:1FD5`. *Seen headless.*
+- Test builds only: `build.py --unlocks debug-events` hooks `$05:8000` (tools/asm/debug_events.asm) to play the
+  event id written to `$7F:FFF0` at the next button wait, through the interpreter `$05:9FE5`. Used by the
+  scene sweep (private notes). Never released.
 - Choice menus sit inline in the event scripts (0xD0000-0xD8000): opcode `25 13 <count>`, then the items
   (8 cells each, 0x0A between them, NUL at the end). systext.py finds them by that opcode: four menus, at
   0xD1398 (Carol / Kurenai), 0xD2A35 (the fisherman, scene 148), 0xD3412 and 0xD3682. *From the code*; the first

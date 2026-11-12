@@ -52,7 +52,7 @@ Steps (one per argument, or one per line in --file; # starts a comment):
   autoplay FRAMES FILE.lua [KEY=VALUE...]  play by rules for at most FRAMES frames: FILE returns
                               a function rule(frame, api) called every frame; it returns the buttons
                               to hold ({b=true}, or nil) or "stop" to go on with the next step. api
-                              has rb(addr) / rw(addr) (bus byte / word), shot(name), log(text)
+                              has rb(addr) / rw(addr) (bus byte / word), wb(addr, byte), shot(name), log(text)
                               (-> OUT/auto.log) and args (the KEY=VALUE pairs, as strings)
                                                                             autoplay 30000 rules.lua stop=3
 
@@ -260,6 +260,7 @@ emu.addEventCallback(function()
       local api = {}
       api.rb = function(a) return emu.read(a, emu.memType.%(bus)s, false) end
       api.rw = function(a) return api.rb(a) + 256 * api.rb(a + 1) end
+      api.wb = function(a, v) emu.write(a, v, emu.memType.%(bus)s) end
       api.shot = screenshot
       api.log = function(t) if not autolog then autolog = io.open(path("auto.log"), "a") end; autolog:write(t .. "\n"); autolog:flush() end
       api.args = s[4]

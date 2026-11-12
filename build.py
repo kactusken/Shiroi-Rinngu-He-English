@@ -43,7 +43,17 @@ import paths  # noqa: E402
 # default, only when named, never in a release variant. An extra the owner wants to release (say a
 # restored debug menu as its own patch) gets another group name, e.g. dev-menu, and a make_patches
 # VARIANT, with DEFAULT_GROUPS = set() to keep it out of the main patch.
+def _debug_events():
+    """debug-events: play the event id written to $7F:FFF0 at the next button wait (tools/asm/debug_events.asm)."""
+    import asm65816
+    code, _ = asm65816.assemble((Path(__file__).resolve().parent / 'tools' / 'asm' / 'debug_events.asm').read_text(), 0x3E8000)
+    return [('debug-events', '/rom.sfc', 0x3E8000, b'\xff' * len(code), code, 'TEST BUILD: event player at $3E:8000'),
+            ('debug-events', '/rom.sfc', 0x058000, bytes.fromhex('080bc220'), bytes.fromhex('5c00803e'),
+             'TEST BUILD: $05:8000 wait -> event player')]
+
+
 CODE_PATCHES = [
+    *_debug_events(),
 ]
 ALWAYS_GROUPS = set()               # in every translated build, not a choice (--unlocks ignores them): the English's own fixes
 UNLOCK_GROUPS = sorted({p[0] for p in CODE_PATCHES} - ALWAYS_GROUPS)

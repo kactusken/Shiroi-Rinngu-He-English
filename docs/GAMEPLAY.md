@@ -625,7 +625,8 @@ CPU addresses (LoROM). The game is compiled C: functions use a stack frame, and 
   39 Justice, 40 Strong, 41 Entertainment, 42 Babyface, 43 Power, 44 Heel, 48 Stamina, 49 HP, 50 Str,
   51 Height, 52 Weight, 53 Figure, 54 Stress, 55-59 move counts, 61-66 injuries, 76 Calm, 77 Acting,
   78 Singing, 79 Focus, 98-101 blood-type values (never read), 104 lost-day streak (no label).
-- Month day records: `$7E:7CD1`, 8 bytes each `{day, weekday, type, param}`. Type 2 = training (param =
+- Month day records: around `$7E:7CB1` (the first day's address moves with the month: April 1995 `$7E:7CD9`,
+  May `$7E:7CB1`), 8 bytes each `{day, weekday, type, param}`. Type 2 = training (param =
   partner id, 255 = not set), 8 = day off, 1 = event.
 - Profile: `$7E:7E16` blood type (A, B, O, AB = 0-3), `$7E:7E1A` zodiac sign (0-11), `$7E:7E22` club
   history (10 × u16 club index; the screen shows nine years).
